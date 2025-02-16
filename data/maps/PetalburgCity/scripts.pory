@@ -767,3 +767,139 @@ PetalburgCity_Text_ImLookingForTalentedTrainers:
 	.string "talented TRAINERS.\p"
 	.string "I'm sorry to have taken your time.$"
 `
+
+script PetalburgCity_EventScript_Mom {
+    lockall
+    # check flag
+    if (flag(FLAG_MOM_GEN1)) {
+        msgbox("I hope your Pokemon are doing OK!", MSGBOX_NPC)
+        closemessage
+    } else {
+        faceplayer
+        message("Do you want a pokemon?")
+        multichoice(25, 5, MOM_GEN1_STARTER, 0)
+        closemessage
+        if (var(VAR_RESULT) == 0){
+            call(PetalburgCity_MomGiveBulbasaur)
+        }
+        elif (var(VAR_RESULT) == 1){
+            call(PetalburgCity_MomGiveCharmander)
+        }
+        elif (var(VAR_RESULT) == 2){
+            call(PetalburgCity_MomGiveSquirtle)
+        }
+        msgbox("Choose wisely...")
+        waitmessage
+        release
+    }
+}
+
+script PetalburgCity_MomGiveBulbasaur {
+    showmonpic(SPECIES_BULBASAUR, 10, 3)
+    msgbox("Do you want this Bulbasaur?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_BULBASAUR, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Bulbasaur!")
+            call(NicknamePartyMon)
+            setflag(FLAG_MOM_GEN1)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Bulbasaur!")
+            call(NicknameBoxMon)
+            msgbox("Transferred Bulbasaur to PC")
+            setflag(FLAG_MOM_GEN1)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(PetalburgCity_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script PetalburgCity_MomGiveCharmander {
+    showmonpic(SPECIES_CHARMANDER, 10, 3)
+    msgbox("Do you want this Charmander?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_CHARMANDER, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Charmander!")
+            call(NicknamePartyMon)
+            setflag(FLAG_MOM_GEN1)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Charmander!")
+            call(NicknameBoxMon)
+            msgbox("Transferred Charmander to PC")
+            setflag(FLAG_MOM_GEN1)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(PetalburgCity_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script PetalburgCity_MomGiveSquirtle {
+    showmonpic(SPECIES_SQUIRTLE, 10, 3)
+    msgbox("Do you want this Squirtle?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_SQUIRTLE, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Squirtle!")
+            call(NicknamePartyMon)
+            setflag(FLAG_MOM_GEN1)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Squirtle!")
+            call(NicknameBoxMon)
+            msgbox("Transferred Squirtle to PC")
+            setflag(FLAG_MOM_GEN1)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(PetalburgCity_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+
+script NicknamePartyMon{
+    hidemonpic
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+}
+ 
+script NicknameBoxMon{
+    msgbox("Give a nickname?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+}
+
+script PetalburgCity_Mom_NotChosen{
+    msgbox("You did not choose a Pokemon!", MSGBOX_NPC)
+    call(PetalburgCity_EventScript_Mom)
+}

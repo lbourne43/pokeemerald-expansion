@@ -1,4 +1,5 @@
 // multichoice lists
+
 static const struct MenuAction MultichoiceList_BrineyOnDewford[] =
 {
     {gText_Petalburg},
@@ -778,6 +779,13 @@ static const struct MenuAction MultichoiceList_BerryPlot[] =
     {gText_Exit},
 };
 
+static const struct MenuAction MultichoiceList_MomGen1Starter[] =
+{
+    {gText_MomBulbasaur},
+    {gText_MomCharmander},
+    {gText_MomSquirtle},
+};
+
 static const struct MenuAction MultichoiceList_Exit[] =
 {
     {gText_Exit},
@@ -906,6 +914,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_FALLARBOR_TENT_RULES]       = MULTICHOICE(MultichoiceList_FallarborTentRules),
     [MULTI_TAG_MATCH_TYPE]             = MULTICHOICE(MultichoiceList_TagMatchType),
     [MULTI_BERRY_PLOT]                 = MULTICHOICE(MultichoiceList_BerryPlot),
+    [MOM_GEN1_STARTER]                 = MULTICHOICE(MultichoiceList_MomGen1Starter),
 };
 
 const u8 *const gStdStrings[] =

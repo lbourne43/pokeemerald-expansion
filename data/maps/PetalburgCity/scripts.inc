@@ -1534,3 +1534,340 @@ PetalburgCity_Text_ImLookingForTalentedTrainers:
 	.string "talented TRAINERS.\p"
 # 768 "data/maps/PetalburgCity/scripts.pory"
 	.string "I'm sorry to have taken your time.$"
+
+PetalburgCity_EventScript_Mom::
+# 772 "data/maps/PetalburgCity/scripts.pory"
+	lockall
+# 774 "data/maps/PetalburgCity/scripts.pory"
+	goto_if_set FLAG_MOM_GEN1, PetalburgCity_EventScript_Mom_1
+# 778 "data/maps/PetalburgCity/scripts.pory"
+	faceplayer
+# 779 "data/maps/PetalburgCity/scripts.pory"
+	message PetalburgCity_EventScript_Mom_Text_1
+# 780 "data/maps/PetalburgCity/scripts.pory"
+	multichoice 25, 5, MOM_GEN1_STARTER, 0
+# 781 "data/maps/PetalburgCity/scripts.pory"
+	closemessage
+# 782 "data/maps/PetalburgCity/scripts.pory"
+	compare VAR_RESULT, 0
+	goto_if_eq PetalburgCity_EventScript_Mom_5
+# 785 "data/maps/PetalburgCity/scripts.pory"
+	compare VAR_RESULT, 1
+	goto_if_eq PetalburgCity_EventScript_Mom_6
+# 788 "data/maps/PetalburgCity/scripts.pory"
+	compare VAR_RESULT, 2
+	goto_if_eq PetalburgCity_EventScript_Mom_7
+PetalburgCity_EventScript_Mom_4:
+# 791 "data/maps/PetalburgCity/scripts.pory"
+	msgbox PetalburgCity_EventScript_Mom_Text_2
+# 792 "data/maps/PetalburgCity/scripts.pory"
+	waitmessage
+# 793 "data/maps/PetalburgCity/scripts.pory"
+	release
+	return
+
+PetalburgCity_EventScript_Mom_1:
+# 775 "data/maps/PetalburgCity/scripts.pory"
+	msgbox PetalburgCity_EventScript_Mom_Text_0, MSGBOX_NPC
+# 776 "data/maps/PetalburgCity/scripts.pory"
+	closemessage
+	return
+
+PetalburgCity_EventScript_Mom_5:
+# 783 "data/maps/PetalburgCity/scripts.pory"
+	call PetalburgCity_MomGiveBulbasaur
+	goto PetalburgCity_EventScript_Mom_4
+
+PetalburgCity_EventScript_Mom_6:
+# 786 "data/maps/PetalburgCity/scripts.pory"
+	call PetalburgCity_MomGiveCharmander
+	goto PetalburgCity_EventScript_Mom_4
+
+PetalburgCity_EventScript_Mom_7:
+# 789 "data/maps/PetalburgCity/scripts.pory"
+	call PetalburgCity_MomGiveSquirtle
+	goto PetalburgCity_EventScript_Mom_4
+
+
+PetalburgCity_MomGiveBulbasaur::
+# 798 "data/maps/PetalburgCity/scripts.pory"
+	showmonpic SPECIES_BULBASAUR, 10, 3
+# 799 "data/maps/PetalburgCity/scripts.pory"
+	msgbox PetalburgCity_MomGiveBulbasaur_Text_0, MSGBOX_YESNO
+# 800 "data/maps/PetalburgCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq PetalburgCity_MomGiveBulbasaur_2
+# 818 "data/maps/PetalburgCity/scripts.pory"
+	hidemonpic
+# 819 "data/maps/PetalburgCity/scripts.pory"
+	call PetalburgCity_Mom_NotChosen
+PetalburgCity_MomGiveBulbasaur_1:
+# 821 "data/maps/PetalburgCity/scripts.pory"
+	waitmessage
+# 822 "data/maps/PetalburgCity/scripts.pory"
+	releaseall
+	end
+
+PetalburgCity_MomGiveBulbasaur_2:
+# 801 "data/maps/PetalburgCity/scripts.pory"
+	givemon SPECIES_BULBASAUR, 5, ITEM_LUCKY_EGG
+# 802 "data/maps/PetalburgCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq PetalburgCity_MomGiveBulbasaur_5
+# 807 "data/maps/PetalburgCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq PetalburgCity_MomGiveBulbasaur_6
+# 814 "data/maps/PetalburgCity/scripts.pory"
+	hidemonpic
+# 815 "data/maps/PetalburgCity/scripts.pory"
+	msgbox PetalburgCity_MomGiveBulbasaur_Text_3
+	goto PetalburgCity_MomGiveBulbasaur_1
+
+PetalburgCity_MomGiveBulbasaur_5:
+# 803 "data/maps/PetalburgCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 804 "data/maps/PetalburgCity/scripts.pory"
+	msgbox PetalburgCity_MomGiveBulbasaur_Text_1
+# 805 "data/maps/PetalburgCity/scripts.pory"
+	call NicknamePartyMon
+# 806 "data/maps/PetalburgCity/scripts.pory"
+	setflag FLAG_MOM_GEN1
+	goto PetalburgCity_MomGiveBulbasaur_1
+
+PetalburgCity_MomGiveBulbasaur_6:
+# 808 "data/maps/PetalburgCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 809 "data/maps/PetalburgCity/scripts.pory"
+	msgbox PetalburgCity_MomGiveBulbasaur_Text_1
+# 810 "data/maps/PetalburgCity/scripts.pory"
+	call NicknameBoxMon
+# 811 "data/maps/PetalburgCity/scripts.pory"
+	msgbox PetalburgCity_MomGiveBulbasaur_Text_2
+# 812 "data/maps/PetalburgCity/scripts.pory"
+	setflag FLAG_MOM_GEN1
+	goto PetalburgCity_MomGiveBulbasaur_1
+
+
+PetalburgCity_MomGiveCharmander::
+# 827 "data/maps/PetalburgCity/scripts.pory"
+	showmonpic SPECIES_CHARMANDER, 10, 3
+# 828 "data/maps/PetalburgCity/scripts.pory"
+	msgbox PetalburgCity_MomGiveCharmander_Text_0, MSGBOX_YESNO
+# 829 "data/maps/PetalburgCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq PetalburgCity_MomGiveCharmander_2
+# 847 "data/maps/PetalburgCity/scripts.pory"
+	hidemonpic
+# 848 "data/maps/PetalburgCity/scripts.pory"
+	call PetalburgCity_Mom_NotChosen
+PetalburgCity_MomGiveCharmander_1:
+# 850 "data/maps/PetalburgCity/scripts.pory"
+	waitmessage
+# 851 "data/maps/PetalburgCity/scripts.pory"
+	releaseall
+	end
+
+PetalburgCity_MomGiveCharmander_2:
+# 830 "data/maps/PetalburgCity/scripts.pory"
+	givemon SPECIES_CHARMANDER, 5, ITEM_LUCKY_EGG
+# 831 "data/maps/PetalburgCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq PetalburgCity_MomGiveCharmander_5
+# 836 "data/maps/PetalburgCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq PetalburgCity_MomGiveCharmander_6
+# 843 "data/maps/PetalburgCity/scripts.pory"
+	hidemonpic
+# 844 "data/maps/PetalburgCity/scripts.pory"
+	msgbox PetalburgCity_MomGiveBulbasaur_Text_3
+	goto PetalburgCity_MomGiveCharmander_1
+
+PetalburgCity_MomGiveCharmander_5:
+# 832 "data/maps/PetalburgCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 833 "data/maps/PetalburgCity/scripts.pory"
+	msgbox PetalburgCity_MomGiveCharmander_Text_1
+# 834 "data/maps/PetalburgCity/scripts.pory"
+	call NicknamePartyMon
+# 835 "data/maps/PetalburgCity/scripts.pory"
+	setflag FLAG_MOM_GEN1
+	goto PetalburgCity_MomGiveCharmander_1
+
+PetalburgCity_MomGiveCharmander_6:
+# 837 "data/maps/PetalburgCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 838 "data/maps/PetalburgCity/scripts.pory"
+	msgbox PetalburgCity_MomGiveCharmander_Text_1
+# 839 "data/maps/PetalburgCity/scripts.pory"
+	call NicknameBoxMon
+# 840 "data/maps/PetalburgCity/scripts.pory"
+	msgbox PetalburgCity_MomGiveCharmander_Text_2
+# 841 "data/maps/PetalburgCity/scripts.pory"
+	setflag FLAG_MOM_GEN1
+	goto PetalburgCity_MomGiveCharmander_1
+
+
+PetalburgCity_MomGiveSquirtle::
+# 856 "data/maps/PetalburgCity/scripts.pory"
+	showmonpic SPECIES_SQUIRTLE, 10, 3
+# 857 "data/maps/PetalburgCity/scripts.pory"
+	msgbox PetalburgCity_MomGiveSquirtle_Text_0, MSGBOX_YESNO
+# 858 "data/maps/PetalburgCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq PetalburgCity_MomGiveSquirtle_2
+# 876 "data/maps/PetalburgCity/scripts.pory"
+	hidemonpic
+# 877 "data/maps/PetalburgCity/scripts.pory"
+	call PetalburgCity_Mom_NotChosen
+PetalburgCity_MomGiveSquirtle_1:
+# 879 "data/maps/PetalburgCity/scripts.pory"
+	waitmessage
+# 880 "data/maps/PetalburgCity/scripts.pory"
+	releaseall
+	end
+
+PetalburgCity_MomGiveSquirtle_2:
+# 859 "data/maps/PetalburgCity/scripts.pory"
+	givemon SPECIES_SQUIRTLE, 5, ITEM_LUCKY_EGG
+# 860 "data/maps/PetalburgCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq PetalburgCity_MomGiveSquirtle_5
+# 865 "data/maps/PetalburgCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq PetalburgCity_MomGiveSquirtle_6
+# 872 "data/maps/PetalburgCity/scripts.pory"
+	hidemonpic
+# 873 "data/maps/PetalburgCity/scripts.pory"
+	msgbox PetalburgCity_MomGiveBulbasaur_Text_3
+	goto PetalburgCity_MomGiveSquirtle_1
+
+PetalburgCity_MomGiveSquirtle_5:
+# 861 "data/maps/PetalburgCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 862 "data/maps/PetalburgCity/scripts.pory"
+	msgbox PetalburgCity_MomGiveSquirtle_Text_1
+# 863 "data/maps/PetalburgCity/scripts.pory"
+	call NicknamePartyMon
+# 864 "data/maps/PetalburgCity/scripts.pory"
+	setflag FLAG_MOM_GEN1
+	goto PetalburgCity_MomGiveSquirtle_1
+
+PetalburgCity_MomGiveSquirtle_6:
+# 866 "data/maps/PetalburgCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 867 "data/maps/PetalburgCity/scripts.pory"
+	msgbox PetalburgCity_MomGiveSquirtle_Text_1
+# 868 "data/maps/PetalburgCity/scripts.pory"
+	call NicknameBoxMon
+# 869 "data/maps/PetalburgCity/scripts.pory"
+	msgbox PetalburgCity_MomGiveSquirtle_Text_2
+# 870 "data/maps/PetalburgCity/scripts.pory"
+	setflag FLAG_MOM_GEN1
+	goto PetalburgCity_MomGiveSquirtle_1
+
+
+NicknamePartyMon::
+# 886 "data/maps/PetalburgCity/scripts.pory"
+	hidemonpic
+# 887 "data/maps/PetalburgCity/scripts.pory"
+	msgbox NicknamePartyMon_Text_0, MSGBOX_YESNO
+# 888 "data/maps/PetalburgCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq NicknamePartyMon_1
+	return
+
+NicknamePartyMon_1:
+# 889 "data/maps/PetalburgCity/scripts.pory"
+	call Common_EventScript_GetGiftMonPartySlot
+# 890 "data/maps/PetalburgCity/scripts.pory"
+	call Common_EventScript_NameReceivedPartyMon
+	return
+
+
+NicknameBoxMon::
+# 895 "data/maps/PetalburgCity/scripts.pory"
+	msgbox NicknameBoxMon_Text_0, MSGBOX_YESNO
+# 896 "data/maps/PetalburgCity/scripts.pory"
+	hidemonpic
+# 897 "data/maps/PetalburgCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq NicknameBoxMon_1
+	return
+
+NicknameBoxMon_1:
+# 898 "data/maps/PetalburgCity/scripts.pory"
+	call Common_EventScript_NameReceivedBoxMon
+	return
+
+
+PetalburgCity_Mom_NotChosen::
+# 903 "data/maps/PetalburgCity/scripts.pory"
+	msgbox PetalburgCity_Mom_NotChosen_Text_0, MSGBOX_NPC
+# 904 "data/maps/PetalburgCity/scripts.pory"
+	call PetalburgCity_EventScript_Mom
+	return
+
+
+PetalburgCity_EventScript_Mom_Text_0:
+# 775 "data/maps/PetalburgCity/scripts.pory"
+	.string "I hope your Pokemon are doing OK!$"
+
+PetalburgCity_EventScript_Mom_Text_1:
+# 779 "data/maps/PetalburgCity/scripts.pory"
+	.string "Do you want a pokemon?$"
+
+PetalburgCity_EventScript_Mom_Text_2:
+# 791 "data/maps/PetalburgCity/scripts.pory"
+	.string "Choose wisely...$"
+
+PetalburgCity_MomGiveBulbasaur_Text_0:
+# 799 "data/maps/PetalburgCity/scripts.pory"
+	.string "Do you want this Bulbasaur?$"
+
+PetalburgCity_MomGiveBulbasaur_Text_1:
+# 804 "data/maps/PetalburgCity/scripts.pory"
+	.string "Received Bulbasaur!$"
+
+PetalburgCity_MomGiveBulbasaur_Text_2:
+# 811 "data/maps/PetalburgCity/scripts.pory"
+	.string "Transferred Bulbasaur to PC$"
+
+PetalburgCity_MomGiveBulbasaur_Text_3:
+# 815 "data/maps/PetalburgCity/scripts.pory"
+	.string "No more room.$"
+
+PetalburgCity_MomGiveCharmander_Text_0:
+# 828 "data/maps/PetalburgCity/scripts.pory"
+	.string "Do you want this Charmander?$"
+
+PetalburgCity_MomGiveCharmander_Text_1:
+# 833 "data/maps/PetalburgCity/scripts.pory"
+	.string "Received Charmander!$"
+
+PetalburgCity_MomGiveCharmander_Text_2:
+# 840 "data/maps/PetalburgCity/scripts.pory"
+	.string "Transferred Charmander to PC$"
+
+PetalburgCity_MomGiveSquirtle_Text_0:
+# 857 "data/maps/PetalburgCity/scripts.pory"
+	.string "Do you want this Squirtle?$"
+
+PetalburgCity_MomGiveSquirtle_Text_1:
+# 862 "data/maps/PetalburgCity/scripts.pory"
+	.string "Received Squirtle!$"
+
+PetalburgCity_MomGiveSquirtle_Text_2:
+# 869 "data/maps/PetalburgCity/scripts.pory"
+	.string "Transferred Squirtle to PC$"
+
+NicknamePartyMon_Text_0:
+# 887 "data/maps/PetalburgCity/scripts.pory"
+	.string "Give it a nickname?$"
+
+NicknameBoxMon_Text_0:
+# 895 "data/maps/PetalburgCity/scripts.pory"
+	.string "Give a nickname?$"
+
+PetalburgCity_Mom_NotChosen_Text_0:
+# 903 "data/maps/PetalburgCity/scripts.pory"
+	.string "You did not choose a Pokemon!$"

@@ -2710,5 +2710,9 @@ extern const u8 gText_PlayerScurriedBackHome[];
 
 extern const u8 gText_Relearn[]; // move relearner from summary screen
 extern const u8 gText_Rename[]; // change nickname from summary screen
+				
+extern const u8 gText_MomBulbasaur[];
+extern const u8 gText_MomCharmander[];
+extern const u8 gText_MomSquirtle[];
 
 #endif // GUARD_STRINGS_H
