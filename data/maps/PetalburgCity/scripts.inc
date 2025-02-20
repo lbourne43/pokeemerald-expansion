@@ -1629,7 +1629,7 @@ PetalburgCity_MomGiveBulbasaur_5:
 # 804 "data/maps/PetalburgCity/scripts.pory"
 	msgbox PetalburgCity_MomGiveBulbasaur_Text_1
 # 805 "data/maps/PetalburgCity/scripts.pory"
-	call NicknamePartyMon
+	call PetalburgCity_NicknamePartyMon
 # 806 "data/maps/PetalburgCity/scripts.pory"
 	setflag FLAG_MOM_GEN1
 	goto PetalburgCity_MomGiveBulbasaur_1
@@ -1640,7 +1640,7 @@ PetalburgCity_MomGiveBulbasaur_6:
 # 809 "data/maps/PetalburgCity/scripts.pory"
 	msgbox PetalburgCity_MomGiveBulbasaur_Text_1
 # 810 "data/maps/PetalburgCity/scripts.pory"
-	call NicknameBoxMon
+	call PetalburgCity_NicknameBoxMon
 # 811 "data/maps/PetalburgCity/scripts.pory"
 	msgbox PetalburgCity_MomGiveBulbasaur_Text_2
 # 812 "data/maps/PetalburgCity/scripts.pory"
@@ -1688,7 +1688,7 @@ PetalburgCity_MomGiveCharmander_5:
 # 833 "data/maps/PetalburgCity/scripts.pory"
 	msgbox PetalburgCity_MomGiveCharmander_Text_1
 # 834 "data/maps/PetalburgCity/scripts.pory"
-	call NicknamePartyMon
+	call PetalburgCity_NicknamePartyMon
 # 835 "data/maps/PetalburgCity/scripts.pory"
 	setflag FLAG_MOM_GEN1
 	goto PetalburgCity_MomGiveCharmander_1
@@ -1699,7 +1699,7 @@ PetalburgCity_MomGiveCharmander_6:
 # 838 "data/maps/PetalburgCity/scripts.pory"
 	msgbox PetalburgCity_MomGiveCharmander_Text_1
 # 839 "data/maps/PetalburgCity/scripts.pory"
-	call NicknameBoxMon
+	call PetalburgCity_NicknameBoxMon
 # 840 "data/maps/PetalburgCity/scripts.pory"
 	msgbox PetalburgCity_MomGiveCharmander_Text_2
 # 841 "data/maps/PetalburgCity/scripts.pory"
@@ -1747,7 +1747,7 @@ PetalburgCity_MomGiveSquirtle_5:
 # 862 "data/maps/PetalburgCity/scripts.pory"
 	msgbox PetalburgCity_MomGiveSquirtle_Text_1
 # 863 "data/maps/PetalburgCity/scripts.pory"
-	call NicknamePartyMon
+	call PetalburgCity_NicknamePartyMon
 # 864 "data/maps/PetalburgCity/scripts.pory"
 	setflag FLAG_MOM_GEN1
 	goto PetalburgCity_MomGiveSquirtle_1
@@ -1758,7 +1758,7 @@ PetalburgCity_MomGiveSquirtle_6:
 # 867 "data/maps/PetalburgCity/scripts.pory"
 	msgbox PetalburgCity_MomGiveSquirtle_Text_1
 # 868 "data/maps/PetalburgCity/scripts.pory"
-	call NicknameBoxMon
+	call PetalburgCity_NicknameBoxMon
 # 869 "data/maps/PetalburgCity/scripts.pory"
 	msgbox PetalburgCity_MomGiveSquirtle_Text_2
 # 870 "data/maps/PetalburgCity/scripts.pory"
@@ -1766,17 +1766,17 @@ PetalburgCity_MomGiveSquirtle_6:
 	goto PetalburgCity_MomGiveSquirtle_1
 
 
-NicknamePartyMon::
+PetalburgCity_NicknamePartyMon::
 # 886 "data/maps/PetalburgCity/scripts.pory"
 	hidemonpic
 # 887 "data/maps/PetalburgCity/scripts.pory"
-	msgbox NicknamePartyMon_Text_0, MSGBOX_YESNO
+	msgbox PetalburgCity_NicknamePartyMon_Text_0, MSGBOX_YESNO
 # 888 "data/maps/PetalburgCity/scripts.pory"
 	compare VAR_RESULT, YES
-	goto_if_eq NicknamePartyMon_1
+	goto_if_eq PetalburgCity_NicknamePartyMon_1
 	return
 
-NicknamePartyMon_1:
+PetalburgCity_NicknamePartyMon_1:
 # 889 "data/maps/PetalburgCity/scripts.pory"
 	call Common_EventScript_GetGiftMonPartySlot
 # 890 "data/maps/PetalburgCity/scripts.pory"
@@ -1784,17 +1784,17 @@ NicknamePartyMon_1:
 	return
 
 
-NicknameBoxMon::
+PetalburgCity_NicknameBoxMon::
 # 895 "data/maps/PetalburgCity/scripts.pory"
-	msgbox NicknameBoxMon_Text_0, MSGBOX_YESNO
+	msgbox PetalburgCity_NicknameBoxMon_Text_0, MSGBOX_YESNO
 # 896 "data/maps/PetalburgCity/scripts.pory"
 	hidemonpic
 # 897 "data/maps/PetalburgCity/scripts.pory"
 	compare VAR_RESULT, YES
-	goto_if_eq NicknameBoxMon_1
+	goto_if_eq PetalburgCity_NicknameBoxMon_1
 	return
 
-NicknameBoxMon_1:
+PetalburgCity_NicknameBoxMon_1:
 # 898 "data/maps/PetalburgCity/scripts.pory"
 	call Common_EventScript_NameReceivedBoxMon
 	return
@@ -1860,11 +1860,11 @@ PetalburgCity_MomGiveSquirtle_Text_2:
 # 869 "data/maps/PetalburgCity/scripts.pory"
 	.string "Transferred Squirtle to PC$"
 
-NicknamePartyMon_Text_0:
+PetalburgCity_NicknamePartyMon_Text_0:
 # 887 "data/maps/PetalburgCity/scripts.pory"
 	.string "Give it a nickname?$"
 
-NicknameBoxMon_Text_0:
+PetalburgCity_NicknameBoxMon_Text_0:
 # 895 "data/maps/PetalburgCity/scripts.pory"
 	.string "Give a nickname?$"
 

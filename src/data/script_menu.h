@@ -786,6 +786,20 @@ static const struct MenuAction MultichoiceList_MomGen1Starter[] =
     {gText_MomSquirtle},
 };
 
+static const struct MenuAction MultichoiceList_MomGen2Starter[] =
+{
+    {gText_MomChikorita},
+    {gText_MomCyndaquil},
+    {gText_MomTotodile},
+};
+
+static const struct MenuAction MultichoiceList_MomGen4Starter[] =
+{
+    {gText_MomTurtwig},
+    {gText_MomChimchar},
+    {gText_MomPiplup},
+};
+
 static const struct MenuAction MultichoiceList_Exit[] =
 {
     {gText_Exit},
@@ -915,6 +929,8 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_TAG_MATCH_TYPE]             = MULTICHOICE(MultichoiceList_TagMatchType),
     [MULTI_BERRY_PLOT]                 = MULTICHOICE(MultichoiceList_BerryPlot),
     [MOM_GEN1_STARTER]                 = MULTICHOICE(MultichoiceList_MomGen1Starter),
+    [MOM_GEN2_STARTER]                 = MULTICHOICE(MultichoiceList_MomGen2Starter),
+    [MOM_GEN4_STARTER]                 = MULTICHOICE(MultichoiceList_MomGen4Starter),
 };
 
 const u8 *const gStdStrings[] =

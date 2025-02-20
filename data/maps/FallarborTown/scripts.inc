@@ -188,3 +188,340 @@ FallarborTown_Text_MoveTutorSign:
 	.string "MOVE TUTOR'S HOUSE\n"
 # 95 "data/maps/FallarborTown/scripts.pory"
 	.string "“New moves taught to POKéMON.”$"
+
+FallarborTown_EventScript_Mom::
+# 101 "data/maps/FallarborTown/scripts.pory"
+	lockall
+# 103 "data/maps/FallarborTown/scripts.pory"
+	goto_if_set FLAG_MOM_GEN4, FallarborTown_EventScript_Mom_1
+# 107 "data/maps/FallarborTown/scripts.pory"
+	faceplayer
+# 108 "data/maps/FallarborTown/scripts.pory"
+	message FallarborTown_EventScript_Mom_Text_1
+# 109 "data/maps/FallarborTown/scripts.pory"
+	multichoice 25, 5, MOM_GEN4_STARTER, 0
+# 110 "data/maps/FallarborTown/scripts.pory"
+	closemessage
+# 111 "data/maps/FallarborTown/scripts.pory"
+	compare VAR_RESULT, 0
+	goto_if_eq FallarborTown_EventScript_Mom_5
+# 114 "data/maps/FallarborTown/scripts.pory"
+	compare VAR_RESULT, 1
+	goto_if_eq FallarborTown_EventScript_Mom_6
+# 117 "data/maps/FallarborTown/scripts.pory"
+	compare VAR_RESULT, 2
+	goto_if_eq FallarborTown_EventScript_Mom_7
+FallarborTown_EventScript_Mom_4:
+# 120 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_EventScript_Mom_Text_2
+# 121 "data/maps/FallarborTown/scripts.pory"
+	waitmessage
+# 122 "data/maps/FallarborTown/scripts.pory"
+	release
+	return
+
+FallarborTown_EventScript_Mom_1:
+# 104 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_EventScript_Mom_Text_0, MSGBOX_NPC
+# 105 "data/maps/FallarborTown/scripts.pory"
+	closemessage
+	return
+
+FallarborTown_EventScript_Mom_5:
+# 112 "data/maps/FallarborTown/scripts.pory"
+	call FallarborTown_MomGiveGrassStarter
+	goto FallarborTown_EventScript_Mom_4
+
+FallarborTown_EventScript_Mom_6:
+# 115 "data/maps/FallarborTown/scripts.pory"
+	call FallarborTown_MomGiveFireStarter
+	goto FallarborTown_EventScript_Mom_4
+
+FallarborTown_EventScript_Mom_7:
+# 118 "data/maps/FallarborTown/scripts.pory"
+	call FallarborTown_MomGiveWaterStarter
+	goto FallarborTown_EventScript_Mom_4
+
+
+FallarborTown_MomGiveGrassStarter::
+# 127 "data/maps/FallarborTown/scripts.pory"
+	showmonpic SPECIES_TURTWIG, 10, 3
+# 128 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_MomGiveGrassStarter_Text_0, MSGBOX_YESNO
+# 129 "data/maps/FallarborTown/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq FallarborTown_MomGiveGrassStarter_2
+# 147 "data/maps/FallarborTown/scripts.pory"
+	hidemonpic
+# 148 "data/maps/FallarborTown/scripts.pory"
+	call FallarborTown_Mom_NotChosen
+FallarborTown_MomGiveGrassStarter_1:
+# 150 "data/maps/FallarborTown/scripts.pory"
+	waitmessage
+# 151 "data/maps/FallarborTown/scripts.pory"
+	releaseall
+	end
+
+FallarborTown_MomGiveGrassStarter_2:
+# 130 "data/maps/FallarborTown/scripts.pory"
+	givemon SPECIES_TURTWIG, 5, ITEM_LUCKY_EGG
+# 131 "data/maps/FallarborTown/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq FallarborTown_MomGiveGrassStarter_5
+# 136 "data/maps/FallarborTown/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq FallarborTown_MomGiveGrassStarter_6
+# 143 "data/maps/FallarborTown/scripts.pory"
+	hidemonpic
+# 144 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_MomGiveGrassStarter_Text_3
+	goto FallarborTown_MomGiveGrassStarter_1
+
+FallarborTown_MomGiveGrassStarter_5:
+# 132 "data/maps/FallarborTown/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 133 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_MomGiveGrassStarter_Text_1
+# 134 "data/maps/FallarborTown/scripts.pory"
+	call FallarborTown_NicknamePartyMon
+# 135 "data/maps/FallarborTown/scripts.pory"
+	setflag FLAG_MOM_GEN4
+	goto FallarborTown_MomGiveGrassStarter_1
+
+FallarborTown_MomGiveGrassStarter_6:
+# 137 "data/maps/FallarborTown/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 138 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_MomGiveGrassStarter_Text_1
+# 139 "data/maps/FallarborTown/scripts.pory"
+	call FallarborTown_NicknameBoxMon
+# 140 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_MomGiveGrassStarter_Text_2
+# 141 "data/maps/FallarborTown/scripts.pory"
+	setflag FLAG_MOM_GEN4
+	goto FallarborTown_MomGiveGrassStarter_1
+
+
+FallarborTown_MomGiveFireStarter::
+# 156 "data/maps/FallarborTown/scripts.pory"
+	showmonpic SPECIES_CHIMCHAR, 10, 3
+# 157 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_MomGiveFireStarter_Text_0, MSGBOX_YESNO
+# 158 "data/maps/FallarborTown/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq FallarborTown_MomGiveFireStarter_2
+# 176 "data/maps/FallarborTown/scripts.pory"
+	hidemonpic
+# 177 "data/maps/FallarborTown/scripts.pory"
+	call FallarborTown_Mom_NotChosen
+FallarborTown_MomGiveFireStarter_1:
+# 179 "data/maps/FallarborTown/scripts.pory"
+	waitmessage
+# 180 "data/maps/FallarborTown/scripts.pory"
+	releaseall
+	end
+
+FallarborTown_MomGiveFireStarter_2:
+# 159 "data/maps/FallarborTown/scripts.pory"
+	givemon SPECIES_CHIMCHAR, 5, ITEM_LUCKY_EGG
+# 160 "data/maps/FallarborTown/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq FallarborTown_MomGiveFireStarter_5
+# 165 "data/maps/FallarborTown/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq FallarborTown_MomGiveFireStarter_6
+# 172 "data/maps/FallarborTown/scripts.pory"
+	hidemonpic
+# 173 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_MomGiveGrassStarter_Text_3
+	goto FallarborTown_MomGiveFireStarter_1
+
+FallarborTown_MomGiveFireStarter_5:
+# 161 "data/maps/FallarborTown/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 162 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_MomGiveFireStarter_Text_1
+# 163 "data/maps/FallarborTown/scripts.pory"
+	call FallarborTown_NicknamePartyMon
+# 164 "data/maps/FallarborTown/scripts.pory"
+	setflag FLAG_MOM_GEN4
+	goto FallarborTown_MomGiveFireStarter_1
+
+FallarborTown_MomGiveFireStarter_6:
+# 166 "data/maps/FallarborTown/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 167 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_MomGiveFireStarter_Text_1
+# 168 "data/maps/FallarborTown/scripts.pory"
+	call FallarborTown_NicknameBoxMon
+# 169 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_MomGiveFireStarter_Text_2
+# 170 "data/maps/FallarborTown/scripts.pory"
+	setflag FLAG_MOM_GEN4
+	goto FallarborTown_MomGiveFireStarter_1
+
+
+FallarborTown_MomGiveWaterStarter::
+# 185 "data/maps/FallarborTown/scripts.pory"
+	showmonpic SPECIES_PIPLUP, 10, 3
+# 186 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_MomGiveWaterStarter_Text_0, MSGBOX_YESNO
+# 187 "data/maps/FallarborTown/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq FallarborTown_MomGiveWaterStarter_2
+# 205 "data/maps/FallarborTown/scripts.pory"
+	hidemonpic
+# 206 "data/maps/FallarborTown/scripts.pory"
+	call FallarborTown_Mom_NotChosen
+FallarborTown_MomGiveWaterStarter_1:
+# 208 "data/maps/FallarborTown/scripts.pory"
+	waitmessage
+# 209 "data/maps/FallarborTown/scripts.pory"
+	releaseall
+	end
+
+FallarborTown_MomGiveWaterStarter_2:
+# 188 "data/maps/FallarborTown/scripts.pory"
+	givemon SPECIES_PIPLUP, 5, ITEM_LUCKY_EGG
+# 189 "data/maps/FallarborTown/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq FallarborTown_MomGiveWaterStarter_5
+# 194 "data/maps/FallarborTown/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq FallarborTown_MomGiveWaterStarter_6
+# 201 "data/maps/FallarborTown/scripts.pory"
+	hidemonpic
+# 202 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_MomGiveGrassStarter_Text_3
+	goto FallarborTown_MomGiveWaterStarter_1
+
+FallarborTown_MomGiveWaterStarter_5:
+# 190 "data/maps/FallarborTown/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 191 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_MomGiveWaterStarter_Text_1
+# 192 "data/maps/FallarborTown/scripts.pory"
+	call FallarborTown_NicknamePartyMon
+# 193 "data/maps/FallarborTown/scripts.pory"
+	setflag FLAG_MOM_GEN4
+	goto FallarborTown_MomGiveWaterStarter_1
+
+FallarborTown_MomGiveWaterStarter_6:
+# 195 "data/maps/FallarborTown/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 196 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_MomGiveWaterStarter_Text_1
+# 197 "data/maps/FallarborTown/scripts.pory"
+	call FallarborTown_NicknameBoxMon
+# 198 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_MomGiveWaterStarter_Text_2
+# 199 "data/maps/FallarborTown/scripts.pory"
+	setflag FLAG_MOM_GEN4
+	goto FallarborTown_MomGiveWaterStarter_1
+
+
+FallarborTown_NicknamePartyMon::
+# 214 "data/maps/FallarborTown/scripts.pory"
+	hidemonpic
+# 215 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_NicknamePartyMon_Text_0, MSGBOX_YESNO
+# 216 "data/maps/FallarborTown/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq FallarborTown_NicknamePartyMon_1
+	return
+
+FallarborTown_NicknamePartyMon_1:
+# 217 "data/maps/FallarborTown/scripts.pory"
+	call Common_EventScript_GetGiftMonPartySlot
+# 218 "data/maps/FallarborTown/scripts.pory"
+	call Common_EventScript_NameReceivedPartyMon
+	return
+
+
+FallarborTown_NicknameBoxMon::
+# 223 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_NicknameBoxMon_Text_0, MSGBOX_YESNO
+# 224 "data/maps/FallarborTown/scripts.pory"
+	hidemonpic
+# 225 "data/maps/FallarborTown/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq FallarborTown_NicknameBoxMon_1
+	return
+
+FallarborTown_NicknameBoxMon_1:
+# 226 "data/maps/FallarborTown/scripts.pory"
+	call Common_EventScript_NameReceivedBoxMon
+	return
+
+
+FallarborTown_Mom_NotChosen::
+# 231 "data/maps/FallarborTown/scripts.pory"
+	msgbox FallarborTown_Mom_NotChosen_Text_0, MSGBOX_NPC
+# 232 "data/maps/FallarborTown/scripts.pory"
+	call FallarborTown_EventScript_Mom
+	return
+
+
+FallarborTown_EventScript_Mom_Text_0:
+# 104 "data/maps/FallarborTown/scripts.pory"
+	.string "I hope your Pokemon are doing OK!$"
+
+FallarborTown_EventScript_Mom_Text_1:
+# 108 "data/maps/FallarborTown/scripts.pory"
+	.string "Do you want a pokemon?$"
+
+FallarborTown_EventScript_Mom_Text_2:
+# 120 "data/maps/FallarborTown/scripts.pory"
+	.string "Come back if you change your mind.$"
+
+FallarborTown_MomGiveGrassStarter_Text_0:
+# 128 "data/maps/FallarborTown/scripts.pory"
+	.string "Do you want this Turtwig?$"
+
+FallarborTown_MomGiveGrassStarter_Text_1:
+# 133 "data/maps/FallarborTown/scripts.pory"
+	.string "Received Turtwig!$"
+
+FallarborTown_MomGiveGrassStarter_Text_2:
+# 140 "data/maps/FallarborTown/scripts.pory"
+	.string "Transferred Turtwig to PC$"
+
+FallarborTown_MomGiveGrassStarter_Text_3:
+# 144 "data/maps/FallarborTown/scripts.pory"
+	.string "No more room.$"
+
+FallarborTown_MomGiveFireStarter_Text_0:
+# 157 "data/maps/FallarborTown/scripts.pory"
+	.string "Do you want this Chimchar?$"
+
+FallarborTown_MomGiveFireStarter_Text_1:
+# 162 "data/maps/FallarborTown/scripts.pory"
+	.string "Received Chimchar!$"
+
+FallarborTown_MomGiveFireStarter_Text_2:
+# 169 "data/maps/FallarborTown/scripts.pory"
+	.string "Transferred Chimchar to PC$"
+
+FallarborTown_MomGiveWaterStarter_Text_0:
+# 186 "data/maps/FallarborTown/scripts.pory"
+	.string "Do you want this Piplup?$"
+
+FallarborTown_MomGiveWaterStarter_Text_1:
+# 191 "data/maps/FallarborTown/scripts.pory"
+	.string "Received Piplup!$"
+
+FallarborTown_MomGiveWaterStarter_Text_2:
+# 198 "data/maps/FallarborTown/scripts.pory"
+	.string "Transferred Piplup to PC$"
+
+FallarborTown_NicknamePartyMon_Text_0:
+# 215 "data/maps/FallarborTown/scripts.pory"
+	.string "Give it a nickname?$"
+
+FallarborTown_NicknameBoxMon_Text_0:
+# 223 "data/maps/FallarborTown/scripts.pory"
+	.string "Give a nickname?$"
+
+FallarborTown_Mom_NotChosen_Text_0:
+# 231 "data/maps/FallarborTown/scripts.pory"
+	.string "You did not choose a Pokemon!$"

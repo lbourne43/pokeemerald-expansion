@@ -124,8 +124,8 @@
 #define MULTI_TAG_MATCH_TYPE               113
 #define MULTI_BERRY_PLOT                   114
 #define MOM_GEN1_STARTER                   115
-//#define MOM_GEN2_STARTER                   116
-//#define MOM_GEN4_STARTER                   117
+#define MOM_GEN2_STARTER                   116
+#define MOM_GEN4_STARTER                   117
 //#define MOM_GEN5_STARTER                   118
 //#define MOM_GEN6_STARTER                   119
 //#define MOM_GEN7_STARTER                   120

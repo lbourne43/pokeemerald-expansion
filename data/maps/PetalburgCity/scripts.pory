@@ -802,12 +802,12 @@ script PetalburgCity_MomGiveBulbasaur {
         if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
             playfanfare(MUS_OBTAIN_ITEM)
             msgbox("Received Bulbasaur!")
-            call(NicknamePartyMon)
+            call(PetalburgCity_NicknamePartyMon)
             setflag(FLAG_MOM_GEN1)
         } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
             playfanfare(MUS_OBTAIN_ITEM)
             msgbox("Received Bulbasaur!")
-            call(NicknameBoxMon)
+            call(PetalburgCity_NicknameBoxMon)
             msgbox("Transferred Bulbasaur to PC")
             setflag(FLAG_MOM_GEN1)
         } else {
@@ -831,12 +831,12 @@ script PetalburgCity_MomGiveCharmander {
         if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
             playfanfare(MUS_OBTAIN_ITEM)
             msgbox("Received Charmander!")
-            call(NicknamePartyMon)
+            call(PetalburgCity_NicknamePartyMon)
             setflag(FLAG_MOM_GEN1)
         } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
             playfanfare(MUS_OBTAIN_ITEM)
             msgbox("Received Charmander!")
-            call(NicknameBoxMon)
+            call(PetalburgCity_NicknameBoxMon)
             msgbox("Transferred Charmander to PC")
             setflag(FLAG_MOM_GEN1)
         } else {
@@ -860,12 +860,12 @@ script PetalburgCity_MomGiveSquirtle {
         if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
             playfanfare(MUS_OBTAIN_ITEM)
             msgbox("Received Squirtle!")
-            call(NicknamePartyMon)
+            call(PetalburgCity_NicknamePartyMon)
             setflag(FLAG_MOM_GEN1)
         } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
             playfanfare(MUS_OBTAIN_ITEM)
             msgbox("Received Squirtle!")
-            call(NicknameBoxMon)
+            call(PetalburgCity_NicknameBoxMon)
             msgbox("Transferred Squirtle to PC")
             setflag(FLAG_MOM_GEN1)
         } else {
@@ -882,7 +882,7 @@ script PetalburgCity_MomGiveSquirtle {
 }
 
 
-script NicknamePartyMon{
+script PetalburgCity_NicknamePartyMon{
     hidemonpic
     msgbox("Give it a nickname?", MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES){
@@ -891,7 +891,7 @@ script NicknamePartyMon{
     }
 }
  
-script NicknameBoxMon{
+script PetalburgCity_NicknameBoxMon{
     msgbox("Give a nickname?", MSGBOX_YESNO)
     hidemonpic
     if(var(VAR_RESULT) == YES){

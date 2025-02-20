@@ -95,3 +95,139 @@ FallarborTown_Text_MoveTutorSign:
 	.string "“New moves taught to POKéMON.”$"
 
 `
+
+
+script FallarborTown_EventScript_Mom {
+    lockall
+    # check flag
+    if (flag(FLAG_MOM_GEN4)) {
+        msgbox("I hope your Pokemon are doing OK!", MSGBOX_NPC)
+        closemessage
+    } else {
+        faceplayer
+        message("Do you want a pokemon?")
+        multichoice(25, 5, MOM_GEN4_STARTER, 0)
+        closemessage
+        if (var(VAR_RESULT) == 0){
+            call(FallarborTown_MomGiveGrassStarter)
+        }
+        elif (var(VAR_RESULT) == 1){
+            call(FallarborTown_MomGiveFireStarter)
+        }
+        elif (var(VAR_RESULT) == 2){
+            call(FallarborTown_MomGiveWaterStarter)
+        }
+        msgbox("Come back if you change your mind.")
+        waitmessage
+        release
+    }
+}
+
+script FallarborTown_MomGiveGrassStarter {
+    showmonpic(SPECIES_TURTWIG, 10, 3)
+    msgbox("Do you want this Turtwig?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_TURTWIG, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Turtwig!")
+            call(FallarborTown_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN4)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Turtwig!")
+            call(FallarborTown_NicknameBoxMon)
+            msgbox("Transferred Turtwig to PC")
+            setflag(FLAG_MOM_GEN4)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(FallarborTown_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script FallarborTown_MomGiveFireStarter {
+    showmonpic(SPECIES_CHIMCHAR, 10, 3)
+    msgbox("Do you want this Chimchar?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_CHIMCHAR, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Chimchar!")
+            call(FallarborTown_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN4)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Chimchar!")
+            call(FallarborTown_NicknameBoxMon)
+            msgbox("Transferred Chimchar to PC")
+            setflag(FLAG_MOM_GEN4)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(FallarborTown_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script FallarborTown_MomGiveWaterStarter {
+    showmonpic(SPECIES_PIPLUP, 10, 3)
+    msgbox("Do you want this Piplup?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_PIPLUP, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Piplup!")
+            call(FallarborTown_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN4)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Piplup!")
+            call(FallarborTown_NicknameBoxMon)
+            msgbox("Transferred Piplup to PC")
+            setflag(FLAG_MOM_GEN4)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(FallarborTown_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script FallarborTown_NicknamePartyMon{
+    hidemonpic
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+}
+
+script FallarborTown_NicknameBoxMon{
+    msgbox("Give a nickname?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+}
+
+script FallarborTown_Mom_NotChosen{
+    msgbox("You did not choose a Pokemon!", MSGBOX_NPC)
+    call(FallarborTown_EventScript_Mom)
+}

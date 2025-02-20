@@ -886,18 +886,22 @@ RustboroCity_EventScript_RestoreBgm::
 RustboroCity_EventScript_BattleMayTreecko::
 	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_TREECKO, RustboroCity_Text_MayDefeat
 	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
+        switch VAR_STARTER_MON
+        goto RustboroCity_EventScript_MayGiveTorchic
 	goto RustboroCity_EventScript_MayBrineyHint
 	end
 
 RustboroCity_EventScript_BattleMayTorchic::
 	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_TORCHIC, RustboroCity_Text_MayDefeat
 	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
+        goto RustboroCity_EventScript_MayGiveMudkip
 	goto RustboroCity_EventScript_MayBrineyHint
 	end
 
 RustboroCity_EventScript_BattleMayMudkip::
 	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_MUDKIP, RustboroCity_Text_MayDefeat
 	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
+        goto RustboroCity_EventScript_MayGiveTreecko
 	goto RustboroCity_EventScript_MayBrineyHint
 	end
 
@@ -947,18 +951,21 @@ RustboroCity_EventScript_BrendanBrineyHint::
 RustboroCity_EventScript_BattleBrendanTreecko::
 	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_TREECKO, RustboroCity_Text_BrendanDefeat
 	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
+        goto RustboroCity_EventScript_MayGiveTorchic
 	goto RustboroCity_EventScript_BrendanBrineyHint
 	end
 
 RustboroCity_EventScript_BattleBrendanTorchic::
 	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_TORCHIC, RustboroCity_Text_BrendanDefeat
 	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
+        goto RustboroCity_EventScript_MayGiveMudkip
 	goto RustboroCity_EventScript_BrendanBrineyHint
 	end
 
 RustboroCity_EventScript_BattleBrendanMudkip::
 	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_MUDKIP, RustboroCity_Text_BrendanDefeat
 	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
+        goto RustboroCity_EventScript_MayGiveTreecko
 	goto RustboroCity_EventScript_BrendanBrineyHint
 	end
 
@@ -1299,3 +1306,69 @@ RustboroCity_Text_YouCanHave2On2Battle:
 	.string "Don't you think it'd be cool if you\n"
 	.string "could beat two TRAINERS by yourself?$"
 `
+
+script RustboroCity_EventScript_MayGiveTorchic {
+    msgbox(format("Oh! I nearly forgot, I hatched this Torchic for you!"), MSGBOX_NPC)
+    givemon(SPECIES_TORCHIC, 5)
+    if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Received Torchic!", MSGBOX_NPC)
+        call(RustboroCity_NicknamePartyMon)
+    } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Received Torchic!", MSGBOX_NPC)
+        call(MauvilleCity_NicknameBoxMon)
+        msgbox("Transferred Torchic to PC", MSGBOX_NPC)
+    } else {
+        msgbox("No more room.", MSGBOX_NPC)
+    }
+}
+
+script RustboroCity_EventScript_MayGiveMudkip {
+    msgbox(format("Oh! I nearly forgot, I hatched this Mudkip for you!"), MSGBOX_NPC)
+    givemon(SPECIES_MUDKIP, 5)
+    if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Received Mudkip!", MSGBOX_NPC)
+        call(RustboroCity_NicknamePartyMon)
+    } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Received Mudkip!", MSGBOX_NPC)
+        call(MauvilleCity_NicknameBoxMon)
+        msgbox("Transferred Mudkip to PC", MSGBOX_NPC)
+    } else {
+        msgbox("No more room.", MSGBOX_NPC)
+    }
+}
+
+script RustboroCity_EventScript_MayGiveTreecko {
+    msgbox(format("Oh! I nearly forgot, I hatched this Treecko for you!"), MSGBOX_NPC)
+    givemon(SPECIES_TREECKO, 5)
+    if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Received Treecko!", MSGBOX_NPC)
+        call(RustboroCity_NicknamePartyMon)
+    } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Received Treecko!", MSGBOX_NPC)
+        call(MauvilleCity_NicknameBoxMon)
+        msgbox("Transferred Treecko to PC", MSGBOX_NPC)
+    } else {
+        msgbox("No more room.", MSGBOX_NPC)
+    }
+}
+
+script RustboroCity_NicknamePartyMon{
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+}
+
+script RustboroCity_NicknameBoxMon{
+    msgbox("Give a nickname?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+}

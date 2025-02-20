@@ -44,13 +44,13 @@
 #define NUM_TEMP_FLAGS   (TEMP_FLAGS_END - TEMP_FLAGS_START + 1)
 
 #define FLAG_MOM_GEN1        0x20 // Unused Flag
-#define FLAG_UNUSED_0x021    0x21 // Unused Flag
-#define FLAG_UNUSED_0x022    0x22 // Unused Flag
-#define FLAG_UNUSED_0x023    0x23 // Unused Flag
-#define FLAG_UNUSED_0x024    0x24 // Unused Flag
-#define FLAG_UNUSED_0x025    0x25 // Unused Flag
-#define FLAG_UNUSED_0x026    0x26 // Unused Flag
-#define FLAG_UNUSED_0x027    0x27 // Unused Flag
+#define FLAG_MOM_GEN2        0x21 // Unused Flag
+#define FLAG_MOM_GEN4        0x22 // Unused Flag
+#define FLAG_MOM_GEN5        0x23 // Unused Flag
+#define FLAG_MOM_GEN6        0x24 // Unused Flag
+#define FLAG_MOM_GEN7        0x25 // Unused Flag
+#define FLAG_MOM_GEN8        0x26 // Unused Flag
+#define FLAG_MOM_GEN9        0x27 // Unused Flag
 #define FLAG_UNUSED_0x028    0x28 // Unused Flag
 #define FLAG_UNUSED_0x029    0x29 // Unused Flag
 #define FLAG_UNUSED_0x02A    0x2A // Unused Flag

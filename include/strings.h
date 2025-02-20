@@ -2715,4 +2715,12 @@ extern const u8 gText_MomBulbasaur[];
 extern const u8 gText_MomCharmander[];
 extern const u8 gText_MomSquirtle[];
 
+extern const u8 gText_MomChikorita[];
+extern const u8 gText_MomCyndaquil[];
+extern const u8 gText_MomTotodile[];
+
+extern const u8 gText_MomTurtwig[];
+extern const u8 gText_MomChimchar[];
+extern const u8 gText_MomPiplup[];
+
 #endif // GUARD_STRINGS_H

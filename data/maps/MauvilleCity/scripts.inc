@@ -1336,3 +1336,340 @@ MauvilleCity_Text_ExplainTV:
 MauvilleCity_Text_BeenCheckingOutTV:
 # 669 "data/maps/MauvilleCity/scripts.pory"
 	.string "Hi, have you been checking out TVs?$"
+
+MauvilleCity_EventScript_Mom::
+# 673 "data/maps/MauvilleCity/scripts.pory"
+	lockall
+# 675 "data/maps/MauvilleCity/scripts.pory"
+	goto_if_set FLAG_MOM_GEN2, MauvilleCity_EventScript_Mom_1
+# 679 "data/maps/MauvilleCity/scripts.pory"
+	faceplayer
+# 680 "data/maps/MauvilleCity/scripts.pory"
+	message MauvilleCity_EventScript_Mom_Text_1
+# 681 "data/maps/MauvilleCity/scripts.pory"
+	multichoice 25, 5, MOM_GEN2_STARTER, 0
+# 682 "data/maps/MauvilleCity/scripts.pory"
+	closemessage
+# 683 "data/maps/MauvilleCity/scripts.pory"
+	compare VAR_RESULT, 0
+	goto_if_eq MauvilleCity_EventScript_Mom_5
+# 686 "data/maps/MauvilleCity/scripts.pory"
+	compare VAR_RESULT, 1
+	goto_if_eq MauvilleCity_EventScript_Mom_6
+# 689 "data/maps/MauvilleCity/scripts.pory"
+	compare VAR_RESULT, 2
+	goto_if_eq MauvilleCity_EventScript_Mom_7
+MauvilleCity_EventScript_Mom_4:
+# 692 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_EventScript_Mom_Text_2
+# 693 "data/maps/MauvilleCity/scripts.pory"
+	waitmessage
+# 694 "data/maps/MauvilleCity/scripts.pory"
+	release
+	return
+
+MauvilleCity_EventScript_Mom_1:
+# 676 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_EventScript_Mom_Text_0, MSGBOX_NPC
+# 677 "data/maps/MauvilleCity/scripts.pory"
+	closemessage
+	return
+
+MauvilleCity_EventScript_Mom_5:
+# 684 "data/maps/MauvilleCity/scripts.pory"
+	call MauvilleCity_MomGiveGrassStarter
+	goto MauvilleCity_EventScript_Mom_4
+
+MauvilleCity_EventScript_Mom_6:
+# 687 "data/maps/MauvilleCity/scripts.pory"
+	call MauvilleCity_MomGiveFireStarter
+	goto MauvilleCity_EventScript_Mom_4
+
+MauvilleCity_EventScript_Mom_7:
+# 690 "data/maps/MauvilleCity/scripts.pory"
+	call MauvilleCity_MomGiveWaterStarter
+	goto MauvilleCity_EventScript_Mom_4
+
+
+MauvilleCity_MomGiveGrassStarter::
+# 699 "data/maps/MauvilleCity/scripts.pory"
+	showmonpic SPECIES_CHIKORITA, 10, 3
+# 700 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_MomGiveGrassStarter_Text_0, MSGBOX_YESNO
+# 701 "data/maps/MauvilleCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq MauvilleCity_MomGiveGrassStarter_2
+# 719 "data/maps/MauvilleCity/scripts.pory"
+	hidemonpic
+# 720 "data/maps/MauvilleCity/scripts.pory"
+	call MauvilleCity_Mom_NotChosen
+MauvilleCity_MomGiveGrassStarter_1:
+# 722 "data/maps/MauvilleCity/scripts.pory"
+	waitmessage
+# 723 "data/maps/MauvilleCity/scripts.pory"
+	releaseall
+	end
+
+MauvilleCity_MomGiveGrassStarter_2:
+# 702 "data/maps/MauvilleCity/scripts.pory"
+	givemon SPECIES_CHIKORITA, 5, ITEM_LUCKY_EGG
+# 703 "data/maps/MauvilleCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq MauvilleCity_MomGiveGrassStarter_5
+# 708 "data/maps/MauvilleCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq MauvilleCity_MomGiveGrassStarter_6
+# 715 "data/maps/MauvilleCity/scripts.pory"
+	hidemonpic
+# 716 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_MomGiveGrassStarter_Text_3
+	goto MauvilleCity_MomGiveGrassStarter_1
+
+MauvilleCity_MomGiveGrassStarter_5:
+# 704 "data/maps/MauvilleCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 705 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_MomGiveGrassStarter_Text_1
+# 706 "data/maps/MauvilleCity/scripts.pory"
+	call MauvilleCity_NicknamePartyMon
+# 707 "data/maps/MauvilleCity/scripts.pory"
+	setflag FLAG_MOM_GEN2
+	goto MauvilleCity_MomGiveGrassStarter_1
+
+MauvilleCity_MomGiveGrassStarter_6:
+# 709 "data/maps/MauvilleCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 710 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_MomGiveGrassStarter_Text_1
+# 711 "data/maps/MauvilleCity/scripts.pory"
+	call MauvilleCity_NicknameBoxMon
+# 712 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_MomGiveGrassStarter_Text_2
+# 713 "data/maps/MauvilleCity/scripts.pory"
+	setflag FLAG_MOM_GEN2
+	goto MauvilleCity_MomGiveGrassStarter_1
+
+
+MauvilleCity_MomGiveFireStarter::
+# 728 "data/maps/MauvilleCity/scripts.pory"
+	showmonpic SPECIES_CYNDAQUIL, 10, 3
+# 729 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_MomGiveFireStarter_Text_0, MSGBOX_YESNO
+# 730 "data/maps/MauvilleCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq MauvilleCity_MomGiveFireStarter_2
+# 748 "data/maps/MauvilleCity/scripts.pory"
+	hidemonpic
+# 749 "data/maps/MauvilleCity/scripts.pory"
+	call MauvilleCity_Mom_NotChosen
+MauvilleCity_MomGiveFireStarter_1:
+# 751 "data/maps/MauvilleCity/scripts.pory"
+	waitmessage
+# 752 "data/maps/MauvilleCity/scripts.pory"
+	releaseall
+	end
+
+MauvilleCity_MomGiveFireStarter_2:
+# 731 "data/maps/MauvilleCity/scripts.pory"
+	givemon SPECIES_CYNDAQUIL, 5, ITEM_LUCKY_EGG
+# 732 "data/maps/MauvilleCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq MauvilleCity_MomGiveFireStarter_5
+# 737 "data/maps/MauvilleCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq MauvilleCity_MomGiveFireStarter_6
+# 744 "data/maps/MauvilleCity/scripts.pory"
+	hidemonpic
+# 745 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_MomGiveGrassStarter_Text_3
+	goto MauvilleCity_MomGiveFireStarter_1
+
+MauvilleCity_MomGiveFireStarter_5:
+# 733 "data/maps/MauvilleCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 734 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_MomGiveFireStarter_Text_1
+# 735 "data/maps/MauvilleCity/scripts.pory"
+	call MauvilleCity_NicknamePartyMon
+# 736 "data/maps/MauvilleCity/scripts.pory"
+	setflag FLAG_MOM_GEN2
+	goto MauvilleCity_MomGiveFireStarter_1
+
+MauvilleCity_MomGiveFireStarter_6:
+# 738 "data/maps/MauvilleCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 739 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_MomGiveFireStarter_Text_1
+# 740 "data/maps/MauvilleCity/scripts.pory"
+	call MauvilleCity_NicknameBoxMon
+# 741 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_MomGiveFireStarter_Text_2
+# 742 "data/maps/MauvilleCity/scripts.pory"
+	setflag FLAG_MOM_GEN2
+	goto MauvilleCity_MomGiveFireStarter_1
+
+
+MauvilleCity_MomGiveWaterStarter::
+# 757 "data/maps/MauvilleCity/scripts.pory"
+	showmonpic SPECIES_TOTODILE, 10, 3
+# 758 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_MomGiveWaterStarter_Text_0, MSGBOX_YESNO
+# 759 "data/maps/MauvilleCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq MauvilleCity_MomGiveWaterStarter_2
+# 777 "data/maps/MauvilleCity/scripts.pory"
+	hidemonpic
+# 778 "data/maps/MauvilleCity/scripts.pory"
+	call MauvilleCity_Mom_NotChosen
+MauvilleCity_MomGiveWaterStarter_1:
+# 780 "data/maps/MauvilleCity/scripts.pory"
+	waitmessage
+# 781 "data/maps/MauvilleCity/scripts.pory"
+	releaseall
+	end
+
+MauvilleCity_MomGiveWaterStarter_2:
+# 760 "data/maps/MauvilleCity/scripts.pory"
+	givemon SPECIES_TOTODILE, 5, ITEM_LUCKY_EGG
+# 761 "data/maps/MauvilleCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq MauvilleCity_MomGiveWaterStarter_5
+# 766 "data/maps/MauvilleCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq MauvilleCity_MomGiveWaterStarter_6
+# 773 "data/maps/MauvilleCity/scripts.pory"
+	hidemonpic
+# 774 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_MomGiveGrassStarter_Text_3
+	goto MauvilleCity_MomGiveWaterStarter_1
+
+MauvilleCity_MomGiveWaterStarter_5:
+# 762 "data/maps/MauvilleCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 763 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_MomGiveWaterStarter_Text_1
+# 764 "data/maps/MauvilleCity/scripts.pory"
+	call MauvilleCity_NicknamePartyMon
+# 765 "data/maps/MauvilleCity/scripts.pory"
+	setflag FLAG_MOM_GEN2
+	goto MauvilleCity_MomGiveWaterStarter_1
+
+MauvilleCity_MomGiveWaterStarter_6:
+# 767 "data/maps/MauvilleCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 768 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_MomGiveWaterStarter_Text_1
+# 769 "data/maps/MauvilleCity/scripts.pory"
+	call MauvilleCity_NicknameBoxMon
+# 770 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_MomGiveWaterStarter_Text_2
+# 771 "data/maps/MauvilleCity/scripts.pory"
+	setflag FLAG_MOM_GEN2
+	goto MauvilleCity_MomGiveWaterStarter_1
+
+
+MauvilleCity_NicknamePartyMon::
+# 786 "data/maps/MauvilleCity/scripts.pory"
+	hidemonpic
+# 787 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_NicknamePartyMon_Text_0, MSGBOX_YESNO
+# 788 "data/maps/MauvilleCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq MauvilleCity_NicknamePartyMon_1
+	return
+
+MauvilleCity_NicknamePartyMon_1:
+# 789 "data/maps/MauvilleCity/scripts.pory"
+	call Common_EventScript_GetGiftMonPartySlot
+# 790 "data/maps/MauvilleCity/scripts.pory"
+	call Common_EventScript_NameReceivedPartyMon
+	return
+
+
+MauvilleCity_NicknameBoxMon::
+# 795 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_NicknameBoxMon_Text_0, MSGBOX_YESNO
+# 796 "data/maps/MauvilleCity/scripts.pory"
+	hidemonpic
+# 797 "data/maps/MauvilleCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq MauvilleCity_NicknameBoxMon_1
+	return
+
+MauvilleCity_NicknameBoxMon_1:
+# 798 "data/maps/MauvilleCity/scripts.pory"
+	call Common_EventScript_NameReceivedBoxMon
+	return
+
+
+MauvilleCity_Mom_NotChosen::
+# 803 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_Mom_NotChosen_Text_0, MSGBOX_NPC
+# 804 "data/maps/MauvilleCity/scripts.pory"
+	call MauvilleCity_EventScript_Mom
+	return
+
+
+MauvilleCity_EventScript_Mom_Text_0:
+# 676 "data/maps/MauvilleCity/scripts.pory"
+	.string "I hope your Pokemon are doing OK!$"
+
+MauvilleCity_EventScript_Mom_Text_1:
+# 680 "data/maps/MauvilleCity/scripts.pory"
+	.string "Do you want a pokemon?$"
+
+MauvilleCity_EventScript_Mom_Text_2:
+# 692 "data/maps/MauvilleCity/scripts.pory"
+	.string "Come back if you change your mind.$"
+
+MauvilleCity_MomGiveGrassStarter_Text_0:
+# 700 "data/maps/MauvilleCity/scripts.pory"
+	.string "Do you want this Chikorita?$"
+
+MauvilleCity_MomGiveGrassStarter_Text_1:
+# 705 "data/maps/MauvilleCity/scripts.pory"
+	.string "Received Chikorita!$"
+
+MauvilleCity_MomGiveGrassStarter_Text_2:
+# 712 "data/maps/MauvilleCity/scripts.pory"
+	.string "Transferred Chikorita to PC$"
+
+MauvilleCity_MomGiveGrassStarter_Text_3:
+# 716 "data/maps/MauvilleCity/scripts.pory"
+	.string "No more room.$"
+
+MauvilleCity_MomGiveFireStarter_Text_0:
+# 729 "data/maps/MauvilleCity/scripts.pory"
+	.string "Do you want this Cyndaquil?$"
+
+MauvilleCity_MomGiveFireStarter_Text_1:
+# 734 "data/maps/MauvilleCity/scripts.pory"
+	.string "Received Cyndaquil!$"
+
+MauvilleCity_MomGiveFireStarter_Text_2:
+# 741 "data/maps/MauvilleCity/scripts.pory"
+	.string "Transferred Cyndaquil to PC$"
+
+MauvilleCity_MomGiveWaterStarter_Text_0:
+# 758 "data/maps/MauvilleCity/scripts.pory"
+	.string "Do you want this Totodile?$"
+
+MauvilleCity_MomGiveWaterStarter_Text_1:
+# 763 "data/maps/MauvilleCity/scripts.pory"
+	.string "Received Totodile!$"
+
+MauvilleCity_MomGiveWaterStarter_Text_2:
+# 770 "data/maps/MauvilleCity/scripts.pory"
+	.string "Transferred Totodile to PC$"
+
+MauvilleCity_NicknamePartyMon_Text_0:
+# 787 "data/maps/MauvilleCity/scripts.pory"
+	.string "Give it a nickname?$"
+
+MauvilleCity_NicknameBoxMon_Text_0:
+# 795 "data/maps/MauvilleCity/scripts.pory"
+	.string "Give a nickname?$"
+
+MauvilleCity_Mom_NotChosen_Text_0:
+# 803 "data/maps/MauvilleCity/scripts.pory"
+	.string "You did not choose a Pokemon!$"

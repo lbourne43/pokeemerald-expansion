@@ -1573,3 +1573,11 @@ const u8 gText_Rename[] = _("RENAME");
 const u8 gText_MomBulbasaur[] = _("Bulbasaur");
 const u8 gText_MomCharmander[] = _("Charmander");
 const u8 gText_MomSquirtle[] = _("Squirtle");
+
+const u8 gText_MomChikorita[] = _("Chikorita");
+const u8 gText_MomCyndaquil[] = _("Cyndaquil");
+const u8 gText_MomTotodile[] = _("Totodile");
+
+const u8 gText_MomTurtwig[] = _("Turtwig");
+const u8 gText_MomChimchar[] = _("Chimchar");
+const u8 gText_MomPiplup[] = _("Piplup");

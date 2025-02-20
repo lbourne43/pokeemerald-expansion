@@ -9,6 +9,17 @@ u32 GetCurrentLevelCap(void)
 {
     static const u32 sLevelCapFlagMap[][2] =
     {
+	// nettux level caps
+        {FLAG_BADGE01_GET, 25},
+        {FLAG_BADGE02_GET, 35},
+        {FLAG_BADGE03_GET, 45},
+        {FLAG_BADGE04_GET, 55},
+        {FLAG_BADGE05_GET, 65},
+        {FLAG_BADGE06_GET, 75},
+        {FLAG_BADGE07_GET, 85},
+        {FLAG_BADGE08_GET, 95},
+        {FLAG_IS_CHAMPION, 100},
+	/*
         {FLAG_BADGE01_GET, 15},
         {FLAG_BADGE02_GET, 19},
         {FLAG_BADGE03_GET, 24},
@@ -18,6 +29,7 @@ u32 GetCurrentLevelCap(void)
         {FLAG_BADGE07_GET, 42},
         {FLAG_BADGE08_GET, 46},
         {FLAG_IS_CHAMPION, 58},
+	*/
     };
 
     u32 i;

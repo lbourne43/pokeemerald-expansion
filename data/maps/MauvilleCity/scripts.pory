@@ -668,3 +668,138 @@ MauvilleCity_Text_ExplainTV:
 MauvilleCity_Text_BeenCheckingOutTV:
 	.string "Hi, have you been checking out TVs?$"
 `
+
+script MauvilleCity_EventScript_Mom {
+    lockall
+    # check flag
+    if (flag(FLAG_MOM_GEN2)) {
+        msgbox("I hope your Pokemon are doing OK!", MSGBOX_NPC)
+        closemessage
+    } else {
+        faceplayer
+        message("Do you want a pokemon?")
+        multichoice(25, 5, MOM_GEN2_STARTER, 0)
+        closemessage
+        if (var(VAR_RESULT) == 0){
+            call(MauvilleCity_MomGiveGrassStarter)
+        }
+        elif (var(VAR_RESULT) == 1){
+            call(MauvilleCity_MomGiveFireStarter)
+        }
+        elif (var(VAR_RESULT) == 2){
+            call(MauvilleCity_MomGiveWaterStarter)
+        }
+        msgbox("Come back if you change your mind.")
+        waitmessage
+        release
+    }
+}
+
+script MauvilleCity_MomGiveGrassStarter {
+    showmonpic(SPECIES_CHIKORITA, 10, 3)
+    msgbox("Do you want this Chikorita?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_CHIKORITA, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Chikorita!")
+            call(MauvilleCity_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN2)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Chikorita!")
+            call(MauvilleCity_NicknameBoxMon)
+            msgbox("Transferred Chikorita to PC")
+            setflag(FLAG_MOM_GEN2)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(MauvilleCity_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script MauvilleCity_MomGiveFireStarter {
+    showmonpic(SPECIES_CYNDAQUIL, 10, 3)
+    msgbox("Do you want this Cyndaquil?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_CYNDAQUIL, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Cyndaquil!")
+            call(MauvilleCity_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN2)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Cyndaquil!")
+            call(MauvilleCity_NicknameBoxMon)
+            msgbox("Transferred Cyndaquil to PC")
+            setflag(FLAG_MOM_GEN2)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(MauvilleCity_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script MauvilleCity_MomGiveWaterStarter {
+    showmonpic(SPECIES_TOTODILE, 10, 3)
+    msgbox("Do you want this Totodile?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_TOTODILE, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Totodile!")
+            call(MauvilleCity_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN2)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Totodile!")
+            call(MauvilleCity_NicknameBoxMon)
+            msgbox("Transferred Totodile to PC")
+            setflag(FLAG_MOM_GEN2)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(MauvilleCity_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script MauvilleCity_NicknamePartyMon{
+    hidemonpic
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+}
+
+script MauvilleCity_NicknameBoxMon{
+    msgbox("Give a nickname?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+}
+
+script MauvilleCity_Mom_NotChosen{
+    msgbox("You did not choose a Pokemon!", MSGBOX_NPC)
+    call(MauvilleCity_EventScript_Mom)
+}
