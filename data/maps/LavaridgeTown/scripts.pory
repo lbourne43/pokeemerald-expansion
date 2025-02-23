@@ -409,3 +409,137 @@ LavaridgeTown_Text_HerbShopSign:
 	.string "“Bitter taste--better cure!”$"
 
 `
+script LavaridgeTown_EventScript_Mom {
+    lockall
+    # check flag
+    if (flag(FLAG_MOM_GEN5)) {
+        msgbox("I hope your Pokemon are doing OK!", MSGBOX_NPC)
+        closemessage
+    } else {
+        faceplayer
+        message("Do you want a pokemon?")
+        multichoice(25, 5, MOM_GEN5_STARTER, 0)
+        closemessage
+        if (var(VAR_RESULT) == 0){
+            call(LavaridgeTown_MomGiveGrassStarter)
+        }
+        elif (var(VAR_RESULT) == 1){
+            call(LavaridgeTown_MomGiveFireStarter)
+        }
+        elif (var(VAR_RESULT) == 2){
+            call(LavaridgeTown_MomGiveWaterStarter)
+        }
+        msgbox("Come back if you change your mind.")
+        waitmessage
+        release
+    }
+}
+
+script LavaridgeTown_MomGiveGrassStarter {
+    showmonpic(SPECIES_SNIVY, 10, 3)
+    msgbox("Do you want this Snivy?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_SNIVY, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Snivy!")
+            call(LavaridgeTown_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN5)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Snivy!")
+            call(LavaridgeTown_NicknameBoxMon)
+            msgbox("Transferred Snivy to PC")
+            setflag(FLAG_MOM_GEN5)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(LavaridgeTown_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script LavaridgeTown_MomGiveFireStarter {
+    showmonpic(SPECIES_TEPIG, 10, 3)
+    msgbox("Do you want this Tepig?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_TEPIG, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Tepig!")
+            call(LavaridgeTown_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN5)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Tepig!")
+            call(LavaridgeTown_NicknameBoxMon)
+            msgbox("Transferred Tepig to PC")
+            setflag(FLAG_MOM_GEN5)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(LavaridgeTown_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script LavaridgeTown_MomGiveWaterStarter {
+    showmonpic(SPECIES_OSHAWOTT, 10, 3)
+    msgbox("Do you want this Oshawott?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_OSHAWOTT, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Oshawott!")
+            call(LavaridgeTown_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN5)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Oshawott!")
+            call(LavaridgeTown_NicknameBoxMon)
+            msgbox("Transferred Oshawott to PC")
+            setflag(FLAG_MOM_GEN5)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(LavaridgeTown_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script LavaridgeTown_NicknamePartyMon{
+    hidemonpic
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+}
+
+script LavaridgeTown_NicknameBoxMon{
+    msgbox("Give a nickname?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+}
+
+script LavaridgeTown_Mom_NotChosen{
+    msgbox("You did not choose a Pokemon!", MSGBOX_NPC)
+    call(LavaridgeTown_EventScript_Mom)
+}

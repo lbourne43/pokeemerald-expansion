@@ -868,3 +868,340 @@ MossdeepCity_Text_SootopolisNewGymLeader:
 	.string "People tell me the new LEADER once\n"
 # 435 "data/maps/MossdeepCity/scripts.pory"
 	.string "mentored WALLACE.$"
+
+MossdeepCity_EventScript_Mom::
+# 439 "data/maps/MossdeepCity/scripts.pory"
+	lockall
+# 441 "data/maps/MossdeepCity/scripts.pory"
+	goto_if_set FLAG_MOM_GEN8, MossdeepCity_EventScript_Mom_1
+# 445 "data/maps/MossdeepCity/scripts.pory"
+	faceplayer
+# 446 "data/maps/MossdeepCity/scripts.pory"
+	message MossdeepCity_EventScript_Mom_Text_1
+# 447 "data/maps/MossdeepCity/scripts.pory"
+	multichoice 25, 5, MOM_GEN8_STARTER, 0
+# 448 "data/maps/MossdeepCity/scripts.pory"
+	closemessage
+# 449 "data/maps/MossdeepCity/scripts.pory"
+	compare VAR_RESULT, 0
+	goto_if_eq MossdeepCity_EventScript_Mom_5
+# 452 "data/maps/MossdeepCity/scripts.pory"
+	compare VAR_RESULT, 1
+	goto_if_eq MossdeepCity_EventScript_Mom_6
+# 455 "data/maps/MossdeepCity/scripts.pory"
+	compare VAR_RESULT, 2
+	goto_if_eq MossdeepCity_EventScript_Mom_7
+MossdeepCity_EventScript_Mom_4:
+# 458 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_EventScript_Mom_Text_2
+# 459 "data/maps/MossdeepCity/scripts.pory"
+	waitmessage
+# 460 "data/maps/MossdeepCity/scripts.pory"
+	release
+	return
+
+MossdeepCity_EventScript_Mom_1:
+# 442 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_EventScript_Mom_Text_0, MSGBOX_NPC
+# 443 "data/maps/MossdeepCity/scripts.pory"
+	closemessage
+	return
+
+MossdeepCity_EventScript_Mom_5:
+# 450 "data/maps/MossdeepCity/scripts.pory"
+	call MossdeepCity_MomGiveGrassStarter
+	goto MossdeepCity_EventScript_Mom_4
+
+MossdeepCity_EventScript_Mom_6:
+# 453 "data/maps/MossdeepCity/scripts.pory"
+	call MossdeepCity_MomGiveFireStarter
+	goto MossdeepCity_EventScript_Mom_4
+
+MossdeepCity_EventScript_Mom_7:
+# 456 "data/maps/MossdeepCity/scripts.pory"
+	call MossdeepCity_MomGiveWaterStarter
+	goto MossdeepCity_EventScript_Mom_4
+
+
+MossdeepCity_MomGiveGrassStarter::
+# 465 "data/maps/MossdeepCity/scripts.pory"
+	showmonpic SPECIES_GROOKEY, 10, 3
+# 466 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_MomGiveGrassStarter_Text_0, MSGBOX_YESNO
+# 467 "data/maps/MossdeepCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq MossdeepCity_MomGiveGrassStarter_2
+# 485 "data/maps/MossdeepCity/scripts.pory"
+	hidemonpic
+# 486 "data/maps/MossdeepCity/scripts.pory"
+	call MossdeepCity_Mom_NotChosen
+MossdeepCity_MomGiveGrassStarter_1:
+# 488 "data/maps/MossdeepCity/scripts.pory"
+	waitmessage
+# 489 "data/maps/MossdeepCity/scripts.pory"
+	releaseall
+	end
+
+MossdeepCity_MomGiveGrassStarter_2:
+# 468 "data/maps/MossdeepCity/scripts.pory"
+	givemon SPECIES_GROOKEY, 5, ITEM_LUCKY_EGG
+# 469 "data/maps/MossdeepCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq MossdeepCity_MomGiveGrassStarter_5
+# 474 "data/maps/MossdeepCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq MossdeepCity_MomGiveGrassStarter_6
+# 481 "data/maps/MossdeepCity/scripts.pory"
+	hidemonpic
+# 482 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_MomGiveGrassStarter_Text_3
+	goto MossdeepCity_MomGiveGrassStarter_1
+
+MossdeepCity_MomGiveGrassStarter_5:
+# 470 "data/maps/MossdeepCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 471 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_MomGiveGrassStarter_Text_1
+# 472 "data/maps/MossdeepCity/scripts.pory"
+	call MossdeepCity_NicknamePartyMon
+# 473 "data/maps/MossdeepCity/scripts.pory"
+	setflag FLAG_MOM_GEN8
+	goto MossdeepCity_MomGiveGrassStarter_1
+
+MossdeepCity_MomGiveGrassStarter_6:
+# 475 "data/maps/MossdeepCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 476 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_MomGiveGrassStarter_Text_1
+# 477 "data/maps/MossdeepCity/scripts.pory"
+	call MossdeepCity_NicknameBoxMon
+# 478 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_MomGiveGrassStarter_Text_2
+# 479 "data/maps/MossdeepCity/scripts.pory"
+	setflag FLAG_MOM_GEN8
+	goto MossdeepCity_MomGiveGrassStarter_1
+
+
+MossdeepCity_MomGiveFireStarter::
+# 494 "data/maps/MossdeepCity/scripts.pory"
+	showmonpic SPECIES_SCORBUNNY, 10, 3
+# 495 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_MomGiveFireStarter_Text_0, MSGBOX_YESNO
+# 496 "data/maps/MossdeepCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq MossdeepCity_MomGiveFireStarter_2
+# 514 "data/maps/MossdeepCity/scripts.pory"
+	hidemonpic
+# 515 "data/maps/MossdeepCity/scripts.pory"
+	call MossdeepCity_Mom_NotChosen
+MossdeepCity_MomGiveFireStarter_1:
+# 517 "data/maps/MossdeepCity/scripts.pory"
+	waitmessage
+# 518 "data/maps/MossdeepCity/scripts.pory"
+	releaseall
+	end
+
+MossdeepCity_MomGiveFireStarter_2:
+# 497 "data/maps/MossdeepCity/scripts.pory"
+	givemon SPECIES_SCORBUNNY, 5, ITEM_LUCKY_EGG
+# 498 "data/maps/MossdeepCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq MossdeepCity_MomGiveFireStarter_5
+# 503 "data/maps/MossdeepCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq MossdeepCity_MomGiveFireStarter_6
+# 510 "data/maps/MossdeepCity/scripts.pory"
+	hidemonpic
+# 511 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_MomGiveGrassStarter_Text_3
+	goto MossdeepCity_MomGiveFireStarter_1
+
+MossdeepCity_MomGiveFireStarter_5:
+# 499 "data/maps/MossdeepCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 500 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_MomGiveFireStarter_Text_1
+# 501 "data/maps/MossdeepCity/scripts.pory"
+	call MossdeepCity_NicknamePartyMon
+# 502 "data/maps/MossdeepCity/scripts.pory"
+	setflag FLAG_MOM_GEN8
+	goto MossdeepCity_MomGiveFireStarter_1
+
+MossdeepCity_MomGiveFireStarter_6:
+# 504 "data/maps/MossdeepCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 505 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_MomGiveFireStarter_Text_1
+# 506 "data/maps/MossdeepCity/scripts.pory"
+	call MossdeepCity_NicknameBoxMon
+# 507 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_MomGiveFireStarter_Text_2
+# 508 "data/maps/MossdeepCity/scripts.pory"
+	setflag FLAG_MOM_GEN8
+	goto MossdeepCity_MomGiveFireStarter_1
+
+
+MossdeepCity_MomGiveWaterStarter::
+# 523 "data/maps/MossdeepCity/scripts.pory"
+	showmonpic SPECIES_SOBBLE, 10, 3
+# 524 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_MomGiveWaterStarter_Text_0, MSGBOX_YESNO
+# 525 "data/maps/MossdeepCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq MossdeepCity_MomGiveWaterStarter_2
+# 543 "data/maps/MossdeepCity/scripts.pory"
+	hidemonpic
+# 544 "data/maps/MossdeepCity/scripts.pory"
+	call MossdeepCity_Mom_NotChosen
+MossdeepCity_MomGiveWaterStarter_1:
+# 546 "data/maps/MossdeepCity/scripts.pory"
+	waitmessage
+# 547 "data/maps/MossdeepCity/scripts.pory"
+	releaseall
+	end
+
+MossdeepCity_MomGiveWaterStarter_2:
+# 526 "data/maps/MossdeepCity/scripts.pory"
+	givemon SPECIES_SOBBLE, 5, ITEM_LUCKY_EGG
+# 527 "data/maps/MossdeepCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq MossdeepCity_MomGiveWaterStarter_5
+# 532 "data/maps/MossdeepCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq MossdeepCity_MomGiveWaterStarter_6
+# 539 "data/maps/MossdeepCity/scripts.pory"
+	hidemonpic
+# 540 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_MomGiveGrassStarter_Text_3
+	goto MossdeepCity_MomGiveWaterStarter_1
+
+MossdeepCity_MomGiveWaterStarter_5:
+# 528 "data/maps/MossdeepCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 529 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_MomGiveWaterStarter_Text_1
+# 530 "data/maps/MossdeepCity/scripts.pory"
+	call MossdeepCity_NicknamePartyMon
+# 531 "data/maps/MossdeepCity/scripts.pory"
+	setflag FLAG_MOM_GEN8
+	goto MossdeepCity_MomGiveWaterStarter_1
+
+MossdeepCity_MomGiveWaterStarter_6:
+# 533 "data/maps/MossdeepCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 534 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_MomGiveWaterStarter_Text_1
+# 535 "data/maps/MossdeepCity/scripts.pory"
+	call MossdeepCity_NicknameBoxMon
+# 536 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_MomGiveWaterStarter_Text_2
+# 537 "data/maps/MossdeepCity/scripts.pory"
+	setflag FLAG_MOM_GEN8
+	goto MossdeepCity_MomGiveWaterStarter_1
+
+
+MossdeepCity_NicknamePartyMon::
+# 552 "data/maps/MossdeepCity/scripts.pory"
+	hidemonpic
+# 553 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_NicknamePartyMon_Text_0, MSGBOX_YESNO
+# 554 "data/maps/MossdeepCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq MossdeepCity_NicknamePartyMon_1
+	return
+
+MossdeepCity_NicknamePartyMon_1:
+# 555 "data/maps/MossdeepCity/scripts.pory"
+	call Common_EventScript_GetGiftMonPartySlot
+# 556 "data/maps/MossdeepCity/scripts.pory"
+	call Common_EventScript_NameReceivedPartyMon
+	return
+
+
+MossdeepCity_NicknameBoxMon::
+# 561 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_NicknameBoxMon_Text_0, MSGBOX_YESNO
+# 562 "data/maps/MossdeepCity/scripts.pory"
+	hidemonpic
+# 563 "data/maps/MossdeepCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq MossdeepCity_NicknameBoxMon_1
+	return
+
+MossdeepCity_NicknameBoxMon_1:
+# 564 "data/maps/MossdeepCity/scripts.pory"
+	call Common_EventScript_NameReceivedBoxMon
+	return
+
+
+MossdeepCity_Mom_NotChosen::
+# 569 "data/maps/MossdeepCity/scripts.pory"
+	msgbox MossdeepCity_Mom_NotChosen_Text_0, MSGBOX_NPC
+# 570 "data/maps/MossdeepCity/scripts.pory"
+	call MossdeepCity_EventScript_Mom
+	return
+
+
+MossdeepCity_EventScript_Mom_Text_0:
+# 442 "data/maps/MossdeepCity/scripts.pory"
+	.string "I hope your Pokemon are doing OK!$"
+
+MossdeepCity_EventScript_Mom_Text_1:
+# 446 "data/maps/MossdeepCity/scripts.pory"
+	.string "Do you want a pokemon?$"
+
+MossdeepCity_EventScript_Mom_Text_2:
+# 458 "data/maps/MossdeepCity/scripts.pory"
+	.string "Come back if you change your mind.$"
+
+MossdeepCity_MomGiveGrassStarter_Text_0:
+# 466 "data/maps/MossdeepCity/scripts.pory"
+	.string "Do you want this Grookey?$"
+
+MossdeepCity_MomGiveGrassStarter_Text_1:
+# 471 "data/maps/MossdeepCity/scripts.pory"
+	.string "Received Grookey!$"
+
+MossdeepCity_MomGiveGrassStarter_Text_2:
+# 478 "data/maps/MossdeepCity/scripts.pory"
+	.string "Transferred Grookey to PC$"
+
+MossdeepCity_MomGiveGrassStarter_Text_3:
+# 482 "data/maps/MossdeepCity/scripts.pory"
+	.string "No more room.$"
+
+MossdeepCity_MomGiveFireStarter_Text_0:
+# 495 "data/maps/MossdeepCity/scripts.pory"
+	.string "Do you want this Scorbunny?$"
+
+MossdeepCity_MomGiveFireStarter_Text_1:
+# 500 "data/maps/MossdeepCity/scripts.pory"
+	.string "Received Scorbunny!$"
+
+MossdeepCity_MomGiveFireStarter_Text_2:
+# 507 "data/maps/MossdeepCity/scripts.pory"
+	.string "Transferred Scorbunny to PC$"
+
+MossdeepCity_MomGiveWaterStarter_Text_0:
+# 524 "data/maps/MossdeepCity/scripts.pory"
+	.string "Do you want this Sobble?$"
+
+MossdeepCity_MomGiveWaterStarter_Text_1:
+# 529 "data/maps/MossdeepCity/scripts.pory"
+	.string "Received Sobble!$"
+
+MossdeepCity_MomGiveWaterStarter_Text_2:
+# 536 "data/maps/MossdeepCity/scripts.pory"
+	.string "Transferred Sobble to PC$"
+
+MossdeepCity_NicknamePartyMon_Text_0:
+# 553 "data/maps/MossdeepCity/scripts.pory"
+	.string "Give it a nickname?$"
+
+MossdeepCity_NicknameBoxMon_Text_0:
+# 561 "data/maps/MossdeepCity/scripts.pory"
+	.string "Give a nickname?$"
+
+MossdeepCity_Mom_NotChosen_Text_0:
+# 569 "data/maps/MossdeepCity/scripts.pory"
+	.string "You did not choose a Pokemon!$"

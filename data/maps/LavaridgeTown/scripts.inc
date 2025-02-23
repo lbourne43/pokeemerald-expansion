@@ -816,3 +816,340 @@ LavaridgeTown_Text_HerbShopSign:
 	.string "POKéMON HERB SHOP\n"
 # 409 "data/maps/LavaridgeTown/scripts.pory"
 	.string "“Bitter taste--better cure!”$"
+
+LavaridgeTown_EventScript_Mom::
+# 413 "data/maps/LavaridgeTown/scripts.pory"
+	lockall
+# 415 "data/maps/LavaridgeTown/scripts.pory"
+	goto_if_set FLAG_MOM_GEN5, LavaridgeTown_EventScript_Mom_1
+# 419 "data/maps/LavaridgeTown/scripts.pory"
+	faceplayer
+# 420 "data/maps/LavaridgeTown/scripts.pory"
+	message LavaridgeTown_EventScript_Mom_Text_1
+# 421 "data/maps/LavaridgeTown/scripts.pory"
+	multichoice 25, 5, MOM_GEN5_STARTER, 0
+# 422 "data/maps/LavaridgeTown/scripts.pory"
+	closemessage
+# 423 "data/maps/LavaridgeTown/scripts.pory"
+	compare VAR_RESULT, 0
+	goto_if_eq LavaridgeTown_EventScript_Mom_5
+# 426 "data/maps/LavaridgeTown/scripts.pory"
+	compare VAR_RESULT, 1
+	goto_if_eq LavaridgeTown_EventScript_Mom_6
+# 429 "data/maps/LavaridgeTown/scripts.pory"
+	compare VAR_RESULT, 2
+	goto_if_eq LavaridgeTown_EventScript_Mom_7
+LavaridgeTown_EventScript_Mom_4:
+# 432 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_EventScript_Mom_Text_2
+# 433 "data/maps/LavaridgeTown/scripts.pory"
+	waitmessage
+# 434 "data/maps/LavaridgeTown/scripts.pory"
+	release
+	return
+
+LavaridgeTown_EventScript_Mom_1:
+# 416 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_EventScript_Mom_Text_0, MSGBOX_NPC
+# 417 "data/maps/LavaridgeTown/scripts.pory"
+	closemessage
+	return
+
+LavaridgeTown_EventScript_Mom_5:
+# 424 "data/maps/LavaridgeTown/scripts.pory"
+	call LavaridgeTown_MomGiveGrassStarter
+	goto LavaridgeTown_EventScript_Mom_4
+
+LavaridgeTown_EventScript_Mom_6:
+# 427 "data/maps/LavaridgeTown/scripts.pory"
+	call LavaridgeTown_MomGiveFireStarter
+	goto LavaridgeTown_EventScript_Mom_4
+
+LavaridgeTown_EventScript_Mom_7:
+# 430 "data/maps/LavaridgeTown/scripts.pory"
+	call LavaridgeTown_MomGiveWaterStarter
+	goto LavaridgeTown_EventScript_Mom_4
+
+
+LavaridgeTown_MomGiveGrassStarter::
+# 439 "data/maps/LavaridgeTown/scripts.pory"
+	showmonpic SPECIES_SNIVY, 10, 3
+# 440 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_MomGiveGrassStarter_Text_0, MSGBOX_YESNO
+# 441 "data/maps/LavaridgeTown/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq LavaridgeTown_MomGiveGrassStarter_2
+# 459 "data/maps/LavaridgeTown/scripts.pory"
+	hidemonpic
+# 460 "data/maps/LavaridgeTown/scripts.pory"
+	call LavaridgeTown_Mom_NotChosen
+LavaridgeTown_MomGiveGrassStarter_1:
+# 462 "data/maps/LavaridgeTown/scripts.pory"
+	waitmessage
+# 463 "data/maps/LavaridgeTown/scripts.pory"
+	releaseall
+	end
+
+LavaridgeTown_MomGiveGrassStarter_2:
+# 442 "data/maps/LavaridgeTown/scripts.pory"
+	givemon SPECIES_SNIVY, 5, ITEM_LUCKY_EGG
+# 443 "data/maps/LavaridgeTown/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq LavaridgeTown_MomGiveGrassStarter_5
+# 448 "data/maps/LavaridgeTown/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq LavaridgeTown_MomGiveGrassStarter_6
+# 455 "data/maps/LavaridgeTown/scripts.pory"
+	hidemonpic
+# 456 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_MomGiveGrassStarter_Text_3
+	goto LavaridgeTown_MomGiveGrassStarter_1
+
+LavaridgeTown_MomGiveGrassStarter_5:
+# 444 "data/maps/LavaridgeTown/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 445 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_MomGiveGrassStarter_Text_1
+# 446 "data/maps/LavaridgeTown/scripts.pory"
+	call LavaridgeTown_NicknamePartyMon
+# 447 "data/maps/LavaridgeTown/scripts.pory"
+	setflag FLAG_MOM_GEN5
+	goto LavaridgeTown_MomGiveGrassStarter_1
+
+LavaridgeTown_MomGiveGrassStarter_6:
+# 449 "data/maps/LavaridgeTown/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 450 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_MomGiveGrassStarter_Text_1
+# 451 "data/maps/LavaridgeTown/scripts.pory"
+	call LavaridgeTown_NicknameBoxMon
+# 452 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_MomGiveGrassStarter_Text_2
+# 453 "data/maps/LavaridgeTown/scripts.pory"
+	setflag FLAG_MOM_GEN5
+	goto LavaridgeTown_MomGiveGrassStarter_1
+
+
+LavaridgeTown_MomGiveFireStarter::
+# 468 "data/maps/LavaridgeTown/scripts.pory"
+	showmonpic SPECIES_TEPIG, 10, 3
+# 469 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_MomGiveFireStarter_Text_0, MSGBOX_YESNO
+# 470 "data/maps/LavaridgeTown/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq LavaridgeTown_MomGiveFireStarter_2
+# 488 "data/maps/LavaridgeTown/scripts.pory"
+	hidemonpic
+# 489 "data/maps/LavaridgeTown/scripts.pory"
+	call LavaridgeTown_Mom_NotChosen
+LavaridgeTown_MomGiveFireStarter_1:
+# 491 "data/maps/LavaridgeTown/scripts.pory"
+	waitmessage
+# 492 "data/maps/LavaridgeTown/scripts.pory"
+	releaseall
+	end
+
+LavaridgeTown_MomGiveFireStarter_2:
+# 471 "data/maps/LavaridgeTown/scripts.pory"
+	givemon SPECIES_TEPIG, 5, ITEM_LUCKY_EGG
+# 472 "data/maps/LavaridgeTown/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq LavaridgeTown_MomGiveFireStarter_5
+# 477 "data/maps/LavaridgeTown/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq LavaridgeTown_MomGiveFireStarter_6
+# 484 "data/maps/LavaridgeTown/scripts.pory"
+	hidemonpic
+# 485 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_MomGiveGrassStarter_Text_3
+	goto LavaridgeTown_MomGiveFireStarter_1
+
+LavaridgeTown_MomGiveFireStarter_5:
+# 473 "data/maps/LavaridgeTown/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 474 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_MomGiveFireStarter_Text_1
+# 475 "data/maps/LavaridgeTown/scripts.pory"
+	call LavaridgeTown_NicknamePartyMon
+# 476 "data/maps/LavaridgeTown/scripts.pory"
+	setflag FLAG_MOM_GEN5
+	goto LavaridgeTown_MomGiveFireStarter_1
+
+LavaridgeTown_MomGiveFireStarter_6:
+# 478 "data/maps/LavaridgeTown/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 479 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_MomGiveFireStarter_Text_1
+# 480 "data/maps/LavaridgeTown/scripts.pory"
+	call LavaridgeTown_NicknameBoxMon
+# 481 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_MomGiveFireStarter_Text_2
+# 482 "data/maps/LavaridgeTown/scripts.pory"
+	setflag FLAG_MOM_GEN5
+	goto LavaridgeTown_MomGiveFireStarter_1
+
+
+LavaridgeTown_MomGiveWaterStarter::
+# 497 "data/maps/LavaridgeTown/scripts.pory"
+	showmonpic SPECIES_OSHAWOTT, 10, 3
+# 498 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_MomGiveWaterStarter_Text_0, MSGBOX_YESNO
+# 499 "data/maps/LavaridgeTown/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq LavaridgeTown_MomGiveWaterStarter_2
+# 517 "data/maps/LavaridgeTown/scripts.pory"
+	hidemonpic
+# 518 "data/maps/LavaridgeTown/scripts.pory"
+	call LavaridgeTown_Mom_NotChosen
+LavaridgeTown_MomGiveWaterStarter_1:
+# 520 "data/maps/LavaridgeTown/scripts.pory"
+	waitmessage
+# 521 "data/maps/LavaridgeTown/scripts.pory"
+	releaseall
+	end
+
+LavaridgeTown_MomGiveWaterStarter_2:
+# 500 "data/maps/LavaridgeTown/scripts.pory"
+	givemon SPECIES_OSHAWOTT, 5, ITEM_LUCKY_EGG
+# 501 "data/maps/LavaridgeTown/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq LavaridgeTown_MomGiveWaterStarter_5
+# 506 "data/maps/LavaridgeTown/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq LavaridgeTown_MomGiveWaterStarter_6
+# 513 "data/maps/LavaridgeTown/scripts.pory"
+	hidemonpic
+# 514 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_MomGiveGrassStarter_Text_3
+	goto LavaridgeTown_MomGiveWaterStarter_1
+
+LavaridgeTown_MomGiveWaterStarter_5:
+# 502 "data/maps/LavaridgeTown/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 503 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_MomGiveWaterStarter_Text_1
+# 504 "data/maps/LavaridgeTown/scripts.pory"
+	call LavaridgeTown_NicknamePartyMon
+# 505 "data/maps/LavaridgeTown/scripts.pory"
+	setflag FLAG_MOM_GEN5
+	goto LavaridgeTown_MomGiveWaterStarter_1
+
+LavaridgeTown_MomGiveWaterStarter_6:
+# 507 "data/maps/LavaridgeTown/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 508 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_MomGiveWaterStarter_Text_1
+# 509 "data/maps/LavaridgeTown/scripts.pory"
+	call LavaridgeTown_NicknameBoxMon
+# 510 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_MomGiveWaterStarter_Text_2
+# 511 "data/maps/LavaridgeTown/scripts.pory"
+	setflag FLAG_MOM_GEN5
+	goto LavaridgeTown_MomGiveWaterStarter_1
+
+
+LavaridgeTown_NicknamePartyMon::
+# 526 "data/maps/LavaridgeTown/scripts.pory"
+	hidemonpic
+# 527 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_NicknamePartyMon_Text_0, MSGBOX_YESNO
+# 528 "data/maps/LavaridgeTown/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq LavaridgeTown_NicknamePartyMon_1
+	return
+
+LavaridgeTown_NicknamePartyMon_1:
+# 529 "data/maps/LavaridgeTown/scripts.pory"
+	call Common_EventScript_GetGiftMonPartySlot
+# 530 "data/maps/LavaridgeTown/scripts.pory"
+	call Common_EventScript_NameReceivedPartyMon
+	return
+
+
+LavaridgeTown_NicknameBoxMon::
+# 535 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_NicknameBoxMon_Text_0, MSGBOX_YESNO
+# 536 "data/maps/LavaridgeTown/scripts.pory"
+	hidemonpic
+# 537 "data/maps/LavaridgeTown/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq LavaridgeTown_NicknameBoxMon_1
+	return
+
+LavaridgeTown_NicknameBoxMon_1:
+# 538 "data/maps/LavaridgeTown/scripts.pory"
+	call Common_EventScript_NameReceivedBoxMon
+	return
+
+
+LavaridgeTown_Mom_NotChosen::
+# 543 "data/maps/LavaridgeTown/scripts.pory"
+	msgbox LavaridgeTown_Mom_NotChosen_Text_0, MSGBOX_NPC
+# 544 "data/maps/LavaridgeTown/scripts.pory"
+	call LavaridgeTown_EventScript_Mom
+	return
+
+
+LavaridgeTown_EventScript_Mom_Text_0:
+# 416 "data/maps/LavaridgeTown/scripts.pory"
+	.string "I hope your Pokemon are doing OK!$"
+
+LavaridgeTown_EventScript_Mom_Text_1:
+# 420 "data/maps/LavaridgeTown/scripts.pory"
+	.string "Do you want a pokemon?$"
+
+LavaridgeTown_EventScript_Mom_Text_2:
+# 432 "data/maps/LavaridgeTown/scripts.pory"
+	.string "Come back if you change your mind.$"
+
+LavaridgeTown_MomGiveGrassStarter_Text_0:
+# 440 "data/maps/LavaridgeTown/scripts.pory"
+	.string "Do you want this Snivy?$"
+
+LavaridgeTown_MomGiveGrassStarter_Text_1:
+# 445 "data/maps/LavaridgeTown/scripts.pory"
+	.string "Received Snivy!$"
+
+LavaridgeTown_MomGiveGrassStarter_Text_2:
+# 452 "data/maps/LavaridgeTown/scripts.pory"
+	.string "Transferred Snivy to PC$"
+
+LavaridgeTown_MomGiveGrassStarter_Text_3:
+# 456 "data/maps/LavaridgeTown/scripts.pory"
+	.string "No more room.$"
+
+LavaridgeTown_MomGiveFireStarter_Text_0:
+# 469 "data/maps/LavaridgeTown/scripts.pory"
+	.string "Do you want this Tepig?$"
+
+LavaridgeTown_MomGiveFireStarter_Text_1:
+# 474 "data/maps/LavaridgeTown/scripts.pory"
+	.string "Received Tepig!$"
+
+LavaridgeTown_MomGiveFireStarter_Text_2:
+# 481 "data/maps/LavaridgeTown/scripts.pory"
+	.string "Transferred Tepig to PC$"
+
+LavaridgeTown_MomGiveWaterStarter_Text_0:
+# 498 "data/maps/LavaridgeTown/scripts.pory"
+	.string "Do you want this Oshawott?$"
+
+LavaridgeTown_MomGiveWaterStarter_Text_1:
+# 503 "data/maps/LavaridgeTown/scripts.pory"
+	.string "Received Oshawott!$"
+
+LavaridgeTown_MomGiveWaterStarter_Text_2:
+# 510 "data/maps/LavaridgeTown/scripts.pory"
+	.string "Transferred Oshawott to PC$"
+
+LavaridgeTown_NicknamePartyMon_Text_0:
+# 527 "data/maps/LavaridgeTown/scripts.pory"
+	.string "Give it a nickname?$"
+
+LavaridgeTown_NicknameBoxMon_Text_0:
+# 535 "data/maps/LavaridgeTown/scripts.pory"
+	.string "Give a nickname?$"
+
+LavaridgeTown_Mom_NotChosen_Text_0:
+# 543 "data/maps/LavaridgeTown/scripts.pory"
+	.string "You did not choose a Pokemon!$"

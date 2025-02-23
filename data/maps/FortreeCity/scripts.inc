@@ -310,3 +310,340 @@ FortreeCity_Text_GymSign:
 	.string "“The bird user taking flight into\n"
 # 156 "data/maps/FortreeCity/scripts.pory"
 	.string "the world.”$"
+
+FortreeCity_EventScript_Mom::
+# 160 "data/maps/FortreeCity/scripts.pory"
+	lockall
+# 162 "data/maps/FortreeCity/scripts.pory"
+	goto_if_set FLAG_MOM_GEN6, FortreeCity_EventScript_Mom_1
+# 166 "data/maps/FortreeCity/scripts.pory"
+	faceplayer
+# 167 "data/maps/FortreeCity/scripts.pory"
+	message FortreeCity_EventScript_Mom_Text_1
+# 168 "data/maps/FortreeCity/scripts.pory"
+	multichoice 25, 5, MOM_GEN6_STARTER, 0
+# 169 "data/maps/FortreeCity/scripts.pory"
+	closemessage
+# 170 "data/maps/FortreeCity/scripts.pory"
+	compare VAR_RESULT, 0
+	goto_if_eq FortreeCity_EventScript_Mom_5
+# 173 "data/maps/FortreeCity/scripts.pory"
+	compare VAR_RESULT, 1
+	goto_if_eq FortreeCity_EventScript_Mom_6
+# 176 "data/maps/FortreeCity/scripts.pory"
+	compare VAR_RESULT, 2
+	goto_if_eq FortreeCity_EventScript_Mom_7
+FortreeCity_EventScript_Mom_4:
+# 179 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_EventScript_Mom_Text_2
+# 180 "data/maps/FortreeCity/scripts.pory"
+	waitmessage
+# 181 "data/maps/FortreeCity/scripts.pory"
+	release
+	return
+
+FortreeCity_EventScript_Mom_1:
+# 163 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_EventScript_Mom_Text_0, MSGBOX_NPC
+# 164 "data/maps/FortreeCity/scripts.pory"
+	closemessage
+	return
+
+FortreeCity_EventScript_Mom_5:
+# 171 "data/maps/FortreeCity/scripts.pory"
+	call FortreeCity_MomGiveGrassStarter
+	goto FortreeCity_EventScript_Mom_4
+
+FortreeCity_EventScript_Mom_6:
+# 174 "data/maps/FortreeCity/scripts.pory"
+	call FortreeCity_MomGiveFireStarter
+	goto FortreeCity_EventScript_Mom_4
+
+FortreeCity_EventScript_Mom_7:
+# 177 "data/maps/FortreeCity/scripts.pory"
+	call FortreeCity_MomGiveWaterStarter
+	goto FortreeCity_EventScript_Mom_4
+
+
+FortreeCity_MomGiveGrassStarter::
+# 186 "data/maps/FortreeCity/scripts.pory"
+	showmonpic SPECIES_CHESPIN, 10, 3
+# 187 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_MomGiveGrassStarter_Text_0, MSGBOX_YESNO
+# 188 "data/maps/FortreeCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq FortreeCity_MomGiveGrassStarter_2
+# 206 "data/maps/FortreeCity/scripts.pory"
+	hidemonpic
+# 207 "data/maps/FortreeCity/scripts.pory"
+	call FortreeCity_Mom_NotChosen
+FortreeCity_MomGiveGrassStarter_1:
+# 209 "data/maps/FortreeCity/scripts.pory"
+	waitmessage
+# 210 "data/maps/FortreeCity/scripts.pory"
+	releaseall
+	end
+
+FortreeCity_MomGiveGrassStarter_2:
+# 189 "data/maps/FortreeCity/scripts.pory"
+	givemon SPECIES_CHESPIN, 5, ITEM_LUCKY_EGG
+# 190 "data/maps/FortreeCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq FortreeCity_MomGiveGrassStarter_5
+# 195 "data/maps/FortreeCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq FortreeCity_MomGiveGrassStarter_6
+# 202 "data/maps/FortreeCity/scripts.pory"
+	hidemonpic
+# 203 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_MomGiveGrassStarter_Text_3
+	goto FortreeCity_MomGiveGrassStarter_1
+
+FortreeCity_MomGiveGrassStarter_5:
+# 191 "data/maps/FortreeCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 192 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_MomGiveGrassStarter_Text_1
+# 193 "data/maps/FortreeCity/scripts.pory"
+	call FortreeCity_NicknamePartyMon
+# 194 "data/maps/FortreeCity/scripts.pory"
+	setflag FLAG_MOM_GEN6
+	goto FortreeCity_MomGiveGrassStarter_1
+
+FortreeCity_MomGiveGrassStarter_6:
+# 196 "data/maps/FortreeCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 197 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_MomGiveGrassStarter_Text_1
+# 198 "data/maps/FortreeCity/scripts.pory"
+	call FortreeCity_NicknameBoxMon
+# 199 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_MomGiveGrassStarter_Text_2
+# 200 "data/maps/FortreeCity/scripts.pory"
+	setflag FLAG_MOM_GEN6
+	goto FortreeCity_MomGiveGrassStarter_1
+
+
+FortreeCity_MomGiveFireStarter::
+# 215 "data/maps/FortreeCity/scripts.pory"
+	showmonpic SPECIES_FENNEKIN, 10, 3
+# 216 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_MomGiveFireStarter_Text_0, MSGBOX_YESNO
+# 217 "data/maps/FortreeCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq FortreeCity_MomGiveFireStarter_2
+# 235 "data/maps/FortreeCity/scripts.pory"
+	hidemonpic
+# 236 "data/maps/FortreeCity/scripts.pory"
+	call FortreeCity_Mom_NotChosen
+FortreeCity_MomGiveFireStarter_1:
+# 238 "data/maps/FortreeCity/scripts.pory"
+	waitmessage
+# 239 "data/maps/FortreeCity/scripts.pory"
+	releaseall
+	end
+
+FortreeCity_MomGiveFireStarter_2:
+# 218 "data/maps/FortreeCity/scripts.pory"
+	givemon SPECIES_FENNEKIN, 5, ITEM_LUCKY_EGG
+# 219 "data/maps/FortreeCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq FortreeCity_MomGiveFireStarter_5
+# 224 "data/maps/FortreeCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq FortreeCity_MomGiveFireStarter_6
+# 231 "data/maps/FortreeCity/scripts.pory"
+	hidemonpic
+# 232 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_MomGiveGrassStarter_Text_3
+	goto FortreeCity_MomGiveFireStarter_1
+
+FortreeCity_MomGiveFireStarter_5:
+# 220 "data/maps/FortreeCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 221 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_MomGiveFireStarter_Text_1
+# 222 "data/maps/FortreeCity/scripts.pory"
+	call FortreeCity_NicknamePartyMon
+# 223 "data/maps/FortreeCity/scripts.pory"
+	setflag FLAG_MOM_GEN6
+	goto FortreeCity_MomGiveFireStarter_1
+
+FortreeCity_MomGiveFireStarter_6:
+# 225 "data/maps/FortreeCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 226 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_MomGiveFireStarter_Text_1
+# 227 "data/maps/FortreeCity/scripts.pory"
+	call FortreeCity_NicknameBoxMon
+# 228 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_MomGiveFireStarter_Text_2
+# 229 "data/maps/FortreeCity/scripts.pory"
+	setflag FLAG_MOM_GEN6
+	goto FortreeCity_MomGiveFireStarter_1
+
+
+FortreeCity_MomGiveWaterStarter::
+# 244 "data/maps/FortreeCity/scripts.pory"
+	showmonpic SPECIES_FROAKIE, 10, 3
+# 245 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_MomGiveWaterStarter_Text_0, MSGBOX_YESNO
+# 246 "data/maps/FortreeCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq FortreeCity_MomGiveWaterStarter_2
+# 264 "data/maps/FortreeCity/scripts.pory"
+	hidemonpic
+# 265 "data/maps/FortreeCity/scripts.pory"
+	call FortreeCity_Mom_NotChosen
+FortreeCity_MomGiveWaterStarter_1:
+# 267 "data/maps/FortreeCity/scripts.pory"
+	waitmessage
+# 268 "data/maps/FortreeCity/scripts.pory"
+	releaseall
+	end
+
+FortreeCity_MomGiveWaterStarter_2:
+# 247 "data/maps/FortreeCity/scripts.pory"
+	givemon SPECIES_FROAKIE, 5, ITEM_LUCKY_EGG
+# 248 "data/maps/FortreeCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq FortreeCity_MomGiveWaterStarter_5
+# 253 "data/maps/FortreeCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq FortreeCity_MomGiveWaterStarter_6
+# 260 "data/maps/FortreeCity/scripts.pory"
+	hidemonpic
+# 261 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_MomGiveGrassStarter_Text_3
+	goto FortreeCity_MomGiveWaterStarter_1
+
+FortreeCity_MomGiveWaterStarter_5:
+# 249 "data/maps/FortreeCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 250 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_MomGiveWaterStarter_Text_1
+# 251 "data/maps/FortreeCity/scripts.pory"
+	call FortreeCity_NicknamePartyMon
+# 252 "data/maps/FortreeCity/scripts.pory"
+	setflag FLAG_MOM_GEN6
+	goto FortreeCity_MomGiveWaterStarter_1
+
+FortreeCity_MomGiveWaterStarter_6:
+# 254 "data/maps/FortreeCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 255 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_MomGiveWaterStarter_Text_1
+# 256 "data/maps/FortreeCity/scripts.pory"
+	call FortreeCity_NicknameBoxMon
+# 257 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_MomGiveWaterStarter_Text_2
+# 258 "data/maps/FortreeCity/scripts.pory"
+	setflag FLAG_MOM_GEN6
+	goto FortreeCity_MomGiveWaterStarter_1
+
+
+FortreeCity_NicknamePartyMon::
+# 273 "data/maps/FortreeCity/scripts.pory"
+	hidemonpic
+# 274 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_NicknamePartyMon_Text_0, MSGBOX_YESNO
+# 275 "data/maps/FortreeCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq FortreeCity_NicknamePartyMon_1
+	return
+
+FortreeCity_NicknamePartyMon_1:
+# 276 "data/maps/FortreeCity/scripts.pory"
+	call Common_EventScript_GetGiftMonPartySlot
+# 277 "data/maps/FortreeCity/scripts.pory"
+	call Common_EventScript_NameReceivedPartyMon
+	return
+
+
+FortreeCity_NicknameBoxMon::
+# 282 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_NicknameBoxMon_Text_0, MSGBOX_YESNO
+# 283 "data/maps/FortreeCity/scripts.pory"
+	hidemonpic
+# 284 "data/maps/FortreeCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq FortreeCity_NicknameBoxMon_1
+	return
+
+FortreeCity_NicknameBoxMon_1:
+# 285 "data/maps/FortreeCity/scripts.pory"
+	call Common_EventScript_NameReceivedBoxMon
+	return
+
+
+FortreeCity_Mom_NotChosen::
+# 290 "data/maps/FortreeCity/scripts.pory"
+	msgbox FortreeCity_Mom_NotChosen_Text_0, MSGBOX_NPC
+# 291 "data/maps/FortreeCity/scripts.pory"
+	call FortreeCity_EventScript_Mom
+	return
+
+
+FortreeCity_EventScript_Mom_Text_0:
+# 163 "data/maps/FortreeCity/scripts.pory"
+	.string "I hope your Pokemon are doing OK!$"
+
+FortreeCity_EventScript_Mom_Text_1:
+# 167 "data/maps/FortreeCity/scripts.pory"
+	.string "Do you want a pokemon?$"
+
+FortreeCity_EventScript_Mom_Text_2:
+# 179 "data/maps/FortreeCity/scripts.pory"
+	.string "Come back if you change your mind.$"
+
+FortreeCity_MomGiveGrassStarter_Text_0:
+# 187 "data/maps/FortreeCity/scripts.pory"
+	.string "Do you want this Chespin?$"
+
+FortreeCity_MomGiveGrassStarter_Text_1:
+# 192 "data/maps/FortreeCity/scripts.pory"
+	.string "Received Chespin!$"
+
+FortreeCity_MomGiveGrassStarter_Text_2:
+# 199 "data/maps/FortreeCity/scripts.pory"
+	.string "Transferred Chespin to PC$"
+
+FortreeCity_MomGiveGrassStarter_Text_3:
+# 203 "data/maps/FortreeCity/scripts.pory"
+	.string "No more room.$"
+
+FortreeCity_MomGiveFireStarter_Text_0:
+# 216 "data/maps/FortreeCity/scripts.pory"
+	.string "Do you want this Fennekin?$"
+
+FortreeCity_MomGiveFireStarter_Text_1:
+# 221 "data/maps/FortreeCity/scripts.pory"
+	.string "Received Fennekin!$"
+
+FortreeCity_MomGiveFireStarter_Text_2:
+# 228 "data/maps/FortreeCity/scripts.pory"
+	.string "Transferred Fennekin to PC$"
+
+FortreeCity_MomGiveWaterStarter_Text_0:
+# 245 "data/maps/FortreeCity/scripts.pory"
+	.string "Do you want this Froakie?$"
+
+FortreeCity_MomGiveWaterStarter_Text_1:
+# 250 "data/maps/FortreeCity/scripts.pory"
+	.string "Received Froakie!$"
+
+FortreeCity_MomGiveWaterStarter_Text_2:
+# 257 "data/maps/FortreeCity/scripts.pory"
+	.string "Transferred Froakie to PC$"
+
+FortreeCity_NicknamePartyMon_Text_0:
+# 274 "data/maps/FortreeCity/scripts.pory"
+	.string "Give it a nickname?$"
+
+FortreeCity_NicknameBoxMon_Text_0:
+# 282 "data/maps/FortreeCity/scripts.pory"
+	.string "Give a nickname?$"
+
+FortreeCity_Mom_NotChosen_Text_0:
+# 290 "data/maps/FortreeCity/scripts.pory"
+	.string "You did not choose a Pokemon!$"

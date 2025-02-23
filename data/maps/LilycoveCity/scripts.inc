@@ -1520,3 +1520,340 @@ LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
 	.string "POKéMON as soon as we arrived.\p"
 # 761 "data/maps/LilycoveCity/scripts.pory"
 	.string "I mean, we are totally happy!$"
+
+LilycoveCity_EventScript_Mom::
+# 765 "data/maps/LilycoveCity/scripts.pory"
+	lockall
+# 767 "data/maps/LilycoveCity/scripts.pory"
+	goto_if_set FLAG_MOM_GEN7, LilycoveCity_EventScript_Mom_1
+# 771 "data/maps/LilycoveCity/scripts.pory"
+	faceplayer
+# 772 "data/maps/LilycoveCity/scripts.pory"
+	message LilycoveCity_EventScript_Mom_Text_1
+# 773 "data/maps/LilycoveCity/scripts.pory"
+	multichoice 25, 5, MOM_GEN7_STARTER, 0
+# 774 "data/maps/LilycoveCity/scripts.pory"
+	closemessage
+# 775 "data/maps/LilycoveCity/scripts.pory"
+	compare VAR_RESULT, 0
+	goto_if_eq LilycoveCity_EventScript_Mom_5
+# 778 "data/maps/LilycoveCity/scripts.pory"
+	compare VAR_RESULT, 1
+	goto_if_eq LilycoveCity_EventScript_Mom_6
+# 781 "data/maps/LilycoveCity/scripts.pory"
+	compare VAR_RESULT, 2
+	goto_if_eq LilycoveCity_EventScript_Mom_7
+LilycoveCity_EventScript_Mom_4:
+# 784 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_EventScript_Mom_Text_2
+# 785 "data/maps/LilycoveCity/scripts.pory"
+	waitmessage
+# 786 "data/maps/LilycoveCity/scripts.pory"
+	release
+	return
+
+LilycoveCity_EventScript_Mom_1:
+# 768 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_EventScript_Mom_Text_0, MSGBOX_NPC
+# 769 "data/maps/LilycoveCity/scripts.pory"
+	closemessage
+	return
+
+LilycoveCity_EventScript_Mom_5:
+# 776 "data/maps/LilycoveCity/scripts.pory"
+	call LilycoveCity_MomGiveGrassStarter
+	goto LilycoveCity_EventScript_Mom_4
+
+LilycoveCity_EventScript_Mom_6:
+# 779 "data/maps/LilycoveCity/scripts.pory"
+	call LilycoveCity_MomGiveFireStarter
+	goto LilycoveCity_EventScript_Mom_4
+
+LilycoveCity_EventScript_Mom_7:
+# 782 "data/maps/LilycoveCity/scripts.pory"
+	call LilycoveCity_MomGiveWaterStarter
+	goto LilycoveCity_EventScript_Mom_4
+
+
+LilycoveCity_MomGiveGrassStarter::
+# 791 "data/maps/LilycoveCity/scripts.pory"
+	showmonpic SPECIES_ROWLET, 10, 3
+# 792 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_MomGiveGrassStarter_Text_0, MSGBOX_YESNO
+# 793 "data/maps/LilycoveCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq LilycoveCity_MomGiveGrassStarter_2
+# 811 "data/maps/LilycoveCity/scripts.pory"
+	hidemonpic
+# 812 "data/maps/LilycoveCity/scripts.pory"
+	call LilycoveCity_Mom_NotChosen
+LilycoveCity_MomGiveGrassStarter_1:
+# 814 "data/maps/LilycoveCity/scripts.pory"
+	waitmessage
+# 815 "data/maps/LilycoveCity/scripts.pory"
+	releaseall
+	end
+
+LilycoveCity_MomGiveGrassStarter_2:
+# 794 "data/maps/LilycoveCity/scripts.pory"
+	givemon SPECIES_ROWLET, 5, ITEM_LUCKY_EGG
+# 795 "data/maps/LilycoveCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq LilycoveCity_MomGiveGrassStarter_5
+# 800 "data/maps/LilycoveCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq LilycoveCity_MomGiveGrassStarter_6
+# 807 "data/maps/LilycoveCity/scripts.pory"
+	hidemonpic
+# 808 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_MomGiveGrassStarter_Text_3
+	goto LilycoveCity_MomGiveGrassStarter_1
+
+LilycoveCity_MomGiveGrassStarter_5:
+# 796 "data/maps/LilycoveCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 797 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_MomGiveGrassStarter_Text_1
+# 798 "data/maps/LilycoveCity/scripts.pory"
+	call LilycoveCity_NicknamePartyMon
+# 799 "data/maps/LilycoveCity/scripts.pory"
+	setflag FLAG_MOM_GEN7
+	goto LilycoveCity_MomGiveGrassStarter_1
+
+LilycoveCity_MomGiveGrassStarter_6:
+# 801 "data/maps/LilycoveCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 802 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_MomGiveGrassStarter_Text_1
+# 803 "data/maps/LilycoveCity/scripts.pory"
+	call LilycoveCity_NicknameBoxMon
+# 804 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_MomGiveGrassStarter_Text_2
+# 805 "data/maps/LilycoveCity/scripts.pory"
+	setflag FLAG_MOM_GEN7
+	goto LilycoveCity_MomGiveGrassStarter_1
+
+
+LilycoveCity_MomGiveFireStarter::
+# 820 "data/maps/LilycoveCity/scripts.pory"
+	showmonpic SPECIES_LITTEN, 10, 3
+# 821 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_MomGiveFireStarter_Text_0, MSGBOX_YESNO
+# 822 "data/maps/LilycoveCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq LilycoveCity_MomGiveFireStarter_2
+# 840 "data/maps/LilycoveCity/scripts.pory"
+	hidemonpic
+# 841 "data/maps/LilycoveCity/scripts.pory"
+	call LilycoveCity_Mom_NotChosen
+LilycoveCity_MomGiveFireStarter_1:
+# 843 "data/maps/LilycoveCity/scripts.pory"
+	waitmessage
+# 844 "data/maps/LilycoveCity/scripts.pory"
+	releaseall
+	end
+
+LilycoveCity_MomGiveFireStarter_2:
+# 823 "data/maps/LilycoveCity/scripts.pory"
+	givemon SPECIES_LITTEN, 5, ITEM_LUCKY_EGG
+# 824 "data/maps/LilycoveCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq LilycoveCity_MomGiveFireStarter_5
+# 829 "data/maps/LilycoveCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq LilycoveCity_MomGiveFireStarter_6
+# 836 "data/maps/LilycoveCity/scripts.pory"
+	hidemonpic
+# 837 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_MomGiveGrassStarter_Text_3
+	goto LilycoveCity_MomGiveFireStarter_1
+
+LilycoveCity_MomGiveFireStarter_5:
+# 825 "data/maps/LilycoveCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 826 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_MomGiveFireStarter_Text_1
+# 827 "data/maps/LilycoveCity/scripts.pory"
+	call LilycoveCity_NicknamePartyMon
+# 828 "data/maps/LilycoveCity/scripts.pory"
+	setflag FLAG_MOM_GEN7
+	goto LilycoveCity_MomGiveFireStarter_1
+
+LilycoveCity_MomGiveFireStarter_6:
+# 830 "data/maps/LilycoveCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 831 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_MomGiveFireStarter_Text_1
+# 832 "data/maps/LilycoveCity/scripts.pory"
+	call LilycoveCity_NicknameBoxMon
+# 833 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_MomGiveFireStarter_Text_2
+# 834 "data/maps/LilycoveCity/scripts.pory"
+	setflag FLAG_MOM_GEN7
+	goto LilycoveCity_MomGiveFireStarter_1
+
+
+LilycoveCity_MomGiveWaterStarter::
+# 849 "data/maps/LilycoveCity/scripts.pory"
+	showmonpic SPECIES_POPPLIO, 10, 3
+# 850 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_MomGiveWaterStarter_Text_0, MSGBOX_YESNO
+# 851 "data/maps/LilycoveCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq LilycoveCity_MomGiveWaterStarter_2
+# 869 "data/maps/LilycoveCity/scripts.pory"
+	hidemonpic
+# 870 "data/maps/LilycoveCity/scripts.pory"
+	call LilycoveCity_Mom_NotChosen
+LilycoveCity_MomGiveWaterStarter_1:
+# 872 "data/maps/LilycoveCity/scripts.pory"
+	waitmessage
+# 873 "data/maps/LilycoveCity/scripts.pory"
+	releaseall
+	end
+
+LilycoveCity_MomGiveWaterStarter_2:
+# 852 "data/maps/LilycoveCity/scripts.pory"
+	givemon SPECIES_POPPLIO, 5, ITEM_LUCKY_EGG
+# 853 "data/maps/LilycoveCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq LilycoveCity_MomGiveWaterStarter_5
+# 858 "data/maps/LilycoveCity/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq LilycoveCity_MomGiveWaterStarter_6
+# 865 "data/maps/LilycoveCity/scripts.pory"
+	hidemonpic
+# 866 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_MomGiveGrassStarter_Text_3
+	goto LilycoveCity_MomGiveWaterStarter_1
+
+LilycoveCity_MomGiveWaterStarter_5:
+# 854 "data/maps/LilycoveCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 855 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_MomGiveWaterStarter_Text_1
+# 856 "data/maps/LilycoveCity/scripts.pory"
+	call LilycoveCity_NicknamePartyMon
+# 857 "data/maps/LilycoveCity/scripts.pory"
+	setflag FLAG_MOM_GEN7
+	goto LilycoveCity_MomGiveWaterStarter_1
+
+LilycoveCity_MomGiveWaterStarter_6:
+# 859 "data/maps/LilycoveCity/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 860 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_MomGiveWaterStarter_Text_1
+# 861 "data/maps/LilycoveCity/scripts.pory"
+	call LilycoveCity_NicknameBoxMon
+# 862 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_MomGiveWaterStarter_Text_2
+# 863 "data/maps/LilycoveCity/scripts.pory"
+	setflag FLAG_MOM_GEN7
+	goto LilycoveCity_MomGiveWaterStarter_1
+
+
+LilycoveCity_NicknamePartyMon::
+# 878 "data/maps/LilycoveCity/scripts.pory"
+	hidemonpic
+# 879 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_NicknamePartyMon_Text_0, MSGBOX_YESNO
+# 880 "data/maps/LilycoveCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq LilycoveCity_NicknamePartyMon_1
+	return
+
+LilycoveCity_NicknamePartyMon_1:
+# 881 "data/maps/LilycoveCity/scripts.pory"
+	call Common_EventScript_GetGiftMonPartySlot
+# 882 "data/maps/LilycoveCity/scripts.pory"
+	call Common_EventScript_NameReceivedPartyMon
+	return
+
+
+LilycoveCity_NicknameBoxMon::
+# 887 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_NicknameBoxMon_Text_0, MSGBOX_YESNO
+# 888 "data/maps/LilycoveCity/scripts.pory"
+	hidemonpic
+# 889 "data/maps/LilycoveCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq LilycoveCity_NicknameBoxMon_1
+	return
+
+LilycoveCity_NicknameBoxMon_1:
+# 890 "data/maps/LilycoveCity/scripts.pory"
+	call Common_EventScript_NameReceivedBoxMon
+	return
+
+
+LilycoveCity_Mom_NotChosen::
+# 895 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_Mom_NotChosen_Text_0, MSGBOX_NPC
+# 896 "data/maps/LilycoveCity/scripts.pory"
+	call LilycoveCity_EventScript_Mom
+	return
+
+
+LilycoveCity_EventScript_Mom_Text_0:
+# 768 "data/maps/LilycoveCity/scripts.pory"
+	.string "I hope your Pokemon are doing OK!$"
+
+LilycoveCity_EventScript_Mom_Text_1:
+# 772 "data/maps/LilycoveCity/scripts.pory"
+	.string "Do you want a pokemon?$"
+
+LilycoveCity_EventScript_Mom_Text_2:
+# 784 "data/maps/LilycoveCity/scripts.pory"
+	.string "Come back if you change your mind.$"
+
+LilycoveCity_MomGiveGrassStarter_Text_0:
+# 792 "data/maps/LilycoveCity/scripts.pory"
+	.string "Do you want this Rowlet?$"
+
+LilycoveCity_MomGiveGrassStarter_Text_1:
+# 797 "data/maps/LilycoveCity/scripts.pory"
+	.string "Received Rowlet!$"
+
+LilycoveCity_MomGiveGrassStarter_Text_2:
+# 804 "data/maps/LilycoveCity/scripts.pory"
+	.string "Transferred Rowlet to PC$"
+
+LilycoveCity_MomGiveGrassStarter_Text_3:
+# 808 "data/maps/LilycoveCity/scripts.pory"
+	.string "No more room.$"
+
+LilycoveCity_MomGiveFireStarter_Text_0:
+# 821 "data/maps/LilycoveCity/scripts.pory"
+	.string "Do you want this Litten?$"
+
+LilycoveCity_MomGiveFireStarter_Text_1:
+# 826 "data/maps/LilycoveCity/scripts.pory"
+	.string "Received Litten!$"
+
+LilycoveCity_MomGiveFireStarter_Text_2:
+# 833 "data/maps/LilycoveCity/scripts.pory"
+	.string "Transferred Litten to PC$"
+
+LilycoveCity_MomGiveWaterStarter_Text_0:
+# 850 "data/maps/LilycoveCity/scripts.pory"
+	.string "Do you want this Popplio?$"
+
+LilycoveCity_MomGiveWaterStarter_Text_1:
+# 855 "data/maps/LilycoveCity/scripts.pory"
+	.string "Received Popplio!$"
+
+LilycoveCity_MomGiveWaterStarter_Text_2:
+# 862 "data/maps/LilycoveCity/scripts.pory"
+	.string "Transferred Popplio to PC$"
+
+LilycoveCity_NicknamePartyMon_Text_0:
+# 879 "data/maps/LilycoveCity/scripts.pory"
+	.string "Give it a nickname?$"
+
+LilycoveCity_NicknameBoxMon_Text_0:
+# 887 "data/maps/LilycoveCity/scripts.pory"
+	.string "Give a nickname?$"
+
+LilycoveCity_Mom_NotChosen_Text_0:
+# 895 "data/maps/LilycoveCity/scripts.pory"
+	.string "You did not choose a Pokemon!$"

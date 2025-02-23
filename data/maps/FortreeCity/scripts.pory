@@ -156,3 +156,137 @@ FortreeCity_Text_GymSign:
 	.string "the world.”$"
 
 `
+script FortreeCity_EventScript_Mom {
+    lockall
+    # check flag
+    if (flag(FLAG_MOM_GEN6)) {
+        msgbox("I hope your Pokemon are doing OK!", MSGBOX_NPC)
+        closemessage
+    } else {
+        faceplayer
+        message("Do you want a pokemon?")
+        multichoice(25, 5, MOM_GEN6_STARTER, 0)
+        closemessage
+        if (var(VAR_RESULT) == 0){
+            call(FortreeCity_MomGiveGrassStarter)
+        }
+        elif (var(VAR_RESULT) == 1){
+            call(FortreeCity_MomGiveFireStarter)
+        }
+        elif (var(VAR_RESULT) == 2){
+            call(FortreeCity_MomGiveWaterStarter)
+        }
+        msgbox("Come back if you change your mind.")
+        waitmessage
+        release
+    }
+}
+
+script FortreeCity_MomGiveGrassStarter {
+    showmonpic(SPECIES_CHESPIN, 10, 3)
+    msgbox("Do you want this Chespin?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_CHESPIN, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Chespin!")
+            call(FortreeCity_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN6)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Chespin!")
+            call(FortreeCity_NicknameBoxMon)
+            msgbox("Transferred Chespin to PC")
+            setflag(FLAG_MOM_GEN6)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(FortreeCity_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script FortreeCity_MomGiveFireStarter {
+    showmonpic(SPECIES_FENNEKIN, 10, 3)
+    msgbox("Do you want this Fennekin?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_FENNEKIN, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Fennekin!")
+            call(FortreeCity_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN6)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Fennekin!")
+            call(FortreeCity_NicknameBoxMon)
+            msgbox("Transferred Fennekin to PC")
+            setflag(FLAG_MOM_GEN6)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(FortreeCity_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script FortreeCity_MomGiveWaterStarter {
+    showmonpic(SPECIES_FROAKIE, 10, 3)
+    msgbox("Do you want this Froakie?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_FROAKIE, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Froakie!")
+            call(FortreeCity_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN6)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Froakie!")
+            call(FortreeCity_NicknameBoxMon)
+            msgbox("Transferred Froakie to PC")
+            setflag(FLAG_MOM_GEN6)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(FortreeCity_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script FortreeCity_NicknamePartyMon{
+    hidemonpic
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+}
+
+script FortreeCity_NicknameBoxMon{
+    msgbox("Give a nickname?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+}
+
+script FortreeCity_Mom_NotChosen{
+    msgbox("You did not choose a Pokemon!", MSGBOX_NPC)
+    call(FortreeCity_EventScript_Mom)
+}

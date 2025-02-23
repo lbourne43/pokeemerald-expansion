@@ -800,6 +800,41 @@ static const struct MenuAction MultichoiceList_MomGen4Starter[] =
     {gText_MomPiplup},
 };
 
+static const struct MenuAction MultichoiceList_MomGen5Starter[] =
+{
+    {gText_MomSnivy},
+    {gText_MomTepig},
+    {gText_MomOshawott},
+};
+
+static const struct MenuAction MultichoiceList_MomGen6Starter[] =
+{
+    {gText_MomChespin},
+    {gText_MomFennekin},
+    {gText_MomFroakie},
+};
+
+static const struct MenuAction MultichoiceList_MomGen7Starter[] =
+{
+    {gText_MomRowlet},
+    {gText_MomLitten},
+    {gText_MomPopplio},
+};
+
+static const struct MenuAction MultichoiceList_MomGen8Starter[] =
+{
+    {gText_MomGrookey},
+    {gText_MomScorbunny},
+    {gText_MomSobble},
+};
+
+static const struct MenuAction MultichoiceList_MomGen9Starter[] =
+{
+    {gText_MomSprigatito},
+    {gText_MomFuecoco},
+    {gText_MomQuaxly},
+};
+
 static const struct MenuAction MultichoiceList_Exit[] =
 {
     {gText_Exit},
@@ -931,6 +966,11 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MOM_GEN1_STARTER]                 = MULTICHOICE(MultichoiceList_MomGen1Starter),
     [MOM_GEN2_STARTER]                 = MULTICHOICE(MultichoiceList_MomGen2Starter),
     [MOM_GEN4_STARTER]                 = MULTICHOICE(MultichoiceList_MomGen4Starter),
+    [MOM_GEN5_STARTER]                 = MULTICHOICE(MultichoiceList_MomGen5Starter),
+    [MOM_GEN6_STARTER]                 = MULTICHOICE(MultichoiceList_MomGen6Starter),
+    [MOM_GEN7_STARTER]                 = MULTICHOICE(MultichoiceList_MomGen7Starter),
+    [MOM_GEN8_STARTER]                 = MULTICHOICE(MultichoiceList_MomGen8Starter),
+    [MOM_GEN9_STARTER]                 = MULTICHOICE(MultichoiceList_MomGen9Starter),
 };
 
 const u8 *const gStdStrings[] =

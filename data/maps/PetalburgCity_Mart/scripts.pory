@@ -93,6 +93,7 @@ script PetalburgCity_Mart_EventScript_BattleMart {
 }
 
 mart PetalburgCity_BattleMartItems {
+        ITEM_TM_BULLET_SEED
         ITEM_TM_PROTECT
         ITEM_TM_SUNNY_DAY
         ITEM_TM_TAUNT
@@ -212,4 +213,7 @@ mart PetalburgCity_BattleMartItems {
 	ITEM_PROTECTIVE_PADS
 	ITEM_THROAT_SPRAY
 	ITEM_EJECT_PACK
+	ITEM_LOADED_DICE
+        ITEM_ABILITY_CAPSULE
+        ITEM_ABILITY_PATCH
 }

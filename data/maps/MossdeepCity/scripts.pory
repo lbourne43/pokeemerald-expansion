@@ -435,3 +435,137 @@ MossdeepCity_Text_SootopolisNewGymLeader:
 	.string "mentored WALLACE.$"
 
 `
+script MossdeepCity_EventScript_Mom {
+    lockall
+    # check flag
+    if (flag(FLAG_MOM_GEN8)) {
+        msgbox("I hope your Pokemon are doing OK!", MSGBOX_NPC)
+        closemessage
+    } else {
+        faceplayer
+        message("Do you want a pokemon?")
+        multichoice(25, 5, MOM_GEN8_STARTER, 0)
+        closemessage
+        if (var(VAR_RESULT) == 0){
+            call(MossdeepCity_MomGiveGrassStarter)
+        }
+        elif (var(VAR_RESULT) == 1){
+            call(MossdeepCity_MomGiveFireStarter)
+        }
+        elif (var(VAR_RESULT) == 2){
+            call(MossdeepCity_MomGiveWaterStarter)
+        }
+        msgbox("Come back if you change your mind.")
+        waitmessage
+        release
+    }
+}
+
+script MossdeepCity_MomGiveGrassStarter {
+    showmonpic(SPECIES_GROOKEY, 10, 3)
+    msgbox("Do you want this Grookey?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_GROOKEY, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Grookey!")
+            call(MossdeepCity_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN8)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Grookey!")
+            call(MossdeepCity_NicknameBoxMon)
+            msgbox("Transferred Grookey to PC")
+            setflag(FLAG_MOM_GEN8)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(MossdeepCity_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script MossdeepCity_MomGiveFireStarter {
+    showmonpic(SPECIES_SCORBUNNY, 10, 3)
+    msgbox("Do you want this Scorbunny?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_SCORBUNNY, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Scorbunny!")
+            call(MossdeepCity_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN8)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Scorbunny!")
+            call(MossdeepCity_NicknameBoxMon)
+            msgbox("Transferred Scorbunny to PC")
+            setflag(FLAG_MOM_GEN8)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(MossdeepCity_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script MossdeepCity_MomGiveWaterStarter {
+    showmonpic(SPECIES_SOBBLE, 10, 3)
+    msgbox("Do you want this Sobble?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_SOBBLE, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Sobble!")
+            call(MossdeepCity_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN8)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Sobble!")
+            call(MossdeepCity_NicknameBoxMon)
+            msgbox("Transferred Sobble to PC")
+            setflag(FLAG_MOM_GEN8)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(MossdeepCity_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script MossdeepCity_NicknamePartyMon{
+    hidemonpic
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+}
+
+script MossdeepCity_NicknameBoxMon{
+    msgbox("Give a nickname?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+}
+
+script MossdeepCity_Mom_NotChosen{
+    msgbox("You did not choose a Pokemon!", MSGBOX_NPC)
+    call(MossdeepCity_EventScript_Mom)
+}

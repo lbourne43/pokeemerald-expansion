@@ -106,3 +106,340 @@ PacifidlogTown_Text_TownSign:
 	.string "“Where the morning sun smiles upon\n"
 # 54 "data/maps/PacifidlogTown/scripts.pory"
 	.string "the waters.”$"
+
+PacifidlogTown_EventScript_Mom::
+# 58 "data/maps/PacifidlogTown/scripts.pory"
+	lockall
+# 60 "data/maps/PacifidlogTown/scripts.pory"
+	goto_if_set FLAG_MOM_GEN9, PacifidlogTown_EventScript_Mom_1
+# 64 "data/maps/PacifidlogTown/scripts.pory"
+	faceplayer
+# 65 "data/maps/PacifidlogTown/scripts.pory"
+	message PacifidlogTown_EventScript_Mom_Text_1
+# 66 "data/maps/PacifidlogTown/scripts.pory"
+	multichoice 25, 5, MOM_GEN9_STARTER, 0
+# 67 "data/maps/PacifidlogTown/scripts.pory"
+	closemessage
+# 68 "data/maps/PacifidlogTown/scripts.pory"
+	compare VAR_RESULT, 0
+	goto_if_eq PacifidlogTown_EventScript_Mom_5
+# 71 "data/maps/PacifidlogTown/scripts.pory"
+	compare VAR_RESULT, 1
+	goto_if_eq PacifidlogTown_EventScript_Mom_6
+# 74 "data/maps/PacifidlogTown/scripts.pory"
+	compare VAR_RESULT, 2
+	goto_if_eq PacifidlogTown_EventScript_Mom_7
+PacifidlogTown_EventScript_Mom_4:
+# 77 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_EventScript_Mom_Text_2
+# 78 "data/maps/PacifidlogTown/scripts.pory"
+	waitmessage
+# 79 "data/maps/PacifidlogTown/scripts.pory"
+	release
+	return
+
+PacifidlogTown_EventScript_Mom_1:
+# 61 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_EventScript_Mom_Text_0, MSGBOX_NPC
+# 62 "data/maps/PacifidlogTown/scripts.pory"
+	closemessage
+	return
+
+PacifidlogTown_EventScript_Mom_5:
+# 69 "data/maps/PacifidlogTown/scripts.pory"
+	call PacifidlogTown_MomGiveGrassStarter
+	goto PacifidlogTown_EventScript_Mom_4
+
+PacifidlogTown_EventScript_Mom_6:
+# 72 "data/maps/PacifidlogTown/scripts.pory"
+	call PacifidlogTown_MomGiveFireStarter
+	goto PacifidlogTown_EventScript_Mom_4
+
+PacifidlogTown_EventScript_Mom_7:
+# 75 "data/maps/PacifidlogTown/scripts.pory"
+	call PacifidlogTown_MomGiveWaterStarter
+	goto PacifidlogTown_EventScript_Mom_4
+
+
+PacifidlogTown_MomGiveGrassStarter::
+# 84 "data/maps/PacifidlogTown/scripts.pory"
+	showmonpic SPECIES_SPRIGATITO, 10, 3
+# 85 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_MomGiveGrassStarter_Text_0, MSGBOX_YESNO
+# 86 "data/maps/PacifidlogTown/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq PacifidlogTown_MomGiveGrassStarter_2
+# 104 "data/maps/PacifidlogTown/scripts.pory"
+	hidemonpic
+# 105 "data/maps/PacifidlogTown/scripts.pory"
+	call PacifidlogTown_Mom_NotChosen
+PacifidlogTown_MomGiveGrassStarter_1:
+# 107 "data/maps/PacifidlogTown/scripts.pory"
+	waitmessage
+# 108 "data/maps/PacifidlogTown/scripts.pory"
+	releaseall
+	end
+
+PacifidlogTown_MomGiveGrassStarter_2:
+# 87 "data/maps/PacifidlogTown/scripts.pory"
+	givemon SPECIES_SPRIGATITO, 5, ITEM_LUCKY_EGG
+# 88 "data/maps/PacifidlogTown/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq PacifidlogTown_MomGiveGrassStarter_5
+# 93 "data/maps/PacifidlogTown/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq PacifidlogTown_MomGiveGrassStarter_6
+# 100 "data/maps/PacifidlogTown/scripts.pory"
+	hidemonpic
+# 101 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_MomGiveGrassStarter_Text_3
+	goto PacifidlogTown_MomGiveGrassStarter_1
+
+PacifidlogTown_MomGiveGrassStarter_5:
+# 89 "data/maps/PacifidlogTown/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 90 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_MomGiveGrassStarter_Text_1
+# 91 "data/maps/PacifidlogTown/scripts.pory"
+	call PacifidlogTown_NicknamePartyMon
+# 92 "data/maps/PacifidlogTown/scripts.pory"
+	setflag FLAG_MOM_GEN9
+	goto PacifidlogTown_MomGiveGrassStarter_1
+
+PacifidlogTown_MomGiveGrassStarter_6:
+# 94 "data/maps/PacifidlogTown/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 95 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_MomGiveGrassStarter_Text_1
+# 96 "data/maps/PacifidlogTown/scripts.pory"
+	call PacifidlogTown_NicknameBoxMon
+# 97 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_MomGiveGrassStarter_Text_2
+# 98 "data/maps/PacifidlogTown/scripts.pory"
+	setflag FLAG_MOM_GEN9
+	goto PacifidlogTown_MomGiveGrassStarter_1
+
+
+PacifidlogTown_MomGiveFireStarter::
+# 113 "data/maps/PacifidlogTown/scripts.pory"
+	showmonpic SPECIES_FUECOCO, 10, 3
+# 114 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_MomGiveFireStarter_Text_0, MSGBOX_YESNO
+# 115 "data/maps/PacifidlogTown/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq PacifidlogTown_MomGiveFireStarter_2
+# 133 "data/maps/PacifidlogTown/scripts.pory"
+	hidemonpic
+# 134 "data/maps/PacifidlogTown/scripts.pory"
+	call PacifidlogTown_Mom_NotChosen
+PacifidlogTown_MomGiveFireStarter_1:
+# 136 "data/maps/PacifidlogTown/scripts.pory"
+	waitmessage
+# 137 "data/maps/PacifidlogTown/scripts.pory"
+	releaseall
+	end
+
+PacifidlogTown_MomGiveFireStarter_2:
+# 116 "data/maps/PacifidlogTown/scripts.pory"
+	givemon SPECIES_FUECOCO, 5, ITEM_LUCKY_EGG
+# 117 "data/maps/PacifidlogTown/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq PacifidlogTown_MomGiveFireStarter_5
+# 122 "data/maps/PacifidlogTown/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq PacifidlogTown_MomGiveFireStarter_6
+# 129 "data/maps/PacifidlogTown/scripts.pory"
+	hidemonpic
+# 130 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_MomGiveGrassStarter_Text_3
+	goto PacifidlogTown_MomGiveFireStarter_1
+
+PacifidlogTown_MomGiveFireStarter_5:
+# 118 "data/maps/PacifidlogTown/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 119 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_MomGiveFireStarter_Text_1
+# 120 "data/maps/PacifidlogTown/scripts.pory"
+	call PacifidlogTown_NicknamePartyMon
+# 121 "data/maps/PacifidlogTown/scripts.pory"
+	setflag FLAG_MOM_GEN9
+	goto PacifidlogTown_MomGiveFireStarter_1
+
+PacifidlogTown_MomGiveFireStarter_6:
+# 123 "data/maps/PacifidlogTown/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 124 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_MomGiveFireStarter_Text_1
+# 125 "data/maps/PacifidlogTown/scripts.pory"
+	call PacifidlogTown_NicknameBoxMon
+# 126 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_MomGiveFireStarter_Text_2
+# 127 "data/maps/PacifidlogTown/scripts.pory"
+	setflag FLAG_MOM_GEN9
+	goto PacifidlogTown_MomGiveFireStarter_1
+
+
+PacifidlogTown_MomGiveWaterStarter::
+# 142 "data/maps/PacifidlogTown/scripts.pory"
+	showmonpic SPECIES_QUAXLY, 10, 3
+# 143 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_MomGiveWaterStarter_Text_0, MSGBOX_YESNO
+# 144 "data/maps/PacifidlogTown/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq PacifidlogTown_MomGiveWaterStarter_2
+# 162 "data/maps/PacifidlogTown/scripts.pory"
+	hidemonpic
+# 163 "data/maps/PacifidlogTown/scripts.pory"
+	call PacifidlogTown_Mom_NotChosen
+PacifidlogTown_MomGiveWaterStarter_1:
+# 165 "data/maps/PacifidlogTown/scripts.pory"
+	waitmessage
+# 166 "data/maps/PacifidlogTown/scripts.pory"
+	releaseall
+	end
+
+PacifidlogTown_MomGiveWaterStarter_2:
+# 145 "data/maps/PacifidlogTown/scripts.pory"
+	givemon SPECIES_QUAXLY, 5, ITEM_LUCKY_EGG
+# 146 "data/maps/PacifidlogTown/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq PacifidlogTown_MomGiveWaterStarter_5
+# 151 "data/maps/PacifidlogTown/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq PacifidlogTown_MomGiveWaterStarter_6
+# 158 "data/maps/PacifidlogTown/scripts.pory"
+	hidemonpic
+# 159 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_MomGiveGrassStarter_Text_3
+	goto PacifidlogTown_MomGiveWaterStarter_1
+
+PacifidlogTown_MomGiveWaterStarter_5:
+# 147 "data/maps/PacifidlogTown/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 148 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_MomGiveWaterStarter_Text_1
+# 149 "data/maps/PacifidlogTown/scripts.pory"
+	call PacifidlogTown_NicknamePartyMon
+# 150 "data/maps/PacifidlogTown/scripts.pory"
+	setflag FLAG_MOM_GEN9
+	goto PacifidlogTown_MomGiveWaterStarter_1
+
+PacifidlogTown_MomGiveWaterStarter_6:
+# 152 "data/maps/PacifidlogTown/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 153 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_MomGiveWaterStarter_Text_1
+# 154 "data/maps/PacifidlogTown/scripts.pory"
+	call PacifidlogTown_NicknameBoxMon
+# 155 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_MomGiveWaterStarter_Text_2
+# 156 "data/maps/PacifidlogTown/scripts.pory"
+	setflag FLAG_MOM_GEN9
+	goto PacifidlogTown_MomGiveWaterStarter_1
+
+
+PacifidlogTown_NicknamePartyMon::
+# 171 "data/maps/PacifidlogTown/scripts.pory"
+	hidemonpic
+# 172 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_NicknamePartyMon_Text_0, MSGBOX_YESNO
+# 173 "data/maps/PacifidlogTown/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq PacifidlogTown_NicknamePartyMon_1
+	return
+
+PacifidlogTown_NicknamePartyMon_1:
+# 174 "data/maps/PacifidlogTown/scripts.pory"
+	call Common_EventScript_GetGiftMonPartySlot
+# 175 "data/maps/PacifidlogTown/scripts.pory"
+	call Common_EventScript_NameReceivedPartyMon
+	return
+
+
+PacifidlogTown_NicknameBoxMon::
+# 180 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_NicknameBoxMon_Text_0, MSGBOX_YESNO
+# 181 "data/maps/PacifidlogTown/scripts.pory"
+	hidemonpic
+# 182 "data/maps/PacifidlogTown/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq PacifidlogTown_NicknameBoxMon_1
+	return
+
+PacifidlogTown_NicknameBoxMon_1:
+# 183 "data/maps/PacifidlogTown/scripts.pory"
+	call Common_EventScript_NameReceivedBoxMon
+	return
+
+
+PacifidlogTown_Mom_NotChosen::
+# 188 "data/maps/PacifidlogTown/scripts.pory"
+	msgbox PacifidlogTown_Mom_NotChosen_Text_0, MSGBOX_NPC
+# 189 "data/maps/PacifidlogTown/scripts.pory"
+	call PacifidlogTown_EventScript_Mom
+	return
+
+
+PacifidlogTown_EventScript_Mom_Text_0:
+# 61 "data/maps/PacifidlogTown/scripts.pory"
+	.string "I hope your Pokemon are doing OK!$"
+
+PacifidlogTown_EventScript_Mom_Text_1:
+# 65 "data/maps/PacifidlogTown/scripts.pory"
+	.string "Do you want a pokemon?$"
+
+PacifidlogTown_EventScript_Mom_Text_2:
+# 77 "data/maps/PacifidlogTown/scripts.pory"
+	.string "Come back if you change your mind.$"
+
+PacifidlogTown_MomGiveGrassStarter_Text_0:
+# 85 "data/maps/PacifidlogTown/scripts.pory"
+	.string "Do you want this Sprigatito?$"
+
+PacifidlogTown_MomGiveGrassStarter_Text_1:
+# 90 "data/maps/PacifidlogTown/scripts.pory"
+	.string "Received Sprigatito!$"
+
+PacifidlogTown_MomGiveGrassStarter_Text_2:
+# 97 "data/maps/PacifidlogTown/scripts.pory"
+	.string "Transferred Sprigatito to PC$"
+
+PacifidlogTown_MomGiveGrassStarter_Text_3:
+# 101 "data/maps/PacifidlogTown/scripts.pory"
+	.string "No more room.$"
+
+PacifidlogTown_MomGiveFireStarter_Text_0:
+# 114 "data/maps/PacifidlogTown/scripts.pory"
+	.string "Do you want this Fuecoco?$"
+
+PacifidlogTown_MomGiveFireStarter_Text_1:
+# 119 "data/maps/PacifidlogTown/scripts.pory"
+	.string "Received Fuecoco!$"
+
+PacifidlogTown_MomGiveFireStarter_Text_2:
+# 126 "data/maps/PacifidlogTown/scripts.pory"
+	.string "Transferred Fuecoco to PC$"
+
+PacifidlogTown_MomGiveWaterStarter_Text_0:
+# 143 "data/maps/PacifidlogTown/scripts.pory"
+	.string "Do you want this Quaxly?$"
+
+PacifidlogTown_MomGiveWaterStarter_Text_1:
+# 148 "data/maps/PacifidlogTown/scripts.pory"
+	.string "Received Quaxly!$"
+
+PacifidlogTown_MomGiveWaterStarter_Text_2:
+# 155 "data/maps/PacifidlogTown/scripts.pory"
+	.string "Transferred Quaxly to PC$"
+
+PacifidlogTown_NicknamePartyMon_Text_0:
+# 172 "data/maps/PacifidlogTown/scripts.pory"
+	.string "Give it a nickname?$"
+
+PacifidlogTown_NicknameBoxMon_Text_0:
+# 180 "data/maps/PacifidlogTown/scripts.pory"
+	.string "Give a nickname?$"
+
+PacifidlogTown_Mom_NotChosen_Text_0:
+# 188 "data/maps/PacifidlogTown/scripts.pory"
+	.string "You did not choose a Pokemon!$"

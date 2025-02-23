@@ -2723,4 +2723,24 @@ extern const u8 gText_MomTurtwig[];
 extern const u8 gText_MomChimchar[];
 extern const u8 gText_MomPiplup[];
 
+extern const u8 gText_MomSnivy[];
+extern const u8 gText_MomTepig[];
+extern const u8 gText_MomOshawott[];
+
+extern const u8 gText_MomChespin[];
+extern const u8 gText_MomFennekin[];
+extern const u8 gText_MomFroakie[];
+
+extern const u8 gText_MomRowlet[];
+extern const u8 gText_MomLitten[];
+extern const u8 gText_MomPopplio[];
+
+extern const u8 gText_MomGrookey[];
+extern const u8 gText_MomScorbunny[];
+extern const u8 gText_MomSobble[];
+
+extern const u8 gText_MomSprigatito[];
+extern const u8 gText_MomFuecoco[];
+extern const u8 gText_MomQuaxly[];
+
 #endif // GUARD_STRINGS_H

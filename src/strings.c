@@ -1581,3 +1581,23 @@ const u8 gText_MomTotodile[] = _("Totodile");
 const u8 gText_MomTurtwig[] = _("Turtwig");
 const u8 gText_MomChimchar[] = _("Chimchar");
 const u8 gText_MomPiplup[] = _("Piplup");
+
+const u8 gText_MomSnivy[] = _("Snivy");
+const u8 gText_MomTepig[] = _("Tepig");
+const u8 gText_MomOshawott[] = _("Oshawott");
+
+const u8 gText_MomChespin[] = _("Chespin");
+const u8 gText_MomFennekin[] = _("Fennekin");
+const u8 gText_MomFroakie[] = _("Froakie");
+
+const u8 gText_MomRowlet[] = _("Rowlet");
+const u8 gText_MomLitten[] = _("Litten");
+const u8 gText_MomPopplio[] = _("Popplio");
+
+const u8 gText_MomGrookey[] = _("Grookey");
+const u8 gText_MomScorbunny[] = _("Scorbunny");
+const u8 gText_MomSobble[] = _("Sobble");
+
+const u8 gText_MomSprigatito[] = _("Sprigatito");
+const u8 gText_MomFuecoco[] = _("Fuecoco");
+const u8 gText_MomQuaxly[] = _("Quaxly");

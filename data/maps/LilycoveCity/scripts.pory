@@ -761,3 +761,137 @@ LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
 	.string "I mean, we are totally happy!$"
 
 `
+script LilycoveCity_EventScript_Mom {
+    lockall
+    # check flag
+    if (flag(FLAG_MOM_GEN7)) {
+        msgbox("I hope your Pokemon are doing OK!", MSGBOX_NPC)
+        closemessage
+    } else {
+        faceplayer
+        message("Do you want a pokemon?")
+        multichoice(25, 5, MOM_GEN7_STARTER, 0)
+        closemessage
+        if (var(VAR_RESULT) == 0){
+            call(LilycoveCity_MomGiveGrassStarter)
+        }
+        elif (var(VAR_RESULT) == 1){
+            call(LilycoveCity_MomGiveFireStarter)
+        }
+        elif (var(VAR_RESULT) == 2){
+            call(LilycoveCity_MomGiveWaterStarter)
+        }
+        msgbox("Come back if you change your mind.")
+        waitmessage
+        release
+    }
+}
+
+script LilycoveCity_MomGiveGrassStarter {
+    showmonpic(SPECIES_ROWLET, 10, 3)
+    msgbox("Do you want this Rowlet?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_ROWLET, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Rowlet!")
+            call(LilycoveCity_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN7)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Rowlet!")
+            call(LilycoveCity_NicknameBoxMon)
+            msgbox("Transferred Rowlet to PC")
+            setflag(FLAG_MOM_GEN7)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(LilycoveCity_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script LilycoveCity_MomGiveFireStarter {
+    showmonpic(SPECIES_LITTEN, 10, 3)
+    msgbox("Do you want this Litten?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_LITTEN, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Litten!")
+            call(LilycoveCity_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN7)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Litten!")
+            call(LilycoveCity_NicknameBoxMon)
+            msgbox("Transferred Litten to PC")
+            setflag(FLAG_MOM_GEN7)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(LilycoveCity_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script LilycoveCity_MomGiveWaterStarter {
+    showmonpic(SPECIES_POPPLIO, 10, 3)
+    msgbox("Do you want this Popplio?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_POPPLIO, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Popplio!")
+            call(LilycoveCity_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN7)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Popplio!")
+            call(LilycoveCity_NicknameBoxMon)
+            msgbox("Transferred Popplio to PC")
+            setflag(FLAG_MOM_GEN7)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(LilycoveCity_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script LilycoveCity_NicknamePartyMon{
+    hidemonpic
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+}
+
+script LilycoveCity_NicknameBoxMon{
+    msgbox("Give a nickname?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+}
+
+script LilycoveCity_Mom_NotChosen{
+    msgbox("You did not choose a Pokemon!", MSGBOX_NPC)
+    call(LilycoveCity_EventScript_Mom)
+}

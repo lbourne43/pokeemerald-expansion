@@ -54,3 +54,137 @@ PacifidlogTown_Text_TownSign:
 	.string "the waters.”$"
 
 `
+script PacifidlogTown_EventScript_Mom {
+    lockall
+    # check flag
+    if (flag(FLAG_MOM_GEN9)) {
+        msgbox("I hope your Pokemon are doing OK!", MSGBOX_NPC)
+        closemessage
+    } else {
+        faceplayer
+        message("Do you want a pokemon?")
+        multichoice(25, 5, MOM_GEN9_STARTER, 0)
+        closemessage
+        if (var(VAR_RESULT) == 0){
+            call(PacifidlogTown_MomGiveGrassStarter)
+        }
+        elif (var(VAR_RESULT) == 1){
+            call(PacifidlogTown_MomGiveFireStarter)
+        }
+        elif (var(VAR_RESULT) == 2){
+            call(PacifidlogTown_MomGiveWaterStarter)
+        }
+        msgbox("Come back if you change your mind.")
+        waitmessage
+        release
+    }
+}
+
+script PacifidlogTown_MomGiveGrassStarter {
+    showmonpic(SPECIES_SPRIGATITO, 10, 3)
+    msgbox("Do you want this Sprigatito?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_SPRIGATITO, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Sprigatito!")
+            call(PacifidlogTown_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN9)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Sprigatito!")
+            call(PacifidlogTown_NicknameBoxMon)
+            msgbox("Transferred Sprigatito to PC")
+            setflag(FLAG_MOM_GEN9)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(PacifidlogTown_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script PacifidlogTown_MomGiveFireStarter {
+    showmonpic(SPECIES_FUECOCO, 10, 3)
+    msgbox("Do you want this Fuecoco?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_FUECOCO, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Fuecoco!")
+            call(PacifidlogTown_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN9)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Fuecoco!")
+            call(PacifidlogTown_NicknameBoxMon)
+            msgbox("Transferred Fuecoco to PC")
+            setflag(FLAG_MOM_GEN9)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(PacifidlogTown_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script PacifidlogTown_MomGiveWaterStarter {
+    showmonpic(SPECIES_QUAXLY, 10, 3)
+    msgbox("Do you want this Quaxly?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        givemon(SPECIES_QUAXLY, 5, ITEM_LUCKY_EGG)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Quaxly!")
+            call(PacifidlogTown_NicknamePartyMon)
+            setflag(FLAG_MOM_GEN9)
+        } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Received Quaxly!")
+            call(PacifidlogTown_NicknameBoxMon)
+            msgbox("Transferred Quaxly to PC")
+            setflag(FLAG_MOM_GEN9)
+        } else {
+            hidemonpic
+            msgbox("No more room.")
+        }
+    } else {
+        hidemonpic
+        call(PacifidlogTown_Mom_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script PacifidlogTown_NicknamePartyMon{
+    hidemonpic
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+}
+
+script PacifidlogTown_NicknameBoxMon{
+    msgbox("Give a nickname?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+}
+
+script PacifidlogTown_Mom_NotChosen{
+    msgbox("You did not choose a Pokemon!", MSGBOX_NPC)
+    call(PacifidlogTown_EventScript_Mom)
+}
