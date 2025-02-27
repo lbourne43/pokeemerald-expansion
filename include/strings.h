@@ -840,6 +840,8 @@ extern const u8 gText_PokeFluteAwakenedMon[];
 extern const u8 gText_LevelSymbol[];
 extern const u8 gText_PkmnInfo[];
 extern const u8 gText_PkmnSkills[];
+extern const u8 gText_PkmnIVs[];
+extern const u8 gText_PkmnEVs[];
 extern const u8 gText_BattleMoves[];
 extern const u8 gText_ContestMoves[];
 extern const u8 gText_HMMovesCantBeForgotten2[];

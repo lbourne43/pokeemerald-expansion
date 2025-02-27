@@ -296,31 +296,37 @@ LilycoveCity_EventScript_DeclineBrendanBattle::
 
 LilycoveCity_EventScript_BattleMayTreecko::
 	trainerbattle_no_intro TRAINER_MAY_LILYCOVE_TREECKO, LilycoveCity_Text_MayDefeat
+        goto LilycoveCity_EventScript_MayGiveMudkip
 	goto LilycoveCity_EventScript_DefeatedMay
 	end
 
 LilycoveCity_EventScript_BattleMayTorchic::
 	trainerbattle_no_intro TRAINER_MAY_LILYCOVE_TORCHIC, LilycoveCity_Text_MayDefeat
+        goto LilycoveCity_EventScript_MayGiveTreecko
 	goto LilycoveCity_EventScript_DefeatedMay
 	end
 
 LilycoveCity_EventScript_BattleMayMudkip::
 	trainerbattle_no_intro TRAINER_MAY_LILYCOVE_MUDKIP, LilycoveCity_Text_MayDefeat
+        goto LilycoveCity_EventScript_MayGiveTorchic
 	goto LilycoveCity_EventScript_DefeatedMay
 	end
 
 LilycoveCity_EventScript_BattleBrendanTreecko::
 	trainerbattle_no_intro TRAINER_BRENDAN_LILYCOVE_TREECKO, LilycoveCity_Text_BrendanDefeat
+        goto LilycoveCity_EventScript_BrendanGiveMudkip
 	goto LilycoveCity_EventScript_DefeatedBrendan
 	end
 
 LilycoveCity_EventScript_BattleBrendanTorchic::
 	trainerbattle_no_intro TRAINER_BRENDAN_LILYCOVE_TORCHIC, LilycoveCity_Text_BrendanDefeat
+        goto LilycoveCity_EventScript_BrendanGiveTreecko
 	goto LilycoveCity_EventScript_DefeatedBrendan
 	end
 
 LilycoveCity_EventScript_BattleBrendanMudkip::
 	trainerbattle_no_intro TRAINER_BRENDAN_LILYCOVE_MUDKIP, LilycoveCity_Text_BrendanDefeat
+        goto LilycoveCity_EventScript_BrendanGiveTorchic
 	goto LilycoveCity_EventScript_DefeatedBrendan
 	end
 
@@ -894,4 +900,113 @@ script LilycoveCity_NicknameBoxMon{
 script LilycoveCity_Mom_NotChosen{
     msgbox("You did not choose a Pokemon!", MSGBOX_NPC)
     call(LilycoveCity_EventScript_Mom)
+}
+
+
+script LilycoveCity_EventScript_MayGiveTorchic {
+    msgbox(format("Oh! I nearly forgot, I hatched this Torchic for you!"), MSGBOX_NPC)
+    givemon(SPECIES_TORCHIC, 5)
+    if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Received Torchic!", MSGBOX_NPC)
+        call(LilycoveCity_NicknamePartyMon)
+    } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Received Torchic!", MSGBOX_NPC)
+        call(MauvilleCity_NicknameBoxMon)
+        msgbox("Transferred Torchic to PC", MSGBOX_NPC)
+    } else {
+        msgbox("No more room.", MSGBOX_NPC)
+    }
+    call(LilycoveCity_EventScript_DefeatedMay)
+}
+
+script LilycoveCity_EventScript_BrendanGiveTorchic {
+    msgbox(format("Oh! I nearly forgot, I hatched this Torchic for you!"), MSGBOX_NPC)
+    givemon(SPECIES_TORCHIC, 5)
+    if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Received Torchic!", MSGBOX_NPC)
+        call(LilycoveCity_NicknamePartyMon)
+    } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Received Torchic!", MSGBOX_NPC)
+        call(MauvilleCity_NicknameBoxMon)
+        msgbox("Transferred Torchic to PC", MSGBOX_NPC)
+    } else {
+        msgbox("No more room.", MSGBOX_NPC)
+    }
+    call(LilycoveCity_EventScript_DefeatedBrendan)
+}
+
+script LilycoveCity_EventScript_MayGiveMudkip {
+    msgbox(format("Oh! I nearly forgot, I hatched this Mudkip for you!"), MSGBOX_NPC)
+    givemon(SPECIES_MUDKIP, 5)
+    if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Received Mudkip!", MSGBOX_NPC)
+        call(LilycoveCity_NicknamePartyMon)
+    } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Received Mudkip!", MSGBOX_NPC)
+        call(MauvilleCity_NicknameBoxMon)
+        msgbox("Transferred Mudkip to PC", MSGBOX_NPC)
+    } else {
+        msgbox("No more room.", MSGBOX_NPC)
+    }
+    call(LilycoveCity_EventScript_DefeatedMay)
+}
+
+script LilycoveCity_EventScript_BrendanGiveMudkip {
+    msgbox(format("Oh! I nearly forgot, I hatched this Mudkip for you!"), MSGBOX_NPC)
+    givemon(SPECIES_MUDKIP, 5)
+    if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Received Mudkip!", MSGBOX_NPC)
+        call(LilycoveCity_NicknamePartyMon)
+    } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Received Mudkip!", MSGBOX_NPC)
+        call(MauvilleCity_NicknameBoxMon)
+        msgbox("Transferred Mudkip to PC", MSGBOX_NPC)
+    } else {
+        msgbox("No more room.", MSGBOX_NPC)
+    }
+    call(LilycoveCity_EventScript_DefeatedBrendan)
+}
+
+script LilycoveCity_EventScript_MayGiveTreecko {
+    msgbox(format("Oh! I nearly forgot, I hatched this Treecko for you!"), MSGBOX_NPC)
+    givemon(SPECIES_TREECKO, 5)
+    if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Received Treecko!", MSGBOX_NPC)
+        call(LilycoveCity_NicknamePartyMon)
+    } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Received Treecko!", MSGBOX_NPC)
+        call(MauvilleCity_NicknameBoxMon)
+        msgbox("Transferred Treecko to PC", MSGBOX_NPC)
+    } else {
+        msgbox("No more room.", MSGBOX_NPC)
+    }
+    call(LilycoveCity_EventScript_DefeatedMay)
+}
+
+script LilycoveCity_EventScript_BrendanGiveTreecko {
+    msgbox(format("Oh! I nearly forgot, I hatched this Treecko for you!"), MSGBOX_NPC)
+    givemon(SPECIES_TREECKO, 5)
+    if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Received Treecko!", MSGBOX_NPC)
+        call(LilycoveCity_NicknamePartyMon)
+    } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Received Treecko!", MSGBOX_NPC)
+        call(MauvilleCity_NicknameBoxMon)
+        msgbox("Transferred Treecko to PC", MSGBOX_NPC)
+    } else {
+        msgbox("No more room.", MSGBOX_NPC)
+    }
+    call(LilycoveCity_EventScript_DefeatedBrendan)
 }

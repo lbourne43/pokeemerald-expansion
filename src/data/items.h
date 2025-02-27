@@ -1297,7 +1297,8 @@ const struct Item gItemsInfo[] =
     [ITEM_HP_UP] =
     {
         .name = _("HP Up"),
-        .price = (I_PRICE >= GEN_7) ? 10000 : 9800,
+        .price = 5000,
+        //.price = (I_PRICE >= GEN_7) ? 10000 : 9800,
         .description = COMPOUND_STRING(
             "Raises the base HP\n"
             "of one Pokémon."),
@@ -1313,7 +1314,8 @@ const struct Item gItemsInfo[] =
     [ITEM_PROTEIN] =
     {
         .name = _("Protein"),
-        .price = (I_PRICE >= GEN_7) ? 10000 : 9800,
+        .price = 5000,
+        //.price = (I_PRICE >= GEN_7) ? 10000 : 9800,
         .description = COMPOUND_STRING(
             "Raises the base\n"
             "Attack stat of one\n"
@@ -1330,7 +1332,8 @@ const struct Item gItemsInfo[] =
     [ITEM_IRON] =
     {
         .name = _("Iron"),
-        .price = (I_PRICE >= GEN_7) ? 10000 : 9800,
+	.price = 5000,
+        //.price = (I_PRICE >= GEN_7) ? 10000 : 9800,
         .description = COMPOUND_STRING(
             "Raises the base\n"
             "Defense stat of\n"
@@ -1347,7 +1350,8 @@ const struct Item gItemsInfo[] =
     [ITEM_CALCIUM] =
     {
         .name = _("Calcium"),
-        .price = (I_PRICE >= GEN_7) ? 10000 : 9800,
+	.price = 5000,
+        //.price = (I_PRICE >= GEN_7) ? 10000 : 9800,
         .description = COMPOUND_STRING(
             "Raises the base\n"
             "Sp. Atk stat of one\n"
@@ -1364,7 +1368,8 @@ const struct Item gItemsInfo[] =
     [ITEM_ZINC] =
     {
         .name = _("Zinc"),
-        .price = (I_PRICE >= GEN_7) ? 10000 : 9800,
+	.price = 5000,
+        //.price = (I_PRICE >= GEN_7) ? 10000 : 9800,
         .description = COMPOUND_STRING(
             "Raises the base\n"
             "Sp. Def stat of one\n"
@@ -1382,7 +1387,8 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Carbos"),
         .pluralName = _("Carbos"),
-        .price = (I_PRICE >= GEN_7) ? 10000 : 9800,
+	.price = 5000,
+        //.price = (I_PRICE >= GEN_7) ? 10000 : 9800,
         .description = COMPOUND_STRING(
             "Raises the base\n"
             "Speed stat of one\n"
@@ -1399,7 +1405,8 @@ const struct Item gItemsInfo[] =
     [ITEM_PP_UP] =
     {
         .name = _("PP Up"),
-        .price = (I_PRICE == GEN_1) ? 1 : ((I_PRICE >= GEN_7) ? 10000 : 9800),
+        .price = 5000,
+        //.price = (I_PRICE == GEN_1) ? 1 : ((I_PRICE >= GEN_7) ? 10000 : 9800),
         .description = COMPOUND_STRING(
             "Raises the maximum\n"
             "PP of a selected\n"
@@ -1558,7 +1565,8 @@ const struct Item gItemsInfo[] =
     [ITEM_LONELY_MINT] =
     {
         .name = _("Lonely Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Attack, but\n"
@@ -1575,7 +1583,8 @@ const struct Item gItemsInfo[] =
     [ITEM_ADAMANT_MINT] =
     {
         .name = _("Adamant Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Attack, but\n"
@@ -1592,7 +1601,8 @@ const struct Item gItemsInfo[] =
     [ITEM_NAUGHTY_MINT] =
     {
         .name = _("Naughty Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Attack, but\n"
@@ -1609,7 +1619,8 @@ const struct Item gItemsInfo[] =
     [ITEM_BRAVE_MINT] =
     {
         .name = _("Brave Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Attack, but\n"
@@ -1626,7 +1637,8 @@ const struct Item gItemsInfo[] =
     [ITEM_BOLD_MINT] =
     {
         .name = _("Bold Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Defense, but\n"
@@ -1643,7 +1655,8 @@ const struct Item gItemsInfo[] =
     [ITEM_IMPISH_MINT] =
     {
         .name = _("Impish Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Defense, but\n"
@@ -1660,7 +1673,8 @@ const struct Item gItemsInfo[] =
     [ITEM_LAX_MINT] =
     {
         .name = _("Lax Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Defense, but\n"
@@ -1677,7 +1691,8 @@ const struct Item gItemsInfo[] =
     [ITEM_RELAXED_MINT] =
     {
         .name = _("Relaxed Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Defense, but\n"
@@ -1694,7 +1709,8 @@ const struct Item gItemsInfo[] =
     [ITEM_MODEST_MINT] =
     {
         .name = _("Modest Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Sp. Atk, but\n"
@@ -1711,7 +1727,8 @@ const struct Item gItemsInfo[] =
     [ITEM_MILD_MINT] =
     {
         .name = _("Mild Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Sp. Atk, but\n"
@@ -1728,7 +1745,8 @@ const struct Item gItemsInfo[] =
     [ITEM_RASH_MINT] =
     {
         .name = _("Rash Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Sp. Atk, but\n"
@@ -1745,7 +1763,8 @@ const struct Item gItemsInfo[] =
     [ITEM_QUIET_MINT] =
     {
         .name = _("Quiet Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Sp. Atk, but\n"
@@ -1762,7 +1781,8 @@ const struct Item gItemsInfo[] =
     [ITEM_CALM_MINT] =
     {
         .name = _("Calm Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Sp. Def, but\n"
@@ -1779,7 +1799,8 @@ const struct Item gItemsInfo[] =
     [ITEM_GENTLE_MINT] =
     {
         .name = _("Gentle Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Sp. Def, but\n"
@@ -1796,7 +1817,8 @@ const struct Item gItemsInfo[] =
     [ITEM_CAREFUL_MINT] =
     {
         .name = _("Careful Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Sp. Def, but\n"
@@ -1813,7 +1835,8 @@ const struct Item gItemsInfo[] =
     [ITEM_SASSY_MINT] =
     {
         .name = _("Sassy Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Sp. Def, but\n"
@@ -1830,7 +1853,8 @@ const struct Item gItemsInfo[] =
     [ITEM_TIMID_MINT] =
     {
         .name = _("Timid Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Speed, but\n"
@@ -1847,7 +1871,8 @@ const struct Item gItemsInfo[] =
     [ITEM_HASTY_MINT] =
     {
         .name = _("Hasty Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Speed, but\n"
@@ -1864,7 +1889,8 @@ const struct Item gItemsInfo[] =
     [ITEM_JOLLY_MINT] =
     {
         .name = _("Jolly Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Speed, but\n"
@@ -1881,7 +1907,8 @@ const struct Item gItemsInfo[] =
     [ITEM_NAIVE_MINT] =
     {
         .name = _("Naive Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Speed, but\n"
@@ -1898,7 +1925,8 @@ const struct Item gItemsInfo[] =
     [ITEM_SERIOUS_MINT] =
     {
         .name = _("Serious Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = 10000,
+        //.price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "makes each stat\n"

@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import json
+import os
 
 class Pokemon(object):
     def __init__(self):
@@ -209,7 +210,10 @@ for location in sorted(list(set(list(trainers_by_location.keys()) + list(encount
                     print ("<tr><td>IVs:<td>%s</td></tr>" % poke.ivs)
                 if poke.evs:
                     print ("<tr><td>IVs:<td>%s</td></tr>" % poke.ivs)
-                print("<tr><td><div class=poke-img><img src='graphics/pokemon/%s/anim_front.png'></img></div>" % poke.species.lower())
+                if os.path.exists("graphics/pokemon/%s/anim_front_gba.png" % poke.species.lower()):
+                    print("<tr><td><div class=poke-img><img src='graphics/pokemon/%s/anim_front_gba.png'></img></div>" % poke.species.lower())
+                else:
+                    print("<tr><td><div class=poke-img><img src='graphics/pokemon/%s/anim_front.png'></img></div>" % poke.species.lower())
                 if poke.moves:
                     print("<td><ul>")
                     for m in poke.moves:
