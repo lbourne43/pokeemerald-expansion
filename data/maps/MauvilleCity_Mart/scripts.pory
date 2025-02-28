@@ -51,101 +51,16 @@ MauvilleCity_Mart_Text_DecisionsDetermineBattle:
 	.string "battles turn out, I think.$"
 
 `
-script MauvilleCity_Mart_EventScript_BattleMart {
+script MauvilleCity_Mart_EventScript_BattleMachine {
         lock
-        message("Are you battle-ready?")
+        message("Are you combat ready?")
         waitmessage
-        pokemart(MauvilleCity_BattleMartItems)
+        pokemart(MauvilleCity_BattleMachineItems)
         msgbox("Happy battling!")
         release
 }
 
-mart MauvilleCity_BattleMartItems {
-        ITEM_EXP_CANDY_XS
-        ITEM_EXP_CANDY_S
-        ITEM_EXP_CANDY_M
-        ITEM_EXP_CANDY_L
-        ITEM_EXP_CANDY_XL
-        ITEM_HP_UP
-        ITEM_PROTEIN
-        ITEM_IRON
-        ITEM_CALCIUM
-        ITEM_ZINC
-        ITEM_CARBOS
-        ITEM_PP_UP
-        ITEM_PP_MAX
-        ITEM_POMEG_BERRY
-        ITEM_KELPSY_BERRY
-        ITEM_QUALOT_BERRY
-        ITEM_HONDEW_BERRY
-        ITEM_GREPA_BERRY
-        ITEM_TAMATO_BERRY
-        ITEM_HEALTH_FEATHER
-        ITEM_MUSCLE_FEATHER
-        ITEM_RESIST_FEATHER
-        ITEM_GENIUS_FEATHER
-        ITEM_CLEVER_FEATHER
-        ITEM_SWIFT_FEATHER
-        ITEM_LONELY_MINT
-        ITEM_ADAMANT_MINT
-        ITEM_NAUGHTY_MINT
-        ITEM_BRAVE_MINT
-        ITEM_BOLD_MINT
-        ITEM_IMPISH_MINT
-        ITEM_LAX_MINT
-        ITEM_RELAXED_MINT
-        ITEM_MODEST_MINT
-        ITEM_MILD_MINT
-        ITEM_RASH_MINT
-        ITEM_QUIET_MINT
-        ITEM_CALM_MINT
-        ITEM_GENTLE_MINT
-        ITEM_CAREFUL_MINT
-        ITEM_SASSY_MINT
-        ITEM_TIMID_MINT
-        ITEM_HASTY_MINT
-        ITEM_JOLLY_MINT
-        ITEM_NAIVE_MINT
-        ITEM_SERIOUS_MINT
-        ITEM_TM_BULLET_SEED
-        ITEM_TM_PROTECT
-        ITEM_TM_SUNNY_DAY
-        ITEM_TM_TAUNT
-        ITEM_TM_ICE_BEAM
-        ITEM_TM_RAIN_DANCE
-        ITEM_TM_THUNDERBOLT
-        ITEM_TM_THUNDER
-        ITEM_TM_EARTHQUAKE
-        ITEM_TM_DIG
-        ITEM_TM_PSYCHIC
-        ITEM_TM_SHADOW_BALL
-        ITEM_TM_BRICK_BREAK
-        ITEM_TM_DOUBLE_TEAM
-        ITEM_TM_REFLECT
-        ITEM_TM_FLAMETHROWER
-        ITEM_TM_SLUDGE_BOMB
-        ITEM_TM_SANDSTORM
-        ITEM_TM_TORMENT
-        ITEM_TM_SKILL_SWAP
-        ITEM_TM51
-        ITEM_TM52
-        ITEM_TM53
-        ITEM_FIRE_STONE
-        ITEM_WATER_STONE
-        ITEM_THUNDER_STONE
-        ITEM_LEAF_STONE
-        ITEM_ICE_STONE
-        ITEM_SHINY_STONE
-        ITEM_SUN_STONE
-        ITEM_DUSK_STONE
-        ITEM_MOON_STONE
-        ITEM_POWER_WEIGHT
-        ITEM_POWER_WEIGHT
-        ITEM_POWER_BRACER
-        ITEM_POWER_BELT
-        ITEM_POWER_LENS
-        ITEM_POWER_BAND
-        ITEM_POWER_ANKLET
+mart MauvilleCity_BattleMachineItems {
         ITEM_SILK_SCARF
         ITEM_CHARCOAL
         ITEM_MYSTIC_WATER
@@ -196,39 +111,163 @@ mart MauvilleCity_BattleMartItems {
         ITEM_MUSCLE_BAND
         ITEM_WISE_GLASSES
         ITEM_EXPERT_BELT
-        ITEM_LIGHT_CLAY
-        ITEM_LIFE_ORB
-        ITEM_POWER_HERB
-        ITEM_FOCUS_SASH
-        ITEM_ZOOM_LENS
-        ITEM_METRONOME
-        ITEM_IRON_BALL
-        ITEM_LAGGING_TAIL
-        ITEM_DESTINY_KNOT
-        ITEM_BLACK_SLUDGE
-        ITEM_GRIP_CLAW
-        ITEM_STICKY_BARB
-        ITEM_SHED_SHELL
-        ITEM_BIG_ROOT
-        ITEM_RAZOR_CLAW
-        ITEM_RAZOR_FANG
-        ITEM_EVIOLITE
-        ITEM_FLOAT_STONE
-        ITEM_ROCKY_HELMET
-        ITEM_AIR_BALLOON
-        ITEM_RED_CARD
-        ITEM_RING_TARGET
-        ITEM_BINDING_BAND
-        ITEM_EJECT_BUTTON
-        ITEM_WEAKNESS_POLICY
-        ITEM_ASSAULT_VEST
-        ITEM_SAFETY_GOGGLES
-        ITEM_ADRENALINE_ORB
-        ITEM_TERRAIN_EXTENDER
-        ITEM_PROTECTIVE_PADS
-        ITEM_THROAT_SPRAY
-        ITEM_EJECT_PACK
-	ITEM_LOADED_DICE
+}
+
+script MauvilleCity_Mart_EventScript_TrainingMachine {
+        lock
+        message("Ready to train?")
+        waitmessage
+        pokemart(MauvilleCity_TrainingMachineItems)
+        msgbox("Level up!")
+        release
+}
+
+mart MauvilleCity_TrainingMachineItems {
+        ITEM_EXP_CANDY_XS
+        ITEM_EXP_CANDY_S
+        ITEM_EXP_CANDY_M
+        ITEM_EXP_CANDY_L
+        ITEM_EXP_CANDY_XL
+        ITEM_RARE_CANDY
+        ITEM_HP_UP
+        ITEM_PROTEIN
+        ITEM_IRON
+        ITEM_CALCIUM
+        ITEM_ZINC
+        ITEM_CARBOS
+        ITEM_PP_UP
+        ITEM_PP_MAX
+        ITEM_POWER_WEIGHT
+        ITEM_POWER_WEIGHT
+        ITEM_POWER_BRACER
+        ITEM_POWER_BELT
+        ITEM_POWER_LENS
+        ITEM_POWER_BAND
+        ITEM_POWER_ANKLET
+        ITEM_POMEG_BERRY
+        ITEM_KELPSY_BERRY
+        ITEM_QUALOT_BERRY
+        ITEM_HONDEW_BERRY
+        ITEM_GREPA_BERRY
+        ITEM_TAMATO_BERRY
+        ITEM_HEALTH_FEATHER
+        ITEM_MUSCLE_FEATHER
+        ITEM_RESIST_FEATHER
+        ITEM_GENIUS_FEATHER
+        ITEM_CLEVER_FEATHER
+        ITEM_SWIFT_FEATHER
+        ITEM_LONELY_MINT
+        ITEM_ADAMANT_MINT
+        ITEM_NAUGHTY_MINT
+        ITEM_BRAVE_MINT
+        ITEM_BOLD_MINT
+        ITEM_IMPISH_MINT
+        ITEM_LAX_MINT
+        ITEM_RELAXED_MINT
+        ITEM_MODEST_MINT
+        ITEM_MILD_MINT
+        ITEM_RASH_MINT
+        ITEM_QUIET_MINT
+        ITEM_CALM_MINT
+        ITEM_GENTLE_MINT
+        ITEM_CAREFUL_MINT
+        ITEM_SASSY_MINT
+        ITEM_TIMID_MINT
+        ITEM_HASTY_MINT
+        ITEM_JOLLY_MINT
+        ITEM_NAIVE_MINT
+        ITEM_SERIOUS_MINT
         ITEM_ABILITY_CAPSULE
         ITEM_ABILITY_PATCH
+}
+
+script MauvilleCity_Mart_EventScript_TMMachine {
+        lock
+        message("What do you need to learn?")
+        waitmessage
+        pokemart(MauvilleCity_TMMachineItems)
+        msgbox("Go get'em!")
+        release
+}
+
+mart MauvilleCity_TMMachineItems {
+        ITEM_TM_BULLET_SEED
+        ITEM_TM_PROTECT
+        ITEM_TM_SUNNY_DAY
+        ITEM_TM_TAUNT
+        ITEM_TM_ICE_BEAM
+        ITEM_TM_RAIN_DANCE
+        ITEM_TM_THUNDERBOLT
+        ITEM_TM_THUNDER
+        ITEM_TM_EARTHQUAKE
+        ITEM_TM_DIG
+        ITEM_TM_PSYCHIC
+        ITEM_TM_SHADOW_BALL
+        ITEM_TM_BRICK_BREAK
+        ITEM_TM_DOUBLE_TEAM
+        ITEM_TM_REFLECT
+        ITEM_TM_FLAMETHROWER
+        ITEM_TM_SLUDGE_BOMB
+        ITEM_TM_SANDSTORM
+        ITEM_TM_TORMENT
+        ITEM_TM_SKILL_SWAP
+        ITEM_TM51
+        ITEM_TM52
+        ITEM_TM53
+}
+
+script MauvilleCity_Mart_EventScript_EvolveMachine {
+        lock
+        message("So you wanna evolve?")
+        waitmessage
+        pokemart(MauvilleCity_EvolveMachineItems)
+        msgbox("Change is the best!")
+        release
+}
+
+mart MauvilleCity_EvolveMachineItems {
+        ITEM_FIRE_STONE
+        ITEM_WATER_STONE
+        ITEM_THUNDER_STONE
+        ITEM_LEAF_STONE
+        ITEM_ICE_STONE
+        ITEM_SUN_STONE
+        ITEM_MOON_STONE
+        ITEM_SHINY_STONE
+        ITEM_DUSK_STONE
+        ITEM_DAWN_STONE
+        ITEM_SWEET_APPLE
+        ITEM_TART_APPLE
+        ITEM_CRACKED_POT
+        ITEM_CHIPPED_POT
+        ITEM_GALARICA_CUFF
+        ITEM_GALARICA_WREATH
+        ITEM_DRAGON_SCALE
+        ITEM_UPGRADE
+        ITEM_PROTECTOR
+        ITEM_ELECTIRIZER
+        ITEM_MAGMARIZER
+        ITEM_DUBIOUS_DISC
+        ITEM_REAPER_CLOTH
+        ITEM_PRISM_SCALE
+        ITEM_WHIPPED_DREAM
+        ITEM_SACHET
+        ITEM_OVAL_STONE
+        ITEM_DEEP_SEA_SCALE
+        ITEM_DEEP_SEA_TOOTH
+        ITEM_METAL_COAT
+        ITEM_KINGS_ROCK
+        ITEM_RAZOR_CLAW
+        ITEM_RAZOR_FANG
+        ITEM_AUSPICIOUS_ARMOR
+        ITEM_MALICIOUS_ARMOR
+        ITEM_SCROLL_OF_DARKNESS
+        ITEM_SCROLL_OF_WATERS
+        ITEM_BLACK_AUGURITE
+        ITEM_LINKING_CORD
+        ITEM_PEAT_BLOCK
+        ITEM_SYRUPY_APPLE
+        ITEM_UNREMARKABLE_TEACUP
+        ITEM_MASTERPIECE_TEACUP
+        ITEM_METAL_ALLOY
 }

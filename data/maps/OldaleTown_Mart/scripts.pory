@@ -68,3 +68,223 @@ OldaleTown_Mart_Text_RestoreHPWithPotion:
 	.string "restore its HP with a POTION.$"
 
 `
+script OldaleTown_Mart_EventScript_BattleMachine {
+        lock
+        message("Are you combat ready?")
+        waitmessage
+        pokemart(OldaleTown_BattleMachineItems)
+        msgbox("Happy battling!")
+        release
+}
+
+mart OldaleTown_BattleMachineItems {
+        ITEM_SILK_SCARF
+        ITEM_CHARCOAL
+        ITEM_MYSTIC_WATER
+        ITEM_MAGNET
+        ITEM_MIRACLE_SEED
+        ITEM_NEVER_MELT_ICE
+        ITEM_BLACK_BELT
+        ITEM_POISON_BARB
+        ITEM_SOFT_SAND
+        ITEM_SHARP_BEAK
+        ITEM_TWISTED_SPOON
+        ITEM_SILVER_POWDER
+        ITEM_HARD_STONE
+        ITEM_SPELL_TAG
+        ITEM_DRAGON_FANG
+        ITEM_BLACK_GLASSES
+        ITEM_METAL_COAT
+        ITEM_CHOICE_BAND
+        ITEM_CHOICE_SPECS
+        ITEM_CHOICE_SCARF
+        ITEM_FLAME_ORB
+        ITEM_TOXIC_ORB
+        ITEM_DAMP_ROCK
+        ITEM_HEAT_ROCK
+        ITEM_SMOOTH_ROCK
+        ITEM_ICY_ROCK
+        ITEM_GRASSY_SEED
+        ITEM_ABSORB_BULB
+        ITEM_CELL_BATTERY
+        ITEM_LUMINOUS_MOSS
+        ITEM_SNOWBALL
+        ITEM_BRIGHT_POWDER
+        ITEM_WHITE_HERB
+        ITEM_EXP_SHARE
+        ITEM_QUICK_CLAW
+        ITEM_SOOTHE_BELL
+        ITEM_MENTAL_HERB
+        ITEM_KINGS_ROCK
+        ITEM_AMULET_COIN
+        ITEM_CLEANSE_TAG
+        ITEM_SMOKE_BALL
+        ITEM_FOCUS_BAND
+        ITEM_LUCKY_EGG
+        ITEM_SCOPE_LENS
+        ITEM_LEFTOVERS
+        ITEM_SHELL_BELL
+        ITEM_WIDE_LENS
+        ITEM_MUSCLE_BAND
+        ITEM_WISE_GLASSES
+        ITEM_EXPERT_BELT
+}
+
+script OldaleTown_Mart_EventScript_TrainingMachine {
+        lock
+        message("Ready to train?")
+        waitmessage
+        pokemart(OldaleTown_TrainingMachineItems)
+        msgbox("Level up!")
+        release
+}
+
+mart OldaleTown_TrainingMachineItems {
+        ITEM_EXP_CANDY_XS
+        ITEM_EXP_CANDY_S
+        ITEM_EXP_CANDY_M
+        ITEM_EXP_CANDY_L
+        ITEM_EXP_CANDY_XL
+        ITEM_RARE_CANDY
+        ITEM_HP_UP
+        ITEM_PROTEIN
+        ITEM_IRON
+        ITEM_CALCIUM
+        ITEM_ZINC
+        ITEM_CARBOS
+        ITEM_PP_UP
+        ITEM_PP_MAX
+        ITEM_POWER_WEIGHT
+        ITEM_POWER_WEIGHT
+        ITEM_POWER_BRACER
+        ITEM_POWER_BELT
+        ITEM_POWER_LENS
+        ITEM_POWER_BAND
+        ITEM_POWER_ANKLET
+        ITEM_POMEG_BERRY
+        ITEM_KELPSY_BERRY
+        ITEM_QUALOT_BERRY
+        ITEM_HONDEW_BERRY
+        ITEM_GREPA_BERRY
+        ITEM_TAMATO_BERRY
+        ITEM_HEALTH_FEATHER
+        ITEM_MUSCLE_FEATHER
+        ITEM_RESIST_FEATHER
+        ITEM_GENIUS_FEATHER
+        ITEM_CLEVER_FEATHER
+        ITEM_SWIFT_FEATHER
+        ITEM_LONELY_MINT
+        ITEM_ADAMANT_MINT
+        ITEM_NAUGHTY_MINT
+        ITEM_BRAVE_MINT
+        ITEM_BOLD_MINT
+        ITEM_IMPISH_MINT
+        ITEM_LAX_MINT
+        ITEM_RELAXED_MINT
+        ITEM_MODEST_MINT
+        ITEM_MILD_MINT
+        ITEM_RASH_MINT
+        ITEM_QUIET_MINT
+        ITEM_CALM_MINT
+        ITEM_GENTLE_MINT
+        ITEM_CAREFUL_MINT
+        ITEM_SASSY_MINT
+        ITEM_TIMID_MINT
+        ITEM_HASTY_MINT
+        ITEM_JOLLY_MINT
+        ITEM_NAIVE_MINT
+        ITEM_SERIOUS_MINT
+        ITEM_ABILITY_CAPSULE
+        ITEM_ABILITY_PATCH
+}
+
+script OldaleTown_Mart_EventScript_TMMachine {
+        lock
+        message("What do you need to learn?")
+        waitmessage
+        pokemart(OldaleTown_TMMachineItems)
+        msgbox("Go get'em!")
+        release
+}
+
+mart OldaleTown_TMMachineItems {
+        ITEM_TM_BULLET_SEED
+        ITEM_TM_PROTECT
+        ITEM_TM_SUNNY_DAY
+        ITEM_TM_TAUNT
+        ITEM_TM_ICE_BEAM
+        ITEM_TM_RAIN_DANCE
+        ITEM_TM_THUNDERBOLT
+        ITEM_TM_THUNDER
+        ITEM_TM_EARTHQUAKE
+        ITEM_TM_DIG
+        ITEM_TM_PSYCHIC
+        ITEM_TM_SHADOW_BALL
+        ITEM_TM_BRICK_BREAK
+        ITEM_TM_DOUBLE_TEAM
+        ITEM_TM_REFLECT
+        ITEM_TM_FLAMETHROWER
+        ITEM_TM_SLUDGE_BOMB
+        ITEM_TM_SANDSTORM
+        ITEM_TM_TORMENT
+        ITEM_TM_SKILL_SWAP
+        ITEM_TM51
+        ITEM_TM52
+        ITEM_TM53
+}
+
+script OldaleTown_Mart_EventScript_EvolveMachine {
+        lock
+        message("So you wanna evolve?")
+        waitmessage
+        pokemart(OldaleTown_EvolveMachineItems)
+        msgbox("Change is the best!")
+        release
+}
+
+mart OldaleTown_EvolveMachineItems {
+        ITEM_FIRE_STONE
+        ITEM_WATER_STONE
+        ITEM_THUNDER_STONE
+        ITEM_LEAF_STONE
+        ITEM_ICE_STONE
+        ITEM_SUN_STONE
+        ITEM_MOON_STONE
+        ITEM_SHINY_STONE
+        ITEM_DUSK_STONE
+        ITEM_DAWN_STONE
+        ITEM_SWEET_APPLE
+        ITEM_TART_APPLE
+        ITEM_CRACKED_POT
+        ITEM_CHIPPED_POT
+        ITEM_GALARICA_CUFF
+        ITEM_GALARICA_WREATH
+        ITEM_DRAGON_SCALE
+        ITEM_UPGRADE
+        ITEM_PROTECTOR
+        ITEM_ELECTIRIZER
+        ITEM_MAGMARIZER
+        ITEM_DUBIOUS_DISC
+        ITEM_REAPER_CLOTH
+        ITEM_PRISM_SCALE
+        ITEM_WHIPPED_DREAM
+        ITEM_SACHET
+        ITEM_OVAL_STONE
+        ITEM_DEEP_SEA_SCALE
+        ITEM_DEEP_SEA_TOOTH
+        ITEM_METAL_COAT
+        ITEM_KINGS_ROCK
+        ITEM_RAZOR_CLAW
+        ITEM_RAZOR_FANG
+        ITEM_AUSPICIOUS_ARMOR
+        ITEM_MALICIOUS_ARMOR
+        ITEM_SCROLL_OF_DARKNESS
+        ITEM_SCROLL_OF_WATERS
+        ITEM_BLACK_AUGURITE
+        ITEM_LINKING_CORD
+        ITEM_PEAT_BLOCK
+        ITEM_SYRUPY_APPLE
+        ITEM_UNREMARKABLE_TEACUP
+        ITEM_MASTERPIECE_TEACUP
+        ITEM_METAL_ALLOY
+}

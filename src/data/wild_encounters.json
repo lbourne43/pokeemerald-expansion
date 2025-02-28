@@ -9902,7 +9902,7 @@
                 "max_level": 60,
                 "species": "SPECIES_VOLCARONA"
               }
-	    ]
+            ]
           }
         },
         {
@@ -9911,7 +9911,7 @@
           "land_mons": {
             "encounter_rate": 10,
             "mons": [
-		    {
+              {
                 "min_level": 57,
                 "max_level": 60,
                 "species": "SPECIES_GOLEM"
@@ -9980,7 +9980,7 @@
           "land_mons": {
             "encounter_rate": 10,
             "mons": [
-		    {
+              {
                 "min_level": 57,
                 "max_level": 60,
                 "species": "SPECIES_GOLEM"
@@ -10049,7 +10049,7 @@
           "land_mons": {
             "encounter_rate": 10,
             "mons": [
-		    {
+              {
                 "min_level": 57,
                 "max_level": 60,
                 "species": "SPECIES_GOLEM"
@@ -10118,7 +10118,7 @@
           "land_mons": {
             "encounter_rate": 10,
             "mons": [
-		    {
+              {
                 "min_level": 57,
                 "max_level": 60,
                 "species": "SPECIES_GOLEM"
@@ -10187,7 +10187,7 @@
           "land_mons": {
             "encounter_rate": 10,
             "mons": [
-		    {
+              {
                 "min_level": 57,
                 "max_level": 60,
                 "species": "SPECIES_GOLEM"
@@ -10256,7 +10256,7 @@
           "land_mons": {
             "encounter_rate": 10,
             "mons": [
-		    {
+              {
                 "min_level": 57,
                 "max_level": 60,
                 "species": "SPECIES_GOLEM"
