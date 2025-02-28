@@ -140,4 +140,74 @@ EverGrandeCity_PokemonLeague_1F_Text_GoForth:
 	.string "TRAINER! Believe in yourself and your\n"
 	.string "POKéMON, and go forth!$"
 
+EverGrandeCity_PokemonLeague_1F_SetIVs::
+        checkmoney 5000
+        goto_if_eq VAR_RESULT, FALSE, EverGrandeCity_PokemonLeague_1F_EventScript_NotEnoughMoneyHyperTrain
+
+        special ChoosePartyMon
+        waitstate
+        compare VAR_0x8004, PARTY_SIZE
+        goto_if_ge EverGrandeCity_PokemonLeague_1F_ButIRefuse
+        specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+        compare VAR_RESULT, SPECIES_EGG
+        goto_if_eq EverGrandeCity_PokemonLeague_1F_Rejected
+        goto EverGrandeCity_PokemonLeague_1F_SetIVs_Proceed
+
+EverGrandeCity_PokemonLeague_1F_SetIVs_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        special MaxHpIvs
+        special MaxAtkIvs
+        special MaxDefIvs
+        special MaxSpdIvs
+        special MaxSpAtkIvs
+        special MaxSpDefIvs
+        msgbox EverGrandeCity_PokemonLeague_1F_IVsSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+EverGrandeCity_PokemonLeague_1F_ButIRefuse:
+        lockall
+        faceplayer
+        msgbox EverGrandeCity_PokemonLeague_1F_ComeBackAnytime 6
+        releaseall
+        end
+
+EverGrandeCity_PokemonLeague_1F_Rejected:
+        lockall
+        faceplayer
+        msgbox EverGrandeCity_PokemonLeague_1F_Reject 6
+        releaseall
+        end
+
+EverGrandeCity_PokemonLeague_1F_IVsSetSuccessfully:
+        .string "The IVs of your Pokémon's stats\n"
+        .string "have been successfully set to 31.\p"
+        .string "Come back anytime.$"
+
+EverGrandeCity_PokemonLeague_1F_Reject:
+        .string "Sorry, I can't modify the stats\n"
+        .string "of an EGG.$"
+
+EverGrandeCity_PokemonLeague_1F_ComeBackAnytime:
+        .string "Come back anytime.$"
+
+
 `
+script EverGrandeCity_PokemonLeague_1F_HyperTrain {
+    faceplayer
+    showmoneybox(0, 0)
+    msgbox("Hyper train a pokemon for 5k?", MSGBOX_YESNO)
+    hidemoneybox
+    if(var(VAR_RESULT) == YES) {
+        goto(EverGrandeCity_PokemonLeague_1F_SetIVs)
+    } else {
+        msgbox("Come back anytime.", MSGBOX_NPC)
+    }
+}
+
+script EverGrandeCity_PokemonLeague_1F_EventScript_NotEnoughMoneyHyperTrain {
+    msgbox("Not enough money.", MSGBOX_NPC)
+}

@@ -554,3 +554,9 @@ gSpecials::
 	def_special Script_GetChosenMonOffensiveIVs
 	def_special Script_GetChosenMonDefensiveIVs
 	def_special UseBlankMessageToCancelPokemonPic
+	def_special MaxHpIvs
+	def_special MaxAtkIvs
+	def_special MaxDefIvs
+	def_special MaxSpdIvs
+	def_special MaxSpAtkIvs
+	def_special MaxSpDefIvs
