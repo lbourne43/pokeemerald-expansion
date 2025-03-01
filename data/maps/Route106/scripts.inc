@@ -87,10 +87,20 @@ Route106_EventScript_Ned::
 # 44 "data/maps/Route106/scripts.pory"
 
 # 45 "data/maps/Route106/scripts.pory"
-Route106_Text_TrainerTips:
+Route106_EventScript_Rocket::
 # 46 "data/maps/Route106/scripts.pory"
-	.string "TRAINER TIPS\p"
+        trainerbattle_single TRAINER_ROCKET_GRUNT_ROUTE106, Route106_Text_GruntIntro, Route106_Text_GruntDefeated
 # 47 "data/maps/Route106/scripts.pory"
-	.string "Advice on catching POKéMON with a ROD:\n"
+        msgbox Route106_Text_GruntPostBattle, MSGBOX_AUTOCLOSE
 # 48 "data/maps/Route106/scripts.pory"
+        end
+# 49 "data/maps/Route106/scripts.pory"
+
+# 50 "data/maps/Route106/scripts.pory"
+Route106_Text_TrainerTips:
+# 51 "data/maps/Route106/scripts.pory"
+	.string "TRAINER TIPS\p"
+# 52 "data/maps/Route106/scripts.pory"
+	.string "Advice on catching POKéMON with a ROD:\n"
+# 53 "data/maps/Route106/scripts.pory"
 	.string "Press the A Button if you get a bite.$"

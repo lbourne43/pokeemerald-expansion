@@ -2799,8 +2799,8 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: No
-AI: Check Bad Move
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 /* Location: SpaceCenter */
 
 Mightyena
@@ -2812,6 +2812,18 @@ Level: 76
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Gengar
+Level: 76
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Aggron
+Level: 76
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Hippowdon
+Level: 76
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Tyranitar
 Level: 76
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
@@ -7377,6 +7389,24 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Wartortle
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_ROCKET_GRUNT_ROUTE106 ===
+Name: GRUNT
+Class: Rocket Grunt
+Pic: Rocket Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+/* Location: Route106 */
+
+Arbok
+Level: 25
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Weezing
+Level: 25
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_NED ===
 Name: NED

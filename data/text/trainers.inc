@@ -576,6 +576,19 @@ Route106_Text_NedPostBattle:
 	.string "Oh, no! I've got this feeling I'll hook\n"
 	.string "a big one!$"
 
+Route106_Text_GruntIntro:
+        .string "Ah..... Ah....\n"
+        .string "Ahhhh.......$"
+
+Route106_Text_GruntDefeated:
+        .string "CHOOOOOOOO!!!\n"
+        .string "I lost because I was trying not\n"
+        .string "to sneeze…$"
+
+Route106_Text_GruntPostBattle:
+        .string "Oh, rats!\n"
+        .string "I'm blasting off again!$"
+
 Route106_Text_DouglasIntro:
 	.string "Hahahah! I'm a lousy runner, but in\n"
 	.string "the water you can't catch me!$"
