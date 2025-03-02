@@ -3,7 +3,7 @@ raw `
 .set LOCALID_MAXIE, 2
 .set LOCALID_TABITHA, 3
 .set LOCALID_MAGMA_GRUNT_2, 22
-.set LOCALID_MAGMA_GRUNT_1, 29
+.set LOCALID_MAGMA_GRUNT_1, 28
 
 
 MtChimney_MapScripts::
@@ -418,11 +418,6 @@ MtChimney_EventScript_Tabitha::
 	msgbox MtChimney_Text_TabithaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-MtChimney_EventScript_Grunt2::
-	trainerbattle_single TRAINER_GRUNT_MT_CHIMNEY_2, MtChimney_Text_Grunt2Intro, MtChimney_Text_Grunt2Defeat
-	msgbox MtChimney_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
-	end
-
 MtChimney_EventScript_BusyMagmaGrunt1::
 	msgbox MtChimney_Text_TeamAquaAlwaysMessingWithPlans, MSGBOX_SIGN
 	end
@@ -615,23 +610,6 @@ MtChimney_Text_TabithaPostBattle:
 	.string "BOSS, hurry!\n"
 	.string "Give it the METEORITE's energy!\p"
 	.string "Hehehe…$"
-
-MtChimney_Text_Grunt2Intro:
-	.string "We of TEAM MAGMA are working hard for\n"
-	.string "everyone's sake.\p"
-	.string "Like, if that thing's power made more\n"
-	.string "land, there'd be more places to live.\p"
-	.string "Everyone'd be happy!$"
-
-MtChimney_Text_Grunt2Defeat:
-	.string "Hunh?\n"
-	.string "What do you mean I lost?$"
-
-MtChimney_Text_Grunt2PostBattle:
-	.string "Our BOSS says, “It will make everyone\n"
-	.string "happy.”\p"
-	.string "But why does everyone keep getting\n"
-	.string "in our way?$"
 
 MtChimney_Text_Grunt1Intro:
 	.string "If there were more land, I'd be able\n"
