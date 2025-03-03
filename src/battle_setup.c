@@ -1023,13 +1023,16 @@ static void CB2_EndFirstBattle(void)
 
 static void TryUpdateGymLeaderRematchFromWild(void)
 {
-    if (GetGameStat(GAME_STAT_WILD_BATTLES) % 60 == 0)
+    //if (GetGameStat(GAME_STAT_WILD_BATTLES) % 60 == 0)
+    //    UpdateGymLeaderRematch();
+    //if (GetGameStat(GAME_STAT_WILD_BATTLES) % 5 == 0)
         UpdateGymLeaderRematch();
 }
 
 static void TryUpdateGymLeaderRematchFromTrainer(void)
 {
-    if (GetGameStat(GAME_STAT_TRAINER_BATTLES) % 20 == 0)
+//    if (GetGameStat(GAME_STAT_TRAINER_BATTLES) % 20 == 0)
+//    if (GetGameStat(GAME_STAT_TRAINER_BATTLES) % 1 == 0)
         UpdateGymLeaderRematch();
 }
 
@@ -1707,6 +1710,21 @@ static void SetRematchIdForTrainer(const struct RematchTrainer *table, u32 table
 {
 #if FREE_MATCH_CALL == FALSE
     s32 i;
+    s32 gymLeaderRematchCap;
+    if (FlagGet(FLAG_BADGE01_GET)) {
+        gymLeaderRematchCap = 1;
+    }
+    if (FlagGet(FLAG_BADGE05_GET)) {
+        gymLeaderRematchCap = 2;
+    }
+    if (FlagGet(FLAG_BADGE08_GET)) {
+        gymLeaderRematchCap = 3;
+    }
+    if (FlagGet(FLAG_SYS_GAME_CLEAR)) {
+        gymLeaderRematchCap = 4;
+    }
+    // getbadge flags and figure out the cap for gym leaders
+    // nettux if gym leader do special logic
 
     for (i = 1; i < REMATCHES_COUNT; i++)
     {
@@ -1718,6 +1736,9 @@ static void SetRematchIdForTrainer(const struct RematchTrainer *table, u32 table
             break;
     }
 
+    if (tableId == REMATCH_ROXANNE && i > gymLeaderRematchCap ) {
+        return;
+    }
     gSaveBlock1Ptr->trainerRematches[tableId] = i;
 #endif //FREE_MATCH_CALL
 }
@@ -1895,6 +1916,7 @@ static u32 GetTrainerMatchCallFlag(u32 trainerId)
 
 static void RegisterTrainerInMatchCall(void)
 {
+	// nettux no match call
     if (FlagGet(FLAG_HAS_MATCH_CALL))
     {
         u32 matchCallFlagId = GetTrainerMatchCallFlag(gTrainerBattleOpponent_A);

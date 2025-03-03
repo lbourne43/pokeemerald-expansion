@@ -3730,7 +3730,7 @@
               {
                 "min_level": 52,
                 "max_level": 56,
-                "species": "SPECIES_ZWEILOUS"
+                "species": "SPECIES_SNEASEL_HISUI"
               },
               {
                 "min_level": 52,
@@ -3770,7 +3770,7 @@
               {
                 "min_level": 52,
                 "max_level": 56,
-                "species": "SPECIES_SNEASEL_HISUI"
+                "species": "SPECIES_ZWEILOUS"
               }
             ]
           },

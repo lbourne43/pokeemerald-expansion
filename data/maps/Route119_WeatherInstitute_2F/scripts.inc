@@ -269,7 +269,7 @@ Route119_WeatherInstitute_2F_EventScript_ExplainCastform::
 # 135 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
 Route119_WeatherInstitute_2F_EventScript_ScientistMentionWeather::
 # 136 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
-	goto_if_set FLAG_SYS_GAME_CLEAR, Route119_WeatherInstitute_2F_EventScript_TryStartAbnormalWeather
+	goto_if_set FLAG_BADGE08_GET, Route119_WeatherInstitute_2F_EventScript_TryStartAbnormalWeather
 # 137 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
 	msgbox Route119_WeatherInstitute_2F_Text_ChangingWeatherRidiculous, MSGBOX_DEFAULT
 # 138 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
