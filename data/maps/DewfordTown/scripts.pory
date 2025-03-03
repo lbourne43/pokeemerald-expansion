@@ -803,3 +803,18 @@ DewfordTown_Text_YeahDefinitionOfInRightNow:
 	.string "“{STR_VAR_1}” is the\n"
 	.string "definition of “in” right now.$"
 `
+script DewfordTown_ClearTrainerFlags {
+    clearflag(TRAINER_NETTUX_UNUSED_1)
+    clearflag(TRAINER_NETTUX_UNUSED_2)
+    clearflag(TRAINER_NETTUX_UNUSED_3)
+    clearflag(TRAINER_NETTUX_UNUSED_4)
+    clearflag(TRAINER_NETTUX_UNUSED_5)
+    clearflag(TRAINER_NETTUX_UNUSED_6)
+    clearflag(TRAINER_NETTUX_UNUSED_7)
+    clearflag(TRAINER_NETTUX_UNUSED_8)
+    clearflag(TRAINER_NETTUX_UNUSED_9)
+    clearflag(TRAINER_NETTUX_UNUSED_10)
+    clearflag(TRAINER_NETTUX_UNUSED_11)
+    clearflag(TRAINER_NETTUX_UNUSED_12)
+    clearflag(TRAINER_ROCKET_GRUNT_ROUTE106)
+}

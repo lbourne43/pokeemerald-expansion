@@ -1,5 +1,5 @@
 raw `
-.set LOCALID_WALLY_ENTRANCE, 4
+.set LOCALID_WALLY_ENTRANCE, 3
 
 VictoryRoad_1F_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, VictoryRoad_1F_OnTransition
@@ -96,11 +96,6 @@ VictoryRoad_1F_EventScript_RematchWally::
 	msgbox VictoryRoad_1F_Text_WallyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-VictoryRoad_1F_EventScript_Edgar::
-	trainerbattle_single TRAINER_EDGAR, VictoryRoad_1F_Text_EdgarIntro, VictoryRoad_1F_Text_EdgarDefeat
-	msgbox VictoryRoad_1F_Text_EdgarPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 VictoryRoad_1F_EventScript_Albert::
 	trainerbattle_single TRAINER_ALBERT, VictoryRoad_1F_Text_AlbertIntro, VictoryRoad_1F_Text_AlbertDefeat
 	msgbox VictoryRoad_1F_Text_AlbertPostBattle, MSGBOX_AUTOCLOSE
@@ -157,18 +152,6 @@ VictoryRoad_1F_Text_WallyPostBattle:
 	.string "too… But one of these days, {PLAYER},\l"
 	.string "I'm going to catch up to you…\p"
 	.string "And challenge the POKéMON LEAGUE!$"
-
-VictoryRoad_1F_Text_EdgarIntro:
-	.string "I've made it this far a couple times,\n"
-	.string "but the last stretch is so long…$"
-
-VictoryRoad_1F_Text_EdgarDefeat:
-	.string "My dream ends here again…$"
-
-VictoryRoad_1F_Text_EdgarPostBattle:
-	.string "You've made it this far. Keep the\n"
-	.string "momentum going and become the\l"
-	.string "CHAMPION! If anyone can, it's you!$"
 
 VictoryRoad_1F_Text_AlbertIntro:
 	.string "I didn't come all this way to lose now.\n"

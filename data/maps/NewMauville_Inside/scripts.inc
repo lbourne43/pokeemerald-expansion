@@ -526,3 +526,92 @@ NewMauville_Inside_Text_SteppedOnSwitchGeneratorStopped:
 	.string "The generator appears to have\n"
 # 264 "data/maps/NewMauville_Inside/scripts.pory"
 	.string "stopped…$"
+
+NewMauville_Inside_EventScript_RocketGrunt1::
+# 268 "data/maps/NewMauville_Inside/scripts.pory"
+	trainerbattle_single TRAINER_NEW_MAUVILLE_GRUNT1, NewMauville_Inside_EventScript_RocketGrunt1Intro, NewMauville_Inside_EventScript_RocketGrunt1Defeat
+# 269 "data/maps/NewMauville_Inside/scripts.pory"
+	msgbox NewMauville_Inside_EventScript_RocketGrunt1PostBattle, MSGBOX_AUTOCLOSE
+	return
+
+
+NewMauville_Inside_EventScript_RocketGrunt2::
+# 273 "data/maps/NewMauville_Inside/scripts.pory"
+	trainerbattle_single TRAINER_NEW_MAUVILLE_GRUNT2, NewMauville_Inside_EventScript_RocketGrunt2Intro, NewMauville_Inside_EventScript_RocketGrunt2Defeat
+# 274 "data/maps/NewMauville_Inside/scripts.pory"
+	msgbox NewMauville_Inside_EventScript_RocketGrunt2PostBattle, MSGBOX_AUTOCLOSE
+	return
+
+
+NewMauville_Inside_EventScript_RocketGrunt3::
+# 278 "data/maps/NewMauville_Inside/scripts.pory"
+	trainerbattle_single TRAINER_NEW_MAUVILLE_GRUNT3, NewMauville_Inside_EventScript_RocketGrunt3Intro, NewMauville_Inside_EventScript_RocketGrunt3Defeat
+# 279 "data/maps/NewMauville_Inside/scripts.pory"
+	msgbox NewMauville_Inside_EventScript_RocketGrunt3PostBattle, MSGBOX_AUTOCLOSE
+	return
+
+
+NewMauville_Inside_EventScript_RocketExec::
+# 283 "data/maps/NewMauville_Inside/scripts.pory"
+	trainerbattle_single TRAINER_NEW_MAUVILLE_EXEC, NewMauville_Inside_EventScript_RocketExecIntro, NewMauville_Inside_EventScript_RocketExecDefeat
+# 284 "data/maps/NewMauville_Inside/scripts.pory"
+	msgbox NewMauville_Inside_EventScript_RocketExecPostBattle, MSGBOX_AUTOCLOSE
+	return
+
+
+NewMauville_Inside_EventScript_RocketGrunt1Intro::
+# 287 "data/maps/NewMauville_Inside/scripts.pory"
+	.string "How the fuck did you get in here you\n"
+	.string "little shit!$"
+
+NewMauville_Inside_EventScript_RocketGrunt1Defeat::
+# 291 "data/maps/NewMauville_Inside/scripts.pory"
+	.string "You'll be sorry when the boss is through\n"
+	.string "with you.$"
+
+NewMauville_Inside_EventScript_RocketGrunt1PostBattle::
+# 295 "data/maps/NewMauville_Inside/scripts.pory"
+	.string "You'll be sorry when the boss is through\n"
+	.string "with you.$"
+
+NewMauville_Inside_EventScript_RocketGrunt2Intro::
+# 299 "data/maps/NewMauville_Inside/scripts.pory"
+	.string "I'm gonna fucking kill you!$"
+
+NewMauville_Inside_EventScript_RocketGrunt2Defeat::
+# 303 "data/maps/NewMauville_Inside/scripts.pory"
+	.string "Fucking CUNT! AAAHHHHHHH!!!!$"
+
+NewMauville_Inside_EventScript_RocketGrunt2PostBattle::
+# 307 "data/maps/NewMauville_Inside/scripts.pory"
+	.string "Fucking CUNT! AAAHHHHHHH!!!!$"
+
+NewMauville_Inside_EventScript_RocketGrunt3Intro::
+# 311 "data/maps/NewMauville_Inside/scripts.pory"
+	.string "Surprise, Motherfucker!$"
+
+NewMauville_Inside_EventScript_RocketGrunt3Defeat::
+# 315 "data/maps/NewMauville_Inside/scripts.pory"
+	.string "This kid is hacking.$"
+
+NewMauville_Inside_EventScript_RocketGrunt3PostBattle::
+# 319 "data/maps/NewMauville_Inside/scripts.pory"
+	.string "This kid is hacking.$"
+
+NewMauville_Inside_EventScript_RocketExecIntro::
+# 323 "data/maps/NewMauville_Inside/scripts.pory"
+	.string "So, this is the infamous {PLAYER}?\p"
+	.string "Lets see if you can withstand the might\n"
+	.string "of TEAM ROCKET!$"
+
+NewMauville_Inside_EventScript_RocketExecDefeat::
+# 328 "data/maps/NewMauville_Inside/scripts.pory"
+	.string "We've got what we came for...\p"
+	.string "I'll remember your name, {PLAYER}\p"
+	.string "TEAM ROCKET, Blast off!$"
+
+NewMauville_Inside_EventScript_RocketExecPostBattle::
+# 334 "data/maps/NewMauville_Inside/scripts.pory"
+	.string "We've got what we came for...\p"
+	.string "I'll remember your name, {PLAYER}\p"
+	.string "TEAM ROCKET, Blast off!$"

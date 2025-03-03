@@ -283,8 +283,11 @@ const u32 gTrainerPalette_RubySapphireMay[] = INCBIN_U32("graphics/trainers/pale
 const u32 gTrainerFrontPic_RocketGrunt[] = INCBIN_U32("graphics/trainers/front_pics/rocket_grunt.4bpp.lz");
 const u32 gTrainerPalette_RocketGrunt[] = INCBIN_U32("graphics/trainers/palettes/rocket_grunt.gbapal.lz");
 
-const u32 gTrainerFrontPic_RocketAdmin[] = INCBIN_U32("graphics/trainers/front_pics/rocket_admin.4bpp.lz");
-const u32 gTrainerPalette_RocketAdmin[] = INCBIN_U32("graphics/trainers/palettes/rocket_admin.gbapal.lz");
+const u32 gTrainerFrontPic_RocketGruntF[] = INCBIN_U32("graphics/trainers/front_pics/rocket_grunt_f.4bpp.lz");
+const u32 gTrainerPalette_RocketGruntF[] = INCBIN_U32("graphics/trainers/palettes/rocket_grunt_f.gbapal.lz");
+
+const u32 gTrainerFrontPic_RocketExec[] = INCBIN_U32("graphics/trainers/front_pics/rocket_exec.4bpp.lz");
+const u32 gTrainerPalette_RocketExec[] = INCBIN_U32("graphics/trainers/palettes/rocket_exec.gbapal.lz");
 
 const u8 gTrainerBackPic_Brendan[] = INCBIN_U8("graphics/trainers/back_pics/brendan.4bpp");
 const u8 gTrainerBackPic_May[] = INCBIN_U8("graphics/trainers/back_pics/may.4bpp");
@@ -408,7 +411,8 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(TRAINER_PIC_RS_BRENDAN, gTrainerFrontPic_RubySapphireBrendan, gTrainerPalette_RubySapphireBrendan),
     TRAINER_SPRITE(TRAINER_PIC_RS_MAY, gTrainerFrontPic_RubySapphireMay, gTrainerPalette_RubySapphireMay),
     TRAINER_SPRITE(TRAINER_PIC_ROCKET_GRUNT_M, gTrainerFrontPic_RocketGrunt, gTrainerPalette_RocketGrunt),
-    TRAINER_SPRITE(TRAINER_PIC_ROCKET_ADMIN_M, gTrainerFrontPic_RocketAdmin, gTrainerPalette_RocketAdmin),
+    TRAINER_SPRITE(TRAINER_PIC_ROCKET_GRUNT_F, gTrainerFrontPic_RocketGruntF, gTrainerPalette_RocketGruntF),
+    TRAINER_SPRITE(TRAINER_PIC_ROCKET_EXEC_M, gTrainerFrontPic_RocketExec, gTrainerPalette_RocketExec),
 };
 
 static const union AnimCmd sAnimCmd_Hoenn[] =

@@ -2325,7 +2325,7 @@ Route116_Text_DawsonDefeat:
 
 Route116_Text_DawsonPostBattle:
 	.string "Oh, no, no, no!\n"
-	.string "You've mussed up my POKéMON's fur!\l"
+	.string "You've messed up my POKéMON's fur!\l"
 	.string "You've ruined my hairdo, too!\l"
 	.string "I'll have to call my stylist now!$"
 
@@ -4509,17 +4509,6 @@ Route132_Text_GilbertDefeat:
 Route132_Text_GilbertPostBattle:
 	.string "TRAINERS travel the fields and\n"
 	.string "mountains, so they must be fit, too.$"
-
-Route132_Text_DanaIntro:
-	.string "I try not to swim where the currents\n"
-	.string "are too strong.$"
-
-Route132_Text_DanaDefeat:
-	.string "Oh, please, no!$"
-
-Route132_Text_DanaPostBattle:
-	.string "If I get swept away, I'll lose all my\n"
-	.string "sense of place…$"
 
 Route132_Text_RonaldIntro:
 	.string "Win or lose, you'll never know until\n"

@@ -27,11 +27,6 @@ VictoryRoad_B2F_EventScript_Felix::
 	msgbox VictoryRoad_B2F_Text_FelixPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-VictoryRoad_B2F_EventScript_Dianne::
-	trainerbattle_single TRAINER_DIANNE, VictoryRoad_B2F_Text_DianneIntro, VictoryRoad_B2F_Text_DianneDefeat
-	msgbox VictoryRoad_B2F_Text_DiannePostBattle, MSGBOX_AUTOCLOSE
-	end
-
 VictoryRoad_B2F_Text_VitoIntro:
 	.string "I trained together with my whole family,\n"
 	.string "every one of us!\l"
@@ -94,17 +89,5 @@ VictoryRoad_B2F_Text_FelixPostBattle:
 	.string "I can't help getting all tense knowing\n"
 	.string "that I'm nearing the POKéMON LEAGUE.\p"
 	.string "It's all I can do to feign calm.$"
-
-VictoryRoad_B2F_Text_DianneIntro:
-	.string "The elite among the elite gather in\n"
-	.string "this cave.\p"
-	.string "How are you finding it?$"
-
-VictoryRoad_B2F_Text_DianneDefeat:
-	.string "Not rattled in the least bit!$"
-
-VictoryRoad_B2F_Text_DiannePostBattle:
-	.string "You do have guts! I like that!\n"
-	.string "Keep it going!$"
 
 `

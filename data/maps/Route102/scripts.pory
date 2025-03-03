@@ -6,6 +6,10 @@ Route102_EventScript_LittleBoy::
 	msgbox Route102_Text_ImNotVeryTall, MSGBOX_NPC
 	end
 
+Route102_EventScript_Allen::
+	msgbox Route102_Text_AllenIntro, MSGBOX_NPC
+	end
+
 Route102_EventScript_RouteSignOldale::
 	msgbox Route102_Text_RouteSignOldale, MSGBOX_SIGN
 	end
@@ -60,18 +64,12 @@ Route102_EventScript_CalvinRematch::
 	end
 
 Route102_EventScript_Rick::
-	trainerbattle_single TRAINER_RICK, Route102_Text_RickIntro, Route102_Text_RickDefeated
-	msgbox Route102_Text_RickPostBattle, MSGBOX_AUTOCLOSE
+	msgbox Route102_Text_RickPostBattle, MSGBOX_NPC
 	end
 
 Route102_EventScript_Tiana::
 	trainerbattle_single TRAINER_TIANA, Route102_Text_TianaIntro, Route102_Text_TianaDefeated
 	msgbox Route102_Text_TianaPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route102_EventScript_Allen::
-	trainerbattle_single TRAINER_ALLEN, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route102_Text_WatchMeCatchPokemon:

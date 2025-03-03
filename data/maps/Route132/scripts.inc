@@ -17,70 +17,60 @@ Route132_EventScript_Gilbert::
 # 9 "data/maps/Route132/scripts.pory"
 
 # 10 "data/maps/Route132/scripts.pory"
-Route132_EventScript_Dana::
+Route132_EventScript_Ronald::
 # 11 "data/maps/Route132/scripts.pory"
-	trainerbattle_single TRAINER_DANA, Route132_Text_DanaIntro, Route132_Text_DanaDefeat
+	trainerbattle_single TRAINER_RONALD, Route132_Text_RonaldIntro, Route132_Text_RonaldDefeat
 # 12 "data/maps/Route132/scripts.pory"
-	msgbox Route132_Text_DanaPostBattle, MSGBOX_AUTOCLOSE
+	msgbox Route132_Text_RonaldPostBattle, MSGBOX_AUTOCLOSE
 # 13 "data/maps/Route132/scripts.pory"
 	end
 # 14 "data/maps/Route132/scripts.pory"
 
 # 15 "data/maps/Route132/scripts.pory"
-Route132_EventScript_Ronald::
+Route132_EventScript_Kiyo::
 # 16 "data/maps/Route132/scripts.pory"
-	trainerbattle_single TRAINER_RONALD, Route132_Text_RonaldIntro, Route132_Text_RonaldDefeat
+	trainerbattle_single TRAINER_KIYO, Route132_Text_KiyoIntro, Route132_Text_KiyoDefeat
 # 17 "data/maps/Route132/scripts.pory"
-	msgbox Route132_Text_RonaldPostBattle, MSGBOX_AUTOCLOSE
+	msgbox Route132_Text_KiyoPostBattle, MSGBOX_AUTOCLOSE
 # 18 "data/maps/Route132/scripts.pory"
 	end
 # 19 "data/maps/Route132/scripts.pory"
 
 # 20 "data/maps/Route132/scripts.pory"
-Route132_EventScript_Kiyo::
+Route132_EventScript_Paxton::
 # 21 "data/maps/Route132/scripts.pory"
-	trainerbattle_single TRAINER_KIYO, Route132_Text_KiyoIntro, Route132_Text_KiyoDefeat
+	trainerbattle_single TRAINER_PAXTON, Route132_Text_PaxtonIntro, Route132_Text_PaxtonDefeat
 # 22 "data/maps/Route132/scripts.pory"
-	msgbox Route132_Text_KiyoPostBattle, MSGBOX_AUTOCLOSE
+	msgbox Route132_Text_PaxtonPostBattle, MSGBOX_AUTOCLOSE
 # 23 "data/maps/Route132/scripts.pory"
 	end
 # 24 "data/maps/Route132/scripts.pory"
 
 # 25 "data/maps/Route132/scripts.pory"
-Route132_EventScript_Paxton::
+Route132_EventScript_Darcy::
 # 26 "data/maps/Route132/scripts.pory"
-	trainerbattle_single TRAINER_PAXTON, Route132_Text_PaxtonIntro, Route132_Text_PaxtonDefeat
+	trainerbattle_single TRAINER_DARCY, Route132_Text_DarcyIntro, Route132_Text_DarcyDefeat
 # 27 "data/maps/Route132/scripts.pory"
-	msgbox Route132_Text_PaxtonPostBattle, MSGBOX_AUTOCLOSE
+	msgbox Route132_Text_DarcyPostBattle, MSGBOX_AUTOCLOSE
 # 28 "data/maps/Route132/scripts.pory"
 	end
 # 29 "data/maps/Route132/scripts.pory"
 
 # 30 "data/maps/Route132/scripts.pory"
-Route132_EventScript_Darcy::
+Route132_EventScript_Jonathan::
 # 31 "data/maps/Route132/scripts.pory"
-	trainerbattle_single TRAINER_DARCY, Route132_Text_DarcyIntro, Route132_Text_DarcyDefeat
+	trainerbattle_single TRAINER_JONATHAN, Route132_Text_JonathanIntro, Route132_Text_JonathanDefeat
 # 32 "data/maps/Route132/scripts.pory"
-	msgbox Route132_Text_DarcyPostBattle, MSGBOX_AUTOCLOSE
+	msgbox Route132_Text_JonathanPostBattle, MSGBOX_AUTOCLOSE
 # 33 "data/maps/Route132/scripts.pory"
 	end
 # 34 "data/maps/Route132/scripts.pory"
 
 # 35 "data/maps/Route132/scripts.pory"
-Route132_EventScript_Jonathan::
-# 36 "data/maps/Route132/scripts.pory"
-	trainerbattle_single TRAINER_JONATHAN, Route132_Text_JonathanIntro, Route132_Text_JonathanDefeat
-# 37 "data/maps/Route132/scripts.pory"
-	msgbox Route132_Text_JonathanPostBattle, MSGBOX_AUTOCLOSE
-# 38 "data/maps/Route132/scripts.pory"
-	end
-# 39 "data/maps/Route132/scripts.pory"
-
-# 40 "data/maps/Route132/scripts.pory"
 Route132_EventScript_Makayla::
-# 41 "data/maps/Route132/scripts.pory"
+# 36 "data/maps/Route132/scripts.pory"
 	trainerbattle_single TRAINER_MAKAYLA, Route132_Text_MakaylaIntro, Route132_Text_MakaylaDefeat
-# 42 "data/maps/Route132/scripts.pory"
+# 37 "data/maps/Route132/scripts.pory"
 	msgbox Route132_Text_MakaylaPostBattle, MSGBOX_AUTOCLOSE
-# 43 "data/maps/Route132/scripts.pory"
+# 38 "data/maps/Route132/scripts.pory"
 	end

@@ -1023,19 +1023,75 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Ace Pokemon / Double Battle / Smart Switching
+/* Location: VictoryRoad_B2F */
 
-Medicham
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Psychic
+Hariyama @ Flame Orb
+Ability: Guts
+Level: 100
+Nature: Adamant
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fake Out
+- Close Combat
+- Knock Off
+- Protect
 
-Claydol
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Skill Swap
-- Earthquake
+Togedemaru @ Sitrus Berry
+Ability: Lightning Rod
+Level: 100
+Nature: Careful
+EVs: 252 HP / 252 SpD / 4 Atk
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Zing Zap
+- Fake Out
+- Spiky Shield
+- Encore
+
+Chandelure @ Choice Scarf
+Ability: Flash Fire
+Level: 100
+Nature: Modest
+EVs: 252 SpA / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Heat Wave
+- Shadow Ball
+- Energy Ball
+- Trick
+
+Gastrodon @ Leftovers
+Ability: Storm Drain
+Level: 100
+Nature: Bold
+EVs: 252 HP / 252 Def / 4 SpA
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Scald
+- Earth Power
+- Recover
+- Protect
+
+Salamence @ Assault Vest
+Ability: Intimidate
+Level: 100
+Nature: Naughty
+EVs: 252 Atk / 252 HP / 4 SpA
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dual Wingbeat
+- Draco Meteor
+- Rock Slide
+- Fire Fang
+
+Tsareena @ Miracle Seed
+Ability: Queenly Majesty
+Level: 100
+Nature: Jolly
+EVs: 252 Atk / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Power Whip
+- Triple Axel
+- U-turn
+- Protect
 
 === TRAINER_VIOLET ===
 Name: VIOLET
@@ -2040,39 +2096,81 @@ Seismitoad
 Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_EDGAR ===
-Name: EDGAR
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: Basic Trainer
-
-Cacturne
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Pelipper
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
 === TRAINER_ALBERT ===
 Name: ALBERT
 Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Ace Pokemon / Double Battle / Smart Switching
+/* Location: VictoryRoad_1F */
 
-Magneton
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Blaziken @ Focus Sash
+Ability: Speed Boost
+Level: 100
+Nature: Jolly
+EVs: 252 Atk / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Protect
+- Flare Blitz
+- Close Combat
+- Thunder Punch
 
-Muk
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Bronzong @ Sitrus Berry
+Ability: Levitate
+Level: 100
+Nature: Relaxed
+EVs: 252 HP / 252 Def / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Protect
+- Gyro Ball
+- Trick Room
+- Body Press
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 100
+Nature: Brave
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rock Slide
+- Crunch
+- Ice Punch
+- Heavy Slam
+
+Lanturn @ Leftovers
+Ability: Volt Absorb
+Level: 100
+Nature: Calm
+EVs: 252 HP / 252 SpD / 4 SpA
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Protect
+- Scald
+- Discharge
+- Ice Beam
+
+Trevenant @ Sitrus Berry
+Ability: Harvest
+Level: 100
+Nature: Careful
+EVs: 252 HP / 252 SpD / 4 Atk
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Protect
+- Horn Leech
+- Will-O-Wisp
+- Shadow Claw
+
+Salazzle @ Black Sludge
+Ability: Corrosion
+Level: 100
+Nature: Timid
+EVs: 252 SpA / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Protect
+- Sludge Bomb
+- Flamethrower
+- Toxic
 
 === TRAINER_SAMUEL ===
 Name: SAMUEL
@@ -2080,20 +2178,75 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Ace Pokemon / Double Battle / Smart Switching
+/* Location: VictoryRoad_B1F */
 
-Swellow
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Toxicroak @ Black Sludge
+Ability: Dry Skin
+Level: 100
+Nature: Adamant
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fake Out
+- Drain Punch
+- Gunk Shot
+- Protect
 
-Mawile
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Sylveon @ Pixie Plate
+Ability: Pixilate
+Level: 100
+Nature: Modest
+EVs: 252 HP / 252 SpA / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hyper Voice
+- Shadow Ball
+- Calm Mind
+- Protect
 
-Kadabra
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Coalossal @ Weakness Policy
+Ability: Steam Engine
+Level: 100
+Nature: Brave
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Heat Crash
+- Rock Slide
+- Solar Beam
+- Protect
+
+Goodra @ Assault Vest
+Ability: Sap Sipper
+Level: 100
+Nature: Sassy
+EVs: 252 HP / 252 SpD / 4 SpA
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Draco Meteor
+- Muddy Water
+- Sludge Bomb
+- Thunderbolt
+
+Hawlucha @ White Herb
+Ability: Unburden
+Level: 100
+Nature: Jolly
+EVs: 252 Atk / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Acrobatics
+- Close Combat
+- Swords Dance
+- Protect
+
+Serperior @ Sitrus Berry
+Ability: Contrary
+Level: 100
+Nature: Timid
+EVs: 252 SpA / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Leaf Storm
+- Glare
+- Substitute
+- Protect
 
 === TRAINER_VITO ===
 Name: VITO
@@ -2101,24 +2254,69 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Ace Pokemon / Double Battle / Smart Switching
+/* Location: VictoryRoad_B2F */
 
-Dodrio
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Kilowattrel @ Choice Specs
+Ability: Volt Absorb
+EVs: 252 SpA / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Timid
+- Thunderbolt
+- Air Slash
+- Volt Switch
+- U Turn
 
-Kadabra
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Garchomp @ Life Orb
+Ability: Rough Skin
+EVs: 252 Atk / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Jolly
+- Stomping Tantrum
+- Outrage
+- Swords Dance
+- Protect
 
-Electrode
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Corviknight @ Leftovers
+Ability: Mirror Armor
+EVs: 252 HP / 252 Def / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Impish
+- Protect
+- Steel Wing
+- Bulk Up
+- Brave Bird
 
-Shiftry
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Volcarona @ Heavy-Duty Boots
+Ability: Flame Body
+EVs: 252 SpA / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Timid
+- Quiver Dance
+- Fiery Dance
+- Bug Buzz
+- Protect
+
+Toxapex @ Black Sludge
+Ability: Regenerator
+EVs: 252 HP / 252 Def / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Bold
+- Scald
+- Recover
+- Toxic
+- Baneful Bunker
+
+Haxorus @ Choice Band
+Ability: Mold Breaker
+EVs: 252 Atk / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Adamant
+- Outrage
+- Close Combat
+- Poison Jab
+- Protect
 
 === TRAINER_OWEN ===
 Name: OWEN
@@ -2126,20 +2324,75 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Ace Pokemon / Double Battle / Smart Switching
+/* Location: VictoryRoad_B2F */
 
-Kecleon
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Excadrill @ Leftovers
+Ability: Mold Breaker
+Level: 100
+Nature: Careful
+EVs: 252 HP / 252 SpD / 4 Atk
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Earthquake
+- Iron Head
+- Toxic
+- Protect
 
-Graveler
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Dragapult @ Choice Band
+Ability: Infiltrator
+Level: 100
+Nature: Jolly
+EVs: 252 Atk / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dragon Darts
+- U Turn
+- Phantom Force
+- Psychic Fangs
 
-Wailord
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Arcanine @ Heavy-Duty Boots
+Level: 100
+Nature: Impish
+Ability: Intimidate
+EVs: 252 HP / 252 Def / 4 Atk
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flare Blitz
+- Morning Sun
+- Will-O-Wisp
+- Protect
+
+Gastrodon @ Leftovers
+Ability: Storm Drain
+Level: 100
+Nature: Bold
+EVs: 252 HP / 252 Def / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Scald
+- Earth Power
+- Recover
+- Protect
+
+Scizor @ Assault Vest
+Ability: Technician
+Level: 100
+Nature: Adamant
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Bullet Punch
+- U-turn
+- Knock Off
+- Close Combat
+
+Togekiss @ Sitrus Berry
+Ability: Serene Grace
+Level: 100
+Nature: Calm
+EVs: 252 HP / 252 SpD / 4 SpA
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Air Slash
+- Thunder Wave
+- Roost
+- Protect
 
 === TRAINER_WILTON_2 ===
 Name: WILTON
@@ -2418,25 +2671,75 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Ace Pokemon / Double Battle / Smart Switching
+/* Location: VictoryRoad_1F */
 
-Roselia
-Level: 45
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Infernape @ Focus Sash
+Ability: Blaze
+Level: 100
+Nature: Jolly
+EVs: 252 Atk / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fake Out
+- Close Combat
+- Flare Blitz
+- Protect
 
-=== TRAINER_SHANNON ===
-Name: SHANNON
-Class: Cooltrainer
-Pic: Cooltrainer F
-Gender: Female
-Music: Cool
-Double Battle: No
-AI: Basic Trainer
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 100
+Nature: Careful
+EVs: 252 HP / 252 SpD / 4 Atk
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Spirit Break
+- Reflect
+- Light Screen
+- Protect
 
-Claydol
-Level: 45
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Gigalith @ Weakness Policy
+Ability: Sand Stream
+Level: 100
+Nature: Brave
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rock Slide
+- Body Press
+- Heavy Slam
+- Protect
+
+Gastrodon @ Leftovers
+Ability: Storm Drain
+Level: 100
+Nature: Calm
+EVs: 252 HP / 252 SpD / 4 SpA
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Scald
+- Earth Power
+- Ice Beam
+- Protect
+
+Luxray @ Assault Vest
+Ability: Intimidate
+Level: 100
+Nature: Adamant
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Wild Charge
+- Ice Fang
+- Superpower
+- Volt Switch
+
+Roserade @ Black Sludge
+Ability: Technician
+Level: 100
+Nature: Modest
+EVs: 252 SpA / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Giga Drain
+- Sludge Bomb
+- Shadow Ball
+- Protect
 
 === TRAINER_MICHELLE ===
 Name: MICHELLE
@@ -2444,20 +2747,75 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Ace Pokemon / Double Battle / Smart Switching
+/* Location: VictoryRoad_B1F */
 
-Torkoal
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Mienshao @ Focus Sash
+Ability: Inner Focus
+Level: 100
+Nature: Jolly
+EVs: 252 Atk / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fake Out
+- Close Combat
+- U-turn
+- Protect
 
-Medicham
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 100
+Nature: Careful
+EVs: 252 HP / 252 SpD / 4 Def
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Spirit Break
+- Reflect
+- Light Screen
+- Protect
 
-Ludicolo
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 100
+Nature: Adamant
+EVs: 252 Atk / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Brave Bird
+- Flare Blitz
+- Tailwind
+- Protect
+
+Gastrodon @ Leftovers
+Ability: Storm Drain
+Level: 100
+Nature: Calm
+EVs: 252 HP / 252 SpD / 4 SpA
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Scald
+- Earth Power
+- Ice Beam
+- Protect
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 100
+Nature: Brave
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rock Slide
+- Crunch
+- Ice Punch
+- Low Kick
+
+Roserade @ Black Sludge
+Ability: Technician
+Level: 100
+Nature: Modest
+EVs: 252 SpA / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Giga Drain
+- Sludge Bomb
+- Shadow Ball
+- Protect
 
 === TRAINER_CAROLINE ===
 Name: CAROLINE
@@ -2465,16 +2823,75 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Ace Pokemon / Double Battle / Smart Switching
+/* Location: VictoryRoad_B2F */
 
-Skarmory
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Hitmontop @ Sitrus Berry
+Ability: Intimidate
+Level: 100
+Nature: Careful
+EVs: 252 HP / 252 SpD / 4 Atk
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fake Out
+- Close Combat
+- Wide Guard
+- Protect
 
-Sableye
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ribombee @ Focus Sash
+Ability: Shield Dust
+Level: 100
+Nature: Timid
+EVs: 252 HP / 252 Spe / 4 SpA
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Moonblast
+- Pollen Puff
+- Tailwind
+- Protect
+
+Armarouge @ Life Orb
+Ability: Flash Fire
+Level: 100
+Nature: Modest
+EVs: 252 HP / 252 SpA / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Expanding Force
+- Heat Wave
+- Aura Sphere
+- Protect
+
+Ludicolo @ Assault Vest
+Ability: Swift Swim
+Level: 100
+Nature: Modest
+EVs: 252 HP / 252 SpA / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Scald
+- Giga Drain
+- Ice Beam
+- Fake Out
+
+Haxorus @ Choice Scarf
+Ability: Mold Breaker
+Level: 100
+Nature: Jolly
+EVs: 252 Atk / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Outrage
+- Poison Jab
+- Close Combat
+- Iron Head
+
+Vileplume @ Black Sludge
+Ability: Effect Spore
+Level: 100
+Nature: Bold
+EVs: 252 HP / 252 Def / 4 SpA
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Giga Drain
+- Sludge Bomb
+- Strength Sap
+- Protect
 
 === TRAINER_JULIE ===
 Name: JULIE
@@ -2482,20 +2899,75 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Ace Pokemon / Double Battle / Smart Switching
+/* Location: VictoryRoad_B2F */
 
-Sandslash
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 100
+Nature: Careful
+EVs: 252 HP / 252 SpD / 4 Atk
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fake Out
+- Flare Blitz
+- Snarl
+- Protect
 
-Ninetales
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Togekiss @ Babiri Berry
+Ability: Serene Grace
+Level: 100
+Nature: Calm
+EVs: 252 HP / 252 SpD / 4 SpA
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Air Slash
+- Follow Me
+- Thunder Wave
+- Protect
 
-Tropius
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Metagross @ Assault Vest
+Ability: Clear Body
+Level: 100
+Nature: Adamant
+EVs: 252 HP / 252 Atk / 4 Def
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Iron Head
+- Zen Headbutt
+- Bullet Punch
+- Ice Punch
+
+Rotom-Wash @ Leftovers
+Ability: Levitate
+Level: 100
+Nature: Bold
+EVs: 252 HP / 252 Def / 4 SpA
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Thunderbolt
+- Hydro Pump
+- Will-O-Wisp
+- Protect
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 100
+Nature: Adamant
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Grassy Glide
+- Fake Out
+- Knock Off
+- Protect
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 100
+Nature: Impish
+EVs: 252 HP / 252 Def / 4 Atk
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flare Blitz
+- Snarl
+- Morning Sun
+- Protect
 
 === TRAINER_BROOKE_2 ===
 Name: BROOKE
@@ -2772,6 +3244,10 @@ Bidoof @ Nugget
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
+Sentret @ Stardust
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
 === TRAINER_DAPHNE ===
 Name: DAPHNE
 Class: Lady
@@ -2837,28 +3313,6 @@ Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 - Tail Whip
-
-=== TRAINER_BRIANNA ===
-Name: BRIANNA
-Class: Lady
-Pic: Lady
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-/* Location: SootopolisCity_Gym */
-
-Seaking @ Nugget
-Level: 88
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-Barbaracle
-Level: 88
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-Wishiwashi
-Level: 88
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_NAOMI ===
 Name: NAOMI
@@ -3029,6 +3483,18 @@ Lapras
 Level: 88
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
+Seaking @ Nugget
+Level: 88
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Barbaracle
+Level: 88
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Wishiwashi
+Level: 88
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
 === TRAINER_OLIVIA ===
 Name: OLIVIA
 Class: Beauty
@@ -3051,6 +3517,18 @@ Ludicolo
 Level: 88
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
+Azumarill @ Sitrus Berry
+Level: 88
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Gyarados @ Sitrus Berry
+Level: 88
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Toxapex @ Sitrus Berry
+Level: 88
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
 === TRAINER_TIFFANY ===
 Name: TIFFANY
 Class: Beauty
@@ -3066,6 +3544,14 @@ Level: 88
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Drednaw
+Level: 88
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Seaking
+Level: 88
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Dondozo
 Level: 88
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
@@ -5406,53 +5892,52 @@ Class: Elite Four
 Pic: Elite Four Sidney
 Gender: Male
 Music: Elite Four
-Double Battle: No
-AI: Basic Trainer / Force Setup First Turn
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 Mugshot: Purple
 
-Grimmsnarl
+Grimmsnarl @ Light Clay
+Ability: Prankster
 Level: 100
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Nature: Careful
+EVs: 252 HP / 252 SpD / 4 Atk
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Light Screen
 - Reflect
 - Play Rough
 - Protect
 
-Drapion
+Drapion @ Black Sludge
+Ability: Battle Armor
 Level: 100
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Nature: Jolly
+EVs: 252 Atk / 252 Spe / 4 HP
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Cross Poison
 - Double Team
 - Swords Dance
 - Protect
 
-Kingambit
+Kingambit @ Assault Vest
+Ability: Defiant
 Level: 100
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Nature: Adamant
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Kowtow Cleave
 - Iron Head
 - Taunt
-- Protect
+- Sucker Punch
 
-Meowscarada
+Meowscarada @ Focus Sash
+Ability: Protean
 Level: 100
+Nature: Jolly
+EVs: 252 Atk / 252 Spe / 4 HP
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flower Trick
-- Protect
-
-Tyranitar
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rock Slide
-- Swords Dance
-- Protect
-
-Roaring Moon @ Booster Energy
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 Atk / 252 Spe
-- Acrobatics
-- Protect
+- Knock Off
+- U-turn
 
 === TRAINER_PHOEBE ===
 Name: PHOEBE
@@ -5460,33 +5945,75 @@ Class: Elite Four
 Pic: Elite Four Phoebe
 Gender: Female
 Music: Elite Four
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 Mugshot: Green
 
-Gengar
+Gengar @ Focus Sash
+Ability: Cursed Body
 Level: 100
+Nature: Timid
+EVs: 252 SpA / 252 Spe / 4 HP
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Shadow Ball
+- Sludge Bomb
+- Icy Wind
 
-Drifblim
+Drifblim @ Psychic Seed
+Ability: Unburden
 Level: 100
+Nature: Bold
+EVs: 252 HP / 252 Def / 4 SpD
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Shadow Ball
+- Strength Sap
+- Tailwind
 
-Froslass
+Froslass @ Bright Powder
+Ability: Snow Cloak
 Level: 100
+Nature: Timid
+EVs: 252 SpA / 252 Spe / 4 HP
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Blizzard
+- Shadow Ball
+- Destiny Bond
 
-Ceruledge
+Ceruledge @ Clear Amulet
+Ability: Flash Fire
 Level: 100
+Nature: Adamant
+EVs: 252 Atk / 252 Spe / 4 HP
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Bitter Blade
+- Shadow Sneak
+- Swords Dance
 
-Dragapult
+Dragapult @ Choice Band
+Ability: Infiltrator
 Level: 100
+Nature: Jolly
+EVs: 252 Atk / 252 Spe / 4 HP
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Darts
+- Phantom Force
+- U-turn
+- Sucker Punch
 
-Flutter Mane
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
 Level: 100
+Nature: Modest
+EVs: 252 SpA / 252 Spe / 4 HP
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Shadow Ball
+- Moonblast
+- Thunderbolt
 
 === TRAINER_GLACIA ===
 Name: GLACIA
@@ -5494,33 +6021,75 @@ Class: Elite Four
 Pic: Elite Four Glacia
 Gender: Female
 Music: Elite Four
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 Mugshot: Pink
 
-Ninetales Alola
+Ninetales-Alola @ Light Clay
+Ability: Snow Warning
 Level: 100
+Nature: Timid
+EVs: 252 HP / 252 Spe / 4 SpA
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Aurora Veil
+- Freeze-Dry
+- Moonblast
 
-Mr Rime
+Mr. Rime @ Sitrus Berry
+Ability: Screen Cleaner
 Level: 100
+Nature: Calm
+EVs: 252 HP / 252 SpD / 4 SpA
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Freeze-Dry
+- Psychic
+- Fake Out
 
-Mamoswine
+Mamoswine @ Life Orb
+Ability: Thick Fat
 Level: 100
+Nature: Adamant
+EVs: 252 Atk / 252 Spe / 4 HP
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Ice Shard
+- High Horsepower
+- Icicle Crash
 
-Walrein
+Walrein @ Leftovers
+Ability: Ice Body
 Level: 100
+Nature: Bold
+EVs: 252 HP / 252 Def / 4 SpA
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Blizzard
+- Substitute
+- Surf
 
-Baxcalibur
+Baxcalibur @ Clear Amulet
+Ability: Thermal Exchange
 Level: 100
+Nature: Adamant
+EVs: 252 Atk / 252 Spe / 4 HP
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Glaive Rush
+- Ice Shard
+- Dragon Dance
 
-Iron Bundle
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
 Level: 100
+Nature: Timid
+EVs: 252 SpA / 252 Spe / 4 HP
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Freeze-Dry
+- Hydro Pump
+- Icy Wind
 
 === TRAINER_DRAKE ===
 Name: DRAKE
@@ -5528,33 +6097,75 @@ Class: Elite Four
 Pic: Elite Four Drake
 Gender: Male
 Music: Elite Four
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 Mugshot: Blue
 
-Charizard
+Charizard @ Heavy-Duty Boots
+Ability: Solar Power
 Level: 100
+Nature: Timid
+EVs: 252 SpA / 252 Spe / 4 HP
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Heat Wave
+- Solar Beam
+- Sunny Day
 
-Koraidon
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
 Level: 100
+Nature: Jolly
+EVs: 252 Atk / 252 Spe / 4 HP
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Flare Blitz
+- Dragon Claw
+- Drain Punch
 
-Roaring Moon
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
 Level: 100
+Nature: Adamant
+EVs: 252 Atk / 252 Spe / 4 HP
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Acrobatics
+- Throat Chop
+- Dragon Dance
 
-Walking Wake
+Walking Wake @ Life Orb
+Ability: Protosynthesis
 Level: 100
+Nature: Modest
+EVs: 252 SpA / 252 Spe / 4 HP
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Hydro Steam
+- Sunny Day
+- Flamethrower
 
-Gouging Fire
+Gouging Fire @ Assault Vest
+Ability: Protosynthesis
 Level: 100
+Nature: Adamant
+EVs: 252 HP / 252 Atk / 4 SpD
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flare Blitz
+- Dragon Claw
+- Heavy Slam
+- Snarl
 
-Raging Bolt
+Raging Bolt @ Sitrus Berry
+Ability: Protosynthesis
 Level: 100
+Nature: Modest
+EVs: 252 HP / 252 SpA / 4 SpD
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Thunderbolt
+- Draco Meteor
+- Sunny Day
 
 === TRAINER_ROXANNE_1 ===
 Name: ROXANNE
@@ -6044,8 +6655,8 @@ Class: Leader
 Pic: Leader Juan
 Gender: Male
 Music: Male
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 
 Pelipper @ Focus Sash
 Level: 93
@@ -6123,6 +6734,10 @@ AI: Check Bad Move
 Ralts
 Level: 9
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Marill
+Level: 9
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TED ===
 Name: TED
@@ -6240,6 +6855,14 @@ Double Battle: No
 AI: Check Bad Move
 /* Location: Route116 */
 
+Machop
+Level: 16
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Joltik
+Level: 16
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
 Shroomish
 Level: 16
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
@@ -6247,7 +6870,6 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 Pikachu
 Level: 17
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
 
 === TRAINER_GEORGIA ===
 Name: GEORGIA
@@ -6655,28 +7277,6 @@ Raichu Alola
 Level: 68
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-=== TRAINER_BETHANY ===
-Name: BETHANY
-Class: Pokefan
-Pic: Pokefan F
-Gender: Female
-Music: Twins
-Double Battle: No
-AI: Check Bad Move
-/* Location: SootopolisCity_Gym */
-
-Azumarill @ Sitrus Berry
-Level: 88
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-Gyarados @ Sitrus Berry
-Level: 88
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-Toxapex @ Sitrus Berry
-Level: 88
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
 === TRAINER_ISABEL_1 ===
 Name: ISABEL
 Class: Pokefan
@@ -6971,9 +7571,22 @@ Poochyena
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Raticate
+Rattata
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Zigzagoon
+Level: 7
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Taillow
+Level: 7
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Buizel
+Level: 8
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
 
 === TRAINER_BILLY ===
 Name: BILLY
@@ -6991,6 +7604,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seedot
 Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Goldeen
+Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JOSH ===
@@ -7027,24 +7644,6 @@ Anorith
 Level: 17
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-=== TRAINER_JOEY ===
-Name: JOEY
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-/* Location: Route116 */
-
-Machop
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Joltik
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_BEN ===
 Name: BEN
 Class: Youngster
@@ -7069,24 +7668,75 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Ace Pokemon / Double Battle / Smart Switching
+/* Location: VictoryRoad_1F */
 
-Slaking
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Attract
-- Ice Beam
-- Thunderbolt
-- Flamethrower
-
-Dusclops
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Skill Swap
+Swampert @ Leftovers
+Ability: Torrent
+Level: 100
+Nature: Relaxed
+EVs: 252 HP / 252 Def / 4 Atk
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Protect
-- Will O Wisp
-- Toxic
+- Scald
+- Earthquake
+- Ice Punch
+
+Klefki @ Light Clay
+Ability: Prankster
+Level: 100
+Nature: Calm
+EVs: 252 HP / 252 SpD / 4 Def
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Protect
+- Reflect
+- Light Screen
+- Foul Play
+
+Arcanine @ Assault Vest
+Ability: Intimidate
+Level: 100
+Nature: Adamant
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flare Blitz
+- Extreme Speed
+- Close Combat
+- Wild Charge
+
+Roserade @ Black Sludge
+Ability: Technician
+Level: 100
+Nature: Modest
+EVs: 252 SpA / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Protect
+- Giga Drain
+- Sludge Bomb
+- Shadow Ball
+
+Gallade @ Focus Sash
+Ability: Justified
+Level: 100
+Nature: Jolly
+EVs: 252 Atk / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Protect
+- Close Combat
+- Psycho Cut
+- Shadow Sneak
+
+Rotom-Heat @ Sitrus Berry
+Ability: Levitate
+Level: 100
+Nature: Bold
+EVs: 252 HP / 252 Def / 4 SpA
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Protect
+- Overheat
+- Thunderbolt
+- Will-O-Wisp
 
 === TRAINER_KATELYNN ===
 Name: KATELYNN
@@ -7094,25 +7744,75 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Double Battle: No
-AI: Basic Trainer
-/* Location: Route128 */
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Ace Pokemon / Double Battle / Smart Switching
+/* Location: VictoryRoad_1F */
 
-Gardevoir
-Level: 77
+Sceptile @ Focus Sash
+Ability: Unburden
+Level: 100
+Nature: Timid
+EVs: 252 SpA / 252 Spe / 4 HP
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Skill Swap
-- Psychic
+- Protect
+- Leaf Storm
+- Dragon Pulse
+- Focus Blast
+
+Umbreon @ Leftovers
+Ability: Synchronize
+Level: 100
+Nature: Calm
+EVs: 252 HP / 252 SpD / 4 Def
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Protect
+- Snarl
+- Foul Play
+- Wish
+
+Metagross @ Assault Vest
+Ability: Clear Body
+Level: 100
+Nature: Adamant
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Meteor Mash
+- Bullet Punch
+- Zen Headbutt
+- Ice Punch
+
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 100
+Nature: Jolly
+EVs: 252 Atk / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Protect
+- Brave Bird
+- Flare Blitz
+- Tailwind
+
+Vikavolt @ Sitrus Berry
+Ability: Levitate
+Level: 100
+Nature: Modest
+EVs: 252 HP / 252 SpA / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Protect
 - Thunderbolt
-- Calm Mind
+- Bug Buzz
+- Energy Ball
 
-Slaking
-Level: 77
+Hariyama @ Flame Orb
+Ability: Guts
+Level: 100
+Nature: Brave
+EVs: 252 HP / 252 Atk / 4 SpD
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Earthquake
-- Shadow Ball
-- Aerial Ace
-- Brick Break
+- Protect
+- Close Combat
+- Knock Off
+- Bullet Punch
 
 === TRAINER_JAYLEN ===
 Name: JAYLEN
@@ -7231,28 +7931,6 @@ Zigzagoon
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_ALLEN ===
-Name: ALLEN
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-/* Location:  Route102 */
-
-Zigzagoon
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Taillow
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Buizel
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_TIMMY ===
 Name: TIMMY
 Class: Youngster
@@ -7281,34 +7959,75 @@ Class: Champion
 Pic: Champion Wallace
 Gender: Male
 Music: Male
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 Mugshot: Yellow
 
-Pelipper
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Pelipper @ Damp Rock
 Ability: Drizzle
-
-Milotic
 Level: 100
+Nature: Bold
+EVs: 252 HP / 252 Def / 4 SpA
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Hurricane
+- Scald
+- Tailwind
 
-Gyarados
+Milotic @ Leftovers
+Ability: Competitive
 Level: 100
+Nature: Calm
+EVs: 252 HP / 252 SpD / 4 SpA
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Scald
+- Ice Beam
+- Recover
 
-Basculegion (M)
+Gyarados @ Sitrus Berry
+Ability: Intimidate
 Level: 100
+Nature: Adamant
+EVs: 252 Atk / 252 Spe / 4 HP
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Waterfall
+- Bounce
+- Dragon Dance
 
-Walking Wake
+Basculegion (M) @ Choice Band
+Ability: Adaptability
 Level: 100
+Nature: Jolly
+EVs: 252 Atk / 252 Spe / 4 HP
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wave Crash
+- Aqua Jet
+- Crunch
+- Psychic Fangs
 
-Urshifu Rapid Strike
+Walking Wake @ Life Orb
+Ability: Protosynthesis
 Level: 100
+Nature: Modest
+EVs: 252 SpA / 252 Spe / 4 HP
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Hydro Steam
+- Draco Meteor
+- Flamethrower
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 100
+Nature: Jolly
+EVs: 252 Atk / 252 Spe / 4 HP
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Surging Strikes
+- Close Combat
+- Rain Dance
 
 === TRAINER_ANDREW ===
 Name: ANDREW
@@ -8192,12 +8911,25 @@ Class: Triathlete
 Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Ace Pokemon / Double Battle / Smart Switching
+/* Location: Route128 */
 
-Staryu
-Level: 35
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gardevoir
+Level: 77
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Skill Swap
+- Psychic
+- Thunderbolt
+- Calm Mind
+
+Slaking
+Level: 77
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Earthquake
+- Shadow Ball
+- Aerial Ace
+- Brick Break
 
 === TRAINER_ALLISON ===
 Name: ALLISON
@@ -8760,26 +9492,6 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Weezing Galar
 Level: 60
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-=== TRAINER_DIANNE ===
-Name: DIANNE
-Class: Cooltrainer
-Pic: Cooltrainer F
-Gender: Female
-Music: Cool
-Double Battle: No
-
-Claydol
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Skill Swap
-- Earthquake
-
-Lanturn
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Thunderbolt
-- Earthquake
 
 === TRAINER_JANI ===
 Name: JANI
@@ -9556,19 +10268,6 @@ AI: Check Bad Move
 Seaking
 Level: 78
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-=== TRAINER_DANA ===
-Name: DANA
-Class: Swimmer F
-Pic: Swimmer F
-Gender: Female
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Azumarill
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SIENNA ===
 Name: SIENNA
@@ -10782,48 +11481,75 @@ Class: Rival
 Pic: Wally
 Gender: Male
 Music: Male
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Ace Pokemon / Double Battle / Smart Switching
+/* Location:  VictoryRoad_1F */
 
-Altaria
-Level: 44
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Aerial Ace
-- Safeguard
-- Dragon Breath
-- Dragon Dance
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 100
+Nature: Adamant
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Flare Blitz
+- Extreme Speed
+- Will-O-Wisp
 
-Delcatty
-Level: 43
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Sing
-- Assist
-- Charm
-- Feint Attack
+Gastrodon @ Leftovers
+Ability: Storm Drain
+Level: 100
+Nature: Calm
+EVs: 252 HP / 252 SpD / 4 SpA
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Scald
+- Earth Power
+- Ice Beam
 
-Roselia
-Level: 44
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Magical Leaf
-- Leech Seed
-- Giga Drain
-- Toxic
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 100
+Nature: Adamant
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- High Horsepower
+- Wood Hammer
+- Fake Out
 
-Magneton
-Level: 41
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Supersonic
+Gholdengo @ Assault Vest
+Ability: Good as Gold
+Level: 100
+Nature: Modest
+EVs: 252 HP / 252 SpA / 4 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Make It Rain
+- Shadow Ball
 - Thunderbolt
-- Tri Attack
-- Screech
+- Power Gem
 
-Gardevoir
-Level: 45
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Double Team
-- Calm Mind
+Salamence @ Life Orb
+Ability: Intimidate
+Level: 100
+Nature: Naive
+EVs: 252 Atk / 252 Spe / 4 SpA
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Dual Wingbeat
+- Dragon Claw
+- Flamethrower
+
+Gardevoir @ Pixie Plate
+Ability: Synchronize
+Level: 100
+Nature: Modest
+EVs: 252 SpA / 252 Spe / 4 HP
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Dazzling Gleam
 - Psychic
-- Future Sight
+- Calm Mind
 
 === TRAINER_BRENDAN_ROUTE_103_MUDKIP ===
 Name: BRENDAN
@@ -11717,31 +12443,6 @@ Centiskorch
 Level: 59
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-=== TRAINER_MITCHELL ===
-Name: MITCHELL
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: Basic Trainer
-
-Lunatone
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Explosion
-- Reflect
-- Light Screen
-- Psychic
-
-Solrock
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Explosion
-- Reflect
-- Light Screen
-- Shadow Ball
-
 === TRAINER_ISAAC_2 ===
 Name: ISAAC
 Class: Pkmn Breeder
@@ -11914,16 +12615,75 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Ace Pokemon / Double Battle / Smart Switching
+/* Location: VictoryRoad_B1F */
 
-Sableye
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Raichu @ Focus Sash
+Ability: Lightning Rod
+Level: 100
+Nature: Jolly
+EVs: 252 Atk / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fake Out
+- Volt Tackle
+- Brick Break
+- Protect
 
-Absol
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Florges @ Leftovers
+Ability: Flower Veil
+Level: 100
+Nature: Calm
+EVs: 252 HP / 252 SpD / 4 SpA
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Moonblast
+- Aromatherapy
+- Wish
+- Protect
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 100
+Nature: Impish
+EVs: 252 HP / 252 Def / 4 Atk
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flare Blitz
+- Snarl
+- Will-O-Wisp
+- Protect
+
+Clawitzer @ Assault Vest
+Ability: Mega Launcher
+Level: 100
+Nature: Modest
+EVs: 252 HP / 252 SpA / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Water Pulse
+- Aura Sphere
+- Ice Beam
+- Dark Pulse
+
+Krookodile @ Choice Scarf
+Ability: Moxie
+Level: 100
+Nature: Jolly
+EVs: 252 Atk / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Crunch
+- High Horsepower
+- Stone Edge
+- Close Combat
+
+Lilligant @ Sitrus Berry
+Ability: Chlorophyll
+Level: 100
+Nature: Timid
+EVs: 252 SpA / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Leaf Storm
+- Sleep Powder
+- Quiver Dance
+- Protect
 
 === TRAINER_GARRISON ===
 Name: GARRISON
@@ -13234,11 +13994,19 @@ Double Battle: No
 AI: Check Bad Move
 /* Location:  Route102 */
 
+Ledyba
+Level: 7
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Shroomish
+Level: 8
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
 Zigzagoon
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Shroomish
+Butterfree
 Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13258,20 +14026,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shroomish
 Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_JANICE ===
-Name: JANICE
-Class: Lass
-Pic: Lass
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-/* Location: Route116 */
-
-Marill
-Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_VIVI ===
@@ -13420,68 +14174,6 @@ Bruxish
 Level: 88
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-=== TRAINER_CRISSY ===
-Name: CRISSY
-Class: Lass
-Pic: Lass
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-/* Location: SootopolisCity_Gym */
-
-Seaking
-Level: 88
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-Dondozo
-Level: 88
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-=== TRAINER_RICK ===
-Name: RICK
-Class: Bug Catcher
-Pic: Bug Catcher
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-/* Location:  Route102 */
-
-Ledyba
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Butterfree
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_LYLE ===
-Name: LYLE
-Class: Bug Catcher
-Pic: Bug Catcher
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-/* Location:  PetalburgWoods */
-
-Beautifly
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Dustox
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Butterfree
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Beedrill
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_JOSE ===
 Name: JOSE
 Class: Bug Catcher
@@ -13581,6 +14273,22 @@ Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kricketune
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Beautifly
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Dustox
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Butterfree
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Beedrill
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -15487,32 +16195,14 @@ Carvanha
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_DAWSON ===
-Name: DAWSON
-Class: Rich Boy
-Pic: Rich Boy
-Gender: Male
-Music: Rich
-Double Battle: No
-AI: Check Bad Move
-/* Location: Route116 */
-
-Zigzagoon @ Nugget
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Poochyena
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_SARAH ===
 Name: SARAH
 Class: Lady
 Pic: Lady
 Gender: Female
 Music: Female
-Double Battle: No
-AI: Check Bad Move
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 /* Location: Route116 */
 
 Lotad
@@ -15523,18 +16213,12 @@ Zigzagoon @ Nugget
 Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_DARIAN ===
-Name: DARIAN
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-/* Location:  Route104 */
+Rattata @ Nugget
+Level: 8
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Goldeen
-Level: 15
+Poochyena
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HAILEY ===
@@ -19653,6 +20337,260 @@ Double Battle: No
 Wobbuffet
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_NEW_MAUVILLE_EXEC ===
+Name: GRUNT
+Class: Rocket Exec 
+Pic: Rocket Exec M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+/* Location: NewMauville */
+
+Weezing-Galar @ Black Sludge
+Ability: Neutralizing Gas
+Level: 60
+Nature: Bold
+EVs: 252 HP / 252 Def / 4 SpA
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Sludge Bomb
+- Will-O-Wisp
+- Strange Steam
+
+Arbok @ Sitrus Berry
+Ability: Intimidate
+Level: 60
+Nature: Adamant
+EVs: 252 HP / 252 Atk / 4 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Gunk Shot
+- Coil
+- Sucker Punch
+
+Persian-Alola @ Focus Sash
+Ability: Fur Coat
+Level: 60
+Nature: Timid
+EVs: 252 HP / 252 Spe / 4 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Fake Out
+- Foul Play
+- Parting Shot
+
+Toxicroak @ Life Orb
+Ability: Dry Skin
+Level: 60
+Nature: Jolly
+EVs: 252 Atk / 252 Spe / 4 HP
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Poison Jab
+- Drain Punch
+- Sucker Punch
+
+Honchkrow @ Scope Lens
+Ability: Super Luck
+Level: 60
+Nature: Adamant
+EVs: 252 Atk / 252 Spe / 4 HP
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Night Slash
+- Brave Bird
+- Tailwind
+
+Drapion @ Assault Vest
+Ability: Battle Armor
+Level: 60
+Nature: Adamant
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Poison Jab
+- Knock Off
+- Earthquake
+- Ice Fang
+
+=== TRAINER_NEW_MAUVILLE_GRUNT1 ===
+Name: GRUNT
+Class: Rocket Grunt F
+Pic: Rocket Grunt F
+Gender: Female
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+/* Location: NewMauville */
+
+Mimikyu @ Focus Sash
+Ability: Disguise
+Level: 55
+Nature: Jolly
+EVs: 252 Atk / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Protect
+- Play Rough
+- Shadow Sneak
+- Swords Dance
+
+Gengar @ Black Sludge
+Ability: Cursed Body
+Level: 55
+Nature: Timid
+EVs: 252 SpA / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shadow Ball
+- Sludge Bomb
+- Will-O-Wisp
+- Taunt
+
+Scrafty @ Leftovers
+Ability: Moxie
+Level: 55
+Nature: Adamant
+EVs: 252 Atk / 252 HP / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Knock Off
+- High Jump Kick
+- Dragon Dance
+- Protect
+
+Sableye @ Sablenite
+Ability: Prankster
+Level: 55
+Nature: Impish
+EVs: 252 HP / 252 Def / 4 SpD
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Foul Play
+- Will-O-Wisp
+- Taunt
+- Recover
+
+=== TRAINER_NEW_MAUVILLE_GRUNT2 ===
+Name: GRUNT
+Class: Rocket Grunt
+Pic: Rocket Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+/* Location: NewMauville */
+
+Zoroark @ Life Orb
+Ability: Illusion
+Level: 55
+Nature: Timid
+EVs: 252 SpA / 252 Spe / 4 HP
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shadow Ball
+- Sludge Bomb
+- Nasty Plot
+- Flamethrower
+
+Arbok @ Black Sludge
+Ability: Intimidate
+Level: 55
+Nature: Adamant
+EVs: 252 HP / 252 Atk / 4 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Gunk Shot
+- Coil
+- Sucker Punch
+- Aqua Tail
+
+Weezing @ Black Sludge
+Ability: Levitate
+Level: 55
+Nature: Bold
+EVs: 252 HP / 252 Def / 4 SpA
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Protect
+- Sludge Bomb
+- Will-O-Wisp
+- Toxic
+
+Bisharp @ Black Glasses
+Ability: Defiant
+Level: 55
+Nature: Adamant
+EVs: 252 Atk / 252 HP / 4 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Knock Off
+- Iron Head
+- Sucker Punch
+- Swords Dance
+
+=== TRAINER_NEW_MAUVILLE_GRUNT3 ===
+Name: GRUNT
+Class: Rocket Grunt
+Pic: Rocket Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: Yes
+AI: Double Battle / Check Bad Move / Ace Pokemon
+/* Location: NewMauville */
+
+Gengar @ Focus Sash
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 4 HP / 252 SpA / 252 Spe
+Ability: Cursed Body
+- Dream Eater
+- Hypnosis
+- Confuse Ray
+- Destiny Bond
+
+Drifblim @ Focus Sash
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 31 Spe
+EVs: 4 HP / 252 Atk / 252 Spe
+Ability: Aftermath
+- Explosion
+- Destiny Bond
+- Protect
+- Tailwind
+
+Drifblim @ Focus Sash
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 31 Spe
+EVs: 4 HP / 252 Atk / 252 Spe
+Ability: Aftermath
+- Explosion
+- Destiny Bond
+- Protect
+- Tailwind
+
+Drifblim @ Focus Sash
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 31 Spe
+EVs: 4 HP / 252 Atk / 252 Spe
+Ability: Aftermath
+- Explosion
+- Destiny Bond
+- Protect
+- Tailwind
+
+Drifblim @ Focus Sash
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 31 Spe
+EVs: 4 HP / 252 Atk / 252 Spe
+Ability: Aftermath
+- Explosion
+- Destiny Bond
+- Protect
+- Tailwind
+
+Sableye @ Leftovers
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 31 Spe
+EVs: 252 HP / 126 Def / 126 SpD / 4 Spe
+Ability: Prankster
+- Shadow Claw
+- Will O Wisp
+- Recover
+- Protect
 
 === TRAINER_RED ===
 Name: RED

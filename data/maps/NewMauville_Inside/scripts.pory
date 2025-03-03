@@ -263,3 +263,77 @@ NewMauville_Inside_Text_SteppedOnSwitchGeneratorStopped:
 	.string "The generator appears to have\n"
 	.string "stopped…$"
 `
+
+script NewMauville_Inside_EventScript_RocketGrunt1 {
+    trainerbattle_single(TRAINER_NEW_MAUVILLE_GRUNT1, NewMauville_Inside_EventScript_RocketGrunt1Intro, NewMauville_Inside_EventScript_RocketGrunt1Defeat)
+    msgbox(NewMauville_Inside_EventScript_RocketGrunt1PostBattle, MSGBOX_AUTOCLOSE)
+}
+
+script NewMauville_Inside_EventScript_RocketGrunt2 {
+    trainerbattle_single(TRAINER_NEW_MAUVILLE_GRUNT2, NewMauville_Inside_EventScript_RocketGrunt2Intro, NewMauville_Inside_EventScript_RocketGrunt2Defeat)
+    msgbox(NewMauville_Inside_EventScript_RocketGrunt2PostBattle, MSGBOX_AUTOCLOSE)
+}
+
+script NewMauville_Inside_EventScript_RocketGrunt3 {
+    trainerbattle_single(TRAINER_NEW_MAUVILLE_GRUNT3, NewMauville_Inside_EventScript_RocketGrunt3Intro, NewMauville_Inside_EventScript_RocketGrunt3Defeat)
+    msgbox(NewMauville_Inside_EventScript_RocketGrunt3PostBattle, MSGBOX_AUTOCLOSE)
+}
+
+script NewMauville_Inside_EventScript_RocketExec {
+    trainerbattle_single(TRAINER_NEW_MAUVILLE_EXEC, NewMauville_Inside_EventScript_RocketExecIntro, NewMauville_Inside_EventScript_RocketExecDefeat)
+    msgbox(NewMauville_Inside_EventScript_RocketExecPostBattle, MSGBOX_AUTOCLOSE)
+}
+
+text NewMauville_Inside_EventScript_RocketGrunt1Intro {
+    format("How the fuck did you get in here you little shit!")
+}
+
+text NewMauville_Inside_EventScript_RocketGrunt1Defeat {
+    format("You'll be sorry when the boss is through with you.")
+}
+
+text NewMauville_Inside_EventScript_RocketGrunt1PostBattle {
+    format("You'll be sorry when the boss is through with you.")
+}
+
+text NewMauville_Inside_EventScript_RocketGrunt2Intro {
+    format("I'm gonna fucking kill you!")
+}
+
+text NewMauville_Inside_EventScript_RocketGrunt2Defeat {
+    format("Fucking CUNT! AAAHHHHHHH!!!!")
+}
+
+text NewMauville_Inside_EventScript_RocketGrunt2PostBattle {
+    format("Fucking CUNT! AAAHHHHHHH!!!!")
+}
+
+text NewMauville_Inside_EventScript_RocketGrunt3Intro {
+    format("Surprise, Motherfucker!")
+}
+
+text NewMauville_Inside_EventScript_RocketGrunt3Defeat {
+    format("This kid is hacking.")
+}
+
+text NewMauville_Inside_EventScript_RocketGrunt3PostBattle {
+    format("This kid is hacking.")
+}
+
+text NewMauville_Inside_EventScript_RocketExecIntro {
+    format("So, this is the infamous {PLAYER}?\p"
+           "Lets see if you can withstand the might of TEAM ROCKET!")
+}
+
+text NewMauville_Inside_EventScript_RocketExecDefeat {
+    format("We've got what we came for...\p"
+           "I'll remember your name, {PLAYER}\p"
+           "TEAM ROCKET, Blast off!")
+}
+
+text NewMauville_Inside_EventScript_RocketExecPostBattle {
+    format("We've got what we came for...\p"
+           "I'll remember your name, {PLAYER}\p"
+           "TEAM ROCKET, Blast off!")
+}
+

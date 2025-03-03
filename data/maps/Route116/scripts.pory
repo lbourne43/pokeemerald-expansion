@@ -231,8 +231,7 @@ Route116_Movement_GlassesManExitEast:
 	step_end
 
 Route116_EventScript_Joey::
-	trainerbattle_single TRAINER_JOEY, Route116_Text_JoeyIntro, Route116_Text_JoeyDefeat
-	msgbox Route116_Text_JoeyPostBattle, MSGBOX_AUTOCLOSE
+	msgbox Route116_Text_JoeyPostBattle, MSGBOX_NPC
 	end
 
 Route116_EventScript_Jose::
@@ -287,8 +286,7 @@ Route116_EventScript_Clark::
 	end
 
 Route116_EventScript_Janice::
-	trainerbattle_single TRAINER_JANICE, Route116_Text_JaniceIntro, Route116_Text_JaniceDefeat
-	msgbox Route116_Text_JanicePostBattle, MSGBOX_AUTOCLOSE
+	msgbox Route116_Text_JanicePostBattle, MSGBOX_NPC
 	end
 
 Route116_EventScript_Karen::
@@ -338,8 +336,7 @@ Route116_EventScript_Sarah::
 	end
 
 Route116_EventScript_Dawson::
-	trainerbattle_single TRAINER_DAWSON, Route116_Text_DawsonIntro, Route116_Text_DawsonDefeat
-	msgbox Route116_Text_DawsonPostBattle, MSGBOX_AUTOCLOSE
+	msgbox Route116_Text_DawsonIntro, MSGBOX_NPC
 	end
 
 Route116_EventScript_Devan::
