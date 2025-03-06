@@ -486,114 +486,118 @@ RustboroCity_TMMachineItems:
 	.2byte ITEM_TM52
 # 251 "data/maps/RustboroCity_Mart/scripts.pory"
 	.2byte ITEM_TM53
+# 252 "data/maps/RustboroCity_Mart/scripts.pory"
+	.2byte ITEM_TM54
+# 253 "data/maps/RustboroCity_Mart/scripts.pory"
+	.2byte ITEM_TM55
 	.2byte ITEM_NONE
 
 RustboroCity_Mart_EventScript_EvolveMachine::
-# 255 "data/maps/RustboroCity_Mart/scripts.pory"
-	lock
-# 256 "data/maps/RustboroCity_Mart/scripts.pory"
-	message RustboroCity_Mart_EventScript_EvolveMachine_Text_0
 # 257 "data/maps/RustboroCity_Mart/scripts.pory"
-	waitmessage
+	lock
 # 258 "data/maps/RustboroCity_Mart/scripts.pory"
-	pokemart RustboroCity_EvolveMachineItems
+	message RustboroCity_Mart_EventScript_EvolveMachine_Text_0
 # 259 "data/maps/RustboroCity_Mart/scripts.pory"
-	msgbox RustboroCity_Mart_EventScript_EvolveMachine_Text_1
+	waitmessage
 # 260 "data/maps/RustboroCity_Mart/scripts.pory"
+	pokemart RustboroCity_EvolveMachineItems
+# 261 "data/maps/RustboroCity_Mart/scripts.pory"
+	msgbox RustboroCity_Mart_EventScript_EvolveMachine_Text_1
+# 262 "data/maps/RustboroCity_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 263 "data/maps/RustboroCity_Mart/scripts.pory"
-RustboroCity_EvolveMachineItems:
-# 264 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_FIRE_STONE
 # 265 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_WATER_STONE
+RustboroCity_EvolveMachineItems:
 # 266 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_THUNDER_STONE
+	.2byte ITEM_FIRE_STONE
 # 267 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_LEAF_STONE
+	.2byte ITEM_WATER_STONE
 # 268 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_ICE_STONE
+	.2byte ITEM_THUNDER_STONE
 # 269 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_SUN_STONE
+	.2byte ITEM_LEAF_STONE
 # 270 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_MOON_STONE
+	.2byte ITEM_ICE_STONE
 # 271 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_SHINY_STONE
+	.2byte ITEM_SUN_STONE
 # 272 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_DUSK_STONE
+	.2byte ITEM_MOON_STONE
 # 273 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_DAWN_STONE
+	.2byte ITEM_SHINY_STONE
 # 274 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_SWEET_APPLE
+	.2byte ITEM_DUSK_STONE
 # 275 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_TART_APPLE
+	.2byte ITEM_DAWN_STONE
 # 276 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_CRACKED_POT
+	.2byte ITEM_SWEET_APPLE
 # 277 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_CHIPPED_POT
+	.2byte ITEM_TART_APPLE
 # 278 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_CUFF
+	.2byte ITEM_CRACKED_POT
 # 279 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_WREATH
+	.2byte ITEM_CHIPPED_POT
 # 280 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_DRAGON_SCALE
+	.2byte ITEM_GALARICA_CUFF
 # 281 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_UPGRADE
+	.2byte ITEM_GALARICA_WREATH
 # 282 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_PROTECTOR
+	.2byte ITEM_DRAGON_SCALE
 # 283 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_ELECTIRIZER
+	.2byte ITEM_UPGRADE
 # 284 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_MAGMARIZER
+	.2byte ITEM_PROTECTOR
 # 285 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_DUBIOUS_DISC
+	.2byte ITEM_ELECTIRIZER
 # 286 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_REAPER_CLOTH
+	.2byte ITEM_MAGMARIZER
 # 287 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_PRISM_SCALE
+	.2byte ITEM_DUBIOUS_DISC
 # 288 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_WHIPPED_DREAM
+	.2byte ITEM_REAPER_CLOTH
 # 289 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_SACHET
+	.2byte ITEM_PRISM_SCALE
 # 290 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_OVAL_STONE
+	.2byte ITEM_WHIPPED_DREAM
 # 291 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_SCALE
+	.2byte ITEM_SACHET
 # 292 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_TOOTH
+	.2byte ITEM_OVAL_STONE
 # 293 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_METAL_COAT
+	.2byte ITEM_DEEP_SEA_SCALE
 # 294 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_KINGS_ROCK
+	.2byte ITEM_DEEP_SEA_TOOTH
 # 295 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_CLAW
+	.2byte ITEM_METAL_COAT
 # 296 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_FANG
+	.2byte ITEM_KINGS_ROCK
 # 297 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_AUSPICIOUS_ARMOR
+	.2byte ITEM_RAZOR_CLAW
 # 298 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_MALICIOUS_ARMOR
+	.2byte ITEM_RAZOR_FANG
 # 299 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_DARKNESS
+	.2byte ITEM_AUSPICIOUS_ARMOR
 # 300 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_WATERS
+	.2byte ITEM_MALICIOUS_ARMOR
 # 301 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_BLACK_AUGURITE
+	.2byte ITEM_SCROLL_OF_DARKNESS
 # 302 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_LINKING_CORD
+	.2byte ITEM_SCROLL_OF_WATERS
 # 303 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_PEAT_BLOCK
+	.2byte ITEM_BLACK_AUGURITE
 # 304 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_SYRUPY_APPLE
+	.2byte ITEM_LINKING_CORD
 # 305 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_UNREMARKABLE_TEACUP
+	.2byte ITEM_PEAT_BLOCK
 # 306 "data/maps/RustboroCity_Mart/scripts.pory"
-	.2byte ITEM_MASTERPIECE_TEACUP
+	.2byte ITEM_SYRUPY_APPLE
 # 307 "data/maps/RustboroCity_Mart/scripts.pory"
+	.2byte ITEM_UNREMARKABLE_TEACUP
+# 308 "data/maps/RustboroCity_Mart/scripts.pory"
+	.2byte ITEM_MASTERPIECE_TEACUP
+# 309 "data/maps/RustboroCity_Mart/scripts.pory"
 	.2byte ITEM_METAL_ALLOY
 	.2byte ITEM_NONE
 
@@ -622,9 +626,9 @@ RustboroCity_Mart_EventScript_TMMachine_Text_1:
 	.string "Go get'em!$"
 
 RustboroCity_Mart_EventScript_EvolveMachine_Text_0:
-# 256 "data/maps/RustboroCity_Mart/scripts.pory"
+# 258 "data/maps/RustboroCity_Mart/scripts.pory"
 	.string "So you wanna evolve?$"
 
 RustboroCity_Mart_EventScript_EvolveMachine_Text_1:
-# 259 "data/maps/RustboroCity_Mart/scripts.pory"
+# 261 "data/maps/RustboroCity_Mart/scripts.pory"
 	.string "Change is the best!$"

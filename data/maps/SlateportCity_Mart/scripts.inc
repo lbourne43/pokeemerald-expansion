@@ -410,114 +410,118 @@ SlateportCity_TMMachineItems:
 	.2byte ITEM_TM52
 # 211 "data/maps/SlateportCity_Mart/scripts.pory"
 	.2byte ITEM_TM53
+# 212 "data/maps/SlateportCity_Mart/scripts.pory"
+	.2byte ITEM_TM54
+# 213 "data/maps/SlateportCity_Mart/scripts.pory"
+	.2byte ITEM_TM55
 	.2byte ITEM_NONE
 
 SlateportCity_Mart_EventScript_EvolveMachine::
-# 215 "data/maps/SlateportCity_Mart/scripts.pory"
-	lock
-# 216 "data/maps/SlateportCity_Mart/scripts.pory"
-	message SlateportCity_Mart_EventScript_EvolveMachine_Text_0
 # 217 "data/maps/SlateportCity_Mart/scripts.pory"
-	waitmessage
+	lock
 # 218 "data/maps/SlateportCity_Mart/scripts.pory"
-	pokemart SlateportCity_EvolveMachineItems
+	message SlateportCity_Mart_EventScript_EvolveMachine_Text_0
 # 219 "data/maps/SlateportCity_Mart/scripts.pory"
-	msgbox SlateportCity_Mart_EventScript_EvolveMachine_Text_1
+	waitmessage
 # 220 "data/maps/SlateportCity_Mart/scripts.pory"
+	pokemart SlateportCity_EvolveMachineItems
+# 221 "data/maps/SlateportCity_Mart/scripts.pory"
+	msgbox SlateportCity_Mart_EventScript_EvolveMachine_Text_1
+# 222 "data/maps/SlateportCity_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 223 "data/maps/SlateportCity_Mart/scripts.pory"
-SlateportCity_EvolveMachineItems:
-# 224 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_FIRE_STONE
 # 225 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_WATER_STONE
+SlateportCity_EvolveMachineItems:
 # 226 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_THUNDER_STONE
+	.2byte ITEM_FIRE_STONE
 # 227 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_LEAF_STONE
+	.2byte ITEM_WATER_STONE
 # 228 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_ICE_STONE
+	.2byte ITEM_THUNDER_STONE
 # 229 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_SUN_STONE
+	.2byte ITEM_LEAF_STONE
 # 230 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_MOON_STONE
+	.2byte ITEM_ICE_STONE
 # 231 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_SHINY_STONE
+	.2byte ITEM_SUN_STONE
 # 232 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_DUSK_STONE
+	.2byte ITEM_MOON_STONE
 # 233 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_DAWN_STONE
+	.2byte ITEM_SHINY_STONE
 # 234 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_SWEET_APPLE
+	.2byte ITEM_DUSK_STONE
 # 235 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_TART_APPLE
+	.2byte ITEM_DAWN_STONE
 # 236 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_CRACKED_POT
+	.2byte ITEM_SWEET_APPLE
 # 237 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_CHIPPED_POT
+	.2byte ITEM_TART_APPLE
 # 238 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_CUFF
+	.2byte ITEM_CRACKED_POT
 # 239 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_WREATH
+	.2byte ITEM_CHIPPED_POT
 # 240 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_DRAGON_SCALE
+	.2byte ITEM_GALARICA_CUFF
 # 241 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_UPGRADE
+	.2byte ITEM_GALARICA_WREATH
 # 242 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_PROTECTOR
+	.2byte ITEM_DRAGON_SCALE
 # 243 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_ELECTIRIZER
+	.2byte ITEM_UPGRADE
 # 244 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_MAGMARIZER
+	.2byte ITEM_PROTECTOR
 # 245 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_DUBIOUS_DISC
+	.2byte ITEM_ELECTIRIZER
 # 246 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_REAPER_CLOTH
+	.2byte ITEM_MAGMARIZER
 # 247 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_PRISM_SCALE
+	.2byte ITEM_DUBIOUS_DISC
 # 248 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_WHIPPED_DREAM
+	.2byte ITEM_REAPER_CLOTH
 # 249 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_SACHET
+	.2byte ITEM_PRISM_SCALE
 # 250 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_OVAL_STONE
+	.2byte ITEM_WHIPPED_DREAM
 # 251 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_SCALE
+	.2byte ITEM_SACHET
 # 252 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_TOOTH
+	.2byte ITEM_OVAL_STONE
 # 253 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_METAL_COAT
+	.2byte ITEM_DEEP_SEA_SCALE
 # 254 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_KINGS_ROCK
+	.2byte ITEM_DEEP_SEA_TOOTH
 # 255 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_CLAW
+	.2byte ITEM_METAL_COAT
 # 256 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_FANG
+	.2byte ITEM_KINGS_ROCK
 # 257 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_AUSPICIOUS_ARMOR
+	.2byte ITEM_RAZOR_CLAW
 # 258 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_MALICIOUS_ARMOR
+	.2byte ITEM_RAZOR_FANG
 # 259 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_DARKNESS
+	.2byte ITEM_AUSPICIOUS_ARMOR
 # 260 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_WATERS
+	.2byte ITEM_MALICIOUS_ARMOR
 # 261 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_BLACK_AUGURITE
+	.2byte ITEM_SCROLL_OF_DARKNESS
 # 262 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_LINKING_CORD
+	.2byte ITEM_SCROLL_OF_WATERS
 # 263 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_PEAT_BLOCK
+	.2byte ITEM_BLACK_AUGURITE
 # 264 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_SYRUPY_APPLE
+	.2byte ITEM_LINKING_CORD
 # 265 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_UNREMARKABLE_TEACUP
+	.2byte ITEM_PEAT_BLOCK
 # 266 "data/maps/SlateportCity_Mart/scripts.pory"
-	.2byte ITEM_MASTERPIECE_TEACUP
+	.2byte ITEM_SYRUPY_APPLE
 # 267 "data/maps/SlateportCity_Mart/scripts.pory"
+	.2byte ITEM_UNREMARKABLE_TEACUP
+# 268 "data/maps/SlateportCity_Mart/scripts.pory"
+	.2byte ITEM_MASTERPIECE_TEACUP
+# 269 "data/maps/SlateportCity_Mart/scripts.pory"
 	.2byte ITEM_METAL_ALLOY
 	.2byte ITEM_NONE
 
@@ -546,9 +550,9 @@ SlateportCity_Mart_EventScript_TMMachine_Text_1:
 	.string "Go get'em!$"
 
 SlateportCity_Mart_EventScript_EvolveMachine_Text_0:
-# 216 "data/maps/SlateportCity_Mart/scripts.pory"
+# 218 "data/maps/SlateportCity_Mart/scripts.pory"
 	.string "So you wanna evolve?$"
 
 SlateportCity_Mart_EventScript_EvolveMachine_Text_1:
-# 219 "data/maps/SlateportCity_Mart/scripts.pory"
+# 221 "data/maps/SlateportCity_Mart/scripts.pory"
 	.string "Change is the best!$"

@@ -434,114 +434,118 @@ VerdanturfTown_TMMachineItems:
 	.2byte ITEM_TM52
 # 223 "data/maps/VerdanturfTown_Mart/scripts.pory"
 	.2byte ITEM_TM53
+# 224 "data/maps/VerdanturfTown_Mart/scripts.pory"
+	.2byte ITEM_TM54
+# 225 "data/maps/VerdanturfTown_Mart/scripts.pory"
+	.2byte ITEM_TM55
 	.2byte ITEM_NONE
 
 VerdanturfTown_Mart_EventScript_EvolveMachine::
-# 227 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	lock
-# 228 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	message VerdanturfTown_Mart_EventScript_EvolveMachine_Text_0
 # 229 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	waitmessage
+	lock
 # 230 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	pokemart VerdanturfTown_EvolveMachineItems
+	message VerdanturfTown_Mart_EventScript_EvolveMachine_Text_0
 # 231 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	msgbox VerdanturfTown_Mart_EventScript_EvolveMachine_Text_1
+	waitmessage
 # 232 "data/maps/VerdanturfTown_Mart/scripts.pory"
+	pokemart VerdanturfTown_EvolveMachineItems
+# 233 "data/maps/VerdanturfTown_Mart/scripts.pory"
+	msgbox VerdanturfTown_Mart_EventScript_EvolveMachine_Text_1
+# 234 "data/maps/VerdanturfTown_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 235 "data/maps/VerdanturfTown_Mart/scripts.pory"
-VerdanturfTown_EvolveMachineItems:
-# 236 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_FIRE_STONE
 # 237 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_WATER_STONE
+VerdanturfTown_EvolveMachineItems:
 # 238 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_THUNDER_STONE
+	.2byte ITEM_FIRE_STONE
 # 239 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_LEAF_STONE
+	.2byte ITEM_WATER_STONE
 # 240 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_ICE_STONE
+	.2byte ITEM_THUNDER_STONE
 # 241 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_SUN_STONE
+	.2byte ITEM_LEAF_STONE
 # 242 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_MOON_STONE
+	.2byte ITEM_ICE_STONE
 # 243 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_SHINY_STONE
+	.2byte ITEM_SUN_STONE
 # 244 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_DUSK_STONE
+	.2byte ITEM_MOON_STONE
 # 245 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_DAWN_STONE
+	.2byte ITEM_SHINY_STONE
 # 246 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_SWEET_APPLE
+	.2byte ITEM_DUSK_STONE
 # 247 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_TART_APPLE
+	.2byte ITEM_DAWN_STONE
 # 248 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_CRACKED_POT
+	.2byte ITEM_SWEET_APPLE
 # 249 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_CHIPPED_POT
+	.2byte ITEM_TART_APPLE
 # 250 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_CUFF
+	.2byte ITEM_CRACKED_POT
 # 251 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_WREATH
+	.2byte ITEM_CHIPPED_POT
 # 252 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_DRAGON_SCALE
+	.2byte ITEM_GALARICA_CUFF
 # 253 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_UPGRADE
+	.2byte ITEM_GALARICA_WREATH
 # 254 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_PROTECTOR
+	.2byte ITEM_DRAGON_SCALE
 # 255 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_ELECTIRIZER
+	.2byte ITEM_UPGRADE
 # 256 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_MAGMARIZER
+	.2byte ITEM_PROTECTOR
 # 257 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_DUBIOUS_DISC
+	.2byte ITEM_ELECTIRIZER
 # 258 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_REAPER_CLOTH
+	.2byte ITEM_MAGMARIZER
 # 259 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_PRISM_SCALE
+	.2byte ITEM_DUBIOUS_DISC
 # 260 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_WHIPPED_DREAM
+	.2byte ITEM_REAPER_CLOTH
 # 261 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_SACHET
+	.2byte ITEM_PRISM_SCALE
 # 262 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_OVAL_STONE
+	.2byte ITEM_WHIPPED_DREAM
 # 263 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_SCALE
+	.2byte ITEM_SACHET
 # 264 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_TOOTH
+	.2byte ITEM_OVAL_STONE
 # 265 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_METAL_COAT
+	.2byte ITEM_DEEP_SEA_SCALE
 # 266 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_KINGS_ROCK
+	.2byte ITEM_DEEP_SEA_TOOTH
 # 267 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_CLAW
+	.2byte ITEM_METAL_COAT
 # 268 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_FANG
+	.2byte ITEM_KINGS_ROCK
 # 269 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_AUSPICIOUS_ARMOR
+	.2byte ITEM_RAZOR_CLAW
 # 270 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_MALICIOUS_ARMOR
+	.2byte ITEM_RAZOR_FANG
 # 271 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_DARKNESS
+	.2byte ITEM_AUSPICIOUS_ARMOR
 # 272 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_WATERS
+	.2byte ITEM_MALICIOUS_ARMOR
 # 273 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_BLACK_AUGURITE
+	.2byte ITEM_SCROLL_OF_DARKNESS
 # 274 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_LINKING_CORD
+	.2byte ITEM_SCROLL_OF_WATERS
 # 275 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_PEAT_BLOCK
+	.2byte ITEM_BLACK_AUGURITE
 # 276 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_SYRUPY_APPLE
+	.2byte ITEM_LINKING_CORD
 # 277 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_UNREMARKABLE_TEACUP
+	.2byte ITEM_PEAT_BLOCK
 # 278 "data/maps/VerdanturfTown_Mart/scripts.pory"
-	.2byte ITEM_MASTERPIECE_TEACUP
+	.2byte ITEM_SYRUPY_APPLE
 # 279 "data/maps/VerdanturfTown_Mart/scripts.pory"
+	.2byte ITEM_UNREMARKABLE_TEACUP
+# 280 "data/maps/VerdanturfTown_Mart/scripts.pory"
+	.2byte ITEM_MASTERPIECE_TEACUP
+# 281 "data/maps/VerdanturfTown_Mart/scripts.pory"
 	.2byte ITEM_METAL_ALLOY
 	.2byte ITEM_NONE
 
@@ -570,9 +574,9 @@ VerdanturfTown_Mart_EventScript_TMMachine_Text_1:
 	.string "Go get'em!$"
 
 VerdanturfTown_Mart_EventScript_EvolveMachine_Text_0:
-# 228 "data/maps/VerdanturfTown_Mart/scripts.pory"
+# 230 "data/maps/VerdanturfTown_Mart/scripts.pory"
 	.string "So you wanna evolve?$"
 
 VerdanturfTown_Mart_EventScript_EvolveMachine_Text_1:
-# 231 "data/maps/VerdanturfTown_Mart/scripts.pory"
+# 233 "data/maps/VerdanturfTown_Mart/scripts.pory"
 	.string "Change is the best!$"

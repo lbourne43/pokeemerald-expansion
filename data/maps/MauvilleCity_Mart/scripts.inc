@@ -420,114 +420,118 @@ MauvilleCity_TMMachineItems:
 	.2byte ITEM_TM52
 # 216 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.2byte ITEM_TM53
+# 217 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM54
+# 218 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM55
 	.2byte ITEM_NONE
 
 MauvilleCity_Mart_EventScript_EvolveMachine::
-# 220 "data/maps/MauvilleCity_Mart/scripts.pory"
-	lock
-# 221 "data/maps/MauvilleCity_Mart/scripts.pory"
-	message MauvilleCity_Mart_EventScript_EvolveMachine_Text_0
 # 222 "data/maps/MauvilleCity_Mart/scripts.pory"
-	waitmessage
+	lock
 # 223 "data/maps/MauvilleCity_Mart/scripts.pory"
-	pokemart MauvilleCity_EvolveMachineItems
+	message MauvilleCity_Mart_EventScript_EvolveMachine_Text_0
 # 224 "data/maps/MauvilleCity_Mart/scripts.pory"
-	msgbox MauvilleCity_Mart_EventScript_EvolveMachine_Text_1
+	waitmessage
 # 225 "data/maps/MauvilleCity_Mart/scripts.pory"
+	pokemart MauvilleCity_EvolveMachineItems
+# 226 "data/maps/MauvilleCity_Mart/scripts.pory"
+	msgbox MauvilleCity_Mart_EventScript_EvolveMachine_Text_1
+# 227 "data/maps/MauvilleCity_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 228 "data/maps/MauvilleCity_Mart/scripts.pory"
-MauvilleCity_EvolveMachineItems:
-# 229 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_FIRE_STONE
 # 230 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_WATER_STONE
+MauvilleCity_EvolveMachineItems:
 # 231 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_THUNDER_STONE
+	.2byte ITEM_FIRE_STONE
 # 232 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_LEAF_STONE
+	.2byte ITEM_WATER_STONE
 # 233 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_ICE_STONE
+	.2byte ITEM_THUNDER_STONE
 # 234 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_SUN_STONE
+	.2byte ITEM_LEAF_STONE
 # 235 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_MOON_STONE
+	.2byte ITEM_ICE_STONE
 # 236 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_SHINY_STONE
+	.2byte ITEM_SUN_STONE
 # 237 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_DUSK_STONE
+	.2byte ITEM_MOON_STONE
 # 238 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_DAWN_STONE
+	.2byte ITEM_SHINY_STONE
 # 239 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_SWEET_APPLE
+	.2byte ITEM_DUSK_STONE
 # 240 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TART_APPLE
+	.2byte ITEM_DAWN_STONE
 # 241 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_CRACKED_POT
+	.2byte ITEM_SWEET_APPLE
 # 242 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_CHIPPED_POT
+	.2byte ITEM_TART_APPLE
 # 243 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_CUFF
+	.2byte ITEM_CRACKED_POT
 # 244 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_WREATH
+	.2byte ITEM_CHIPPED_POT
 # 245 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_DRAGON_SCALE
+	.2byte ITEM_GALARICA_CUFF
 # 246 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_UPGRADE
+	.2byte ITEM_GALARICA_WREATH
 # 247 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_PROTECTOR
+	.2byte ITEM_DRAGON_SCALE
 # 248 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_ELECTIRIZER
+	.2byte ITEM_UPGRADE
 # 249 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_MAGMARIZER
+	.2byte ITEM_PROTECTOR
 # 250 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_DUBIOUS_DISC
+	.2byte ITEM_ELECTIRIZER
 # 251 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_REAPER_CLOTH
+	.2byte ITEM_MAGMARIZER
 # 252 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_PRISM_SCALE
+	.2byte ITEM_DUBIOUS_DISC
 # 253 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_WHIPPED_DREAM
+	.2byte ITEM_REAPER_CLOTH
 # 254 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_SACHET
+	.2byte ITEM_PRISM_SCALE
 # 255 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_OVAL_STONE
+	.2byte ITEM_WHIPPED_DREAM
 # 256 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_SCALE
+	.2byte ITEM_SACHET
 # 257 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_TOOTH
+	.2byte ITEM_OVAL_STONE
 # 258 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_METAL_COAT
+	.2byte ITEM_DEEP_SEA_SCALE
 # 259 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_KINGS_ROCK
+	.2byte ITEM_DEEP_SEA_TOOTH
 # 260 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_CLAW
+	.2byte ITEM_METAL_COAT
 # 261 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_FANG
+	.2byte ITEM_KINGS_ROCK
 # 262 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_AUSPICIOUS_ARMOR
+	.2byte ITEM_RAZOR_CLAW
 # 263 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_MALICIOUS_ARMOR
+	.2byte ITEM_RAZOR_FANG
 # 264 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_DARKNESS
+	.2byte ITEM_AUSPICIOUS_ARMOR
 # 265 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_WATERS
+	.2byte ITEM_MALICIOUS_ARMOR
 # 266 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_BLACK_AUGURITE
+	.2byte ITEM_SCROLL_OF_DARKNESS
 # 267 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_LINKING_CORD
+	.2byte ITEM_SCROLL_OF_WATERS
 # 268 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_PEAT_BLOCK
+	.2byte ITEM_BLACK_AUGURITE
 # 269 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_SYRUPY_APPLE
+	.2byte ITEM_LINKING_CORD
 # 270 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_UNREMARKABLE_TEACUP
+	.2byte ITEM_PEAT_BLOCK
 # 271 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_MASTERPIECE_TEACUP
+	.2byte ITEM_SYRUPY_APPLE
 # 272 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_UNREMARKABLE_TEACUP
+# 273 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_MASTERPIECE_TEACUP
+# 274 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.2byte ITEM_METAL_ALLOY
 	.2byte ITEM_NONE
 
@@ -556,9 +560,9 @@ MauvilleCity_Mart_EventScript_TMMachine_Text_1:
 	.string "Go get'em!$"
 
 MauvilleCity_Mart_EventScript_EvolveMachine_Text_0:
-# 221 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 223 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.string "So you wanna evolve?$"
 
 MauvilleCity_Mart_EventScript_EvolveMachine_Text_1:
-# 224 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 226 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.string "Change is the best!$"

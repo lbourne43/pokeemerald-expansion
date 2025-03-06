@@ -3,6 +3,8 @@ import re
 import json
 import os
 
+exit(0)
+
 # before all else, abort if the config is off
 with open("./include/config/pokemon.h", "r") as file:
     learnset_config = re.findall(r"#define P_LEARNSET_HELPER_TEACHABLE *([^ ]*)", file.read())

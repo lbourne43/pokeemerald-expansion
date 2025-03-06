@@ -208,6 +208,8 @@ mart LavaridgeTown_TMMachineItems {
         ITEM_TM51
         ITEM_TM52
         ITEM_TM53
+        ITEM_TM54
+        ITEM_TM55
 }
 
 script LavaridgeTown_Mart_EventScript_EvolveMachine {

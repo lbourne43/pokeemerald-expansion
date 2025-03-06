@@ -2040,7 +2040,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Exp. Candy XL"),
         .pluralName = _("Exp. Candies XL"),
-        .price = 10000,
+        .price = 8000,
         .holdEffectParam = EXP_30000,
         .description = COMPOUND_STRING(
             "Gives a very large\n"
@@ -11245,29 +11245,32 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM54] =
     {
-        .name = _("TM54 - Taunt"),
-        .price = 500,
+        .name = _("TM54 - Hi Hrspwr"),
+        .price = 10000,
         .description = COMPOUND_STRING(
-		"Taunts the foe into\n"
-	        "only using attack\n"
-		"moves."), // Todo
+		"Fiercely attacks\n"
+	        "using the entire\n"
+		"body."), // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_TAUNT, // Todo
+        .secondaryId = MOVE_HIGH_HORSEPOWER, // Todo
     },
 
     [ITEM_TM55] =
     {
-        .name = _("TM55"),
-        .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .name = _("TM55 - Air Slash"),
+        .price = 9000,
+        .description = COMPOUND_STRING(
+		"Attacks with a blade"
+	       	"of air. May make\n"
+	        "the target flinch."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_NONE, // Todo
+        .secondaryId = MOVE_AIR_SLASH, // Todo
     },
 
     [ITEM_TM56] =

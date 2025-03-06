@@ -6444,65 +6444,71 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 /* Location: PetalburgCity_Gym */
 
-Staraptor @ White Herb
-Level: 58
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Brave Bird
-- Close Combat
-- Acrobatics
-- Protect
+Braviary @ White Herb  
+Level: 58  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 Def  
+Nature: Brave  
+Ability: Defiant  
+- Brave Bird  
+- Close Combat  
+- Roost  
+- Protect  
 
-Farigiraf @ Covert Cloak
-Level: 58
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 SpA / 4 Def
-Nature: Modest
-- Protect
-- Trick Room
-- Nasty Plot
-- Psychic
+Farigiraf @ Covert Cloak  
+Level: 58  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 SpA / 4 Def  
+Nature: Modest  
+Ability: Armor Tail  
+- Trick Room  
+- Nasty Plot  
+- Psychic  
+- Protect  
 
-Snorlax @ Weakness Policy
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Rest
-- Snore
-- Curse
-- Quick Attack
+Snorlax @ Weakness Policy  
+Level: 59  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 Def  
+Nature: Adamant  
+Ability: Thick Fat  
+- Curse  
+- Body Slam  
+- High Horsepower  
+- Protect  
 
-Blissey @ Leftovers
+Porygon2 @ Eviolite
 Level: 59
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
 EVs: 252 HP / 252 Def / 4 SpD
-Ability: Healer
-- Life Dew
-- Sing
-- Helping Hand
-- Protect
+Nature: Relaxed
+Ability: Download
+- Trick Room
+- Ice Beam
+- Recover
+- Foul Play
 
-Ursaluna Bloodmoon @ Assault Vest
-Level: 60
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Blood Moon
-- Earth Power
-- Moonblast
-- Hyper Voice
+Ursaluna-Bloodmoon @ Assault Vest  
+Level: 60  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 Def  
+Nature: Brave  
+Ability: Minds Eye  
+- Blood Moon  
+- Earth Power  
+- Moonblast  
+- Hyper Voice  
 
-Slaking @ Toxic Orb
-Level: 60
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Hyper Beam
-- Yawn
-- Facade
-- Protect
+Zangoose @ Toxic Orb  
+Level: 60  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 Def  
+Nature: Adamant  
+Ability: Immunity  
+- Facade  
+- Close Combat  
+- Knock Off  
+- Protect  
 
 === TRAINER_WINONA_1 ===
 Name: WINONA
@@ -6514,68 +6520,71 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 /* Location: FortreeCity_Gym */
 
-Kilowattrel @ Focus Sash
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4HP / 252 Atk / 252 Spe
-Nature: Modest
-Ability: Volt Absorb
-- Thunderbolt
-- Air Slash
-- Thunder Wave
-- Protect
+Pelipper @ Focus Sash  
+Level: 68  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Nature: Timid  
+Ability: Drizzle  
+- Hurricane  
+- Weather Ball  
+- Wide Guard  
+- Protect  
 
-Talonflame @ Covert Cloak
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4HP / 252 Atk / 252 Spe
-Nature: Jolly
-Ability: Gale Wings
-- Flare Blitz
-- Will-O-Wisp
-- Protect
-- Tailwind
+Kilowattrel @ Booster Energy  
+Level: 68  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Nature: Timid  
+Ability: Wind Power  
+- Thunder  
+- Tailwind  
+- Air Slash  
+- Protect  
 
-Gyarados @ Life Orb
+Corviknight @ Leftovers  
+Level: 69  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 HP / 4 Atk / 252 SpD  
+Nature: Careful  
+Ability: Mirror Armor  
+- Brave Bird  
+- Iron Head  
+- Bulk Up  
+- Taunt  
+
+Gyarados @ Assault Vest  
 Level: 69
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 Atk / 252 Spe
-Nature: Adamant
-- Dragon Dance
-- Earthquake
-- Waterfall
-- Protect
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 HP / 252 Atk / 4 Spe  
+Nature: Adamant  
+Ability: Intimidate  
+- Waterfall  
+- Ice Fang  
+- Crunch  
+- Earthquake  
 
-Corviknight @ Shell Bell
-Level: 69
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 Atk / 252 Spe
-Ability: Mirror Armor
-- Steel Wing
-- Brave Bird
-- Bulk Up
-- Taunt
+Salamence @ Sitrus Berry  
+Level: 70  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Nature: Jolly  
+Ability: Moxie  
+- Dragon Claw  
+- Aerial Ace  
+- Earthquake  
+- Protect  
 
-Iron Jugulis @ Booster Energy
-Level: 70
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 SpA / 252 Spe
-Nature: Modest
-- Snarl
-- Air Slash
-- Flamethrower
-- Protect
-
-Salamence @ Sitrus Berry
-Level: 70
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 Atk / 252 Spe
-Nature: Adamant
-Ability: Moxie
-- Earthquake
-- Dragon Claw
-- Aerial Ace
-- Protect
+Iron Jugulis @ Life Orb  
+Level: 70  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Nature: Modest  
+Ability: Quark Drive  
+- Dark Pulse  
+- Hurricane  
+- Snarl  
+- Protect  
 
 === TRAINER_TATE_AND_LIZA_1 ===
 Name: TATE&LIZA
@@ -17925,71 +17934,77 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Ace Pokemon / Double Battle / Smart Switching
 /* Location: RustboroCity_Gym */
 
-Probopass @ Leftovers
-Ability: Sturdy
-Level: 100
-Nature: Relaxed
-EVs: 252 HP / 252 Def / 4 SpD
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Stealth Rock
-- Thunder Wave
-- Power Gem
-- Protect
+Tyranitar @ Smooth Rock  
+Ability: Sand Stream  
+Level: 100  
+Tera Type: Rock  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Nature: Adamant  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Rock Slide  
+- Crunch  
+- Low Kick  
+- Protect  
 
-Steelix @ Chesto Berry
-Ability: Sturdy
-Level: 100
-Nature: Impish
-EVs: 252 HP / 252 Def / 4 Atk
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Iron Head
-- High Horsepower
-- Stealth Rock
-- Rest
+Diancie @ Weakness Policy  
+Ability: Clear Body  
+Level: 100  
+Tera Type: Fairy  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Nature: Brave  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+- Trick Room  
+- Diamond Storm  
+- Earth Power  
+- Protect  
 
-Omastar @ Focus Sash
-Ability: Swift Swim
-Level: 100
-Nature: Modest
-EVs: 252 SpA / 252 Spe / 4 HP
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hydro Pump
-- Ice Beam
-- Shell Smash
-- Spikes
+Terrakion @ Lum Berry  
+Ability: Justified  
+Level: 100  
+Tera Type: Fighting  
+EVs: 252 Atk / 252 Spe / 4 HP  
+Nature: Jolly  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Rock Slide  
+- Close Combat  
+- Quick Guard  
+- Protect  
 
-Coalossal @ Weakness Policy
-Ability: Steam Engine
-Level: 100
-Nature: Adamant
-EVs: 252 HP / 252 Atk / 4 Def
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rock Slide
-- Heat Crash
-- High Horsepower
-- Protect
+Cradily @ Leftovers  
+Ability: Storm Drain  
+Level: 100  
+Tera Type: Grass  
+EVs: 252 HP / 4 Def / 252 SpD  
+Nature: Calm  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Giga Drain  
+- Recover  
+- Toxic  
+- Protect  
 
-Cradily @ Leftovers
-Ability: Storm Drain
-Level: 100
-Nature: Bold
-EVs: 252 HP / 252 Def / 4 SpD
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Toxic
-- Recover
-- Giga Drain
-- Protect
+Rhyperior @ Assault Vest  
+Ability: Solid Rock  
+Level: 100  
+Tera Type: Ground  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Nature: Brave  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+- Rock Slide  
+- High Horsepower  
+- Ice Punch  
+- Fire Punch  
 
-Aerodactyl @ Choice Band
-Ability: Rock Head
-Level: 100
-Nature: Jolly
-EVs: 252 Atk / 252 Spe / 4 HP
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rock Slide
-- Dual Wingbeat
-- Iron Head
-- Crunch
+Stakataka @ Life Orb  
+Ability: Beast Boost  
+Level: 100  
+Tera Type: Steel  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Nature: Brave  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+- Trick Room  
+- Gyro Ball  
+- Rock Slide  
+- Heat Crash  
 
 === TRAINER_BRAWLY_2 ===
 Name: BRAWLY
@@ -18001,71 +18016,71 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Ace Pokemon / Double Battle / Smart Switching
 /* Location: DewfordTown_Gym */
 
-Breloom @ Focus Sash
-Ability: Technician
-Level: 40
-Nature: Adamant
-EVs: 252 Atk / 252 Spe / 4 HP
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Spore
-- Mach Punch
-- Bullet Seed
-- Protect
+Breloom @ Focus Sash  
+Ability: Technician  
+Level: 40  
+EVs: 252 Atk / 252 Spe / 4 HP  
+Nature: Adamant  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Spore  
+- Mach Punch  
+- Bullet Seed  
+- Protect  
 
-Pawmot @ Magnet
-Ability: Iron Fist
-Level: 40
-Nature: Jolly
-EVs: 252 Atk / 252 Spe / 4 HP
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Double Shock
-- Close Combat
-- Nuzzle
-- Protect
+Iron Hands @ Assault Vest  
+Ability: Quark Drive  
+Level: 40  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Nature: Adamant  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Drain Punch  
+- Wild Charge  
+- Heavy Slam  
+- Fake Out  
 
-Poliwrath @ Mystic Water
-Ability: Water Absorb
-Level: 40
-Nature: Impish
-EVs: 252 HP / 252 Def / 4 Atk
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Liquidation
-- Drain Punch
-- Bulk Up
-- Protect
+Annihilape @ Leftovers  
+Ability: Defiant  
+Level: 40  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Nature: Adamant  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Rage Fist  
+- Drain Punch  
+- Bulk Up  
+- Protect  
 
-Gallade @ Black Belt
-Ability: Sharpness
-Level: 40
-Nature: Jolly
-EVs: 252 Atk / 252 Spe / 4 HP
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sacred Sword
-- Psycho Cut
-- Wide Guard
-- Protect
+Gallade @ Black Belt  
+Ability: Sharpness  
+Level: 40  
+EVs: 252 Atk / 252 Spe / 4 HP  
+Nature: Jolly  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Sacred Sword  
+- Psycho Cut  
+- Wide Guard  
+- Protect  
 
-Heracross @ Assault Vest
-Ability: Guts
-Level: 40
-Nature: Adamant
-EVs: 252 Atk / 252 HP / 4 SpD
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Close Combat
-- Rock Slide
-- Throat Chop
-- Megahorn
+Poliwrath @ Mystic Water  
+Ability: Water Absorb  
+Level: 40  
+EVs: 252 HP / 252 Def / 4 Atk  
+Nature: Impish  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Liquidation  
+- Drain Punch  
+- Bulk Up  
+- Protect  
 
-Lucario @ Life Orb
-Ability: Inner Focus
+Sneasler @ White Herb  
+Ability: Unburden  
 Level: 40
-Nature: Timid
-EVs: 252 SpA / 252 Spe / 4 HP
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aura Sphere
-- Flash Cannon
-- Vacuum Wave
-- Protect
+EVs: 252 Atk / 252 Spe / 4 HP  
+Nature: Jolly  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Dire Claw  
+- Close Combat  
+- Acrobatics  
+- Protect  
 
 === TRAINER_BRAWLY_3 ===
 Name: BRAWLY
@@ -18077,71 +18092,71 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 /* Location: DewfordTown_Gym */
 
-Breloom @ Focus Sash
-Ability: Technician
-Level: 65
-Nature: Adamant
-EVs: 252 Atk / 252 Spe / 4 HP
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Spore
-- Mach Punch
-- Bullet Seed
-- Protect
+Breloom @ Focus Sash  
+Ability: Technician  
+Level: 65  
+EVs: 252 Atk / 252 Spe / 4 HP  
+Nature: Adamant  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Spore  
+- Mach Punch  
+- Bullet Seed  
+- Protect  
 
-Heracross @ Assault Vest
-Level: 65
-Ability: Guts
-Nature: Adamant
-EVs: 252 HP / 252 Atk / 4 SpD
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Close Combat
-- Rock Slide
-- Megahorn
-- Knock Off
+Iron Hands @ Assault Vest  
+Ability: Quark Drive  
+Level: 65  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Nature: Adamant  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Drain Punch  
+- Wild Charge  
+- Heavy Slam  
+- Fake Out  
 
-Poliwrath @ Mystic Water
-Ability: Water Absorb
-Level: 65
-Nature: Impish
-EVs: 252 HP / 252 Def / 4 Atk
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Liquidation
-- Drain Punch
-- Bulk Up
-- Protect
+Annihilape @ Leftovers  
+Ability: Defiant  
+Level: 65  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Nature: Adamant  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Rage Fist  
+- Drain Punch  
+- Bulk Up  
+- Protect  
 
-Gallade @ Black Belt
-Ability: Sharpness
-Level: 65
-Nature: Jolly
-EVs: 252 Atk / 252 Spe / 4 HP
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sacred Sword
-- Psycho Cut
-- Wide Guard
-- Protect
+Gallade @ Black Belt  
+Ability: Sharpness  
+Level: 65  
+EVs: 252 Atk / 252 Spe / 4 HP  
+Nature: Jolly  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Sacred Sword  
+- Psycho Cut  
+- Wide Guard  
+- Protect  
 
-Iron Hands @ Assault Vest
-Ability: Quark Drive
-Level: 65
-Nature: Adamant
-EVs: 252 HP / 252 Atk / 4 SpD
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Drain Punch
-- Wild Charge
-- Heavy Slam
-- Fake Out
+Poliwrath @ Mystic Water  
+Ability: Water Absorb  
+Level: 65  
+EVs: 252 HP / 252 Def / 4 Atk  
+Nature: Impish  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Liquidation  
+- Drain Punch  
+- Bulk Up  
+- Protect  
 
-Lucario @ Life Orb
-Ability: Inner Focus
+Sneasler @ White Herb  
+Ability: Unburden  
 Level: 65
-Nature: Timid
-EVs: 252 SpA / 252 Spe / 4 HP
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aura Sphere
-- Flash Cannon
-- Vacuum Wave
-- Protect
+EVs: 252 Atk / 252 Spe / 4 HP  
+Nature: Jolly  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Dire Claw  
+- Close Combat  
+- Acrobatics  
+- Protect  
 
 === TRAINER_BRAWLY_4 ===
 Name: BRAWLY
@@ -18153,71 +18168,71 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 /* Location: DewfordTown_Gym */
 
-Breloom @ Focus Sash
-Ability: Technician
-Level: 90
-Nature: Adamant
-EVs: 252 Atk / 252 Spe / 4 HP
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Spore
-- Mach Punch
-- Bullet Seed
-- Protect
+Breloom @ Focus Sash  
+Ability: Technician  
+Level: 90  
+EVs: 252 Atk / 252 Spe / 4 HP  
+Nature: Adamant  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Spore  
+- Mach Punch  
+- Bullet Seed  
+- Protect  
 
-Heracross @ Assault Vest
-Level: 90
-Ability: Guts
-Nature: Adamant
-EVs: 252 HP / 252 Atk / 4 SpD
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Close Combat
-- Rock Slide
-- Megahorn
-- Knock Off
+Iron Hands @ Assault Vest  
+Ability: Quark Drive  
+Level: 90  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Nature: Adamant  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Drain Punch  
+- Wild Charge  
+- Heavy Slam  
+- Fake Out  
 
-Poliwrath @ Mystic Water
-Ability: Water Absorb
-Level: 90
-Nature: Impish
-EVs: 252 HP / 252 Def / 4 Atk
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Liquidation
-- Drain Punch
-- Bulk Up
-- Protect
+Annihilape @ Leftovers  
+Ability: Defiant  
+Level: 90  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Nature: Adamant  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Rage Fist  
+- Drain Punch  
+- Bulk Up  
+- Protect  
 
-Gallade @ Black Belt
-Ability: Sharpness
-Level: 90
-Nature: Jolly
-EVs: 252 Atk / 252 Spe / 4 HP
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sacred Sword
-- Psycho Cut
-- Wide Guard
-- Protect
+Gallade @ Black Belt  
+Ability: Sharpness  
+Level: 90  
+EVs: 252 Atk / 252 Spe / 4 HP  
+Nature: Jolly  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Sacred Sword  
+- Psycho Cut  
+- Wide Guard  
+- Protect  
 
-Iron Hands @ Assault Vest
-Ability: Quark Drive
-Level: 90
-Nature: Adamant
-EVs: 252 HP / 252 Atk / 4 SpD
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Drain Punch
-- Wild Charge
-- Heavy Slam
-- Fake Out
+Poliwrath @ Mystic Water  
+Ability: Water Absorb  
+Level: 90  
+EVs: 252 HP / 252 Def / 4 Atk  
+Nature: Impish  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Liquidation  
+- Drain Punch  
+- Bulk Up  
+- Protect  
 
-Lucario @ Life Orb
-Ability: Inner Focus
-Level: 90
-Nature: Timid
-EVs: 252 SpA / 252 Spe / 4 HP
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aura Sphere
-- Flash Cannon
-- Vacuum Wave
-- Protect
+Sneasler @ White Herb  
+Ability: Unburden  
+Level: 90  
+EVs: 252 Atk / 252 Spe / 4 HP  
+Nature: Jolly  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Dire Claw  
+- Close Combat  
+- Acrobatics  
+- Protect  
 
 === TRAINER_BRAWLY_5 ===
 Name: BRAWLY
@@ -18229,71 +18244,71 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 /* Location: DewfordTown_Gym */
 
-Breloom @ Focus Sash
-Ability: Technician
-Level: 100
-Nature: Adamant
-EVs: 252 Atk / 252 Spe / 4 HP
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Spore
-- Mach Punch
-- Bullet Seed
-- Protect
+Iron Valiant @ Booster Energy  
+Ability: Quark Drive  
+Level: 100  
+EVs: 252 Atk / 252 Spe / 4 HP  
+Nature: Jolly  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Spirit Break  
+- Close Combat  
+- Protect  
+- Thunder Punch  
 
-Heracross @ Assault Vest
-Level: 100
-Ability: Guts
-Nature: Adamant
-EVs: 252 HP / 252 Atk / 4 SpD
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Close Combat
-- Rock Slide
-- Megahorn
-- Knock Off
+Iron Hands @ Safety Goggles  
+Ability: Quark Drive  
+Level: 100  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Nature: Adamant  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Drain Punch  
+- Wild Charge  
+- Fake Out  
+- Heavy Slam  
 
-Poliwrath @ Mystic Water
-Ability: Water Absorb
-Level: 100
-Nature: Impish
-EVs: 252 HP / 252 Def / 4 Atk
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Liquidation
-- Drain Punch
-- Bulk Up
-- Protect
+Zamazenta @ Rusted Shield  
+Ability: Dauntless Shield  
+Level: 100  
+EVs: 252 HP / 252 Atk / 4 Spe  
+Nature: Adamant  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Iron Head  
+- Close Combat  
+- Wide Guard  
+- Protect  
 
-Gallade @ Black Belt
-Ability: Sharpness
-Level: 100
-Nature: Jolly
-EVs: 252 Atk / 252 Spe / 4 HP
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sacred Sword
-- Psycho Cut
-- Wide Guard
-- Protect
+Urshifu-Rapid-Strike @ Mystic Water  
+Ability: Unseen Fist  
+Level: 100  
+EVs: 252 Atk / 252 Spe / 4 HP  
+Nature: Jolly  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Surging Strikes  
+- Close Combat  
+- Aqua Jet  
+- Protect  
 
-Iron Hands @ Assault Vest
-Ability: Quark Drive
-Level: 100
-Nature: Adamant
-EVs: 252 HP / 252 Atk / 4 SpD
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Drain Punch
-- Wild Charge
-- Heavy Slam
-- Fake Out
+Sneasler @ Grassy Seed  
+Ability: Unburden  
+Level: 100  
+EVs: 252 Atk / 252 Spe / 4 HP  
+Nature: Jolly  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Dire Claw  
+- Close Combat  
+- Thunder Punch  
+- Protect  
 
-Lucario @ Life Orb
-Ability: Inner Focus
-Level: 100
-Nature: Timid
-EVs: 252 SpA / 252 Spe / 4 HP
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aura Sphere
-- Flash Cannon
-- Vacuum Wave
-- Protect
+Annihilape @ Leftovers  
+Ability: Defiant  
+Level: 100  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Nature: Adamant  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Rage Fist  
+- Drain Punch  
+- Bulk Up  
+- Protect  
 
 === TRAINER_WATTSON_2 ===
 Name: WATTSON
@@ -18530,70 +18545,71 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 /* Location: MauvilleCity_Gym */
 
-Kilowattrel @ Focus Sash
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 2 HP / 252 SpA / 252 Spe
-Ability: Wind Power
-Nature: Modest
-- Tailwind
+Thundurus-Incarnate @ Sitrus Berry  
+Level: 100  
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 HP / 252 SpA / 4 Spe  
+Nature: Modest  
+Ability: Prankster  
+- Thunderbolt  
+- Taunt
+- Eerie Impulse  
 - Thunder Wave
-- Aerial Ace
-- Volt Switch
 
-Rotom Heat @ Lum Berry
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 2 HP / 252 SpA / 252 Spe
-Ability: Levitate
-Nature: Modest
-- Shock Wave
-- Overheat
-- Nasty Plot
-- Protect
+Miraidon @ Leftovers  
+Level: 100  
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Nature: Modest  
+Ability: Hadron Engine  
+- Electro Drift  
+- Draco Meteor  
+- Snarl  
+- Protect  
 
-Rotom Wash @ Wide Lens
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 2 HP / 252 SpA / 252 Spe
-Ability: Levitate
-Nature: Modest
-- Shock Wave
-- Hydro Pump
-- Nasty Plot
-- Protect
+Raging Bolt @ Booster Energy  
+Level: 100  
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 SpA / 4 Def  
+Nature: Quiet  
+Ability: Protosynthesis  
+- Thunderclap  
+- Draco Meteor  
+- Snarl  
+- Flamethrower  
 
-Rotom Mow @ Miracle Seed
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 2 HP / 252 SpA / 252 Spe
-Ability: Levitate
-Nature: Modest
-- Shock Wave
-- Leaf Storm
-- Nasty Plot
-- Protect
+Iron Hands @ Assault Vest  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Nature: Brave  
+Ability: Quark Drive  
+- Wild Charge  
+- Drain Punch  
+- Heavy Slam  
+- Fake Out  
 
-Golem Alola @ Assault Vest
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 HP / 128 Atk / 128 SpD
-Nature: Adamant
-Ability: Sturdy
-- Heavy Slam
-- Thunder Punch
-- Rock Blast
-- Stomping Tantrum
+Tapu Koko @ Magnet  
+Level: 100  
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Nature: Timid  
+Ability: Electric Surge  
+- Thunderbolt  
+- Dazzling Gleam  
+- Volt Switch  
+- Protect  
 
-Iron Hands @ Booster Energy
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Atk / 172 SpD / 84 Spe
-Nature: Adamant
-- Fake Out
-- Drain Punch
-- Thunder Punch
-- Belly Drum
+Iron Thorns @ Life Orb  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Nature: Adamant  
+Ability: Quark Drive  
+- Thunder Punch  
+- Rock Slide  
+- Dragon Dance  
+- Protect  
 
 === TRAINER_FLANNERY_2 ===
 Name: FLANNERY
@@ -18755,70 +18771,71 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 /* Location: LavaridgeTown_Gym */
 
-Torkoal @ White Herb
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 HP / 252 SpA / 4 SpD
-Nature: Modest
-Ability: Drought
-- Solar Beam
-- Sunny Day
-- Heat Wave
-- Protect
+Torkoal @ White Herb  
+Level: 90  
+Ability: Drought  
+Nature: Modest  
+EVs: 252 HP / 252 SpA / 4 SpD  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Eruption  
+- Solar Beam  
+- Heat Wave  
+- Protect  
 
-Charizard @ Heat Rock
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 SpA / 4 SpD / 252 Spe
-Ability: Solar Power
-Nature: Modest
-- Flamethrower
-- Solar Beam
-- Sunny Day
-- Protect
+Charizard @ Leftovers  
+Level: 90  
+Ability: Solar Power  
+Nature: Timid  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Heat Wave  
+- Solar Beam  
+- Air Slash  
+- Protect  
 
-Incineroar @ Sitrus Berry
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 HP / 36 Atk / 92 Def / 116 SpD / 12 Spe
-Nature: Adamant
-Ability: Intimidate
-- Darkest Lariat
-- Fake Out
-- Flare Blitz
-- Protect
+Incineroar @ Sitrus Berry  
+Level: 90  
+Ability: Intimidate  
+Nature: Careful  
+EVs: 252 HP / 36 Atk / 92 Def / 116 SpD / 12 Spe  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Fake Out  
+- Flare Blitz  
+- Snarl  
+- Parting Shot  
 
-Emboar @ Shell Bell
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Atk / 4 SpD / 252 Spe
-Nature: Adamant
-Ability: Reckless
-- Flare Blitz
-- Superpower
-- Head Smash
-- Wild Charge
+Emboar @ Heat Rock  
+Level: 90  
+Ability: Reckless  
+Nature: Adamant  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Flare Blitz  
+- Close Combat  
+- Wild Charge  
+- Sunny Day  
 
-Skeledirge @ Wise Glasses
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 SpA / 252 Spe
-Nature: Modest
-Ability: Unaware
-- Torch Song
-- Shadow Ball
-- Yawn
-- Protect
+Skeledirge @ Safety Goggles  
+Level: 90  
+Ability: Unaware  
+Nature: Modest  
+EVs: 252 HP / 252 SpA / 4 SpD  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Torch Song  
+- Shadow Ball  
+- Will-O-Wisp  
+- Protect  
 
-Iron Moth @ Assault Vest
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 SpA / 252 Spe
-Nature: Modest
-- Sludge Wave
-- Bug Buzz
-- Heat Wave
-- Solar Beam
+Iron Moth @ Booster Energy  
+Level: 90  
+Ability: Quark Drive  
+Nature: Modest  
+EVs: 4 HP / 252 SpA / 252 Spe  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+- Heat Wave  
+- Acid Spray  
+- Energy Ball  
+- Protect  
 
 === TRAINER_FLANNERY_5 ===
 Name: FLANNERY
@@ -18830,70 +18847,71 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 /* Location: LavaridgeTown_Gym */
 
-Torkoal @ White Herb
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 HP / 252 SpA / 4 SpD
-Nature: Modest
-Ability: Drought
-- Solar Beam
-- Sunny Day
-- Heat Wave
-- Protect
+Torkoal @ Heat Rock  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Nature: Modest  
+Ability: Drought  
+- Heat Wave  
+- Solar Beam  
+- Earth Power  
+- Protect  
 
-Charizard @ Heat Rock
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 SpA / 4 SpD / 252 Spe
-Ability: Solar Power
-Nature: Modest
-- Flamethrower
-- Solar Beam
-- Sunny Day
-- Protect
+Gouging Fire @ Choice Band  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Nature: Adamant  
+Ability: Protosynthesis  
+- Flare Blitz  
+- Dragon Claw  
+- Iron Head  
+- Rock Slide  
 
-Incineroar @ Sitrus Berry
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 HP / 36 Atk / 92 Def / 116 SpD / 12 Spe
-Nature: Adamant
-Ability: Intimidate
-- Darkest Lariat
-- Fake Out
-- Flare Blitz
-- Protect
+Incineroar @ Sitrus Berry  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 HP / 36 Atk / 92 Def / 116 SpD / 12 Spe  
+Nature: Adamant  
+Ability: Intimidate  
+- Flare Blitz  
+- Fake Out  
+- Snarl  
+- Protect  
 
-Emboar @ Shell Bell
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Atk / 4 SpD / 252 Spe
-Nature: Adamant
-Ability: Reckless
-- Flare Blitz
-- Superpower
-- Head Smash
-- Wild Charge
+Chi-Yu @ Focus Sash  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Nature: Timid  
+Ability: Beads of Ruin  
+- Heat Wave  
+- Dark Pulse  
+- Nasty Plot  
+- Protect  
 
-Skeledirge @ Wise Glasses
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 SpA / 252 Spe
-Nature: Modest
-Ability: Unaware
-- Torch Song
-- Shadow Ball
-- Yawn
-- Protect
+Arcanine-Hisui @ Life Orb  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Nature: Jolly  
+Ability: Rock Head  
+- Flare Blitz  
+- Head Smash  
+- Extreme Speed  
+- Protect  
 
-Iron Moth @ Assault Vest
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 SpA / 252 Spe
-Nature: Modest
-- Sludge Wave
-- Bug Buzz
-- Heat Wave
-- Solar Beam
+Ho-Oh @ Leftovers  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 248 HP / 252 SpD / 8 Spe  
+Nature: Careful  
+Ability: Regenerator  
+- Sacred Fire  
+- Brave Bird  
+- Recover  
+- Protect  
 
 === TRAINER_NORMAN_2 ===
 Name: NORMAN
@@ -18905,65 +18923,71 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 /* Location: PetalburgCity_Gym */
 
-Staraptor @ White Herb
-Level: 65
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Brave Bird
-- Close Combat
-- Acrobatics
-- Protect
+Braviary @ White Herb  
+Level: 65  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 Def  
+Nature: Brave  
+Ability: Defiant  
+- Brave Bird  
+- Close Combat  
+- Roost  
+- Protect  
 
-Farigiraf @ Covert Cloak
-Level: 65
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 SpA / 4 Def
-Nature: Modest
-- Protect
-- Trick Room
-- Nasty Plot
-- Psychic
+Farigiraf @ Covert Cloak  
+Level: 65  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 SpA / 4 Def  
+Nature: Modest  
+Ability: Armor Tail  
+- Trick Room  
+- Nasty Plot  
+- Psychic  
+- Protect  
 
-Snorlax @ Weakness Policy
-Level: 65
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Rest
-- Snore
-- Curse
-- Quick Attack
+Snorlax @ Weakness Policy  
+Level: 65  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 Def  
+Nature: Adamant  
+Ability: Thick Fat  
+- Curse  
+- Body Slam  
+- High Horsepower  
+- Protect  
 
-Blissey @ Leftovers
+Porygon2 @ Eviolite
 Level: 65
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
 EVs: 252 HP / 252 Def / 4 SpD
-Ability: Healer
-- Life Dew
-- Sing
-- Helping Hand
-- Protect
+Nature: Relaxed
+Ability: Download
+- Trick Room
+- Ice Beam
+- Recover
+- Foul Play
 
-Ursaluna Bloodmoon @ Assault Vest
-Level: 65
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Blood Moon
-- Earth Power
-- Moonblast
-- Hyper Voice
+Ursaluna-Bloodmoon @ Assault Vest  
+Level: 65  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 Def  
+Nature: Brave  
+Ability: Minds Eye  
+- Blood Moon  
+- Earth Power  
+- Moonblast  
+- Hyper Voice  
 
-Slaking @ Toxic Orb
+Zangoose @ Toxic Orb  
 Level: 65
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Hyper Beam
-- Yawn
-- Facade
-- Protect
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 Def  
+Nature: Adamant  
+Ability: Immunity  
+- Facade  
+- Close Combat  
+- Knock Off  
+- Protect  
 
 === TRAINER_NORMAN_3 ===
 Name: NORMAN
@@ -18975,65 +18999,71 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 /* Location: PetalburgCity_Gym */
 
-Staraptor @ White Herb
-Level: 65
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Brave Bird
-- Close Combat
-- Acrobatics
-- Protect
+Braviary @ White Herb  
+Level: 65  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 Def  
+Nature: Brave  
+Ability: Defiant  
+- Brave Bird  
+- Close Combat  
+- Roost  
+- Protect  
 
-Farigiraf @ Covert Cloak
-Level: 65
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 SpA / 4 Def
-Nature: Modest
-- Protect
-- Trick Room
-- Nasty Plot
-- Psychic
+Farigiraf @ Covert Cloak  
+Level: 65  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 SpA / 4 Def  
+Nature: Modest  
+Ability: Armor Tail  
+- Trick Room  
+- Nasty Plot  
+- Psychic  
+- Protect  
 
-Snorlax @ Weakness Policy
-Level: 65
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Rest
-- Snore
-- Curse
-- Quick Attack
+Snorlax @ Weakness Policy  
+Level: 65  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 Def  
+Nature: Adamant  
+Ability: Thick Fat  
+- Curse  
+- Body Slam  
+- High Horsepower  
+- Protect  
 
-Blissey @ Leftovers
+Porygon2 @ Eviolite
 Level: 65
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
 EVs: 252 HP / 252 Def / 4 SpD
-Ability: Healer
-- Life Dew
-- Sing
-- Helping Hand
-- Protect
+Nature: Relaxed
+Ability: Download
+- Trick Room
+- Ice Beam
+- Recover
+- Foul Play
 
-Ursaluna Bloodmoon @ Assault Vest
-Level: 65
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Blood Moon
-- Earth Power
-- Moonblast
-- Hyper Voice
+Ursaluna-Bloodmoon @ Assault Vest  
+Level: 65  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 Def  
+Nature: Brave  
+Ability: Minds Eye  
+- Blood Moon  
+- Earth Power  
+- Moonblast  
+- Hyper Voice  
 
-Slaking @ Toxic Orb
-Level: 65
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Hyper Beam
-- Yawn
-- Facade
-- Protect
+Zangoose @ Toxic Orb  
+Level: 65  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 Def  
+Nature: Adamant  
+Ability: Immunity  
+- Facade  
+- Close Combat  
+- Knock Off  
+- Protect  
 
 === TRAINER_NORMAN_4 ===
 Name: NORMAN
@@ -19045,65 +19075,71 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 /* Location: PetalburgCity_Gym */
 
-Staraptor @ White Herb
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Brave Bird
-- Close Combat
-- Acrobatics
-- Protect
+Braviary @ White Herb  
+Level: 90  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 Def  
+Nature: Brave  
+Ability: Defiant  
+- Brave Bird  
+- Close Combat  
+- Roost  
+- Protect  
 
-Farigiraf @ Covert Cloak
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 SpA / 4 Def
-Nature: Modest
-- Protect
-- Trick Room
-- Nasty Plot
-- Psychic
+Farigiraf @ Covert Cloak  
+Level: 90  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 SpA / 4 Def  
+Nature: Modest  
+Ability: Armor Tail  
+- Trick Room  
+- Nasty Plot  
+- Psychic  
+- Protect  
 
-Snorlax @ Weakness Policy
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Rest
-- Snore
-- Curse
-- Quick Attack
+Snorlax @ Weakness Policy  
+Level: 90  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 Def  
+Nature: Adamant  
+Ability: Thick Fat  
+- Curse  
+- Body Slam  
+- High Horsepower  
+- Protect  
 
-Blissey @ Leftovers
+Porygon2 @ Eviolite
 Level: 90
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
 EVs: 252 HP / 252 Def / 4 SpD
-Ability: Healer
-- Life Dew
-- Sing
-- Helping Hand
-- Protect
+Nature: Relaxed
+Ability: Download
+- Trick Room
+- Ice Beam
+- Recover
+- Foul Play
 
-Ursaluna Bloodmoon @ Assault Vest
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Blood Moon
-- Earth Power
-- Moonblast
-- Hyper Voice
+Ursaluna-Bloodmoon @ Assault Vest  
+Level: 90  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 Def  
+Nature: Brave  
+Ability: Minds Eye  
+- Blood Moon  
+- Earth Power  
+- Moonblast  
+- Hyper Voice  
 
-Slaking @ Toxic Orb
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Hyper Beam
-- Yawn
-- Facade
-- Protect
+Zangoose @ Toxic Orb  
+Level: 90  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 Def  
+Nature: Adamant  
+Ability: Immunity  
+- Facade  
+- Close Combat  
+- Knock Off  
+- Protect  
 
 === TRAINER_NORMAN_5 ===
 Name: NORMAN
@@ -19115,65 +19151,71 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 /* Location: PetalburgCity_Gym */
 
-Staraptor @ White Herb
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Brave Bird
-- Close Combat
-- Acrobatics
-- Protect
+Farigiraf @ Mental Herb  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 SpA / 4 Def  
+Nature: Quiet  
+Ability: Armor Tail  
+- Trick Room  
+- Hyper Voice  
+- Psychic  
+- Protect  
 
-Farigiraf @ Covert Cloak
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 SpA / 4 Def
-Nature: Modest
-- Protect
-- Trick Room
-- Nasty Plot
-- Psychic
+Regigigas @ Sitrus Berry  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 Def  
+Nature: Brave  
+Ability: Slow Start  
+- Body Slam  
+- High Horsepower  
+- Knock Off  
+- Protect  
 
-Snorlax @ Weakness Policy
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Rest
-- Snore
-- Curse
-- Quick Attack
+Ursaluna-Bloodmoon @ Assault Vest  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 SpA / 4 Def  
+Nature: Quiet  
+Ability: Minds Eye  
+- Blood Moon  
+- Earth Power  
+- Hyper Voice  
+- Ice Beam  
 
-Blissey @ Leftovers
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Def / 4 SpD
-Ability: Healer
-- Life Dew
-- Sing
-- Helping Hand
-- Protect
+Snorlax @ Leftovers  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 Def  
+Nature: Brave  
+Ability: Thick Fat  
+- Curse  
+- Facade  
+- High Horsepower  
+- Protect  
 
-Ursaluna Bloodmoon @ Assault Vest
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Blood Moon
-- Earth Power
-- Moonblast
-- Hyper Voice
+Porygon2 @ Eviolite  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Def / 4 SpD  
+Nature: Relaxed  
+Ability: Download  
+- Trick Room  
+- Ice Beam  
+- Recover  
+- Foul Play  
 
-Slaking @ Toxic Orb
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Adamant
-- Hyper Beam
-- Yawn
-- Facade
-- Protect
+Zangoose @ Toxic Orb  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 Def  
+Nature: Brave  
+Ability: Toxic Boost  
+- Facade  
+- Close Combat  
+- Knock Off  
+- Protect  
 
 === TRAINER_WINONA_2 ===
 Name: WINONA
@@ -19185,70 +19227,71 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 /* Location: FortreeCity_Gym */
 
-Kilowattrel @ Focus Sash
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4HP / 252 Atk / 252 Spe
-Nature: Modest
-Ability: Volt Absorb
-- Thunderbolt
-- Air Slash
-- Thunder Wave
-- Protect
+Pelipper @ Focus Sash  
+Level: 68  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Nature: Timid  
+Ability: Drizzle  
+- Hurricane  
+- Weather Ball  
+- Wide Guard  
+- Protect  
 
-Talonflame @ Covert Cloak
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4HP / 252 Atk / 252 Spe
-Nature: Jolly
-Ability: Gale Wings
-- Flare Blitz
-- Will-O-Wisp
-- Protect
-- Tailwind
+Kilowattrel @ Booster Energy  
+Level: 68  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Nature: Timid  
+Ability: Wind Power  
+- Thunder  
+- Tailwind  
+- Air Slash  
+- Protect  
 
-Gyarados @ Life Orb
+Corviknight @ Leftovers  
+Level: 69  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 HP / 4 Atk / 252 SpD  
+Nature: Careful  
+Ability: Mirror Armor  
+- Brave Bird  
+- Iron Head  
+- Bulk Up  
+- Taunt  
+
+Gyarados @ Assault Vest  
 Level: 69
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 Atk / 252 Spe
-Nature: Adamant
-Ability: Intimidate
-- Dragon Dance
-- Earthquake
-- Waterfall
-- Protect
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 HP / 252 Atk / 4 Spe  
+Nature: Adamant  
+Ability: Intimidate  
+- Waterfall  
+- Ice Fang  
+- Crunch  
+- Earthquake  
 
-Corviknight @ Shell Bell
-Level: 69
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 Atk / 252 Spe
-Ability: Mirror Armor
-Nature: Adamant
-- Steel Wing
-- Brave Bird
-- Bulk Up
-- Taunt
+Salamence @ Sitrus Berry  
+Level: 70  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Nature: Jolly  
+Ability: Moxie  
+- Dragon Claw  
+- Aerial Ace  
+- Earthquake  
+- Protect  
 
-Iron Jugulis @ Booster Energy
-Level: 70
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 SpA / 252 Spe
-Nature: Modest
-- Snarl
-- Air Slash
-- Flamethrower
-- Protect
-
-Salamence @ Sitrus Berry
-Level: 70
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 Atk / 252 Spe
-Nature: Adamant
-Ability: Moxie
-- Earthquake
-- Dragon Claw
-- Aerial Ace
-- Protect
+Iron Jugulis @ Life Orb  
+Level: 70  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Nature: Modest  
+Ability: Quark Drive  
+- Dark Pulse  
+- Hurricane  
+- Snarl  
+- Protect  
 
 === TRAINER_WINONA_3 ===
 Name: WINONA
@@ -19260,69 +19303,70 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 /* Location: FortreeCity_Gym */
 
-Kilowattrel @ Focus Sash
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4HP / 252 Atk / 252 Spe
-Nature: Modest
-Ability: Volt Absorb
-- Thunderbolt
-- Air Slash
-- Thunder Wave
-- Protect
+Pelipper @ Focus Sash  
+Level: 68  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Nature: Timid  
+Ability: Drizzle  
+- Hurricane  
+- Weather Ball  
+- Wide Guard  
+- Protect  
 
-Talonflame @ Covert Cloak
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4HP / 252 Atk / 252 Spe
-Nature: Jolly
-Ability: Gale Wings
-- Flare Blitz
-- Will-O-Wisp
-- Protect
-- Tailwind
+Kilowattrel @ Booster Energy  
+Level: 68  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Nature: Timid  
+Ability: Wind Power  
+- Thunder  
+- Tailwind  
+- Air Slash  
+- Protect  
 
-Gyarados @ Life Orb
-Level: 69
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 Atk / 252 Spe
-Nature: Adamant
-Ability: Intimidate
-- Dragon Dance
-- Earthquake
-- Waterfall
-- Protect
+Corviknight @ Leftovers  
+Level: 69  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 HP / 4 Atk / 252 SpD  
+Nature: Careful  
+Ability: Mirror Armor  
+- Brave Bird  
+- Iron Head  
+- Bulk Up  
+- Taunt  
 
-Corviknight @ Shell Bell
-Level: 69
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 Atk / 252 Spe
-Ability: Mirror Armor
-Nature: Adamant
-- Steel Wing
-- Brave Bird
-- Bulk Up
-- Taunt
+Gyarados @ Assault Vest  
+Level: 69  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 HP / 252 Atk / 4 Spe  
+Nature: Adamant  
+Ability: Intimidate  
+- Waterfall  
+- Ice Fang  
+- Crunch  
+- Earthquake  
 
-Iron Jugulis @ Booster Energy
-Level: 70
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 SpA / 252 Spe
-Nature: Modest
-- Snarl
-- Air Slash
-- Flamethrower
-- Protect
+Salamence @ Sitrus Berry  
+Level: 70  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Nature: Jolly  
+Ability: Moxie  
+- Dragon Claw  
+- Aerial Ace  
+- Earthquake  
+- Protect  
 
-Salamence @ Sitrus Berry
-Level: 70
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 Atk / 252 Spe
-Nature: Adamant
-Ability: Moxie
-- Earthquake
-- Dragon Claw
-- Aerial Ace
+Iron Jugulis @ Life Orb  
+Level: 70  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Nature: Modest  
+Ability: Quark Drive  
+- Dark Pulse  
+- Hurricane  
+- Snarl  
 - Protect
 
 === TRAINER_WINONA_4 ===
@@ -19335,70 +19379,71 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 /* Location: FortreeCity_Gym */
 
-Kilowattrel @ Focus Sash
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4HP / 252 Atk / 252 Spe
-Nature: Modest
-Ability: Volt Absorb
-- Thunderbolt
-- Air Slash
-- Thunder Wave
-- Protect
+Pelipper @ Focus Sash  
+Level: 90  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Nature: Timid  
+Ability: Drizzle  
+- Hurricane  
+- Weather Ball  
+- Wide Guard  
+- Protect  
 
-Talonflame @ Covert Cloak
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4HP / 252 Atk / 252 Spe
-Nature: Jolly
-Ability: Gale Wings
-- Flare Blitz
-- Will-O-Wisp
-- Protect
-- Tailwind
+Kilowattrel @ Booster Energy  
+Level: 90  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Nature: Timid  
+Ability: Wind Power  
+- Thunder  
+- Tailwind  
+- Air Slash  
+- Protect  
 
-Gyarados @ Life Orb
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 Atk / 252 Spe
-Nature: Adamant
-Ability: Intimidate
-- Dragon Dance
-- Earthquake
-- Waterfall
-- Protect
+Corviknight @ Leftovers  
+Level: 90  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 HP / 4 Atk / 252 SpD  
+Nature: Careful  
+Ability: Mirror Armor  
+- Brave Bird  
+- Iron Head  
+- Bulk Up  
+- Taunt  
 
-Corviknight @ Shell Bell
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 Atk / 252 Spe
-Ability: Mirror Armor
-Nature: Adamant
-- Steel Wing
-- Brave Bird
-- Bulk Up
-- Taunt
+Gyarados @ Assault Vest  
+Level: 90  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 HP / 252 Atk / 4 Spe  
+Nature: Adamant  
+Ability: Intimidate  
+- Waterfall  
+- Ice Fang  
+- Crunch  
+- Earthquake  
 
-Iron Jugulis @ Booster Energy
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 SpA / 252 Spe
-Nature: Modest
-- Snarl
-- Air Slash
-- Flamethrower
-- Protect
+Salamence @ Sitrus Berry  
+Level: 90  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Nature: Jolly  
+Ability: Moxie  
+- Dragon Claw  
+- Aerial Ace  
+- Earthquake  
+- Protect  
 
-Salamence @ Sitrus Berry
-Level: 90
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 Atk / 252 Spe
-Nature: Adamant
-Ability: Moxie
-- Earthquake
-- Dragon Claw
-- Aerial Ace
-- Protect
+Iron Jugulis @ Life Orb  
+Level: 90  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Nature: Modest  
+Ability: Quark Drive  
+- Dark Pulse  
+- Hurricane  
+- Snarl  
+- Protect  
 
 === TRAINER_WINONA_5 ===
 Name: WINONA
@@ -19410,70 +19455,71 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 /* Location: FortreeCity_Gym */
 
-Kilowattrel @ Focus Sash
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4HP / 252 Atk / 252 Spe
-Nature: Modest
-Ability: Volt Absorb
-- Thunderbolt
-- Air Slash
-- Thunder Wave
-- Protect
+Pelipper @ Focus Sash  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Nature: Timid  
+Ability: Drizzle  
+- Hurricane  
+- Weather Ball  
+- Wide Guard  
+- Protect  
 
-Talonflame @ Covert Cloak
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4HP / 252 Atk / 252 Spe
-Nature: Jolly
-Ability: Gale Wings
-- Flare Blitz
-- Will-O-Wisp
-- Protect
-- Tailwind
+Tornadus Incarnate @ Covert Cloak  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Nature: Timid  
+Ability: Prankster  
+- Tailwind  
+- Hurricane  
+- Taunt  
+- Protect  
 
-Gyarados @ Life Orb
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 Atk / 252 Spe
-Nature: Adamant
-Ability: Intimidate
-- Dragon Dance
-- Earthquake
-- Waterfall
-- Protect
+Zapdos @ Assault Vest  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Nature: Modest  
+Ability: Static  
+- Thunder  
+- Hurricane  
+- U-turn  
+- Volt Switch  
 
-Corviknight @ Shell Bell
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 Atk / 252 Spe
-Ability: Mirror Armor
-Nature: Adamant
-- Steel Wing
-- Brave Bird
-- Bulk Up
-- Taunt
+Articuno @ Leftovers  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 HP / 4 Def / 252 SpD  
+Nature: Calm  
+Ability: Pressure  
+- Freeze-Dry  
+- Hurricane  
+- Roost  
+- Haze  
 
-Iron Jugulis @ Booster Energy
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 SpA / 252 Spe
-Nature: Modest
-- Snarl
-- Air Slash
-- Flamethrower
-- Protect
+Lugia @ Sitrus Berry  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 HP / 252 SpD / 4 Def  
+Nature: Calm  
+Ability: Multiscale  
+- Aeroblast  
+- Rain Dance  
+- Recover  
+- Protect  
 
-Salamence @ Sitrus Berry
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 4 HP / 252 Atk / 252 Spe
-Nature: Adamant
-Ability: Moxie
-- Earthquake
-- Dragon Claw
-- Aerial Ace
-- Protect
+Iron Jugulis @ Booster Energy  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Nature: Modest  
+Ability: Quark Drive  
+- Dark Pulse  
+- Hurricane  
+- Snarl  
+- Protect  
 
 === TRAINER_TATE_AND_LIZA_2 ===
 Name: TATE&LIZA
@@ -19707,69 +19753,71 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
 /* Location: MossdeepCity_Gym */
 
-Indeedee (F) @ Rocky Helmet
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 244 HP / 244 Def / 20 SpD
-Nature: Calm
-Ability: Psychic Surge
-- Psychic Terrain
-- Follow Me
-- Expanding Force
-- Trick Room
+Indeedee-F @ Psychic Seed  
+Level: 100  
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 156 Def / 100 SpD  
+Nature: Relaxed  
+Ability: Psychic Surge  
+- Trick Room  
+- Follow Me  
+- Dazzling Gleam  
+- Protect  
 
-Armarouge @ Weakness Policy
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 4 Def / 252 SpA
-Nature: Quiet
-Ability: Weak Armor
-- Expanding Force
-- Armor Cannon
-- Aura Sphere
-- Protect
+Armarouge @ Life Orb  
+Level: 100  
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Nature: Quiet  
+Ability: Weak Armor  
+- Expanding Force  
+- Heat Wave  
+- Wide Guard  
+- Trick Room  
 
-Farigiraf @ Mental Herb
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 108 SpA / 148 SpD
-Ability: Armor Tail
-Nature: Sassy
-- Expanding Force
-- Hyper Voice
-- Trick Room
-- Protect
+Metagross @ Assault Vest  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Nature: Brave  
+Ability: Clear Body  
+- Iron Head  
+- Stomping Tantrum  
+- Bullet Punch  
+- Ice Punch  
 
-Metagross @ Assault Vest
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Brave
-Ability: Clear Body
-- Zen Headbutt
-- Bullet Punch
-- Meteor Mash
-- Rock Slide
+Iron Leaves @ Booster Energy  
+Level: 100  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Nature: Brave  
+Ability: Quark Drive  
+- Leaf Blade  
+- Psyblade  
+- Sacred Sword  
+- Protect  
 
-Iron Crown @ Psychic Seed
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 HP / 252 SpA / 4 Def
-Nature: Quiet
-- Expanding Force
-- Tachyon Cutter
-- Psychic Terrain
-- Protect
+Iron Crown @ Focus Sash  
+Level: 100  
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Nature: Quiet  
+Ability: Quark Drive  
+- Tachyon Cutter  
+- Earth Power  
+- Trick Room  
+- Protect  
 
-Iron Leaves @ Booster Energy
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-EVs: 252 HP / 252 Atk / 4 Def
-Nature: Brave
-- Leaf Blade
-- Psyblade
-- Swords Dance
-- Protect
+Lunala @ Safety Goggles  
+Level: 100  
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Nature: Quiet  
+Ability: Shadow Shield  
+- Moongeist Beam  
+- Earth Power  
+- Trick Room  
+- Protect  
 
 === TRAINER_JUAN_2 ===
 Name: JUAN

@@ -452,114 +452,118 @@ BattleFrontier_TMMachineItems:
 	.2byte ITEM_TM52
 # 232 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM53
+# 233 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_TM54
+# 234 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_TM55
 	.2byte ITEM_NONE
 
 BattleFrontier_Mart_EventScript_EvolveMachine::
-# 236 "data/maps/BattleFrontier_Mart/scripts.pory"
-	lock
-# 237 "data/maps/BattleFrontier_Mart/scripts.pory"
-	message BattleFrontier_Mart_EventScript_EvolveMachine_Text_0
 # 238 "data/maps/BattleFrontier_Mart/scripts.pory"
-	waitmessage
+	lock
 # 239 "data/maps/BattleFrontier_Mart/scripts.pory"
-	pokemart BattleFrontier_EvolveMachineItems
+	message BattleFrontier_Mart_EventScript_EvolveMachine_Text_0
 # 240 "data/maps/BattleFrontier_Mart/scripts.pory"
-	msgbox BattleFrontier_Mart_EventScript_EvolveMachine_Text_1
+	waitmessage
 # 241 "data/maps/BattleFrontier_Mart/scripts.pory"
+	pokemart BattleFrontier_EvolveMachineItems
+# 242 "data/maps/BattleFrontier_Mart/scripts.pory"
+	msgbox BattleFrontier_Mart_EventScript_EvolveMachine_Text_1
+# 243 "data/maps/BattleFrontier_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 244 "data/maps/BattleFrontier_Mart/scripts.pory"
-BattleFrontier_EvolveMachineItems:
-# 245 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_FIRE_STONE
 # 246 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_WATER_STONE
+BattleFrontier_EvolveMachineItems:
 # 247 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_THUNDER_STONE
+	.2byte ITEM_FIRE_STONE
 # 248 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_LEAF_STONE
+	.2byte ITEM_WATER_STONE
 # 249 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_ICE_STONE
+	.2byte ITEM_THUNDER_STONE
 # 250 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_SUN_STONE
+	.2byte ITEM_LEAF_STONE
 # 251 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_MOON_STONE
+	.2byte ITEM_ICE_STONE
 # 252 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_SHINY_STONE
+	.2byte ITEM_SUN_STONE
 # 253 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_DUSK_STONE
+	.2byte ITEM_MOON_STONE
 # 254 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_DAWN_STONE
+	.2byte ITEM_SHINY_STONE
 # 255 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_SWEET_APPLE
+	.2byte ITEM_DUSK_STONE
 # 256 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_TART_APPLE
+	.2byte ITEM_DAWN_STONE
 # 257 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_CRACKED_POT
+	.2byte ITEM_SWEET_APPLE
 # 258 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_CHIPPED_POT
+	.2byte ITEM_TART_APPLE
 # 259 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_CUFF
+	.2byte ITEM_CRACKED_POT
 # 260 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_WREATH
+	.2byte ITEM_CHIPPED_POT
 # 261 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_DRAGON_SCALE
+	.2byte ITEM_GALARICA_CUFF
 # 262 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_UPGRADE
+	.2byte ITEM_GALARICA_WREATH
 # 263 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_PROTECTOR
+	.2byte ITEM_DRAGON_SCALE
 # 264 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_ELECTIRIZER
+	.2byte ITEM_UPGRADE
 # 265 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_MAGMARIZER
+	.2byte ITEM_PROTECTOR
 # 266 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_DUBIOUS_DISC
+	.2byte ITEM_ELECTIRIZER
 # 267 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_REAPER_CLOTH
+	.2byte ITEM_MAGMARIZER
 # 268 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_PRISM_SCALE
+	.2byte ITEM_DUBIOUS_DISC
 # 269 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_WHIPPED_DREAM
+	.2byte ITEM_REAPER_CLOTH
 # 270 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_SACHET
+	.2byte ITEM_PRISM_SCALE
 # 271 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_OVAL_STONE
+	.2byte ITEM_WHIPPED_DREAM
 # 272 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_SCALE
+	.2byte ITEM_SACHET
 # 273 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_TOOTH
+	.2byte ITEM_OVAL_STONE
 # 274 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_METAL_COAT
+	.2byte ITEM_DEEP_SEA_SCALE
 # 275 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_KINGS_ROCK
+	.2byte ITEM_DEEP_SEA_TOOTH
 # 276 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_CLAW
+	.2byte ITEM_METAL_COAT
 # 277 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_FANG
+	.2byte ITEM_KINGS_ROCK
 # 278 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_AUSPICIOUS_ARMOR
+	.2byte ITEM_RAZOR_CLAW
 # 279 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_MALICIOUS_ARMOR
+	.2byte ITEM_RAZOR_FANG
 # 280 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_DARKNESS
+	.2byte ITEM_AUSPICIOUS_ARMOR
 # 281 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_WATERS
+	.2byte ITEM_MALICIOUS_ARMOR
 # 282 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_BLACK_AUGURITE
+	.2byte ITEM_SCROLL_OF_DARKNESS
 # 283 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_LINKING_CORD
+	.2byte ITEM_SCROLL_OF_WATERS
 # 284 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_PEAT_BLOCK
+	.2byte ITEM_BLACK_AUGURITE
 # 285 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_SYRUPY_APPLE
+	.2byte ITEM_LINKING_CORD
 # 286 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_UNREMARKABLE_TEACUP
+	.2byte ITEM_PEAT_BLOCK
 # 287 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_MASTERPIECE_TEACUP
+	.2byte ITEM_SYRUPY_APPLE
 # 288 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_UNREMARKABLE_TEACUP
+# 289 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_MASTERPIECE_TEACUP
+# 290 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_METAL_ALLOY
 	.2byte ITEM_NONE
 
@@ -588,9 +592,9 @@ BattleFrontier_Mart_EventScript_TMMachine_Text_1:
 	.string "Go get'em!$"
 
 BattleFrontier_Mart_EventScript_EvolveMachine_Text_0:
-# 237 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 239 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.string "So you wanna evolve?$"
 
 BattleFrontier_Mart_EventScript_EvolveMachine_Text_1:
-# 240 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 242 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.string "Change is the best!$"

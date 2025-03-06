@@ -89,7 +89,7 @@ PetalburgCity_Gym_OnTransition:
 # 45 "data/maps/PetalburgCity_Gym/scripts.pory"
 	call_if_lt VAR_PETALBURG_GYM_STATE, 6, PetalburgCity_Gym_EventScript_MoveNormanToEntrance
 # 46 "data/maps/PetalburgCity_Gym/scripts.pory"
-	call_if_set FLAG_SYS_GAME_CLEAR, PetalburgCity_Gym_EventScript_CheckNormanForRematch
+	call_if_set FLAG_BADGE05_GET, PetalburgCity_Gym_EventScript_CheckNormanForRematch
 # 47 "data/maps/PetalburgCity_Gym/scripts.pory"
 	end
 # 48 "data/maps/PetalburgCity_Gym/scripts.pory"
@@ -671,7 +671,7 @@ PetalburgCity_Gym_EventScript_NormanPostBattle::
 # 336 "data/maps/PetalburgCity_Gym/scripts.pory"
 	goto_if_unset FLAG_RECEIVED_TM_FACADE, PetalburgCity_Gym_EventScript_GiveFacade2
 # 337 "data/maps/PetalburgCity_Gym/scripts.pory"
-	goto_if_set FLAG_SYS_GAME_CLEAR, PetalburgCity_Gym_EventScript_NoAmountOfTrainingIsEnough
+	goto_if_set FLAG_BADGE05_GET, PetalburgCity_Gym_EventScript_NoAmountOfTrainingIsEnough
 # 338 "data/maps/PetalburgCity_Gym/scripts.pory"
 	msgbox PetalburgCity_Gym_Text_DadGoingToKeepTraining, MSGBOX_DEFAULT
 # 339 "data/maps/PetalburgCity_Gym/scripts.pory"

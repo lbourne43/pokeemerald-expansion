@@ -408,114 +408,118 @@ LavaridgeTown_TMMachineItems:
 	.2byte ITEM_TM52
 # 210 "data/maps/LavaridgeTown_Mart/scripts.pory"
 	.2byte ITEM_TM53
+# 211 "data/maps/LavaridgeTown_Mart/scripts.pory"
+	.2byte ITEM_TM54
+# 212 "data/maps/LavaridgeTown_Mart/scripts.pory"
+	.2byte ITEM_TM55
 	.2byte ITEM_NONE
 
 LavaridgeTown_Mart_EventScript_EvolveMachine::
-# 214 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	lock
-# 215 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	message LavaridgeTown_Mart_EventScript_EvolveMachine_Text_0
 # 216 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	waitmessage
+	lock
 # 217 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	pokemart LavaridgeTown_EvolveMachineItems
+	message LavaridgeTown_Mart_EventScript_EvolveMachine_Text_0
 # 218 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	msgbox LavaridgeTown_Mart_EventScript_EvolveMachine_Text_1
+	waitmessage
 # 219 "data/maps/LavaridgeTown_Mart/scripts.pory"
+	pokemart LavaridgeTown_EvolveMachineItems
+# 220 "data/maps/LavaridgeTown_Mart/scripts.pory"
+	msgbox LavaridgeTown_Mart_EventScript_EvolveMachine_Text_1
+# 221 "data/maps/LavaridgeTown_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 222 "data/maps/LavaridgeTown_Mart/scripts.pory"
-LavaridgeTown_EvolveMachineItems:
-# 223 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_FIRE_STONE
 # 224 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_WATER_STONE
+LavaridgeTown_EvolveMachineItems:
 # 225 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_THUNDER_STONE
+	.2byte ITEM_FIRE_STONE
 # 226 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_LEAF_STONE
+	.2byte ITEM_WATER_STONE
 # 227 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_ICE_STONE
+	.2byte ITEM_THUNDER_STONE
 # 228 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_SUN_STONE
+	.2byte ITEM_LEAF_STONE
 # 229 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_MOON_STONE
+	.2byte ITEM_ICE_STONE
 # 230 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_SHINY_STONE
+	.2byte ITEM_SUN_STONE
 # 231 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_DUSK_STONE
+	.2byte ITEM_MOON_STONE
 # 232 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_DAWN_STONE
+	.2byte ITEM_SHINY_STONE
 # 233 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_SWEET_APPLE
+	.2byte ITEM_DUSK_STONE
 # 234 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_TART_APPLE
+	.2byte ITEM_DAWN_STONE
 # 235 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_CRACKED_POT
+	.2byte ITEM_SWEET_APPLE
 # 236 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_CHIPPED_POT
+	.2byte ITEM_TART_APPLE
 # 237 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_CUFF
+	.2byte ITEM_CRACKED_POT
 # 238 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_WREATH
+	.2byte ITEM_CHIPPED_POT
 # 239 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_DRAGON_SCALE
+	.2byte ITEM_GALARICA_CUFF
 # 240 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_UPGRADE
+	.2byte ITEM_GALARICA_WREATH
 # 241 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_PROTECTOR
+	.2byte ITEM_DRAGON_SCALE
 # 242 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_ELECTIRIZER
+	.2byte ITEM_UPGRADE
 # 243 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_MAGMARIZER
+	.2byte ITEM_PROTECTOR
 # 244 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_DUBIOUS_DISC
+	.2byte ITEM_ELECTIRIZER
 # 245 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_REAPER_CLOTH
+	.2byte ITEM_MAGMARIZER
 # 246 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_PRISM_SCALE
+	.2byte ITEM_DUBIOUS_DISC
 # 247 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_WHIPPED_DREAM
+	.2byte ITEM_REAPER_CLOTH
 # 248 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_SACHET
+	.2byte ITEM_PRISM_SCALE
 # 249 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_OVAL_STONE
+	.2byte ITEM_WHIPPED_DREAM
 # 250 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_SCALE
+	.2byte ITEM_SACHET
 # 251 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_TOOTH
+	.2byte ITEM_OVAL_STONE
 # 252 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_METAL_COAT
+	.2byte ITEM_DEEP_SEA_SCALE
 # 253 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_KINGS_ROCK
+	.2byte ITEM_DEEP_SEA_TOOTH
 # 254 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_CLAW
+	.2byte ITEM_METAL_COAT
 # 255 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_FANG
+	.2byte ITEM_KINGS_ROCK
 # 256 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_AUSPICIOUS_ARMOR
+	.2byte ITEM_RAZOR_CLAW
 # 257 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_MALICIOUS_ARMOR
+	.2byte ITEM_RAZOR_FANG
 # 258 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_DARKNESS
+	.2byte ITEM_AUSPICIOUS_ARMOR
 # 259 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_WATERS
+	.2byte ITEM_MALICIOUS_ARMOR
 # 260 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_BLACK_AUGURITE
+	.2byte ITEM_SCROLL_OF_DARKNESS
 # 261 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_LINKING_CORD
+	.2byte ITEM_SCROLL_OF_WATERS
 # 262 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_PEAT_BLOCK
+	.2byte ITEM_BLACK_AUGURITE
 # 263 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_SYRUPY_APPLE
+	.2byte ITEM_LINKING_CORD
 # 264 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_UNREMARKABLE_TEACUP
+	.2byte ITEM_PEAT_BLOCK
 # 265 "data/maps/LavaridgeTown_Mart/scripts.pory"
-	.2byte ITEM_MASTERPIECE_TEACUP
+	.2byte ITEM_SYRUPY_APPLE
 # 266 "data/maps/LavaridgeTown_Mart/scripts.pory"
+	.2byte ITEM_UNREMARKABLE_TEACUP
+# 267 "data/maps/LavaridgeTown_Mart/scripts.pory"
+	.2byte ITEM_MASTERPIECE_TEACUP
+# 268 "data/maps/LavaridgeTown_Mart/scripts.pory"
 	.2byte ITEM_METAL_ALLOY
 	.2byte ITEM_NONE
 
@@ -544,9 +548,9 @@ LavaridgeTown_Mart_EventScript_TMMachine_Text_1:
 	.string "Go get'em!$"
 
 LavaridgeTown_Mart_EventScript_EvolveMachine_Text_0:
-# 215 "data/maps/LavaridgeTown_Mart/scripts.pory"
+# 217 "data/maps/LavaridgeTown_Mart/scripts.pory"
 	.string "So you wanna evolve?$"
 
 LavaridgeTown_Mart_EventScript_EvolveMachine_Text_1:
-# 218 "data/maps/LavaridgeTown_Mart/scripts.pory"
+# 220 "data/maps/LavaridgeTown_Mart/scripts.pory"
 	.string "Change is the best!$"

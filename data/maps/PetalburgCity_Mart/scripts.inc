@@ -482,114 +482,118 @@ PetalburgCity_TMMachineItems:
 	.2byte ITEM_TM52
 # 248 "data/maps/PetalburgCity_Mart/scripts.pory"
 	.2byte ITEM_TM53
+# 249 "data/maps/PetalburgCity_Mart/scripts.pory"
+	.2byte ITEM_TM54
+# 250 "data/maps/PetalburgCity_Mart/scripts.pory"
+	.2byte ITEM_TM55
 	.2byte ITEM_NONE
 
 PetalburgCity_Mart_EventScript_EvolveMachine::
-# 252 "data/maps/PetalburgCity_Mart/scripts.pory"
-	lock
-# 253 "data/maps/PetalburgCity_Mart/scripts.pory"
-	message PetalburgCity_Mart_EventScript_EvolveMachine_Text_0
 # 254 "data/maps/PetalburgCity_Mart/scripts.pory"
-	waitmessage
+	lock
 # 255 "data/maps/PetalburgCity_Mart/scripts.pory"
-	pokemart PetalburgCity_EvolveMachineItems
+	message PetalburgCity_Mart_EventScript_EvolveMachine_Text_0
 # 256 "data/maps/PetalburgCity_Mart/scripts.pory"
-	msgbox PetalburgCity_Mart_EventScript_EvolveMachine_Text_1
+	waitmessage
 # 257 "data/maps/PetalburgCity_Mart/scripts.pory"
+	pokemart PetalburgCity_EvolveMachineItems
+# 258 "data/maps/PetalburgCity_Mart/scripts.pory"
+	msgbox PetalburgCity_Mart_EventScript_EvolveMachine_Text_1
+# 259 "data/maps/PetalburgCity_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 260 "data/maps/PetalburgCity_Mart/scripts.pory"
-PetalburgCity_EvolveMachineItems:
-# 261 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_FIRE_STONE
 # 262 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_WATER_STONE
+PetalburgCity_EvolveMachineItems:
 # 263 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_THUNDER_STONE
+	.2byte ITEM_FIRE_STONE
 # 264 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_LEAF_STONE
+	.2byte ITEM_WATER_STONE
 # 265 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_ICE_STONE
+	.2byte ITEM_THUNDER_STONE
 # 266 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_SUN_STONE
+	.2byte ITEM_LEAF_STONE
 # 267 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_MOON_STONE
+	.2byte ITEM_ICE_STONE
 # 268 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_SHINY_STONE
+	.2byte ITEM_SUN_STONE
 # 269 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_DUSK_STONE
+	.2byte ITEM_MOON_STONE
 # 270 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_DAWN_STONE
+	.2byte ITEM_SHINY_STONE
 # 271 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_SWEET_APPLE
+	.2byte ITEM_DUSK_STONE
 # 272 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_TART_APPLE
+	.2byte ITEM_DAWN_STONE
 # 273 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_CRACKED_POT
+	.2byte ITEM_SWEET_APPLE
 # 274 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_CHIPPED_POT
+	.2byte ITEM_TART_APPLE
 # 275 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_CUFF
+	.2byte ITEM_CRACKED_POT
 # 276 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_WREATH
+	.2byte ITEM_CHIPPED_POT
 # 277 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_DRAGON_SCALE
+	.2byte ITEM_GALARICA_CUFF
 # 278 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_UPGRADE
+	.2byte ITEM_GALARICA_WREATH
 # 279 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_PROTECTOR
+	.2byte ITEM_DRAGON_SCALE
 # 280 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_ELECTIRIZER
+	.2byte ITEM_UPGRADE
 # 281 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_MAGMARIZER
+	.2byte ITEM_PROTECTOR
 # 282 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_DUBIOUS_DISC
+	.2byte ITEM_ELECTIRIZER
 # 283 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_REAPER_CLOTH
+	.2byte ITEM_MAGMARIZER
 # 284 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_PRISM_SCALE
+	.2byte ITEM_DUBIOUS_DISC
 # 285 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_WHIPPED_DREAM
+	.2byte ITEM_REAPER_CLOTH
 # 286 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_SACHET
+	.2byte ITEM_PRISM_SCALE
 # 287 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_OVAL_STONE
+	.2byte ITEM_WHIPPED_DREAM
 # 288 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_SCALE
+	.2byte ITEM_SACHET
 # 289 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_TOOTH
+	.2byte ITEM_OVAL_STONE
 # 290 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_METAL_COAT
+	.2byte ITEM_DEEP_SEA_SCALE
 # 291 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_KINGS_ROCK
+	.2byte ITEM_DEEP_SEA_TOOTH
 # 292 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_CLAW
+	.2byte ITEM_METAL_COAT
 # 293 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_FANG
+	.2byte ITEM_KINGS_ROCK
 # 294 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_AUSPICIOUS_ARMOR
+	.2byte ITEM_RAZOR_CLAW
 # 295 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_MALICIOUS_ARMOR
+	.2byte ITEM_RAZOR_FANG
 # 296 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_DARKNESS
+	.2byte ITEM_AUSPICIOUS_ARMOR
 # 297 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_WATERS
+	.2byte ITEM_MALICIOUS_ARMOR
 # 298 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_BLACK_AUGURITE
+	.2byte ITEM_SCROLL_OF_DARKNESS
 # 299 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_LINKING_CORD
+	.2byte ITEM_SCROLL_OF_WATERS
 # 300 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_PEAT_BLOCK
+	.2byte ITEM_BLACK_AUGURITE
 # 301 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_SYRUPY_APPLE
+	.2byte ITEM_LINKING_CORD
 # 302 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_UNREMARKABLE_TEACUP
+	.2byte ITEM_PEAT_BLOCK
 # 303 "data/maps/PetalburgCity_Mart/scripts.pory"
-	.2byte ITEM_MASTERPIECE_TEACUP
+	.2byte ITEM_SYRUPY_APPLE
 # 304 "data/maps/PetalburgCity_Mart/scripts.pory"
+	.2byte ITEM_UNREMARKABLE_TEACUP
+# 305 "data/maps/PetalburgCity_Mart/scripts.pory"
+	.2byte ITEM_MASTERPIECE_TEACUP
+# 306 "data/maps/PetalburgCity_Mart/scripts.pory"
 	.2byte ITEM_METAL_ALLOY
 	.2byte ITEM_NONE
 
@@ -618,9 +622,9 @@ PetalburgCity_Mart_EventScript_TMMachine_Text_1:
 	.string "Go get'em!$"
 
 PetalburgCity_Mart_EventScript_EvolveMachine_Text_0:
-# 253 "data/maps/PetalburgCity_Mart/scripts.pory"
+# 255 "data/maps/PetalburgCity_Mart/scripts.pory"
 	.string "So you wanna evolve?$"
 
 PetalburgCity_Mart_EventScript_EvolveMachine_Text_1:
-# 256 "data/maps/PetalburgCity_Mart/scripts.pory"
+# 258 "data/maps/PetalburgCity_Mart/scripts.pory"
 	.string "Change is the best!$"

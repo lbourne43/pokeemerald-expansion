@@ -454,114 +454,118 @@ OldaleTown_TMMachineItems:
 	.2byte ITEM_TM52
 # 233 "data/maps/OldaleTown_Mart/scripts.pory"
 	.2byte ITEM_TM53
+# 234 "data/maps/OldaleTown_Mart/scripts.pory"
+	.2byte ITEM_TM54
+# 235 "data/maps/OldaleTown_Mart/scripts.pory"
+	.2byte ITEM_TM55
 	.2byte ITEM_NONE
 
 OldaleTown_Mart_EventScript_EvolveMachine::
-# 237 "data/maps/OldaleTown_Mart/scripts.pory"
-	lock
-# 238 "data/maps/OldaleTown_Mart/scripts.pory"
-	message OldaleTown_Mart_EventScript_EvolveMachine_Text_0
 # 239 "data/maps/OldaleTown_Mart/scripts.pory"
-	waitmessage
+	lock
 # 240 "data/maps/OldaleTown_Mart/scripts.pory"
-	pokemart OldaleTown_EvolveMachineItems
+	message OldaleTown_Mart_EventScript_EvolveMachine_Text_0
 # 241 "data/maps/OldaleTown_Mart/scripts.pory"
-	msgbox OldaleTown_Mart_EventScript_EvolveMachine_Text_1
+	waitmessage
 # 242 "data/maps/OldaleTown_Mart/scripts.pory"
+	pokemart OldaleTown_EvolveMachineItems
+# 243 "data/maps/OldaleTown_Mart/scripts.pory"
+	msgbox OldaleTown_Mart_EventScript_EvolveMachine_Text_1
+# 244 "data/maps/OldaleTown_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 245 "data/maps/OldaleTown_Mart/scripts.pory"
-OldaleTown_EvolveMachineItems:
-# 246 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_FIRE_STONE
 # 247 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_WATER_STONE
+OldaleTown_EvolveMachineItems:
 # 248 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_THUNDER_STONE
+	.2byte ITEM_FIRE_STONE
 # 249 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_LEAF_STONE
+	.2byte ITEM_WATER_STONE
 # 250 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_ICE_STONE
+	.2byte ITEM_THUNDER_STONE
 # 251 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_SUN_STONE
+	.2byte ITEM_LEAF_STONE
 # 252 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_MOON_STONE
+	.2byte ITEM_ICE_STONE
 # 253 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_SHINY_STONE
+	.2byte ITEM_SUN_STONE
 # 254 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_DUSK_STONE
+	.2byte ITEM_MOON_STONE
 # 255 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_DAWN_STONE
+	.2byte ITEM_SHINY_STONE
 # 256 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_SWEET_APPLE
+	.2byte ITEM_DUSK_STONE
 # 257 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_TART_APPLE
+	.2byte ITEM_DAWN_STONE
 # 258 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_CRACKED_POT
+	.2byte ITEM_SWEET_APPLE
 # 259 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_CHIPPED_POT
+	.2byte ITEM_TART_APPLE
 # 260 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_CUFF
+	.2byte ITEM_CRACKED_POT
 # 261 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_WREATH
+	.2byte ITEM_CHIPPED_POT
 # 262 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_DRAGON_SCALE
+	.2byte ITEM_GALARICA_CUFF
 # 263 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_UPGRADE
+	.2byte ITEM_GALARICA_WREATH
 # 264 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_PROTECTOR
+	.2byte ITEM_DRAGON_SCALE
 # 265 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_ELECTIRIZER
+	.2byte ITEM_UPGRADE
 # 266 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_MAGMARIZER
+	.2byte ITEM_PROTECTOR
 # 267 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_DUBIOUS_DISC
+	.2byte ITEM_ELECTIRIZER
 # 268 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_REAPER_CLOTH
+	.2byte ITEM_MAGMARIZER
 # 269 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_PRISM_SCALE
+	.2byte ITEM_DUBIOUS_DISC
 # 270 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_WHIPPED_DREAM
+	.2byte ITEM_REAPER_CLOTH
 # 271 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_SACHET
+	.2byte ITEM_PRISM_SCALE
 # 272 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_OVAL_STONE
+	.2byte ITEM_WHIPPED_DREAM
 # 273 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_SCALE
+	.2byte ITEM_SACHET
 # 274 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_TOOTH
+	.2byte ITEM_OVAL_STONE
 # 275 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_METAL_COAT
+	.2byte ITEM_DEEP_SEA_SCALE
 # 276 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_KINGS_ROCK
+	.2byte ITEM_DEEP_SEA_TOOTH
 # 277 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_CLAW
+	.2byte ITEM_METAL_COAT
 # 278 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_FANG
+	.2byte ITEM_KINGS_ROCK
 # 279 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_AUSPICIOUS_ARMOR
+	.2byte ITEM_RAZOR_CLAW
 # 280 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_MALICIOUS_ARMOR
+	.2byte ITEM_RAZOR_FANG
 # 281 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_DARKNESS
+	.2byte ITEM_AUSPICIOUS_ARMOR
 # 282 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_WATERS
+	.2byte ITEM_MALICIOUS_ARMOR
 # 283 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_BLACK_AUGURITE
+	.2byte ITEM_SCROLL_OF_DARKNESS
 # 284 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_LINKING_CORD
+	.2byte ITEM_SCROLL_OF_WATERS
 # 285 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_PEAT_BLOCK
+	.2byte ITEM_BLACK_AUGURITE
 # 286 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_SYRUPY_APPLE
+	.2byte ITEM_LINKING_CORD
 # 287 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_UNREMARKABLE_TEACUP
+	.2byte ITEM_PEAT_BLOCK
 # 288 "data/maps/OldaleTown_Mart/scripts.pory"
-	.2byte ITEM_MASTERPIECE_TEACUP
+	.2byte ITEM_SYRUPY_APPLE
 # 289 "data/maps/OldaleTown_Mart/scripts.pory"
+	.2byte ITEM_UNREMARKABLE_TEACUP
+# 290 "data/maps/OldaleTown_Mart/scripts.pory"
+	.2byte ITEM_MASTERPIECE_TEACUP
+# 291 "data/maps/OldaleTown_Mart/scripts.pory"
 	.2byte ITEM_METAL_ALLOY
 	.2byte ITEM_NONE
 
@@ -590,9 +594,9 @@ OldaleTown_Mart_EventScript_TMMachine_Text_1:
 	.string "Go get'em!$"
 
 OldaleTown_Mart_EventScript_EvolveMachine_Text_0:
-# 238 "data/maps/OldaleTown_Mart/scripts.pory"
+# 240 "data/maps/OldaleTown_Mart/scripts.pory"
 	.string "So you wanna evolve?$"
 
 OldaleTown_Mart_EventScript_EvolveMachine_Text_1:
-# 241 "data/maps/OldaleTown_Mart/scripts.pory"
+# 243 "data/maps/OldaleTown_Mart/scripts.pory"
 	.string "Change is the best!$"
