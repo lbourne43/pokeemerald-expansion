@@ -252,318 +252,396 @@ BattleFrontier_BattleMachineItems:
 	.2byte ITEM_WISE_GLASSES
 # 129 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_EXPERT_BELT
+# 130 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_ASSAULT_VEST
+# 131 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_THROAT_SPRAY
+# 132 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_BOOSTER_ENERGY
+# 133 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_SAFETY_GOGGLES
+# 134 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_COVERT_CLOAK
+# 135 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_EVIOLITE
 	.2byte ITEM_NONE
 
 BattleFrontier_Mart_EventScript_TrainingMachine::
-# 133 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 139 "data/maps/BattleFrontier_Mart/scripts.pory"
 	lock
-# 134 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 140 "data/maps/BattleFrontier_Mart/scripts.pory"
 	message BattleFrontier_Mart_EventScript_TrainingMachine_Text_0
-# 135 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 141 "data/maps/BattleFrontier_Mart/scripts.pory"
 	waitmessage
-# 136 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 142 "data/maps/BattleFrontier_Mart/scripts.pory"
 	pokemart BattleFrontier_TrainingMachineItems
-# 137 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 143 "data/maps/BattleFrontier_Mart/scripts.pory"
 	msgbox BattleFrontier_Mart_EventScript_TrainingMachine_Text_1
-# 138 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 144 "data/maps/BattleFrontier_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 141 "data/maps/BattleFrontier_Mart/scripts.pory"
-BattleFrontier_TrainingMachineItems:
-# 142 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_XS
-# 143 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_S
-# 144 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_M
-# 145 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_L
-# 146 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_XL
 # 147 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_RARE_CANDY
+BattleFrontier_TrainingMachineItems:
 # 148 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_HP_UP
+	.2byte ITEM_EXP_CANDY_XS
 # 149 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_PROTEIN
+	.2byte ITEM_EXP_CANDY_S
 # 150 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_IRON
+	.2byte ITEM_EXP_CANDY_M
 # 151 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_CALCIUM
+	.2byte ITEM_EXP_CANDY_L
 # 152 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_ZINC
+	.2byte ITEM_EXP_CANDY_XL
 # 153 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_CARBOS
+	.2byte ITEM_RARE_CANDY
 # 154 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_PP_UP
+	.2byte ITEM_HP_UP
 # 155 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_PP_MAX
+	.2byte ITEM_PROTEIN
 # 156 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_POWER_WEIGHT
+	.2byte ITEM_IRON
 # 157 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_POWER_WEIGHT
+	.2byte ITEM_CALCIUM
 # 158 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_POWER_BRACER
+	.2byte ITEM_ZINC
 # 159 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_POWER_BELT
+	.2byte ITEM_CARBOS
 # 160 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_POWER_LENS
+	.2byte ITEM_PP_UP
 # 161 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_POWER_BAND
+	.2byte ITEM_PP_MAX
 # 162 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_POWER_ANKLET
+	.2byte ITEM_POWER_WEIGHT
 # 163 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_POMEG_BERRY
+	.2byte ITEM_POWER_WEIGHT
 # 164 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_KELPSY_BERRY
+	.2byte ITEM_POWER_BRACER
 # 165 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_QUALOT_BERRY
+	.2byte ITEM_POWER_BELT
 # 166 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_HONDEW_BERRY
+	.2byte ITEM_POWER_LENS
 # 167 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_GREPA_BERRY
+	.2byte ITEM_POWER_BAND
 # 168 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_TAMATO_BERRY
+	.2byte ITEM_POWER_ANKLET
 # 169 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_HEALTH_FEATHER
+	.2byte ITEM_POMEG_BERRY
 # 170 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_MUSCLE_FEATHER
+	.2byte ITEM_KELPSY_BERRY
 # 171 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_RESIST_FEATHER
+	.2byte ITEM_QUALOT_BERRY
 # 172 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_GENIUS_FEATHER
+	.2byte ITEM_HONDEW_BERRY
 # 173 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_CLEVER_FEATHER
+	.2byte ITEM_GREPA_BERRY
 # 174 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_SWIFT_FEATHER
+	.2byte ITEM_TAMATO_BERRY
 # 175 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_LONELY_MINT
+	.2byte ITEM_HEALTH_FEATHER
 # 176 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_ADAMANT_MINT
+	.2byte ITEM_MUSCLE_FEATHER
 # 177 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_NAUGHTY_MINT
+	.2byte ITEM_RESIST_FEATHER
 # 178 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_BRAVE_MINT
+	.2byte ITEM_GENIUS_FEATHER
 # 179 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_BOLD_MINT
+	.2byte ITEM_CLEVER_FEATHER
 # 180 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_IMPISH_MINT
+	.2byte ITEM_SWIFT_FEATHER
 # 181 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_LAX_MINT
+	.2byte ITEM_LONELY_MINT
 # 182 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_RELAXED_MINT
+	.2byte ITEM_ADAMANT_MINT
 # 183 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_MODEST_MINT
+	.2byte ITEM_NAUGHTY_MINT
 # 184 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_MILD_MINT
+	.2byte ITEM_BRAVE_MINT
 # 185 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_RASH_MINT
+	.2byte ITEM_BOLD_MINT
 # 186 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_QUIET_MINT
+	.2byte ITEM_IMPISH_MINT
 # 187 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_CALM_MINT
+	.2byte ITEM_LAX_MINT
 # 188 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_GENTLE_MINT
+	.2byte ITEM_RELAXED_MINT
 # 189 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_CAREFUL_MINT
+	.2byte ITEM_MODEST_MINT
 # 190 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_SASSY_MINT
+	.2byte ITEM_MILD_MINT
 # 191 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_TIMID_MINT
+	.2byte ITEM_RASH_MINT
 # 192 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_HASTY_MINT
+	.2byte ITEM_QUIET_MINT
 # 193 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_JOLLY_MINT
+	.2byte ITEM_CALM_MINT
 # 194 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_NAIVE_MINT
+	.2byte ITEM_GENTLE_MINT
 # 195 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_SERIOUS_MINT
+	.2byte ITEM_CAREFUL_MINT
 # 196 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_ABILITY_CAPSULE
+	.2byte ITEM_SASSY_MINT
 # 197 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_TIMID_MINT
+# 198 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_HASTY_MINT
+# 199 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_JOLLY_MINT
+# 200 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_NAIVE_MINT
+# 201 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_SERIOUS_MINT
+# 202 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_ABILITY_CAPSULE
+# 203 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_ABILITY_PATCH
+# 204 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_POKE_BALL
+# 205 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_GREAT_BALL
+# 206 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_ULTRA_BALL
+# 207 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_MASTER_BALL
+# 208 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_PREMIER_BALL
+# 209 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_HEAL_BALL
+# 210 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_NET_BALL
+# 211 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_NEST_BALL
+# 212 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_DIVE_BALL
+# 213 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_DUSK_BALL
+# 214 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_TIMER_BALL
+# 215 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_QUICK_BALL
+# 216 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_REPEAT_BALL
+# 217 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_LUXURY_BALL
+# 218 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_LEVEL_BALL
+# 219 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_LURE_BALL
+# 220 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_MOON_BALL
+# 221 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_FRIEND_BALL
+# 222 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_LOVE_BALL
+# 223 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_FAST_BALL
+# 224 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_HEAVY_BALL
+# 225 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_DREAM_BALL
 	.2byte ITEM_NONE
 
 BattleFrontier_Mart_EventScript_TMMachine::
-# 201 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 229 "data/maps/BattleFrontier_Mart/scripts.pory"
 	lock
-# 202 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 230 "data/maps/BattleFrontier_Mart/scripts.pory"
 	message BattleFrontier_Mart_EventScript_TMMachine_Text_0
-# 203 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 231 "data/maps/BattleFrontier_Mart/scripts.pory"
 	waitmessage
-# 204 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 232 "data/maps/BattleFrontier_Mart/scripts.pory"
 	pokemart BattleFrontier_TMMachineItems
-# 205 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 233 "data/maps/BattleFrontier_Mart/scripts.pory"
 	msgbox BattleFrontier_Mart_EventScript_TMMachine_Text_1
-# 206 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 234 "data/maps/BattleFrontier_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 209 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 237 "data/maps/BattleFrontier_Mart/scripts.pory"
 BattleFrontier_TMMachineItems:
-# 210 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 238 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_BULLET_SEED
-# 211 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 239 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_PROTECT
-# 212 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 240 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_SUNNY_DAY
-# 213 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 241 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_TAUNT
-# 214 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 242 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_ICE_BEAM
-# 215 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 243 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_RAIN_DANCE
-# 216 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 244 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_THUNDERBOLT
-# 217 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 245 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_THUNDER
-# 218 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 246 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_EARTHQUAKE
-# 219 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 247 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_DIG
-# 220 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 248 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_PSYCHIC
-# 221 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 249 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_SHADOW_BALL
-# 222 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 250 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_BRICK_BREAK
-# 223 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 251 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_DOUBLE_TEAM
-# 224 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 252 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_REFLECT
-# 225 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 253 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_FLAMETHROWER
-# 226 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 254 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_SLUDGE_BOMB
-# 227 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 255 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_SANDSTORM
-# 228 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 256 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_TORMENT
-# 229 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 257 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM_SKILL_SWAP
-# 230 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 258 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM51
-# 231 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 259 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM52
-# 232 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 260 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM53
-# 233 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 261 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM54
-# 234 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 262 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_TM55
+# 263 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_TM56
+# 264 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_TM57
+# 265 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_TM58
+# 266 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_TM59
+# 267 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_TM60
+# 268 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_TM61
+# 269 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_TM62
+# 270 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_TM63
+# 271 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_TM64
+# 272 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_TM65
+# 273 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_TM66
 	.2byte ITEM_NONE
 
 BattleFrontier_Mart_EventScript_EvolveMachine::
-# 238 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 277 "data/maps/BattleFrontier_Mart/scripts.pory"
 	lock
-# 239 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 278 "data/maps/BattleFrontier_Mart/scripts.pory"
 	message BattleFrontier_Mart_EventScript_EvolveMachine_Text_0
-# 240 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 279 "data/maps/BattleFrontier_Mart/scripts.pory"
 	waitmessage
-# 241 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 280 "data/maps/BattleFrontier_Mart/scripts.pory"
 	pokemart BattleFrontier_EvolveMachineItems
-# 242 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 281 "data/maps/BattleFrontier_Mart/scripts.pory"
 	msgbox BattleFrontier_Mart_EventScript_EvolveMachine_Text_1
-# 243 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 282 "data/maps/BattleFrontier_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 246 "data/maps/BattleFrontier_Mart/scripts.pory"
-BattleFrontier_EvolveMachineItems:
-# 247 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_FIRE_STONE
-# 248 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_WATER_STONE
-# 249 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_THUNDER_STONE
-# 250 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_LEAF_STONE
-# 251 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_ICE_STONE
-# 252 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_SUN_STONE
-# 253 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_MOON_STONE
-# 254 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_SHINY_STONE
-# 255 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_DUSK_STONE
-# 256 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_DAWN_STONE
-# 257 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_SWEET_APPLE
-# 258 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_TART_APPLE
-# 259 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_CRACKED_POT
-# 260 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_CHIPPED_POT
-# 261 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_CUFF
-# 262 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_WREATH
-# 263 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_DRAGON_SCALE
-# 264 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_UPGRADE
-# 265 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_PROTECTOR
-# 266 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_ELECTIRIZER
-# 267 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_MAGMARIZER
-# 268 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_DUBIOUS_DISC
-# 269 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_REAPER_CLOTH
-# 270 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_PRISM_SCALE
-# 271 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_WHIPPED_DREAM
-# 272 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_SACHET
-# 273 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_OVAL_STONE
-# 274 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_SCALE
-# 275 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_TOOTH
-# 276 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_METAL_COAT
-# 277 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_KINGS_ROCK
-# 278 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_CLAW
-# 279 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_FANG
-# 280 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_AUSPICIOUS_ARMOR
-# 281 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_MALICIOUS_ARMOR
-# 282 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_DARKNESS
-# 283 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_WATERS
-# 284 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_BLACK_AUGURITE
 # 285 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_LINKING_CORD
+BattleFrontier_EvolveMachineItems:
 # 286 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_PEAT_BLOCK
+	.2byte ITEM_FIRE_STONE
 # 287 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_SYRUPY_APPLE
+	.2byte ITEM_WATER_STONE
 # 288 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_UNREMARKABLE_TEACUP
+	.2byte ITEM_THUNDER_STONE
 # 289 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.2byte ITEM_MASTERPIECE_TEACUP
+	.2byte ITEM_LEAF_STONE
 # 290 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_ICE_STONE
+# 291 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_SUN_STONE
+# 292 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_MOON_STONE
+# 293 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_SHINY_STONE
+# 294 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_DUSK_STONE
+# 295 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_DAWN_STONE
+# 296 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_SWEET_APPLE
+# 297 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_TART_APPLE
+# 298 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_CRACKED_POT
+# 299 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_CHIPPED_POT
+# 300 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_GALARICA_CUFF
+# 301 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_GALARICA_WREATH
+# 302 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_DRAGON_SCALE
+# 303 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_UPGRADE
+# 304 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_PROTECTOR
+# 305 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_ELECTIRIZER
+# 306 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_MAGMARIZER
+# 307 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_DUBIOUS_DISC
+# 308 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_REAPER_CLOTH
+# 309 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_PRISM_SCALE
+# 310 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_WHIPPED_DREAM
+# 311 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_SACHET
+# 312 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_OVAL_STONE
+# 313 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_DEEP_SEA_SCALE
+# 314 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_DEEP_SEA_TOOTH
+# 315 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_METAL_COAT
+# 316 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_KINGS_ROCK
+# 317 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_RAZOR_CLAW
+# 318 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_RAZOR_FANG
+# 319 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_AUSPICIOUS_ARMOR
+# 320 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_MALICIOUS_ARMOR
+# 321 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_SCROLL_OF_DARKNESS
+# 322 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_SCROLL_OF_WATERS
+# 323 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_BLACK_AUGURITE
+# 324 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_LINKING_CORD
+# 325 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_PEAT_BLOCK
+# 326 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_SYRUPY_APPLE
+# 327 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_UNREMARKABLE_TEACUP
+# 328 "data/maps/BattleFrontier_Mart/scripts.pory"
+	.2byte ITEM_MASTERPIECE_TEACUP
+# 329 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.2byte ITEM_METAL_ALLOY
 	.2byte ITEM_NONE
 
@@ -576,25 +654,25 @@ BattleFrontier_Mart_EventScript_BattleMachine_Text_1:
 	.string "Happy battling!$"
 
 BattleFrontier_Mart_EventScript_TrainingMachine_Text_0:
-# 134 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 140 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.string "Ready to train?$"
 
 BattleFrontier_Mart_EventScript_TrainingMachine_Text_1:
-# 137 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 143 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.string "Level up!$"
 
 BattleFrontier_Mart_EventScript_TMMachine_Text_0:
-# 202 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 230 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.string "What do you need to learn?$"
 
 BattleFrontier_Mart_EventScript_TMMachine_Text_1:
-# 205 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 233 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.string "Go get'em!$"
 
 BattleFrontier_Mart_EventScript_EvolveMachine_Text_0:
-# 239 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 278 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.string "So you wanna evolve?$"
 
 BattleFrontier_Mart_EventScript_EvolveMachine_Text_1:
-# 242 "data/maps/BattleFrontier_Mart/scripts.pory"
+# 281 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.string "Change is the best!$"

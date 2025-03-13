@@ -127,6 +127,12 @@ mart BattleFrontier_BattleMachineItems {
         ITEM_MUSCLE_BAND
         ITEM_WISE_GLASSES
         ITEM_EXPERT_BELT
+        ITEM_ASSAULT_VEST
+        ITEM_THROAT_SPRAY
+        ITEM_BOOSTER_ENERGY
+        ITEM_SAFETY_GOGGLES
+        ITEM_COVERT_CLOAK
+        ITEM_EVIOLITE
 }
 
 script BattleFrontier_Mart_EventScript_TrainingMachine {
@@ -195,6 +201,28 @@ mart BattleFrontier_TrainingMachineItems {
         ITEM_SERIOUS_MINT
         ITEM_ABILITY_CAPSULE
         ITEM_ABILITY_PATCH
+        ITEM_POKE_BALL
+        ITEM_GREAT_BALL
+        ITEM_ULTRA_BALL
+        ITEM_MASTER_BALL
+        ITEM_PREMIER_BALL
+        ITEM_HEAL_BALL
+        ITEM_NET_BALL
+        ITEM_NEST_BALL
+        ITEM_DIVE_BALL
+        ITEM_DUSK_BALL
+        ITEM_TIMER_BALL
+        ITEM_QUICK_BALL
+        ITEM_REPEAT_BALL
+        ITEM_LUXURY_BALL
+        ITEM_LEVEL_BALL
+        ITEM_LURE_BALL
+        ITEM_MOON_BALL
+        ITEM_FRIEND_BALL
+        ITEM_LOVE_BALL
+        ITEM_FAST_BALL
+        ITEM_HEAVY_BALL
+        ITEM_DREAM_BALL
 }
 
 script BattleFrontier_Mart_EventScript_TMMachine {
@@ -232,6 +260,17 @@ mart BattleFrontier_TMMachineItems {
         ITEM_TM53
         ITEM_TM54
         ITEM_TM55
+        ITEM_TM56
+        ITEM_TM57
+        ITEM_TM58
+        ITEM_TM59
+        ITEM_TM60
+        ITEM_TM61
+        ITEM_TM62
+        ITEM_TM63
+        ITEM_TM64
+        ITEM_TM65
+        ITEM_TM66
 }
 
 script BattleFrontier_Mart_EventScript_EvolveMachine {

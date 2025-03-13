@@ -268,318 +268,396 @@ SootopolisCity_BattleMachineItems:
 	.2byte ITEM_WISE_GLASSES
 # 138 "data/maps/SootopolisCity_Mart/scripts.pory"
 	.2byte ITEM_EXPERT_BELT
+# 139 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_ASSAULT_VEST
+# 140 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_THROAT_SPRAY
+# 141 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_BOOSTER_ENERGY
+# 142 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_SAFETY_GOGGLES
+# 143 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_COVERT_CLOAK
+# 144 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_EVIOLITE
 	.2byte ITEM_NONE
 
 SootopolisCity_Mart_EventScript_TrainingMachine::
-# 142 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 148 "data/maps/SootopolisCity_Mart/scripts.pory"
 	lock
-# 143 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 149 "data/maps/SootopolisCity_Mart/scripts.pory"
 	message SootopolisCity_Mart_EventScript_TrainingMachine_Text_0
-# 144 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 150 "data/maps/SootopolisCity_Mart/scripts.pory"
 	waitmessage
-# 145 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 151 "data/maps/SootopolisCity_Mart/scripts.pory"
 	pokemart SootopolisCity_TrainingMachineItems
-# 146 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 152 "data/maps/SootopolisCity_Mart/scripts.pory"
 	msgbox SootopolisCity_Mart_EventScript_TrainingMachine_Text_1
-# 147 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 153 "data/maps/SootopolisCity_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 150 "data/maps/SootopolisCity_Mart/scripts.pory"
-SootopolisCity_TrainingMachineItems:
-# 151 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_XS
-# 152 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_S
-# 153 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_M
-# 154 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_L
-# 155 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_XL
 # 156 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_RARE_CANDY
+SootopolisCity_TrainingMachineItems:
 # 157 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_HP_UP
+	.2byte ITEM_EXP_CANDY_XS
 # 158 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_PROTEIN
+	.2byte ITEM_EXP_CANDY_S
 # 159 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_IRON
+	.2byte ITEM_EXP_CANDY_M
 # 160 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_CALCIUM
+	.2byte ITEM_EXP_CANDY_L
 # 161 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_ZINC
+	.2byte ITEM_EXP_CANDY_XL
 # 162 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_CARBOS
+	.2byte ITEM_RARE_CANDY
 # 163 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_PP_UP
+	.2byte ITEM_HP_UP
 # 164 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_PP_MAX
+	.2byte ITEM_PROTEIN
 # 165 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_WEIGHT
+	.2byte ITEM_IRON
 # 166 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_WEIGHT
+	.2byte ITEM_CALCIUM
 # 167 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_BRACER
+	.2byte ITEM_ZINC
 # 168 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_BELT
+	.2byte ITEM_CARBOS
 # 169 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_LENS
+	.2byte ITEM_PP_UP
 # 170 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_BAND
+	.2byte ITEM_PP_MAX
 # 171 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_ANKLET
+	.2byte ITEM_POWER_WEIGHT
 # 172 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_POMEG_BERRY
+	.2byte ITEM_POWER_WEIGHT
 # 173 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_KELPSY_BERRY
+	.2byte ITEM_POWER_BRACER
 # 174 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_QUALOT_BERRY
+	.2byte ITEM_POWER_BELT
 # 175 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_HONDEW_BERRY
+	.2byte ITEM_POWER_LENS
 # 176 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_GREPA_BERRY
+	.2byte ITEM_POWER_BAND
 # 177 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TAMATO_BERRY
+	.2byte ITEM_POWER_ANKLET
 # 178 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_HEALTH_FEATHER
+	.2byte ITEM_POMEG_BERRY
 # 179 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_MUSCLE_FEATHER
+	.2byte ITEM_KELPSY_BERRY
 # 180 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_RESIST_FEATHER
+	.2byte ITEM_QUALOT_BERRY
 # 181 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_GENIUS_FEATHER
+	.2byte ITEM_HONDEW_BERRY
 # 182 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_CLEVER_FEATHER
+	.2byte ITEM_GREPA_BERRY
 # 183 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_SWIFT_FEATHER
+	.2byte ITEM_TAMATO_BERRY
 # 184 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_LONELY_MINT
+	.2byte ITEM_HEALTH_FEATHER
 # 185 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_ADAMANT_MINT
+	.2byte ITEM_MUSCLE_FEATHER
 # 186 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_NAUGHTY_MINT
+	.2byte ITEM_RESIST_FEATHER
 # 187 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_BRAVE_MINT
+	.2byte ITEM_GENIUS_FEATHER
 # 188 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_BOLD_MINT
+	.2byte ITEM_CLEVER_FEATHER
 # 189 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_IMPISH_MINT
+	.2byte ITEM_SWIFT_FEATHER
 # 190 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_LAX_MINT
+	.2byte ITEM_LONELY_MINT
 # 191 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_RELAXED_MINT
+	.2byte ITEM_ADAMANT_MINT
 # 192 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_MODEST_MINT
+	.2byte ITEM_NAUGHTY_MINT
 # 193 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_MILD_MINT
+	.2byte ITEM_BRAVE_MINT
 # 194 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_RASH_MINT
+	.2byte ITEM_BOLD_MINT
 # 195 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_QUIET_MINT
+	.2byte ITEM_IMPISH_MINT
 # 196 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_CALM_MINT
+	.2byte ITEM_LAX_MINT
 # 197 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_GENTLE_MINT
+	.2byte ITEM_RELAXED_MINT
 # 198 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_CAREFUL_MINT
+	.2byte ITEM_MODEST_MINT
 # 199 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_SASSY_MINT
+	.2byte ITEM_MILD_MINT
 # 200 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TIMID_MINT
+	.2byte ITEM_RASH_MINT
 # 201 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_HASTY_MINT
+	.2byte ITEM_QUIET_MINT
 # 202 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_JOLLY_MINT
+	.2byte ITEM_CALM_MINT
 # 203 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_NAIVE_MINT
+	.2byte ITEM_GENTLE_MINT
 # 204 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_SERIOUS_MINT
+	.2byte ITEM_CAREFUL_MINT
 # 205 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_ABILITY_CAPSULE
+	.2byte ITEM_SASSY_MINT
 # 206 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TIMID_MINT
+# 207 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_HASTY_MINT
+# 208 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_JOLLY_MINT
+# 209 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_NAIVE_MINT
+# 210 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_SERIOUS_MINT
+# 211 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_ABILITY_CAPSULE
+# 212 "data/maps/SootopolisCity_Mart/scripts.pory"
 	.2byte ITEM_ABILITY_PATCH
+# 213 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_POKE_BALL
+# 214 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_GREAT_BALL
+# 215 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_ULTRA_BALL
+# 216 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_MASTER_BALL
+# 217 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_PREMIER_BALL
+# 218 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_HEAL_BALL
+# 218 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_NET_BALL
+# 218 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_NEST_BALL
+# 218 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_DIVE_BALL
+# 218 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_DUSK_BALL
+# 218 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TIMER_BALL
+# 218 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_QUICK_BALL
+# 218 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_REPEAT_BALL
+# 218 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_LUXURY_BALL
+# 218 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_LEVEL_BALL
+# 218 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_LURE_BALL
+# 218 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_MOON_BALL
+# 218 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_FRIEND_BALL
+# 218 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_LOVE_BALL
+# 218 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_FAST_BALL
+# 218 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_HEAVY_BALL
+# 218 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_DREAM_BALL
 	.2byte ITEM_NONE
 
 SootopolisCity_Mart_EventScript_TMMachine::
-# 210 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 222 "data/maps/SootopolisCity_Mart/scripts.pory"
 	lock
-# 211 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 223 "data/maps/SootopolisCity_Mart/scripts.pory"
 	message SootopolisCity_Mart_EventScript_TMMachine_Text_0
-# 212 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 224 "data/maps/SootopolisCity_Mart/scripts.pory"
 	waitmessage
-# 213 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 225 "data/maps/SootopolisCity_Mart/scripts.pory"
 	pokemart SootopolisCity_TMMachineItems
-# 214 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 226 "data/maps/SootopolisCity_Mart/scripts.pory"
 	msgbox SootopolisCity_Mart_EventScript_TMMachine_Text_1
-# 215 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 227 "data/maps/SootopolisCity_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 218 "data/maps/SootopolisCity_Mart/scripts.pory"
-SootopolisCity_TMMachineItems:
-# 219 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_BULLET_SEED
-# 220 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_PROTECT
-# 221 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_SUNNY_DAY
-# 222 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_TAUNT
-# 223 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_ICE_BEAM
-# 224 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_RAIN_DANCE
-# 225 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_THUNDERBOLT
-# 226 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_THUNDER
-# 227 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_EARTHQUAKE
-# 228 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_DIG
-# 229 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_PSYCHIC
 # 230 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_SHADOW_BALL
+SootopolisCity_TMMachineItems:
 # 231 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_BRICK_BREAK
+	.2byte ITEM_TM_BULLET_SEED
 # 232 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_DOUBLE_TEAM
+	.2byte ITEM_TM_PROTECT
 # 233 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_REFLECT
+	.2byte ITEM_TM_SUNNY_DAY
 # 234 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_FLAMETHROWER
+	.2byte ITEM_TM_TAUNT
 # 235 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_SLUDGE_BOMB
+	.2byte ITEM_TM_ICE_BEAM
 # 236 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_SANDSTORM
+	.2byte ITEM_TM_RAIN_DANCE
 # 237 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_TORMENT
+	.2byte ITEM_TM_THUNDERBOLT
 # 238 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM_SKILL_SWAP
+	.2byte ITEM_TM_THUNDER
 # 239 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM51
+	.2byte ITEM_TM_EARTHQUAKE
 # 240 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM52
+	.2byte ITEM_TM_DIG
 # 241 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM53
+	.2byte ITEM_TM_PSYCHIC
 # 242 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TM54
+	.2byte ITEM_TM_SHADOW_BALL
 # 243 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM_BRICK_BREAK
+# 244 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM_DOUBLE_TEAM
+# 245 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM_REFLECT
+# 246 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM_FLAMETHROWER
+# 247 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM_SLUDGE_BOMB
+# 248 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM_SANDSTORM
+# 249 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM_TORMENT
+# 250 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM_SKILL_SWAP
+# 251 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM51
+# 252 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM52
+# 253 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM53
+# 254 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM54
+# 255 "data/maps/SootopolisCity_Mart/scripts.pory"
 	.2byte ITEM_TM55
+# 256 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM56
+# 257 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM57
+# 258 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM58
+# 259 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM59
+# 260 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM60
+# 261 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM61
+# 262 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM62
+# 263 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM63
+# 264 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM64
+# 265 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM65
+# 266 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_TM66
 	.2byte ITEM_NONE
 
 SootopolisCity_Mart_EventScript_EvolveMachine::
-# 247 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 270 "data/maps/SootopolisCity_Mart/scripts.pory"
 	lock
-# 248 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 271 "data/maps/SootopolisCity_Mart/scripts.pory"
 	message SootopolisCity_Mart_EventScript_EvolveMachine_Text_0
-# 249 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 272 "data/maps/SootopolisCity_Mart/scripts.pory"
 	waitmessage
-# 250 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 273 "data/maps/SootopolisCity_Mart/scripts.pory"
 	pokemart SootopolisCity_EvolveMachineItems
-# 251 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 274 "data/maps/SootopolisCity_Mart/scripts.pory"
 	msgbox SootopolisCity_Mart_EventScript_EvolveMachine_Text_1
-# 252 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 275 "data/maps/SootopolisCity_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 255 "data/maps/SootopolisCity_Mart/scripts.pory"
-SootopolisCity_EvolveMachineItems:
-# 256 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_FIRE_STONE
-# 257 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_WATER_STONE
-# 258 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_THUNDER_STONE
-# 259 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_LEAF_STONE
-# 260 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_ICE_STONE
-# 261 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_SUN_STONE
-# 262 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_MOON_STONE
-# 263 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_SHINY_STONE
-# 264 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_DUSK_STONE
-# 265 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_DAWN_STONE
-# 266 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_SWEET_APPLE
-# 267 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_TART_APPLE
-# 268 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_CRACKED_POT
-# 269 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_CHIPPED_POT
-# 270 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_CUFF
-# 271 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_WREATH
-# 272 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_DRAGON_SCALE
-# 273 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_UPGRADE
-# 274 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_PROTECTOR
-# 275 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_ELECTIRIZER
-# 276 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_MAGMARIZER
-# 277 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_DUBIOUS_DISC
 # 278 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_REAPER_CLOTH
+SootopolisCity_EvolveMachineItems:
 # 279 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_PRISM_SCALE
+	.2byte ITEM_FIRE_STONE
 # 280 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_WHIPPED_DREAM
+	.2byte ITEM_WATER_STONE
 # 281 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_SACHET
+	.2byte ITEM_THUNDER_STONE
 # 282 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_OVAL_STONE
+	.2byte ITEM_LEAF_STONE
 # 283 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_SCALE
+	.2byte ITEM_ICE_STONE
 # 284 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_TOOTH
+	.2byte ITEM_SUN_STONE
 # 285 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_METAL_COAT
+	.2byte ITEM_MOON_STONE
 # 286 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_KINGS_ROCK
+	.2byte ITEM_SHINY_STONE
 # 287 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_CLAW
+	.2byte ITEM_DUSK_STONE
 # 288 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_FANG
+	.2byte ITEM_DAWN_STONE
 # 289 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_AUSPICIOUS_ARMOR
+	.2byte ITEM_SWEET_APPLE
 # 290 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_MALICIOUS_ARMOR
+	.2byte ITEM_TART_APPLE
 # 291 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_DARKNESS
+	.2byte ITEM_CRACKED_POT
 # 292 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_WATERS
+	.2byte ITEM_CHIPPED_POT
 # 293 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_BLACK_AUGURITE
+	.2byte ITEM_GALARICA_CUFF
 # 294 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_LINKING_CORD
+	.2byte ITEM_GALARICA_WREATH
 # 295 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_PEAT_BLOCK
+	.2byte ITEM_DRAGON_SCALE
 # 296 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_SYRUPY_APPLE
+	.2byte ITEM_UPGRADE
 # 297 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_UNREMARKABLE_TEACUP
+	.2byte ITEM_PROTECTOR
 # 298 "data/maps/SootopolisCity_Mart/scripts.pory"
-	.2byte ITEM_MASTERPIECE_TEACUP
+	.2byte ITEM_ELECTIRIZER
 # 299 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_MAGMARIZER
+# 300 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_DUBIOUS_DISC
+# 301 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_REAPER_CLOTH
+# 302 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_PRISM_SCALE
+# 303 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_WHIPPED_DREAM
+# 304 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_SACHET
+# 305 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_OVAL_STONE
+# 306 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_DEEP_SEA_SCALE
+# 307 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_DEEP_SEA_TOOTH
+# 308 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_METAL_COAT
+# 309 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_KINGS_ROCK
+# 310 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_RAZOR_CLAW
+# 311 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_RAZOR_FANG
+# 312 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_AUSPICIOUS_ARMOR
+# 313 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_MALICIOUS_ARMOR
+# 314 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_SCROLL_OF_DARKNESS
+# 315 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_SCROLL_OF_WATERS
+# 316 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_BLACK_AUGURITE
+# 317 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_LINKING_CORD
+# 318 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_PEAT_BLOCK
+# 319 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_SYRUPY_APPLE
+# 320 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_UNREMARKABLE_TEACUP
+# 321 "data/maps/SootopolisCity_Mart/scripts.pory"
+	.2byte ITEM_MASTERPIECE_TEACUP
+# 322 "data/maps/SootopolisCity_Mart/scripts.pory"
 	.2byte ITEM_METAL_ALLOY
 	.2byte ITEM_NONE
 
@@ -592,25 +670,25 @@ SootopolisCity_Mart_EventScript_BattleMachine_Text_1:
 	.string "Happy battling!$"
 
 SootopolisCity_Mart_EventScript_TrainingMachine_Text_0:
-# 143 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 149 "data/maps/SootopolisCity_Mart/scripts.pory"
 	.string "Ready to train?$"
 
 SootopolisCity_Mart_EventScript_TrainingMachine_Text_1:
-# 146 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 152 "data/maps/SootopolisCity_Mart/scripts.pory"
 	.string "Level up!$"
 
 SootopolisCity_Mart_EventScript_TMMachine_Text_0:
-# 211 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 223 "data/maps/SootopolisCity_Mart/scripts.pory"
 	.string "What do you need to learn?$"
 
 SootopolisCity_Mart_EventScript_TMMachine_Text_1:
-# 214 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 226 "data/maps/SootopolisCity_Mart/scripts.pory"
 	.string "Go get'em!$"
 
 SootopolisCity_Mart_EventScript_EvolveMachine_Text_0:
-# 248 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 271 "data/maps/SootopolisCity_Mart/scripts.pory"
 	.string "So you wanna evolve?$"
 
 SootopolisCity_Mart_EventScript_EvolveMachine_Text_1:
-# 251 "data/maps/SootopolisCity_Mart/scripts.pory"
+# 274 "data/maps/SootopolisCity_Mart/scripts.pory"
 	.string "Change is the best!$"

@@ -840,3 +840,161 @@ MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons:
 	.string "Come see me with two or more\n"
 # 421 "data/maps/MauvilleCity_Gym/scripts.pory"
 	.string "POKéMON, all right?$"
+
+MauvilleCity_Gym_EventScript_GiveLegendary::
+# 426 "data/maps/MauvilleCity_Gym/scripts.pory"
+	goto_if_set FLAG_SYS_GAME_CLEAR, MauvilleCity_Gym_EventScript_GiveLegendary_1
+	return
+
+MauvilleCity_Gym_EventScript_GiveLegendary_1:
+# 427 "data/maps/MauvilleCity_Gym/scripts.pory"
+	checktrainerflag TRAINER_WATTSON_5
+	goto_if 1, MauvilleCity_Gym_EventScript_GiveLegendary_8
+MauvilleCity_Gym_EventScript_GiveLegendary_6:
+# 443 "data/maps/MauvilleCity_Gym/scripts.pory"
+	checktrainerflag TRAINER_WATTSON_5
+	goto_if 1, MauvilleCity_Gym_EventScript_GiveLegendary_5
+	return
+
+MauvilleCity_Gym_EventScript_GiveLegendary_3:
+# 428 "data/maps/MauvilleCity_Gym/scripts.pory"
+	givemon SPECIES_THUNDURUS, 100, ITEM_LUCKY_EGG
+# 429 "data/maps/MauvilleCity_Gym/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq MauvilleCity_Gym_EventScript_GiveLegendary_11
+# 434 "data/maps/MauvilleCity_Gym/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq MauvilleCity_Gym_EventScript_GiveLegendary_12
+# 441 "data/maps/MauvilleCity_Gym/scripts.pory"
+	msgbox MauvilleCity_Gym_EventScript_GiveLegendary_Text_2
+	return
+
+MauvilleCity_Gym_EventScript_GiveLegendary_4:
+# 444 "data/maps/MauvilleCity_Gym/scripts.pory"
+	givemon SPECIES_MIRAIDON, 100, ITEM_LUCKY_EGG
+# 445 "data/maps/MauvilleCity_Gym/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq MauvilleCity_Gym_EventScript_GiveLegendary_16
+# 450 "data/maps/MauvilleCity_Gym/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq MauvilleCity_Gym_EventScript_GiveLegendary_17
+# 457 "data/maps/MauvilleCity_Gym/scripts.pory"
+	msgbox MauvilleCity_Gym_EventScript_GiveLegendary_Text_2
+	return
+
+MauvilleCity_Gym_EventScript_GiveLegendary_5:
+# 443 "data/maps/MauvilleCity_Gym/scripts.pory"
+	goto_if_unset FLAG_MAUVILLE_GYM_LEGENDARY2, MauvilleCity_Gym_EventScript_GiveLegendary_4
+	return
+
+MauvilleCity_Gym_EventScript_GiveLegendary_8:
+# 427 "data/maps/MauvilleCity_Gym/scripts.pory"
+	goto_if_unset FLAG_MAUVILLE_GYM_LEGENDARY1, MauvilleCity_Gym_EventScript_GiveLegendary_3
+	goto MauvilleCity_Gym_EventScript_GiveLegendary_6
+
+MauvilleCity_Gym_EventScript_GiveLegendary_11:
+# 430 "data/maps/MauvilleCity_Gym/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 431 "data/maps/MauvilleCity_Gym/scripts.pory"
+	msgbox MauvilleCity_Gym_EventScript_GiveLegendary_Text_0
+# 432 "data/maps/MauvilleCity_Gym/scripts.pory"
+	call MauvilleCity_Gym_NicknamePartyMon
+# 433 "data/maps/MauvilleCity_Gym/scripts.pory"
+	setflag FLAG_MAUVILLE_GYM_LEGENDARY1
+	return
+
+MauvilleCity_Gym_EventScript_GiveLegendary_12:
+# 435 "data/maps/MauvilleCity_Gym/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 436 "data/maps/MauvilleCity_Gym/scripts.pory"
+	msgbox MauvilleCity_Gym_EventScript_GiveLegendary_Text_0
+# 437 "data/maps/MauvilleCity_Gym/scripts.pory"
+	call MauvilleCity_Gym_NicknameBoxMon
+# 438 "data/maps/MauvilleCity_Gym/scripts.pory"
+	msgbox MauvilleCity_Gym_EventScript_GiveLegendary_Text_1
+# 439 "data/maps/MauvilleCity_Gym/scripts.pory"
+	setflag FLAG_MAUVILLE_GYM_LEGENDARY1
+	return
+
+MauvilleCity_Gym_EventScript_GiveLegendary_16:
+# 446 "data/maps/MauvilleCity_Gym/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 447 "data/maps/MauvilleCity_Gym/scripts.pory"
+	msgbox MauvilleCity_Gym_EventScript_GiveLegendary_Text_3
+# 448 "data/maps/MauvilleCity_Gym/scripts.pory"
+	call MauvilleCity_Gym_NicknamePartyMon
+# 449 "data/maps/MauvilleCity_Gym/scripts.pory"
+	setflag FLAG_MAUVILLE_GYM_LEGENDARY2
+	return
+
+MauvilleCity_Gym_EventScript_GiveLegendary_17:
+# 451 "data/maps/MauvilleCity_Gym/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 452 "data/maps/MauvilleCity_Gym/scripts.pory"
+	msgbox MauvilleCity_Gym_EventScript_GiveLegendary_Text_3
+# 453 "data/maps/MauvilleCity_Gym/scripts.pory"
+	call MauvilleCity_Gym_NicknameBoxMon
+# 454 "data/maps/MauvilleCity_Gym/scripts.pory"
+	msgbox MauvilleCity_Gym_EventScript_GiveLegendary_Text_4
+# 455 "data/maps/MauvilleCity_Gym/scripts.pory"
+	setflag FLAG_MAUVILLE_GYM_LEGENDARY2
+	return
+
+
+MauvilleCity_Gym_NicknamePartyMon::
+# 463 "data/maps/MauvilleCity_Gym/scripts.pory"
+	msgbox MauvilleCity_Gym_NicknamePartyMon_Text_0, MSGBOX_YESNO
+# 464 "data/maps/MauvilleCity_Gym/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq MauvilleCity_Gym_NicknamePartyMon_1
+	return
+
+MauvilleCity_Gym_NicknamePartyMon_1:
+# 465 "data/maps/MauvilleCity_Gym/scripts.pory"
+	call Common_EventScript_GetGiftMonPartySlot
+# 466 "data/maps/MauvilleCity_Gym/scripts.pory"
+	call Common_EventScript_NameReceivedPartyMon
+	return
+
+
+MauvilleCity_Gym_NicknameBoxMon::
+# 471 "data/maps/MauvilleCity_Gym/scripts.pory"
+	msgbox MauvilleCity_Gym_NicknameBoxMon_Text_0, MSGBOX_YESNO
+# 472 "data/maps/MauvilleCity_Gym/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq MauvilleCity_Gym_NicknameBoxMon_1
+	return
+
+MauvilleCity_Gym_NicknameBoxMon_1:
+# 473 "data/maps/MauvilleCity_Gym/scripts.pory"
+	call Common_EventScript_NameReceivedBoxMon
+	return
+
+
+MauvilleCity_Gym_EventScript_GiveLegendary_Text_0:
+# 431 "data/maps/MauvilleCity_Gym/scripts.pory"
+	.string "Received Thundurus!$"
+
+MauvilleCity_Gym_EventScript_GiveLegendary_Text_1:
+# 438 "data/maps/MauvilleCity_Gym/scripts.pory"
+	.string "Transferred Thundurus to PC$"
+
+MauvilleCity_Gym_EventScript_GiveLegendary_Text_2:
+# 441 "data/maps/MauvilleCity_Gym/scripts.pory"
+	.string "No more room.$"
+
+MauvilleCity_Gym_EventScript_GiveLegendary_Text_3:
+# 447 "data/maps/MauvilleCity_Gym/scripts.pory"
+	.string "Received Miraidon!$"
+
+MauvilleCity_Gym_EventScript_GiveLegendary_Text_4:
+# 454 "data/maps/MauvilleCity_Gym/scripts.pory"
+	.string "Transferred Miraidon to PC$"
+
+MauvilleCity_Gym_NicknamePartyMon_Text_0:
+# 463 "data/maps/MauvilleCity_Gym/scripts.pory"
+	.string "Give it a nickname?$"
+
+MauvilleCity_Gym_NicknameBoxMon_Text_0:
+# 471 "data/maps/MauvilleCity_Gym/scripts.pory"
+	.string "Give a nickname?$"

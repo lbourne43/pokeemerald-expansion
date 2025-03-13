@@ -186,6 +186,7 @@ DewfordTown_Gym_EventScript_GiveBulkUp2:
 DewfordTown_Gym_EventScript_BrawlyRematch::
 	trainerbattle_rematch_double TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyPreRematch, DewfordTown_Gym_Text_BrawlyRematchDefeat, DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons
 	msgbox DewfordTown_Gym_Text_BrawlyPostRematch, MSGBOX_AUTOCLOSE
+        goto DewfordTown_Gym_EventScript_GiveLegendary
 	end
 
 DewfordTown_Gym_EventScript_Takao::
@@ -459,3 +460,55 @@ DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
 	.string "I'm sorry, but I'd like you to come back\n"
 	.string "with at least two POKéMON.$"
 `
+
+script DewfordTown_Gym_EventScript_GiveLegendary{
+    if (flag(FLAG_SYS_GAME_CLEAR)) {
+        if (defeated(TRAINER_BRAWLY_5) && !flag(FLAG_DEWFORD_GYM_LEGENDARY1)) {
+            givemon(SPECIES_URSHIFU_RAPID_STRIKE, 100, ITEM_LUCKY_EGG)
+            if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+                playfanfare(MUS_OBTAIN_ITEM)
+                msgbox("Received Urshifu Rapid Strike!")
+                call(DewfordTown_Gym_NicknamePartyMon)
+                setflag(FLAG_DEWFORD_GYM_LEGENDARY1)
+            } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+                playfanfare(MUS_OBTAIN_ITEM)
+                msgbox("Received Urshifu Rapid Strike!")
+                call(DewfordTown_Gym_NicknameBoxMon)
+                msgbox("Transferred Urshifu Rapid Strike to PC")
+                setflag(FLAG_DEWFORD_GYM_LEGENDARY1)
+            } else {
+                msgbox("No more room.")
+            }
+        } elif (defeated(TRAINER_BRAWLY_5) && !flag(FLAG_DEWFORD_GYM_LEGENDARY2)) {
+            givemon(SPECIES_KORAIDON, 100, ITEM_LUCKY_EGG)
+            if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+                playfanfare(MUS_OBTAIN_ITEM)
+                msgbox("Received Koraidon!")
+                call(DewfordTown_Gym_NicknamePartyMon)
+                setflag(FLAG_DEWFORD_GYM_LEGENDARY2)
+            } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+                playfanfare(MUS_OBTAIN_ITEM)
+                msgbox("Received Koraidon!")
+                call(DewfordTown_Gym_NicknameBoxMon)
+                msgbox("Transferred Koraidon to PC")
+                setflag(FLAG_DEWFORD_GYM_LEGENDARY2)
+            } else {
+                msgbox("No more room.")
+            }
+        }
+    }
+}
+script DewfordTown_Gym_NicknamePartyMon{
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+}
+
+script DewfordTown_Gym_NicknameBoxMon{
+    msgbox("Give a nickname?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+}

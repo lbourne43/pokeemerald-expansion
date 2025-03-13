@@ -863,7 +863,7 @@
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINER_ROCKET_GRUNT_ROUTE106       855
+#define TRAINER_CYNTHIA                     855
 #define TRAINERS_COUNT                      856
 #define MAX_TRAINERS_COUNT                  864
 #define TRAINER_PARTNER(partner)           (MAX_TRAINERS_COUNT + partner)

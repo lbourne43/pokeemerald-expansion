@@ -1,0 +1,1400 @@
+=== FRONTIER_MON_RAIN_FLOATZEL_1 ===  
+Floatzel @ Focus Sash  
+Ability: Swift Swim  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Hydro Pump  
+- Ice Beam  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_FLOATZEL_2 ===  
+Floatzel @ Life Orb  
+Ability: Swift Swim  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Hydro Pump  
+- Ice Beam  
+- Taunt  
+- Rain Dance  
+
+=== FRONTIER_MON_RAIN_FLOATZEL_3 ===  
+Floatzel @ Heavy-Duty Boots  
+Ability: Swift Swim  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Hydro Pump  
+- Ice Beam  
+- Protect  
+- Rain Dance  
+
+=== FRONTIER_MON_RAIN_FLOATZEL_4 ===  
+Floatzel @ Focus Sash  
+Ability: Swift Swim  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Hydro Pump  
+- Ice Beam  
+- Taunt  
+- Protect  
+
+=== FRONTIER_MON_RAIN_FLOATZEL_5 ===  
+Floatzel @ Choice Specs  
+Ability: Swift Swim  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Hydro Pump  
+- Ice Beam  
+- Hidden Power [Electric]  
+- Rain Dance  
+
+=== FRONTIER_MON_RAIN_POLITOED_1 ===  
+Politoed @ Leftovers  
+Ability: Drizzle  
+Nature: Calm  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpD / 0 SpA / 0 Spe  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_POLITOED_2 ===  
+Politoed @ Focus Sash  
+Ability: Drizzle  
+Nature: Calm  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpD / 0 SpA / 0 Spe  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_POLITOED_3 ===  
+Politoed @ Heavy-Duty Boots  
+Ability: Drizzle  
+Nature: Calm  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpD / 0 SpA / 0 Spe  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_POLITOED_4 ===  
+Politoed @ Life Orb  
+Ability: Drizzle  
+Nature: Timid  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_POLITOED_5 ===  
+Politoed @ Leftovers  
+Ability: Drizzle  
+Nature: Calm  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpD / 0 SpA / 0 Spe  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Heal Pulse  
+
+=== FRONTIER_MON_RAIN_RAICHU_1 ===  
+Raichu @ Focus Sash  
+Ability: Lightning Rod  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Thunder  
+- Volt Switch  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_RAICHU_2 ===  
+Raichu @ Life Orb  
+Ability: Lightning Rod  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Thunder  
+- Volt Switch  
+- Protect  
+- Rain Dance  
+
+=== FRONTIER_MON_RAIN_RAICHU_3 ===  
+Raichu @ Heavy-Duty Boots  
+Ability: Lightning Rod  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Thunder  
+- Volt Switch  
+- Taunt  
+- Protect  
+
+=== FRONTIER_MON_RAIN_RAICHU_4 ===  
+Raichu @ Focus Sash  
+Ability: Lightning Rod  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Thunder  
+- Volt Switch  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_RAICHU_5 ===  
+Raichu @ Leftovers  
+Ability: Lightning Rod  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Thunder  
+- Volt Switch  
+- Rain Dance  
+- Heal Pulse  
+
+=== FRONTIER_MON_RAIN_AMPHAROS_1 ===  
+Ampharos @ Heavy-Duty Boots  
+Ability: Static  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Thunder  
+- Power Gem  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_AMPHAROS_2 ===  
+Ampharos @ Life Orb  
+Ability: Static  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Thunder  
+- Power Gem  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_AMPHAROS_3 ===  
+Ampharos @ Focus Sash  
+Ability: Static  
+Nature: Modest  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Thunder  
+- Power Gem  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_AMPHAROS_4 ===  
+Ampharos @ Leftovers  
+Ability: Static  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Thunder  
+- Power Gem  
+- Rain Dance  
+- Heal Pulse  
+
+=== FRONTIER_MON_RAIN_AMPHAROS_5 ===  
+Ampharos @ Life Orb  
+Ability: Static  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Thunder  
+- Power Gem  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_JOLTEON_1 ===  
+Jolteon @ Focus Sash  
+Ability: Volt Absorb  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Thunder  
+- Volt Switch  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_JOLTEON_2 ===  
+Jolteon @ Heavy-Duty Boots  
+Ability: Volt Absorb  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Thunder  
+- Volt Switch  
+- Protect  
+- Rain Dance  
+
+=== FRONTIER_MON_RAIN_JOLTEON_3 ===  
+Jolteon @ Life Orb  
+Ability: Volt Absorb  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Thunder  
+- Volt Switch  
+- Taunt  
+- Protect  
+
+=== FRONTIER_MON_RAIN_JOLTEON_4 ===  
+Jolteon @ Focus Sash  
+Ability: Volt Absorb  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Thunder  
+- Volt Switch  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_JOLTEON_5 ===  
+Jolteon @ Choice Specs  
+Ability: Volt Absorb  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Thunder  
+- Volt Switch  
+- Hidden Power [Ice]  
+- Rain Dance  
+
+=== FRONTIER_MON_RAIN_KILOWATTREL_1 ===  
+Kilowattrel @ Focus Sash  
+Ability: Wind Power  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Thunder  
+- Air Slash  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_KILOWATTREL_2 ===  
+Kilowattrel @ Life Orb  
+Ability: Wind Power  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Thunder  
+- Air Slash  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_KILOWATTREL_3 ===  
+Kilowattrel @ Heavy-Duty Boots  
+Ability: Wind Power  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Thunder  
+- Air Slash  
+- Taunt  
+- Protect  
+
+=== FRONTIER_MON_RAIN_KILOWATTREL_4 ===  
+Kilowattrel @ Focus Sash  
+Ability: Wind Power  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Thunder  
+- Air Slash  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_KILOWATTREL_5 ===  
+Kilowattrel @ Leftovers  
+Ability: Wind Power  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Thunder  
+- Air Slash  
+- Rain Dance  
+- Heal Pulse  
+
+=== FRONTIER_MON_RAIN_KABUTOPS_1 ===  
+Kabutops @ Focus Sash  
+Ability: Swift Swim  
+Nature: Adamant  
+EVs: 252 Atk / 0 HP / 0 Def / 0 SpA / 4 SpD / 252 Spe  
+- Waterfall  
+- Stone Edge  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_KABUTOPS_2 ===  
+Kabutops @ Life Orb  
+Ability: Swift Swim  
+Nature: Adamant  
+EVs: 252 Atk / 0 HP / 0 Def / 0 SpA / 4 SpD / 252 Spe  
+- Waterfall  
+- Stone Edge  
+- Swords Dance  
+- Rain Dance  
+
+=== FRONTIER_MON_RAIN_KABUTOPS_3 ===  
+Kabutops @ Focus Sash  
+Ability: Swift Swim  
+Nature: Jolly  
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 4 SpD / 252 Spe  
+- Waterfall  
+- Knock Off  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_KABUTOPS_4 ===  
+Kabutops @ Heavy-Duty Boots  
+Ability: Swift Swim  
+Nature: Adamant  
+EVs: 252 Atk / 0 HP / 0 Def / 0 SpA / 4 SpD / 252 Spe  
+- Waterfall  
+- Stone Edge  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_KABUTOPS_5 ===  
+Kabutops @ Focus Sash  
+Ability: Swift Swim  
+Nature: Adamant  
+EVs: 252 Atk / 0 HP / 0 Def / 0 SpA / 4 SpD / 252 Spe  
+- Waterfall  
+- Stone Edge  
+- Rain Dance  
+- Toxic  
+
+=== FRONTIER_MON_RAIN_OMASTAR_1 ===  
+Omastar @ Focus Sash  
+Ability: Swift Swim  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_OMASTAR_2 ===  
+Omastar @ Life Orb  
+Ability: Swift Swim  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Toxic  
+
+=== FRONTIER_MON_RAIN_OMASTAR_3 ===  
+Omastar @ Heavy-Duty Boots  
+Ability: Swift Swim  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_OMASTAR_4 ===  
+Omastar @ Focus Sash  
+Ability: Swift Swim  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_OMASTAR_5 ===  
+Omastar @ Leftovers  
+Ability: Swift Swim  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Heal Pulse  
+
+=== FRONTIER_MON_RAIN_STARMIE_1 ===  
+Starmie @ Life Orb  
+Ability: Natural Cure  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Hydro Pump  
+- Ice Beam  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_STARMIE_2 ===  
+Starmie @ Focus Sash  
+Ability: Natural Cure  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Hydro Pump  
+- Ice Beam  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_STARMIE_3 ===  
+Starmie @ Heavy-Duty Boots  
+Ability: Natural Cure  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Hydro Pump  
+- Ice Beam  
+- Rain Dance  
+- Recover  
+
+=== FRONTIER_MON_RAIN_STARMIE_4 ===  
+Starmie @ Leftovers  
+Ability: Natural Cure  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Hydro Pump  
+- Ice Beam  
+- Rain Dance  
+- Heal Pulse  
+
+=== FRONTIER_MON_RAIN_STARMIE_5 ===  
+Starmie @ Focus Sash  
+Ability: Natural Cure  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 4 SpD / 252 Spe  
+- Hydro Pump  
+- Ice Beam  
+- Rain Dance  
+- Rapid Spin  
+
+=== FRONTIER_MON_RAIN_PELIPPER_1 ===  
+Pelipper @ Leftovers  
+Ability: Drizzle  
+Nature: Bold  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpD / 0 SpA / 0 Spe  
+- Scald  
+- Hurricane  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_PELIPPER_2 ===  
+Pelipper @ Heavy-Duty Boots  
+Ability: Drizzle  
+Nature: Bold  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpD / 0 SpA / 0 Spe  
+- Scald  
+- Hurricane  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_PELIPPER_3 ===  
+Pelipper @ Focus Sash  
+Ability: Drizzle  
+Nature: Bold  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpD / 0 SpA / 0 Spe  
+- Scald  
+- Hurricane  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_PELIPPER_4 ===  
+Pelipper @ Leftovers  
+Ability: Drizzle  
+Nature: Bold  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpD / 0 SpA / 0 Spe  
+- Scald  
+- Hurricane  
+- Rain Dance  
+- Heal Pulse  
+
+=== FRONTIER_MON_RAIN_PELIPPER_5 ===  
+Pelipper @ Life Orb  
+Ability: Drizzle  
+Nature: Bold  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpD / 0 SpA / 0 Spe  
+- Scald  
+- Hurricane  
+- Rain Dance  
+- Roost  
+
+=== FRONTIER_MON_RAIN_LUDICOLO_1 ===  
+Ludicolo @ Life Orb  
+Ability: Swift Swim  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Scald  
+- Giga Drain  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_LUDICOLO_2 ===  
+Ludicolo @ Assault Vest  
+Ability: Swift Swim  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Scald  
+- Giga Drain  
+- Ice Beam  
+- Protect  
+
+=== FRONTIER_MON_RAIN_LUDICOLO_3 ===  
+Ludicolo @ Focus Sash  
+Ability: Swift Swim  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Scald  
+- Giga Drain  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_LUDICOLO_4 ===  
+Ludicolo @ Heavy-Duty Boots  
+Ability: Swift Swim  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Scald  
+- Giga Drain  
+- Rain Dance  
+- Leech Seed  
+
+=== FRONTIER_MON_RAIN_LUDICOLO_5 ===  
+Ludicolo @ Leftovers  
+Ability: Swift Swim  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Scald  
+- Giga Drain  
+- Rain Dance  
+- Heal Pulse  
+
+=== FRONTIER_MON_RAIN_ROTOMWASH_1 ===  
+Rotom-Wash @ Sitrus Berry  
+Ability: Levitate  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Hydro Pump  
+- Volt Switch  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_ROTOMWASH_2 ===  
+Rotom-Wash @ Heavy-Duty Boots  
+Ability: Levitate  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Hydro Pump  
+- Volt Switch  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_ROTOMWASH_3 ===  
+Rotom-Wash @ Focus Sash  
+Ability: Levitate  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Hydro Pump  
+- Volt Switch  
+- Rain Dance  
+- Will-O-Wisp  
+
+=== FRONTIER_MON_RAIN_ROTOMWASH_4 ===  
+Rotom-Wash @ Life Orb  
+Ability: Levitate  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Hydro Pump  
+- Volt Switch  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_ROTOMWASH_5 ===  
+Rotom-Wash @ Leftovers  
+Ability: Levitate  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Hydro Pump  
+- Volt Switch  
+- Rain Dance  
+- Heal Pulse  
+
+=== FRONTIER_MON_RAIN_KINGDRA_1 ===  
+Kingdra @ Life Orb  
+Ability: Swift Swim  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Hydro Pump  
+- Ice Beam  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_KINGDRA_2 ===  
+Kingdra @ Focus Sash  
+Ability: Swift Swim  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Hydro Pump  
+- Ice Beam  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_KINGDRA_3 ===  
+Kingdra @ Leftovers  
+Ability: Swift Swim  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Hydro Pump  
+- Ice Beam  
+- Rain Dance  
+- Heal Pulse  
+
+=== FRONTIER_MON_RAIN_KINGDRA_4 ===  
+Kingdra @ Sitrus Berry  
+Ability: Swift Swim  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Hydro Pump  
+- Ice Beam  
+- Rain Dance  
+- Dragon Pulse  
+
+=== FRONTIER_MON_RAIN_KINGDRA_5 ===  
+Kingdra @ Choice Specs  
+Ability: Swift Swim  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Hydro Pump  
+- Ice Beam  
+- Dragon Pulse  
+- Protect  
+
+=== FRONTIER_MON_RAIN_MILOTIC_1 ===  
+Milotic @ Leftovers  
+Ability: Marvel Scale  
+Nature: Bold  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Recover  
+
+=== FRONTIER_MON_RAIN_MILOTIC_2 ===  
+Milotic @ Sitrus Berry  
+Ability: Marvel Scale  
+Nature: Bold  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Heal Pulse  
+
+=== FRONTIER_MON_RAIN_MILOTIC_3 ===  
+Milotic @ Focus Sash  
+Ability: Marvel Scale  
+Nature: Bold  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_MILOTIC_4 ===  
+Milotic @ Heavy-Duty Boots  
+Ability: Marvel Scale  
+Nature: Bold  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Toxic  
+
+=== FRONTIER_MON_RAIN_MILOTIC_5 ===  
+Milotic @ Leftovers  
+Ability: Marvel Scale  
+Nature: Bold  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Recover  
+
+=== FRONTIER_MON_RAIN_SCIZOR_1 ===  
+Scizor @ Focus Sash  
+Ability: Technician  
+Nature: Adamant  
+EVs: 252 HP / 252 Atk / 4 Def / 0 SpA / 0 SpD / 0 Spe  
+- Bullet Punch  
+- Pursuit  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_SCIZOR_2 ===  
+Scizor @ Leftovers  
+Ability: Technician  
+Nature: Adamant  
+EVs: 252 HP / 252 Atk / 4 Def / 0 SpA / 0 SpD / 0 Spe  
+- Bullet Punch  
+- Knock Off  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_SCIZOR_3 ===  
+Scizor @ Heavy-Duty Boots  
+Ability: Technician  
+Nature: Adamant  
+EVs: 252 HP / 252 Atk / 4 Def / 0 SpA / 0 SpD / 0 Spe  
+- Bullet Punch  
+- Knock Off  
+- Rain Dance  
+- Roost  
+
+=== FRONTIER_MON_RAIN_SCIZOR_4 ===  
+Scizor @ Choice Band  
+Ability: Technician  
+Nature: Adamant  
+EVs: 252 HP / 252 Atk / 4 Def / 0 SpA / 0 SpD / 0 Spe  
+- Bullet Punch  
+- Pursuit  
+- U-turn  
+- Rain Dance  
+
+=== FRONTIER_MON_RAIN_SCIZOR_5 ===  
+Scizor @ Focus Sash  
+Ability: Technician  
+Nature: Adamant  
+EVs: 252 HP / 252 Atk / 4 Def / 0 SpA / 0 SpD / 0 Spe  
+- Bullet Punch  
+- Pursuit  
+- Rain Dance  
+- Toxic  
+
+=== FRONTIER_MON_RAIN_GYARADOS_1 ===  
+Gyarados @ Life Orb  
+Ability: Intimidate  
+Nature: Adamant  
+EVs: 252 Atk / 0 HP / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Waterfall  
+- Ice Fang  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_GYARADOS_2 ===  
+Gyarados @ Focus Sash  
+Ability: Intimidate  
+Nature: Adamant  
+EVs: 252 Atk / 0 HP / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Waterfall  
+- Ice Fang  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_GYARADOS_3 ===  
+Gyarados @ Leftovers  
+Ability: Intimidate  
+Nature: Adamant  
+EVs: 252 Atk / 0 HP / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Waterfall  
+- Ice Fang  
+- Rain Dance  
+- Dragon Dance  
+
+=== FRONTIER_MON_RAIN_GYARADOS_4 ===  
+Gyarados @ Heavy-Duty Boots  
+Ability: Intimidate  
+Nature: Adamant  
+EVs: 252 Atk / 0 HP / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Waterfall  
+- Ice Fang  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_GYARADOS_5 ===  
+Gyarados @ Life Orb  
+Ability: Intimidate  
+Nature: Adamant  
+EVs: 252 Atk / 0 HP / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Waterfall  
+- Ice Fang  
+- Rain Dance  
+- Crunch  
+
+=== FRONTIER_MON_RAIN_BASCULEGION_M_1 ===  
+Basculegion-M @ Life Orb  
+Ability: Adaptability  
+Nature: Jolly  
+EVs: 252 Atk / 0 HP / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Wave Crash  
+- Ice Fang  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_BASCULEGION_M_2 ===  
+Basculegion-M @ Focus Sash  
+Ability: Adaptability  
+Nature: Jolly  
+EVs: 252 Atk / 0 HP / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Wave Crash  
+- Ice Fang  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_BASCULEGION_M_3 ===  
+Basculegion-M @ Choice Band  
+Ability: Adaptability  
+Nature: Jolly  
+EVs: 252 Atk / 0 HP / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Wave Crash  
+- Aqua Jet  
+- Ice Fang  
+- Protect  
+
+=== FRONTIER_MON_RAIN_BASCULEGION_M_4 ===  
+Basculegion-M @ Heavy-Duty Boots  
+Ability: Adaptability  
+Nature: Jolly  
+EVs: 252 Atk / 0 HP / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Wave Crash  
+- Aqua Jet  
+- Ice Fang  
+- Rain Dance  
+
+=== FRONTIER_MON_RAIN_BASCULEGION_M_5 ===  
+Basculegion-M @ Life Orb  
+Ability: Adaptability  
+Nature: Jolly  
+EVs: 252 Atk / 0 HP / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Wave Crash  
+- Aqua Jet  
+- Ice Fang  
+- Crunch  
+
+=== FRONTIER_MON_RAIN_DRAGONITE_1 ===  
+Dragonite @ Life Orb  
+Ability: Multiscale  
+Nature: Jolly  
+EVs: 252 Atk / 0 HP / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Outrage  
+- Fire Punch  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_DRAGONITE_2 ===  
+Dragonite @ Focus Sash  
+Ability: Multiscale  
+Nature: Jolly  
+EVs: 252 Atk / 0 HP / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Outrage  
+- Ice Punch  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_DRAGONITE_3 ===  
+Dragonite @ Heavy-Duty Boots  
+Ability: Multiscale  
+Nature: Jolly  
+EVs: 252 Atk / 0 HP / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Outrage  
+- Fire Punch  
+- Rain Dance  
+- Dragon Dance  
+
+=== FRONTIER_MON_RAIN_DRAGONITE_4 ===  
+Dragonite @ Leftovers  
+Ability: Multiscale  
+Nature: Jolly  
+EVs: 252 Atk / 0 HP / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Outrage  
+- Ice Punch  
+- Rain Dance  
+- Roost  
+
+=== FRONTIER_MON_RAIN_DRAGONITE_5 ===  
+Dragonite @ Sitrus Berry  
+Ability: Multiscale  
+Nature: Jolly  
+EVs: 252 Atk / 0 HP / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Outrage  
+- Fire Punch  
+- Rain Dance  
+- Dragon Dance  
+
+=== FRONTIER_MON_RAIN_DRACOVISH_1 ===  
+Dracovish @ Choice Specs  
+Ability: Fishious Rend  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Fishious Rend  
+- Ice Beam  
+- Hydro Pump  
+- Protect  
+
+=== FRONTIER_MON_RAIN_DRACOVISH_2 ===  
+Dracovish @ Life Orb  
+Ability: Fishious Rend  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Fishious Rend  
+- Ice Beam  
+- Hydro Pump  
+- Rain Dance  
+
+=== FRONTIER_MON_RAIN_DRACOVISH_3 ===  
+Dracovish @ Focus Sash  
+Ability: Fishious Rend  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Fishious Rend  
+- Ice Beam  
+- Hydro Pump  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_DRACOVISH_4 ===  
+Dracovish @ Heavy-Duty Boots  
+Ability: Fishious Rend  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Fishious Rend  
+- Ice Beam  
+- Hydro Pump  
+- Protect  
+
+=== FRONTIER_MON_RAIN_DRACOVISH_5 ===  
+Dracovish @ Sitrus Berry  
+Ability: Fishious Rend  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Fishious Rend  
+- Ice Beam  
+- Hydro Pump  
+- Rain Dance  
+
+=== FRONTIER_MON_RAIN_ARCHALUDON_1 ===  
+Archaludon @ Power Herb
+Ability: Protosynthesis  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Hydro Pump  
+- Draco Meteor  
+- Electro Shot  
+- Protect  
+
+=== FRONTIER_MON_RAIN_ARCHALUDON_2 ===  
+Archaludon @ Focus Sash  
+Ability: Protosynthesis  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Hydro Pump  
+- Draco Meteor  
+- Electro Shot  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_ARCHALUDON_3 ===  
+Archaludon @ Heavy-Duty Boots  
+Ability: Protosynthesis  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Hydro Pump  
+- Draco Meteor  
+- Electro Shot  
+- Roost  
+
+=== FRONTIER_MON_RAIN_ARCHALUDON_4 ===  
+Archaludon @ Leftovers  
+Ability: Protosynthesis  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Hydro Pump  
+- Draco Meteor  
+- Electro Shot  
+- Heal Pulse  
+
+=== FRONTIER_MON_RAIN_ARCHALUDON_5 ===  
+Archaludon @ Life Orb  
+Ability: Protosynthesis  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 0 Spe  
+- Hydro Pump  
+- Draco Meteor  
+- Electro Shot  
+- Thunderbolt  
+
+=== FRONTIER_MON_RAIN_TORNADUS_1 ===  
+Tornadus @ Life Orb  
+Ability: Prankster  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Beakwind Storm  
+- Taunt  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_TORNADUS_2 ===  
+Tornadus @ Focus Sash  
+Ability: Prankster  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Beakwind Storm  
+- Taunt  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_TORNADUS_3 ===  
+Tornadus @ Heavy-Duty Boots  
+Ability: Prankster  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Beakwind Storm  
+- Taunt  
+- Rain Dance  
+- Roost  
+
+=== FRONTIER_MON_RAIN_TORNADUS_4 ===  
+Tornadus @ Leftovers  
+Ability: Prankster  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Beakwind Storm  
+- Taunt  
+- Rain Dance  
+- Heal Pulse  
+
+=== FRONTIER_MON_RAIN_TORNADUS_5 ===  
+Tornadus @ Focus Sash  
+Ability: Prankster  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Beakwind Storm  
+- Taunt  
+- Rain Dance  
+- Substitute  
+
+=== FRONTIER_MON_RAIN_THUNDURUS_1 ===  
+Thundurus @ Life Orb  
+Ability: Volt Absorb  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Thunder  
+- Taunt  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_THUNDURUS_2 ===  
+Thundurus @ Focus Sash  
+Ability: Volt Absorb  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Thunder  
+- Taunt  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_THUNDURUS_3 ===  
+Thundurus @ Heavy-Duty Boots  
+Ability: Volt Absorb  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Thunder  
+- Taunt  
+- Rain Dance  
+- Roost  
+
+=== FRONTIER_MON_RAIN_THUNDURUS_4 ===  
+Thundurus @ Leftovers  
+Ability: Volt Absorb  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Thunder  
+- Taunt  
+- Rain Dance  
+- Heal Pulse  
+
+=== FRONTIER_MON_RAIN_THUNDURUS_5 ===  
+Thundurus @ Focus Sash  
+Ability: Volt Absorb  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Thunder  
+- Taunt  
+- Rain Dance  
+- Substitute  
+
+=== FRONTIER_MON_RAIN_ZAPDOS_1 ===  
+Zapdos @ Life Orb  
+Ability: Static  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Thunder  
+- Heat Wave  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_ZAPDOS_2 ===  
+Zapdos @ Focus Sash  
+Ability: Static  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Thunder  
+- Heat Wave  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_ZAPDOS_3 ===  
+Zapdos @ Heavy-Duty Boots  
+Ability: Static  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Thunder  
+- Heat Wave  
+- Rain Dance  
+- Roost  
+
+=== FRONTIER_MON_RAIN_ZAPDOS_4 ===  
+Zapdos @ Leftovers  
+Ability: Static  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Thunder  
+- Heat Wave  
+- Rain Dance  
+- Heal Pulse  
+
+=== FRONTIER_MON_RAIN_ZAPDOS_5 ===  
+Zapdos @ Focus Sash  
+Ability: Static  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Thunder  
+- Heat Wave  
+- Rain Dance  
+- Substitute  
+
+=== FRONTIER_MON_RAIN_RAIKOU_1 ===  
+Raikou @ Life Orb  
+Ability: Pressure  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Thunder  
+- Shadow Ball  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_RAIKOU_2 ===  
+Raikou @ Focus Sash  
+Ability: Pressure  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Thunder  
+- Shadow Ball  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_RAIKOU_3 ===  
+Raikou @ Heavy-Duty Boots  
+Ability: Pressure  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Thunder  
+- Shadow Ball  
+- Rain Dance  
+- Roost  
+
+=== FRONTIER_MON_RAIN_RAIKOU_4 ===  
+Raikou @ Leftovers  
+Ability: Pressure  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Thunder  
+- Shadow Ball  
+- Rain Dance  
+- Heal Pulse  
+
+=== FRONTIER_MON_RAIN_RAIKOU_5 ===  
+Raikou @ Focus Sash  
+Ability: Pressure  
+Nature: Timid  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Thunder  
+- Shadow Ball  
+- Rain Dance  
+- Substitute  
+
+=== FRONTIER_MON_RAIN_SUICUNE_1 ===  
+Suicune @ Leftovers  
+Ability: Pressure  
+Nature: Bold  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_SUICUNE_2 ===  
+Suicune @ Heavy-Duty Boots  
+Ability: Pressure  
+Nature: Bold  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Roar  
+
+=== FRONTIER_MON_RAIN_SUICUNE_3 ===  
+Suicune @ Leftovers  
+Ability: Pressure  
+Nature: Bold  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Scald  
+- Calm Mind  
+- Rain Dance  
+- Protect  
+
+=== FRONTIER_MON_RAIN_SUICUNE_4 ===  
+Suicune @ Focus Sash  
+Ability: Pressure  
+Nature: Bold  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_SUICUNE_5 ===  
+Suicune @ Leftovers  
+Ability: Pressure  
+Nature: Bold  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Rest  
+
+=== FRONTIER_MON_RAIN_LUGIA_1 ===  
+Lugia @ Leftovers  
+Ability: Multiscale  
+Nature: Bold  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Roost  
+
+=== FRONTIER_MON_RAIN_LUGIA_2 ===  
+Lugia @ Heavy-Duty Boots  
+Ability: Multiscale  
+Nature: Bold  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Toxic  
+
+=== FRONTIER_MON_RAIN_LUGIA_3 ===  
+Lugia @ Leftovers  
+Ability: Multiscale  
+Nature: Bold  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Whirlwind  
+
+=== FRONTIER_MON_RAIN_LUGIA_4 ===  
+Lugia @ Focus Sash  
+Ability: Multiscale  
+Nature: Bold  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_LUGIA_5 ===  
+Lugia @ Leftovers  
+Ability: Multiscale  
+Nature: Bold  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Scald  
+- Ice Beam  
+- Rain Dance  
+- Calm Mind  
+
+=== FRONTIER_MON_RAIN_PALKIA_1 ===  
+Palkia @ Life Orb  
+Ability: Telepathy  
+Nature: Modest  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Spacial Rend  
+- Thunder  
+- Aqua Jet  
+- Rain Dance  
+
+=== FRONTIER_MON_RAIN_PALKIA_2 ===  
+Palkia @ Focus Sash  
+Ability: Telepathy  
+Nature: Modest  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Spacial Rend  
+- Thunder  
+- Aqua Jet  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_PALKIA_3 ===  
+Palkia @ Leftovers  
+Ability: Telepathy  
+Nature: Modest  
+EVs: 252 HP / 4 Def / 252 SpA  
+- Spacial Rend  
+- Thunder  
+- Aqua Tail  
+- Rain Dance  
+
+=== FRONTIER_MON_RAIN_PALKIA_4 ===  
+Palkia @ Heavy-Duty Boots  
+Ability: Telepathy  
+Nature: Modest  
+EVs: 0 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Spacial Rend  
+- Thunder  
+- Aqua Tail  
+- Roar  
+
+=== FRONTIER_MON_RAIN_PALKIA_5 ===  
+Palkia @ Leftovers  
+Ability: Telepathy  
+Nature: Modest  
+EVs: 252 HP / 4 Def / 252 SpA  
+- Spacial Rend  
+- Thunder  
+- Calm Mind  
+- Rain Dance  
+
+=== FRONTIER_MON_RAIN_KYOGRE_1 ===  
+Kyogre @ Leftovers  
+Ability: Drizzle  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Water Spout  
+- Thunder  
+- Ice Beam  
+- Protect  
+
+=== FRONTIER_MON_RAIN_KYOGRE_2 ===  
+Kyogre @ Life Orb  
+Ability: Drizzle  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Water Spout  
+- Thunder  
+- Ice Beam  
+- Calm Mind  
+
+=== FRONTIER_MON_RAIN_KYOGRE_3 ===  
+Kyogre @ Focus Sash  
+Ability: Drizzle  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Water Spout  
+- Thunder  
+- Ice Beam  
+- Taunt  
+
+=== FRONTIER_MON_RAIN_KYOGRE_4 ===  
+Kyogre @ Heavy-Duty Boots  
+Ability: Drizzle  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Water Spout  
+- Thunder  
+- Ice Beam  
+- Roar  
+
+=== FRONTIER_MON_RAIN_KYOGRE_5 ===  
+Kyogre @ Leftovers  
+Ability: Drizzle  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 0 SpD / 252 Spe  
+- Water Spout  
+- Thunder  
+- Ice Beam  
+- Rest  
+

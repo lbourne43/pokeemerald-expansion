@@ -228,318 +228,396 @@ FortreeCity_BattleMachineItems:
 	.2byte ITEM_WISE_GLASSES
 # 117 "data/maps/FortreeCity_Mart/scripts.pory"
 	.2byte ITEM_EXPERT_BELT
+# 118 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_ASSAULT_VEST
+# 119 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_THROAT_SPRAY
+# 120 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_BOOSTER_ENERGY
+# 121 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_SAFETY_GOGGLES
+# 122 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_COVERT_CLOAK
+# 123 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_EVIOLITE
 	.2byte ITEM_NONE
 
 FortreeCity_Mart_EventScript_TrainingMachine::
-# 121 "data/maps/FortreeCity_Mart/scripts.pory"
+# 127 "data/maps/FortreeCity_Mart/scripts.pory"
 	lock
-# 122 "data/maps/FortreeCity_Mart/scripts.pory"
+# 128 "data/maps/FortreeCity_Mart/scripts.pory"
 	message FortreeCity_Mart_EventScript_TrainingMachine_Text_0
-# 123 "data/maps/FortreeCity_Mart/scripts.pory"
+# 129 "data/maps/FortreeCity_Mart/scripts.pory"
 	waitmessage
-# 124 "data/maps/FortreeCity_Mart/scripts.pory"
+# 130 "data/maps/FortreeCity_Mart/scripts.pory"
 	pokemart FortreeCity_TrainingMachineItems
-# 125 "data/maps/FortreeCity_Mart/scripts.pory"
+# 131 "data/maps/FortreeCity_Mart/scripts.pory"
 	msgbox FortreeCity_Mart_EventScript_TrainingMachine_Text_1
-# 126 "data/maps/FortreeCity_Mart/scripts.pory"
+# 132 "data/maps/FortreeCity_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 129 "data/maps/FortreeCity_Mart/scripts.pory"
-FortreeCity_TrainingMachineItems:
-# 130 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_XS
-# 131 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_S
-# 132 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_M
-# 133 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_L
-# 134 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_XL
 # 135 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_RARE_CANDY
+FortreeCity_TrainingMachineItems:
 # 136 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_HP_UP
+	.2byte ITEM_EXP_CANDY_XS
 # 137 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_PROTEIN
+	.2byte ITEM_EXP_CANDY_S
 # 138 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_IRON
+	.2byte ITEM_EXP_CANDY_M
 # 139 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_CALCIUM
+	.2byte ITEM_EXP_CANDY_L
 # 140 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_ZINC
+	.2byte ITEM_EXP_CANDY_XL
 # 141 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_CARBOS
+	.2byte ITEM_RARE_CANDY
 # 142 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_PP_UP
+	.2byte ITEM_HP_UP
 # 143 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_PP_MAX
+	.2byte ITEM_PROTEIN
 # 144 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_WEIGHT
+	.2byte ITEM_IRON
 # 145 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_WEIGHT
+	.2byte ITEM_CALCIUM
 # 146 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_BRACER
+	.2byte ITEM_ZINC
 # 147 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_BELT
+	.2byte ITEM_CARBOS
 # 148 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_LENS
+	.2byte ITEM_PP_UP
 # 149 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_BAND
+	.2byte ITEM_PP_MAX
 # 150 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_ANKLET
+	.2byte ITEM_POWER_WEIGHT
 # 151 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_POMEG_BERRY
+	.2byte ITEM_POWER_WEIGHT
 # 152 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_KELPSY_BERRY
+	.2byte ITEM_POWER_BRACER
 # 153 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_QUALOT_BERRY
+	.2byte ITEM_POWER_BELT
 # 154 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_HONDEW_BERRY
+	.2byte ITEM_POWER_LENS
 # 155 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_GREPA_BERRY
+	.2byte ITEM_POWER_BAND
 # 156 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TAMATO_BERRY
+	.2byte ITEM_POWER_ANKLET
 # 157 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_HEALTH_FEATHER
+	.2byte ITEM_POMEG_BERRY
 # 158 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_MUSCLE_FEATHER
+	.2byte ITEM_KELPSY_BERRY
 # 159 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_RESIST_FEATHER
+	.2byte ITEM_QUALOT_BERRY
 # 160 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_GENIUS_FEATHER
+	.2byte ITEM_HONDEW_BERRY
 # 161 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_CLEVER_FEATHER
+	.2byte ITEM_GREPA_BERRY
 # 162 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_SWIFT_FEATHER
+	.2byte ITEM_TAMATO_BERRY
 # 163 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_LONELY_MINT
+	.2byte ITEM_HEALTH_FEATHER
 # 164 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_ADAMANT_MINT
+	.2byte ITEM_MUSCLE_FEATHER
 # 165 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_NAUGHTY_MINT
+	.2byte ITEM_RESIST_FEATHER
 # 166 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_BRAVE_MINT
+	.2byte ITEM_GENIUS_FEATHER
 # 167 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_BOLD_MINT
+	.2byte ITEM_CLEVER_FEATHER
 # 168 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_IMPISH_MINT
+	.2byte ITEM_SWIFT_FEATHER
 # 169 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_LAX_MINT
+	.2byte ITEM_LONELY_MINT
 # 170 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_RELAXED_MINT
+	.2byte ITEM_ADAMANT_MINT
 # 171 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_MODEST_MINT
+	.2byte ITEM_NAUGHTY_MINT
 # 172 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_MILD_MINT
+	.2byte ITEM_BRAVE_MINT
 # 173 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_RASH_MINT
+	.2byte ITEM_BOLD_MINT
 # 174 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_QUIET_MINT
+	.2byte ITEM_IMPISH_MINT
 # 175 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_CALM_MINT
+	.2byte ITEM_LAX_MINT
 # 176 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_GENTLE_MINT
+	.2byte ITEM_RELAXED_MINT
 # 177 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_CAREFUL_MINT
+	.2byte ITEM_MODEST_MINT
 # 178 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_SASSY_MINT
+	.2byte ITEM_MILD_MINT
 # 179 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TIMID_MINT
+	.2byte ITEM_RASH_MINT
 # 180 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_HASTY_MINT
+	.2byte ITEM_QUIET_MINT
 # 181 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_JOLLY_MINT
+	.2byte ITEM_CALM_MINT
 # 182 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_NAIVE_MINT
+	.2byte ITEM_GENTLE_MINT
 # 183 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_SERIOUS_MINT
+	.2byte ITEM_CAREFUL_MINT
 # 184 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_ABILITY_CAPSULE
+	.2byte ITEM_SASSY_MINT
 # 185 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TIMID_MINT
+# 186 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_HASTY_MINT
+# 187 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_JOLLY_MINT
+# 188 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_NAIVE_MINT
+# 189 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_SERIOUS_MINT
+# 190 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_ABILITY_CAPSULE
+# 191 "data/maps/FortreeCity_Mart/scripts.pory"
 	.2byte ITEM_ABILITY_PATCH
+# 192 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_POKE_BALL
+# 193 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_GREAT_BALL
+# 194 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_ULTRA_BALL
+# 195 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_MASTER_BALL
+# 196 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_PREMIER_BALL
+# 197 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_HEAL_BALL
+# 197 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_NET_BALL
+# 197 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_NEST_BALL
+# 197 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_DIVE_BALL
+# 197 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_DUSK_BALL
+# 197 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TIMER_BALL
+# 197 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_QUICK_BALL
+# 197 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_REPEAT_BALL
+# 197 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_LUXURY_BALL
+# 197 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_LEVEL_BALL
+# 197 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_LURE_BALL
+# 197 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_MOON_BALL
+# 197 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_FRIEND_BALL
+# 197 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_LOVE_BALL
+# 197 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_FAST_BALL
+# 197 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_HEAVY_BALL
+# 197 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_DREAM_BALL
 	.2byte ITEM_NONE
 
 FortreeCity_Mart_EventScript_TMMachine::
-# 189 "data/maps/FortreeCity_Mart/scripts.pory"
+# 201 "data/maps/FortreeCity_Mart/scripts.pory"
 	lock
-# 190 "data/maps/FortreeCity_Mart/scripts.pory"
+# 202 "data/maps/FortreeCity_Mart/scripts.pory"
 	message FortreeCity_Mart_EventScript_TMMachine_Text_0
-# 191 "data/maps/FortreeCity_Mart/scripts.pory"
+# 203 "data/maps/FortreeCity_Mart/scripts.pory"
 	waitmessage
-# 192 "data/maps/FortreeCity_Mart/scripts.pory"
+# 204 "data/maps/FortreeCity_Mart/scripts.pory"
 	pokemart FortreeCity_TMMachineItems
-# 193 "data/maps/FortreeCity_Mart/scripts.pory"
+# 205 "data/maps/FortreeCity_Mart/scripts.pory"
 	msgbox FortreeCity_Mart_EventScript_TMMachine_Text_1
-# 194 "data/maps/FortreeCity_Mart/scripts.pory"
+# 206 "data/maps/FortreeCity_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 197 "data/maps/FortreeCity_Mart/scripts.pory"
-FortreeCity_TMMachineItems:
-# 198 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_BULLET_SEED
-# 199 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_PROTECT
-# 200 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_SUNNY_DAY
-# 201 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_TAUNT
-# 202 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_ICE_BEAM
-# 203 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_RAIN_DANCE
-# 204 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_THUNDERBOLT
-# 205 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_THUNDER
-# 206 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_EARTHQUAKE
-# 207 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_DIG
-# 208 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_PSYCHIC
 # 209 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_SHADOW_BALL
+FortreeCity_TMMachineItems:
 # 210 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_BRICK_BREAK
+	.2byte ITEM_TM_BULLET_SEED
 # 211 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_DOUBLE_TEAM
+	.2byte ITEM_TM_PROTECT
 # 212 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_REFLECT
+	.2byte ITEM_TM_SUNNY_DAY
 # 213 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_FLAMETHROWER
+	.2byte ITEM_TM_TAUNT
 # 214 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_SLUDGE_BOMB
+	.2byte ITEM_TM_ICE_BEAM
 # 215 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_SANDSTORM
+	.2byte ITEM_TM_RAIN_DANCE
 # 216 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_TORMENT
+	.2byte ITEM_TM_THUNDERBOLT
 # 217 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM_SKILL_SWAP
+	.2byte ITEM_TM_THUNDER
 # 218 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM51
+	.2byte ITEM_TM_EARTHQUAKE
 # 219 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM52
+	.2byte ITEM_TM_DIG
 # 220 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM53
+	.2byte ITEM_TM_PSYCHIC
 # 221 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TM54
+	.2byte ITEM_TM_SHADOW_BALL
 # 222 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM_BRICK_BREAK
+# 223 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM_DOUBLE_TEAM
+# 224 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM_REFLECT
+# 225 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM_FLAMETHROWER
+# 226 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM_SLUDGE_BOMB
+# 227 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM_SANDSTORM
+# 228 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM_TORMENT
+# 229 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM_SKILL_SWAP
+# 230 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM51
+# 231 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM52
+# 232 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM53
+# 233 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM54
+# 234 "data/maps/FortreeCity_Mart/scripts.pory"
 	.2byte ITEM_TM55
+# 235 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM56
+# 236 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM57
+# 237 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM58
+# 238 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM59
+# 239 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM60
+# 240 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM61
+# 241 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM62
+# 242 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM63
+# 243 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM64
+# 244 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM65
+# 245 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_TM66
 	.2byte ITEM_NONE
 
 FortreeCity_Mart_EventScript_EvolveMachine::
-# 226 "data/maps/FortreeCity_Mart/scripts.pory"
+# 249 "data/maps/FortreeCity_Mart/scripts.pory"
 	lock
-# 227 "data/maps/FortreeCity_Mart/scripts.pory"
+# 250 "data/maps/FortreeCity_Mart/scripts.pory"
 	message FortreeCity_Mart_EventScript_EvolveMachine_Text_0
-# 228 "data/maps/FortreeCity_Mart/scripts.pory"
+# 251 "data/maps/FortreeCity_Mart/scripts.pory"
 	waitmessage
-# 229 "data/maps/FortreeCity_Mart/scripts.pory"
+# 252 "data/maps/FortreeCity_Mart/scripts.pory"
 	pokemart FortreeCity_EvolveMachineItems
-# 230 "data/maps/FortreeCity_Mart/scripts.pory"
+# 253 "data/maps/FortreeCity_Mart/scripts.pory"
 	msgbox FortreeCity_Mart_EventScript_EvolveMachine_Text_1
-# 231 "data/maps/FortreeCity_Mart/scripts.pory"
+# 254 "data/maps/FortreeCity_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 234 "data/maps/FortreeCity_Mart/scripts.pory"
-FortreeCity_EvolveMachineItems:
-# 235 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_FIRE_STONE
-# 236 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_WATER_STONE
-# 237 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_THUNDER_STONE
-# 238 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_LEAF_STONE
-# 239 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_ICE_STONE
-# 240 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_SUN_STONE
-# 241 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_MOON_STONE
-# 242 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_SHINY_STONE
-# 243 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_DUSK_STONE
-# 244 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_DAWN_STONE
-# 245 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_SWEET_APPLE
-# 246 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_TART_APPLE
-# 247 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_CRACKED_POT
-# 248 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_CHIPPED_POT
-# 249 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_CUFF
-# 250 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_WREATH
-# 251 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_DRAGON_SCALE
-# 252 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_UPGRADE
-# 253 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_PROTECTOR
-# 254 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_ELECTIRIZER
-# 255 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_MAGMARIZER
-# 256 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_DUBIOUS_DISC
 # 257 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_REAPER_CLOTH
+FortreeCity_EvolveMachineItems:
 # 258 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_PRISM_SCALE
+	.2byte ITEM_FIRE_STONE
 # 259 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_WHIPPED_DREAM
+	.2byte ITEM_WATER_STONE
 # 260 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_SACHET
+	.2byte ITEM_THUNDER_STONE
 # 261 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_OVAL_STONE
+	.2byte ITEM_LEAF_STONE
 # 262 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_SCALE
+	.2byte ITEM_ICE_STONE
 # 263 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_TOOTH
+	.2byte ITEM_SUN_STONE
 # 264 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_METAL_COAT
+	.2byte ITEM_MOON_STONE
 # 265 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_KINGS_ROCK
+	.2byte ITEM_SHINY_STONE
 # 266 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_CLAW
+	.2byte ITEM_DUSK_STONE
 # 267 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_FANG
+	.2byte ITEM_DAWN_STONE
 # 268 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_AUSPICIOUS_ARMOR
+	.2byte ITEM_SWEET_APPLE
 # 269 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_MALICIOUS_ARMOR
+	.2byte ITEM_TART_APPLE
 # 270 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_DARKNESS
+	.2byte ITEM_CRACKED_POT
 # 271 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_WATERS
+	.2byte ITEM_CHIPPED_POT
 # 272 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_BLACK_AUGURITE
+	.2byte ITEM_GALARICA_CUFF
 # 273 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_LINKING_CORD
+	.2byte ITEM_GALARICA_WREATH
 # 274 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_PEAT_BLOCK
+	.2byte ITEM_DRAGON_SCALE
 # 275 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_SYRUPY_APPLE
+	.2byte ITEM_UPGRADE
 # 276 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_UNREMARKABLE_TEACUP
+	.2byte ITEM_PROTECTOR
 # 277 "data/maps/FortreeCity_Mart/scripts.pory"
-	.2byte ITEM_MASTERPIECE_TEACUP
+	.2byte ITEM_ELECTIRIZER
 # 278 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_MAGMARIZER
+# 279 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_DUBIOUS_DISC
+# 280 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_REAPER_CLOTH
+# 281 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_PRISM_SCALE
+# 282 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_WHIPPED_DREAM
+# 283 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_SACHET
+# 284 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_OVAL_STONE
+# 285 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_DEEP_SEA_SCALE
+# 286 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_DEEP_SEA_TOOTH
+# 287 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_METAL_COAT
+# 288 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_KINGS_ROCK
+# 289 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_RAZOR_CLAW
+# 290 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_RAZOR_FANG
+# 291 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_AUSPICIOUS_ARMOR
+# 292 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_MALICIOUS_ARMOR
+# 293 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_SCROLL_OF_DARKNESS
+# 294 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_SCROLL_OF_WATERS
+# 295 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_BLACK_AUGURITE
+# 296 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_LINKING_CORD
+# 297 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_PEAT_BLOCK
+# 298 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_SYRUPY_APPLE
+# 299 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_UNREMARKABLE_TEACUP
+# 300 "data/maps/FortreeCity_Mart/scripts.pory"
+	.2byte ITEM_MASTERPIECE_TEACUP
+# 301 "data/maps/FortreeCity_Mart/scripts.pory"
 	.2byte ITEM_METAL_ALLOY
 	.2byte ITEM_NONE
 
@@ -552,25 +630,25 @@ FortreeCity_Mart_EventScript_BattleMachine_Text_1:
 	.string "Happy battling!$"
 
 FortreeCity_Mart_EventScript_TrainingMachine_Text_0:
-# 122 "data/maps/FortreeCity_Mart/scripts.pory"
+# 128 "data/maps/FortreeCity_Mart/scripts.pory"
 	.string "Ready to train?$"
 
 FortreeCity_Mart_EventScript_TrainingMachine_Text_1:
-# 125 "data/maps/FortreeCity_Mart/scripts.pory"
+# 131 "data/maps/FortreeCity_Mart/scripts.pory"
 	.string "Level up!$"
 
 FortreeCity_Mart_EventScript_TMMachine_Text_0:
-# 190 "data/maps/FortreeCity_Mart/scripts.pory"
+# 202 "data/maps/FortreeCity_Mart/scripts.pory"
 	.string "What do you need to learn?$"
 
 FortreeCity_Mart_EventScript_TMMachine_Text_1:
-# 193 "data/maps/FortreeCity_Mart/scripts.pory"
+# 205 "data/maps/FortreeCity_Mart/scripts.pory"
 	.string "Go get'em!$"
 
 FortreeCity_Mart_EventScript_EvolveMachine_Text_0:
-# 227 "data/maps/FortreeCity_Mart/scripts.pory"
+# 250 "data/maps/FortreeCity_Mart/scripts.pory"
 	.string "So you wanna evolve?$"
 
 FortreeCity_Mart_EventScript_EvolveMachine_Text_1:
-# 230 "data/maps/FortreeCity_Mart/scripts.pory"
+# 253 "data/maps/FortreeCity_Mart/scripts.pory"
 	.string "Change is the best!$"

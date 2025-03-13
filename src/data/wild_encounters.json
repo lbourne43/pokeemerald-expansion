@@ -3338,7 +3338,7 @@
               {
                 "min_level": 31,
                 "max_level": 35,
-                "species": "SPECIES_ELECTRODE"
+                "species": "SPECIES_ELECTABUZZ"
               },
               {
                 "min_level": 31,
@@ -3363,7 +3363,7 @@
               {
                 "min_level": 31,
                 "max_level": 35,
-                "species": "SPECIES_BELLIBOLT"
+                "species": "SPECIES_ELECTRODE"
               },
               {
                 "min_level": 31,
@@ -3388,7 +3388,7 @@
               {
                 "min_level": 31,
                 "max_level": 35,
-                "species": "SPECIES_ROTOM"
+                "species": "SPECIES_BELLIBOLT"
               },
               {
                 "min_level": 31,
@@ -3963,7 +3963,7 @@
               {
                 "min_level": 54,
                 "max_level": 58,
-                "species": "SPECIES_PONYTA_GALAR"
+                "species": "SPECIES_VIVILLON"
               },
               {
                 "min_level": 54,

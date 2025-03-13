@@ -220,318 +220,396 @@ MauvilleCity_BattleMachineItems:
 	.2byte ITEM_WISE_GLASSES
 # 113 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.2byte ITEM_EXPERT_BELT
+# 114 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_ASSAULT_VEST
+# 115 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_THROAT_SPRAY
+# 116 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_BOOSTER_ENERGY
+# 117 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_SAFETY_GOGGLES
+# 118 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_COVERT_CLOAK
+# 119 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_EVIOLITE
 	.2byte ITEM_NONE
 
 MauvilleCity_Mart_EventScript_TrainingMachine::
-# 117 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 123 "data/maps/MauvilleCity_Mart/scripts.pory"
 	lock
-# 118 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 124 "data/maps/MauvilleCity_Mart/scripts.pory"
 	message MauvilleCity_Mart_EventScript_TrainingMachine_Text_0
-# 119 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 125 "data/maps/MauvilleCity_Mart/scripts.pory"
 	waitmessage
-# 120 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 126 "data/maps/MauvilleCity_Mart/scripts.pory"
 	pokemart MauvilleCity_TrainingMachineItems
-# 121 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 127 "data/maps/MauvilleCity_Mart/scripts.pory"
 	msgbox MauvilleCity_Mart_EventScript_TrainingMachine_Text_1
-# 122 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 128 "data/maps/MauvilleCity_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 125 "data/maps/MauvilleCity_Mart/scripts.pory"
-MauvilleCity_TrainingMachineItems:
-# 126 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_XS
-# 127 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_S
-# 128 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_M
-# 129 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_L
-# 130 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_EXP_CANDY_XL
 # 131 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_RARE_CANDY
+MauvilleCity_TrainingMachineItems:
 # 132 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_HP_UP
+	.2byte ITEM_EXP_CANDY_XS
 # 133 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_PROTEIN
+	.2byte ITEM_EXP_CANDY_S
 # 134 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_IRON
+	.2byte ITEM_EXP_CANDY_M
 # 135 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_CALCIUM
+	.2byte ITEM_EXP_CANDY_L
 # 136 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_ZINC
+	.2byte ITEM_EXP_CANDY_XL
 # 137 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_CARBOS
+	.2byte ITEM_RARE_CANDY
 # 138 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_PP_UP
+	.2byte ITEM_HP_UP
 # 139 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_PP_MAX
+	.2byte ITEM_PROTEIN
 # 140 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_WEIGHT
+	.2byte ITEM_IRON
 # 141 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_WEIGHT
+	.2byte ITEM_CALCIUM
 # 142 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_BRACER
+	.2byte ITEM_ZINC
 # 143 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_BELT
+	.2byte ITEM_CARBOS
 # 144 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_LENS
+	.2byte ITEM_PP_UP
 # 145 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_BAND
+	.2byte ITEM_PP_MAX
 # 146 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_POWER_ANKLET
+	.2byte ITEM_POWER_WEIGHT
 # 147 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_POMEG_BERRY
+	.2byte ITEM_POWER_WEIGHT
 # 148 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_KELPSY_BERRY
+	.2byte ITEM_POWER_BRACER
 # 149 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_QUALOT_BERRY
+	.2byte ITEM_POWER_BELT
 # 150 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_HONDEW_BERRY
+	.2byte ITEM_POWER_LENS
 # 151 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_GREPA_BERRY
+	.2byte ITEM_POWER_BAND
 # 152 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TAMATO_BERRY
+	.2byte ITEM_POWER_ANKLET
 # 153 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_HEALTH_FEATHER
+	.2byte ITEM_POMEG_BERRY
 # 154 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_MUSCLE_FEATHER
+	.2byte ITEM_KELPSY_BERRY
 # 155 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_RESIST_FEATHER
+	.2byte ITEM_QUALOT_BERRY
 # 156 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_GENIUS_FEATHER
+	.2byte ITEM_HONDEW_BERRY
 # 157 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_CLEVER_FEATHER
+	.2byte ITEM_GREPA_BERRY
 # 158 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_SWIFT_FEATHER
+	.2byte ITEM_TAMATO_BERRY
 # 159 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_LONELY_MINT
+	.2byte ITEM_HEALTH_FEATHER
 # 160 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_ADAMANT_MINT
+	.2byte ITEM_MUSCLE_FEATHER
 # 161 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_NAUGHTY_MINT
+	.2byte ITEM_RESIST_FEATHER
 # 162 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_BRAVE_MINT
+	.2byte ITEM_GENIUS_FEATHER
 # 163 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_BOLD_MINT
+	.2byte ITEM_CLEVER_FEATHER
 # 164 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_IMPISH_MINT
+	.2byte ITEM_SWIFT_FEATHER
 # 165 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_LAX_MINT
+	.2byte ITEM_LONELY_MINT
 # 166 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_RELAXED_MINT
+	.2byte ITEM_ADAMANT_MINT
 # 167 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_MODEST_MINT
+	.2byte ITEM_NAUGHTY_MINT
 # 168 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_MILD_MINT
+	.2byte ITEM_BRAVE_MINT
 # 169 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_RASH_MINT
+	.2byte ITEM_BOLD_MINT
 # 170 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_QUIET_MINT
+	.2byte ITEM_IMPISH_MINT
 # 171 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_CALM_MINT
+	.2byte ITEM_LAX_MINT
 # 172 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_GENTLE_MINT
+	.2byte ITEM_RELAXED_MINT
 # 173 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_CAREFUL_MINT
+	.2byte ITEM_MODEST_MINT
 # 174 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_SASSY_MINT
+	.2byte ITEM_MILD_MINT
 # 175 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TIMID_MINT
+	.2byte ITEM_RASH_MINT
 # 176 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_HASTY_MINT
+	.2byte ITEM_QUIET_MINT
 # 177 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_JOLLY_MINT
+	.2byte ITEM_CALM_MINT
 # 178 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_NAIVE_MINT
+	.2byte ITEM_GENTLE_MINT
 # 179 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_SERIOUS_MINT
+	.2byte ITEM_CAREFUL_MINT
 # 180 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_ABILITY_CAPSULE
+	.2byte ITEM_SASSY_MINT
 # 181 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TIMID_MINT
+# 182 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_HASTY_MINT
+# 183 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_JOLLY_MINT
+# 184 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_NAIVE_MINT
+# 185 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_SERIOUS_MINT
+# 186 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_ABILITY_CAPSULE
+# 187 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.2byte ITEM_ABILITY_PATCH
+# 188 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_POKE_BALL
+# 189 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_GREAT_BALL
+# 190 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_ULTRA_BALL
+# 191 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_MASTER_BALL
+# 192 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_PREMIER_BALL
+# 193 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_HEAL_BALL
+# 193 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_NET_BALL
+# 193 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_NEST_BALL
+# 193 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_DIVE_BALL
+# 193 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_DUSK_BALL
+# 193 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TIMER_BALL
+# 193 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_QUICK_BALL
+# 193 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_REPEAT_BALL
+# 193 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_LUXURY_BALL
+# 193 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_LEVEL_BALL
+# 193 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_LURE_BALL
+# 193 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_MOON_BALL
+# 193 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_FRIEND_BALL
+# 193 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_LOVE_BALL
+# 193 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_FAST_BALL
+# 193 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_HEAVY_BALL
+# 193 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_DREAM_BALL
 	.2byte ITEM_NONE
 
 MauvilleCity_Mart_EventScript_TMMachine::
-# 185 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 197 "data/maps/MauvilleCity_Mart/scripts.pory"
 	lock
-# 186 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 198 "data/maps/MauvilleCity_Mart/scripts.pory"
 	message MauvilleCity_Mart_EventScript_TMMachine_Text_0
-# 187 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 199 "data/maps/MauvilleCity_Mart/scripts.pory"
 	waitmessage
-# 188 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 200 "data/maps/MauvilleCity_Mart/scripts.pory"
 	pokemart MauvilleCity_TMMachineItems
-# 189 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 201 "data/maps/MauvilleCity_Mart/scripts.pory"
 	msgbox MauvilleCity_Mart_EventScript_TMMachine_Text_1
-# 190 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 202 "data/maps/MauvilleCity_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 193 "data/maps/MauvilleCity_Mart/scripts.pory"
-MauvilleCity_TMMachineItems:
-# 194 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_BULLET_SEED
-# 195 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_PROTECT
-# 196 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_SUNNY_DAY
-# 197 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_TAUNT
-# 198 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_ICE_BEAM
-# 199 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_RAIN_DANCE
-# 200 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_THUNDERBOLT
-# 201 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_THUNDER
-# 202 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_EARTHQUAKE
-# 203 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_DIG
-# 204 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_PSYCHIC
 # 205 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_SHADOW_BALL
+MauvilleCity_TMMachineItems:
 # 206 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_BRICK_BREAK
+	.2byte ITEM_TM_BULLET_SEED
 # 207 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_DOUBLE_TEAM
+	.2byte ITEM_TM_PROTECT
 # 208 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_REFLECT
+	.2byte ITEM_TM_SUNNY_DAY
 # 209 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_FLAMETHROWER
+	.2byte ITEM_TM_TAUNT
 # 210 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_SLUDGE_BOMB
+	.2byte ITEM_TM_ICE_BEAM
 # 211 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_SANDSTORM
+	.2byte ITEM_TM_RAIN_DANCE
 # 212 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_TORMENT
+	.2byte ITEM_TM_THUNDERBOLT
 # 213 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM_SKILL_SWAP
+	.2byte ITEM_TM_THUNDER
 # 214 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM51
+	.2byte ITEM_TM_EARTHQUAKE
 # 215 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM52
+	.2byte ITEM_TM_DIG
 # 216 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM53
+	.2byte ITEM_TM_PSYCHIC
 # 217 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TM54
+	.2byte ITEM_TM_SHADOW_BALL
 # 218 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM_BRICK_BREAK
+# 219 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM_DOUBLE_TEAM
+# 220 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM_REFLECT
+# 221 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM_FLAMETHROWER
+# 222 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM_SLUDGE_BOMB
+# 223 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM_SANDSTORM
+# 224 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM_TORMENT
+# 225 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM_SKILL_SWAP
+# 226 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM51
+# 227 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM52
+# 228 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM53
+# 229 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM54
+# 230 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.2byte ITEM_TM55
+# 231 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM56
+# 232 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM57
+# 233 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM58
+# 234 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM59
+# 235 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM60
+# 236 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM61
+# 237 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM62
+# 238 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM63
+# 239 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM64
+# 240 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM65
+# 241 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_TM66
 	.2byte ITEM_NONE
 
 MauvilleCity_Mart_EventScript_EvolveMachine::
-# 222 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 245 "data/maps/MauvilleCity_Mart/scripts.pory"
 	lock
-# 223 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 246 "data/maps/MauvilleCity_Mart/scripts.pory"
 	message MauvilleCity_Mart_EventScript_EvolveMachine_Text_0
-# 224 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 247 "data/maps/MauvilleCity_Mart/scripts.pory"
 	waitmessage
-# 225 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 248 "data/maps/MauvilleCity_Mart/scripts.pory"
 	pokemart MauvilleCity_EvolveMachineItems
-# 226 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 249 "data/maps/MauvilleCity_Mart/scripts.pory"
 	msgbox MauvilleCity_Mart_EventScript_EvolveMachine_Text_1
-# 227 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 250 "data/maps/MauvilleCity_Mart/scripts.pory"
 	release
 	return
 
 
 	.align 2
-# 230 "data/maps/MauvilleCity_Mart/scripts.pory"
-MauvilleCity_EvolveMachineItems:
-# 231 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_FIRE_STONE
-# 232 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_WATER_STONE
-# 233 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_THUNDER_STONE
-# 234 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_LEAF_STONE
-# 235 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_ICE_STONE
-# 236 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_SUN_STONE
-# 237 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_MOON_STONE
-# 238 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_SHINY_STONE
-# 239 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_DUSK_STONE
-# 240 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_DAWN_STONE
-# 241 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_SWEET_APPLE
-# 242 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_TART_APPLE
-# 243 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_CRACKED_POT
-# 244 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_CHIPPED_POT
-# 245 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_CUFF
-# 246 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_GALARICA_WREATH
-# 247 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_DRAGON_SCALE
-# 248 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_UPGRADE
-# 249 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_PROTECTOR
-# 250 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_ELECTIRIZER
-# 251 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_MAGMARIZER
-# 252 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_DUBIOUS_DISC
 # 253 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_REAPER_CLOTH
+MauvilleCity_EvolveMachineItems:
 # 254 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_PRISM_SCALE
+	.2byte ITEM_FIRE_STONE
 # 255 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_WHIPPED_DREAM
+	.2byte ITEM_WATER_STONE
 # 256 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_SACHET
+	.2byte ITEM_THUNDER_STONE
 # 257 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_OVAL_STONE
+	.2byte ITEM_LEAF_STONE
 # 258 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_SCALE
+	.2byte ITEM_ICE_STONE
 # 259 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_DEEP_SEA_TOOTH
+	.2byte ITEM_SUN_STONE
 # 260 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_METAL_COAT
+	.2byte ITEM_MOON_STONE
 # 261 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_KINGS_ROCK
+	.2byte ITEM_SHINY_STONE
 # 262 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_CLAW
+	.2byte ITEM_DUSK_STONE
 # 263 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_RAZOR_FANG
+	.2byte ITEM_DAWN_STONE
 # 264 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_AUSPICIOUS_ARMOR
+	.2byte ITEM_SWEET_APPLE
 # 265 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_MALICIOUS_ARMOR
+	.2byte ITEM_TART_APPLE
 # 266 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_DARKNESS
+	.2byte ITEM_CRACKED_POT
 # 267 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_SCROLL_OF_WATERS
+	.2byte ITEM_CHIPPED_POT
 # 268 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_BLACK_AUGURITE
+	.2byte ITEM_GALARICA_CUFF
 # 269 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_LINKING_CORD
+	.2byte ITEM_GALARICA_WREATH
 # 270 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_PEAT_BLOCK
+	.2byte ITEM_DRAGON_SCALE
 # 271 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_SYRUPY_APPLE
+	.2byte ITEM_UPGRADE
 # 272 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_UNREMARKABLE_TEACUP
+	.2byte ITEM_PROTECTOR
 # 273 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.2byte ITEM_MASTERPIECE_TEACUP
+	.2byte ITEM_ELECTIRIZER
 # 274 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_MAGMARIZER
+# 275 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_DUBIOUS_DISC
+# 276 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_REAPER_CLOTH
+# 277 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_PRISM_SCALE
+# 278 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_WHIPPED_DREAM
+# 279 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_SACHET
+# 280 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_OVAL_STONE
+# 281 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_DEEP_SEA_SCALE
+# 282 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_DEEP_SEA_TOOTH
+# 283 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_METAL_COAT
+# 284 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_KINGS_ROCK
+# 285 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_RAZOR_CLAW
+# 286 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_RAZOR_FANG
+# 287 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_AUSPICIOUS_ARMOR
+# 288 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_MALICIOUS_ARMOR
+# 289 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_SCROLL_OF_DARKNESS
+# 290 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_SCROLL_OF_WATERS
+# 291 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_BLACK_AUGURITE
+# 292 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_LINKING_CORD
+# 293 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_PEAT_BLOCK
+# 294 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_SYRUPY_APPLE
+# 295 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_UNREMARKABLE_TEACUP
+# 296 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_MASTERPIECE_TEACUP
+# 297 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.2byte ITEM_METAL_ALLOY
 	.2byte ITEM_NONE
 
@@ -544,25 +622,25 @@ MauvilleCity_Mart_EventScript_BattleMachine_Text_1:
 	.string "Happy battling!$"
 
 MauvilleCity_Mart_EventScript_TrainingMachine_Text_0:
-# 118 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 124 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.string "Ready to train?$"
 
 MauvilleCity_Mart_EventScript_TrainingMachine_Text_1:
-# 121 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 127 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.string "Level up!$"
 
 MauvilleCity_Mart_EventScript_TMMachine_Text_0:
-# 186 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 198 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.string "What do you need to learn?$"
 
 MauvilleCity_Mart_EventScript_TMMachine_Text_1:
-# 189 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 201 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.string "Go get'em!$"
 
 MauvilleCity_Mart_EventScript_EvolveMachine_Text_0:
-# 223 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 246 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.string "So you wanna evolve?$"
 
 MauvilleCity_Mart_EventScript_EvolveMachine_Text_1:
-# 226 "data/maps/MauvilleCity_Mart/scripts.pory"
+# 249 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.string "Change is the best!$"

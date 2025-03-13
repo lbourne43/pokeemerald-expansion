@@ -3575,7 +3575,7 @@ static const u16 sPachirisuEggMoveLearnset[] = {
     MOVE_FLAIL,
     MOVE_IRON_TAIL,
     MOVE_TAIL_WHIP,
-    MOVE_FOLLOW_ME,
+//    MOVE_FOLLOW_ME,
     MOVE_CHARGE,
     MOVE_BESTOW,
     MOVE_ION_DELUGE,

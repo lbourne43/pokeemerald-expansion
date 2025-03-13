@@ -2851,6 +2851,9 @@ static u8 GetPartyMenuActionsType(struct Pokemon *mon)
         actionType = GetPartyMenuActionsTypeInBattle(mon);
         break;
     case PARTY_MENU_TYPE_CHOOSE_HALF:
+	// if &gPlayerParty[gPartyMenu.slotId]
+	// else if (gPartyMenu.slotId > PARTY_SIZE - 1 || GetMonData(&gPlayerParty[gPartyMenu.slotId], MON_DATA_SPECIES) == SPECIES_NONE)
+        //    gPartyMenu.slotId = 0;
         switch (GetPartySlotEntryStatus(gPartyMenu.slotId))
         {
         default: // Not eligible
@@ -7006,8 +7009,12 @@ static bool8 GetBattleEntryEligibility(struct Pokemon *mon)
         return TRUE;
     default: // Battle Frontier
         species = GetMonData(mon, MON_DATA_SPECIES);
-        if (gSpeciesInfo[species].isFrontierBanned)
-            return FALSE;
+	// nettux nothing is frontier banned
+	// allow 1 then return False
+        //if (gSpeciesInfo[species].isFrontierBanned && fontierRestrictedCounter == 1)
+        //    return FALSE;
+        //if (gSpeciesInfo[species].isFrontierBanned)
+	//    frontierRestrictedCounter = 1;
         return TRUE;
     }
 }

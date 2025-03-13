@@ -2622,6 +2622,7 @@ static const struct LevelUpMove sJynxLevelUpLearnset[] = {
 static const struct LevelUpMove sElekidLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
+    LEVEL_UP_MOVE( 1, MOVE_FOLLOW_ME),
     LEVEL_UP_MOVE( 9, MOVE_THUNDER_PUNCH),
     LEVEL_UP_MOVE(17, MOVE_LIGHT_SCREEN),
     LEVEL_UP_MOVE(25, MOVE_SWIFT),
@@ -2635,6 +2636,7 @@ static const struct LevelUpMove sElekidLevelUpLearnset[] = {
 static const struct LevelUpMove sElectabuzzLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
+    LEVEL_UP_MOVE( 1, MOVE_FOLLOW_ME),
     LEVEL_UP_MOVE(34, MOVE_THUNDER_SHOCK),
     LEVEL_UP_MOVE(37, MOVE_SCREECH),
     LEVEL_UP_MOVE(42, MOVE_THUNDER_PUNCH),
@@ -2646,6 +2648,7 @@ static const struct LevelUpMove sElectabuzzLevelUpLearnset[] = {
 #if P_GEN_4_CROSS_EVOS
 static const struct LevelUpMove sElectivireLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_FIRE_PUNCH),
+    LEVEL_UP_MOVE( 1, MOVE_FOLLOW_ME),
     LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_THUNDER_SHOCK),
@@ -2670,6 +2673,7 @@ static const struct LevelUpMove sElectivireLevelUpLearnset[] = {
 #if P_GEN_2_CROSS_EVOS
 static const struct LevelUpMove sMagbyLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_EMBER),
+    LEVEL_UP_MOVE( 1, MOVE_FOLLOW_ME),
     LEVEL_UP_MOVE( 7, MOVE_LEER),
     LEVEL_UP_MOVE(13, MOVE_SMOG),
     LEVEL_UP_MOVE(19, MOVE_FIRE_PUNCH),
@@ -2684,6 +2688,7 @@ static const struct LevelUpMove sMagbyLevelUpLearnset[] = {
 
 static const struct LevelUpMove sMagmarLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_EMBER),
+    LEVEL_UP_MOVE( 1, MOVE_FOLLOW_ME),
     LEVEL_UP_MOVE(36, MOVE_LEER),
     LEVEL_UP_MOVE(39, MOVE_CONFUSE_RAY),
     LEVEL_UP_MOVE(43, MOVE_FIRE_PUNCH),
@@ -2700,6 +2705,7 @@ static const struct LevelUpMove sMagmortarLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_EMBER),
     LEVEL_UP_MOVE( 1, MOVE_SMOKESCREEN),
+    LEVEL_UP_MOVE( 1, MOVE_FOLLOW_ME),
     LEVEL_UP_MOVE( 7, MOVE_EMBER),
     LEVEL_UP_MOVE(10, MOVE_SMOKESCREEN),
     LEVEL_UP_MOVE(16, MOVE_FEINT_ATTACK),

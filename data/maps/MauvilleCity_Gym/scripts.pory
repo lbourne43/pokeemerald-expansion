@@ -421,3 +421,55 @@ MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons:
 	.string "POKéMON, all right?$"
 
 `
+
+script MauvilleCity_Gym_EventScript_GiveLegendary{
+    if (flag(FLAG_SYS_GAME_CLEAR)) {
+        if (defeated(TRAINER_WATTSON_5) && !flag(FLAG_MAUVILLE_GYM_LEGENDARY1)) {
+            givemon(SPECIES_THUNDURUS, 100, ITEM_LUCKY_EGG)
+            if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+                playfanfare(MUS_OBTAIN_ITEM)
+                msgbox("Received Thundurus!")
+                call(MauvilleCity_Gym_NicknamePartyMon)
+                setflag(FLAG_MAUVILLE_GYM_LEGENDARY1)
+            } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+                playfanfare(MUS_OBTAIN_ITEM)
+                msgbox("Received Thundurus!")
+                call(MauvilleCity_Gym_NicknameBoxMon)
+                msgbox("Transferred Thundurus to PC")
+                setflag(FLAG_MAUVILLE_GYM_LEGENDARY1)
+            } else {
+                msgbox("No more room.")
+            }
+        } elif (defeated(TRAINER_WATTSON_5) && !flag(FLAG_MAUVILLE_GYM_LEGENDARY2)) {
+            givemon(SPECIES_MIRAIDON, 100, ITEM_LUCKY_EGG)
+            if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+                playfanfare(MUS_OBTAIN_ITEM)
+                msgbox("Received Miraidon!")
+                call(MauvilleCity_Gym_NicknamePartyMon)
+                setflag(FLAG_MAUVILLE_GYM_LEGENDARY2)
+            } elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+                playfanfare(MUS_OBTAIN_ITEM)
+                msgbox("Received Miraidon!")
+                call(MauvilleCity_Gym_NicknameBoxMon)
+                msgbox("Transferred Miraidon to PC")
+                setflag(FLAG_MAUVILLE_GYM_LEGENDARY2)
+            } else {
+                msgbox("No more room.")
+            }
+        }
+    }
+}
+script MauvilleCity_Gym_NicknamePartyMon{
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+}
+
+script MauvilleCity_Gym_NicknameBoxMon{
+    msgbox("Give a nickname?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+}

@@ -1,0 +1,21 @@
+added new tms
+updated trainer teams
+updated encounters
+hms can be used in the overworld without teaching
+starters available from mom at various cities
+No items in battle
+Gen 9 learnsets
+special physical split
+pokeballs are super cheap
+TM, training, evolve and battle machines in all marts
+Max elixer can be bought at victory road
+IV trainer at victory road
+IVs and EVs visible on stats page
+Rockets added to power plant
+Wally moved to end of victory road
+Gym leaders can be rematched infinitely
+Level caps set based on next boss fights highest level + 3
+Boss fights are all double battles
+Rival gives gen 3 starters after fights
+Dad gives mew after becoming champion
+Gym leaders give legendaries after beating them post-game

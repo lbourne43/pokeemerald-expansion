@@ -95,336 +95,338 @@ EverGrandeCity_PokemonLeague_1F_Pokemart:
 # 48 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	.2byte ITEM_MAX_REPEL
 # 49 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	pokemartlistend
+	.2byte ITEM_MAX_ELIXER
 # 50 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-
+	pokemartlistend
 # 51 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-@ The door guards only check for FLAG_BADGE06_GET because Winonas badge is the only one that can be skipped
+
 # 52 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-@ Its assumed the player has the remaining badges
+@ The door guards only check for FLAG_BADGE06_GET because Winonas badge is the only one that can be skipped
 # 53 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-EverGrandeCity_PokemonLeague_1F_EventScript_DoorGuard::
+@ Its assumed the player has the remaining badges
 # 54 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	lockall
+EverGrandeCity_PokemonLeague_1F_EventScript_DoorGuard::
 # 55 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	goto_if_set FLAG_ENTERED_ELITE_FOUR, EverGrandeCity_PokemonLeague_1F_EventScript_GoForth
+	lockall
 # 56 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	getplayerxy VAR_TEMP_0, VAR_TEMP_1
+	goto_if_set FLAG_ENTERED_ELITE_FOUR, EverGrandeCity_PokemonLeague_1F_EventScript_GoForth
 # 57 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	call_if_ge VAR_TEMP_0, 11, EverGrandeCity_PokemonLeague_1F_EventScript_PlayerMoveToFrontFromRight
+	getplayerxy VAR_TEMP_0, VAR_TEMP_1
 # 58 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	call_if_le VAR_TEMP_0, 8, EverGrandeCity_PokemonLeague_1F_EventScript_PlayerMoveToFrontFromLeft
+	call_if_ge VAR_TEMP_0, 11, EverGrandeCity_PokemonLeague_1F_EventScript_PlayerMoveToFrontFromRight
 # 59 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	message EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges
+	call_if_le VAR_TEMP_0, 8, EverGrandeCity_PokemonLeague_1F_EventScript_PlayerMoveToFrontFromLeft
 # 60 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	waitmessage
+	message EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges
 # 61 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	delay 120
-# 62 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	goto_if_unset FLAG_BADGE06_GET, EverGrandeCity_PokemonLeague_1F_EventScript_NotAllBadges
-# 63 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	closemessage
-# 64 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	applymovement LOCALID_GUARD_1, EverGrandeCity_PokemonLeague_1F_Movement_LeftGuardOutOfWay
-# 65 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	applymovement LOCALID_GUARD_2, EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay
-# 66 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	waitmovement 0
-# 67 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	delay 10
-# 68 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	playfanfare MUS_OBTAIN_BADGE
-# 69 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	message EverGrandeCity_PokemonLeague_1F_Text_GoForth
-# 70 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	waitmessage
+# 62 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	delay 120
+# 63 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	goto_if_unset FLAG_BADGE06_GET, EverGrandeCity_PokemonLeague_1F_EventScript_NotAllBadges
+# 64 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	closemessage
+# 65 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	applymovement LOCALID_GUARD_1, EverGrandeCity_PokemonLeague_1F_Movement_LeftGuardOutOfWay
+# 66 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	applymovement LOCALID_GUARD_2, EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay
+# 67 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	waitmovement 0
+# 68 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	delay 10
+# 69 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	playfanfare MUS_OBTAIN_BADGE
+# 70 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	message EverGrandeCity_PokemonLeague_1F_Text_GoForth
 # 71 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	waitfanfare
+	waitmessage
 # 72 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	closemessage
+	waitfanfare
 # 73 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	copyobjectxytoperm LOCALID_GUARD_1
-# 74 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	copyobjectxytoperm LOCALID_GUARD_2
-# 75 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	setflag FLAG_ENTERED_ELITE_FOUR
-# 76 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	releaseall
-# 77 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	end
-# 78 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-
-# 79 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-EverGrandeCity_PokemonLeague_1F_EventScript_PlayerMoveToFrontFromRight::
-# 80 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromRight
-# 81 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	waitmovement 0
-# 82 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	return
-# 83 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-
-# 84 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-EverGrandeCity_PokemonLeague_1F_EventScript_PlayerMoveToFrontFromLeft::
-# 85 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromLeft
-# 86 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	waitmovement 0
-# 87 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	return
-# 88 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-
-# 89 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-EverGrandeCity_PokemonLeague_1F_EventScript_NotAllBadges::
-# 90 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	playse SE_FAILURE
-# 91 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	msgbox EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges, MSGBOX_DEFAULT
-# 92 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	releaseall
-# 93 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	end
-# 94 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-
-# 95 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-EverGrandeCity_PokemonLeague_1F_EventScript_GoForth::
-# 96 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	applymovement VAR_LAST_TALKED, Common_Movement_FacePlayer
-# 97 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	waitmovement 0
-# 98 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	msgbox EverGrandeCity_PokemonLeague_1F_Text_GoForth, MSGBOX_DEFAULT
-# 99 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	closemessage
-# 100 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
-# 101 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	waitmovement 0
-# 102 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+# 74 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	copyobjectxytoperm LOCALID_GUARD_1
+# 75 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	copyobjectxytoperm LOCALID_GUARD_2
+# 76 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	setflag FLAG_ENTERED_ELITE_FOUR
+# 77 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	releaseall
-# 103 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+# 78 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	end
+# 79 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+
+# 80 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+EverGrandeCity_PokemonLeague_1F_EventScript_PlayerMoveToFrontFromRight::
+# 81 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromRight
+# 82 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	waitmovement 0
+# 83 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	return
+# 84 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+
+# 85 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+EverGrandeCity_PokemonLeague_1F_EventScript_PlayerMoveToFrontFromLeft::
+# 86 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromLeft
+# 87 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	waitmovement 0
+# 88 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	return
+# 89 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+
+# 90 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+EverGrandeCity_PokemonLeague_1F_EventScript_NotAllBadges::
+# 91 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	playse SE_FAILURE
+# 92 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	msgbox EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges, MSGBOX_DEFAULT
+# 93 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	releaseall
+# 94 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	end
+# 95 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+
+# 96 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+EverGrandeCity_PokemonLeague_1F_EventScript_GoForth::
+# 97 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	applymovement VAR_LAST_TALKED, Common_Movement_FacePlayer
+# 98 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	waitmovement 0
+# 99 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	msgbox EverGrandeCity_PokemonLeague_1F_Text_GoForth, MSGBOX_DEFAULT
+# 100 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	closemessage
+# 101 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+# 102 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	waitmovement 0
+# 103 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	releaseall
 # 104 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-
+	end
 # 105 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromRight:
+
 # 106 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	walk_down
+EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromRight:
 # 107 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	walk_left
-# 108 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	walk_in_place_faster_up
-# 109 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	step_end
-# 110 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-
-# 111 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromLeft:
-# 112 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	walk_down
-# 113 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	walk_right
-# 114 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	walk_in_place_faster_up
-# 115 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	step_end
-# 116 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-
-# 117 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-EverGrandeCity_PokemonLeague_1F_Movement_LeftGuardOutOfWay:
-# 118 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+# 108 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	walk_left
-# 119 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	walk_in_place_faster_down
-# 120 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+# 109 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	walk_in_place_faster_up
+# 110 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	step_end
-# 121 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+# 111 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 
-# 122 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay:
-# 123 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+# 112 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromLeft:
+# 113 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	walk_down
+# 114 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	walk_right
-# 124 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	walk_in_place_faster_down
-# 125 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+# 115 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	walk_in_place_faster_up
+# 116 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	step_end
+# 117 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+
+# 118 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+EverGrandeCity_PokemonLeague_1F_Movement_LeftGuardOutOfWay:
+# 119 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	walk_left
+# 120 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	walk_in_place_faster_down
+# 121 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	step_end
+# 122 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+
+# 123 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay:
+# 124 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	walk_right
+# 125 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	walk_in_place_faster_down
 # 126 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-
+	step_end
 # 127 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges:
+
 # 128 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	.string "Beyond this point, only those TRAINERS\n"
+EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges:
 # 129 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	.string "who have collected all the GYM BADGES\l"
+	.string "Beyond this point, only those TRAINERS\n"
 # 130 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	.string "are permitted to enter.\p"
+	.string "who have collected all the GYM BADGES\l"
 # 131 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	.string "TRAINER, let us confirm that you have\n"
+	.string "are permitted to enter.\p"
 # 132 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	.string "all the GYM BADGES.$"
+	.string "TRAINER, let us confirm that you have\n"
 # 133 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-
+	.string "all the GYM BADGES.$"
 # 134 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges:
+
 # 135 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	.string "You haven't obtained all the BADGES.\p"
+EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges:
 # 136 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	.string "If you're bound for the POKéMON\n"
+	.string "You haven't obtained all the BADGES.\p"
 # 137 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	.string "LEAGUE, you must return with them.$"
+	.string "If you're bound for the POKéMON\n"
 # 138 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-
+	.string "LEAGUE, you must return with them.$"
 # 139 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-EverGrandeCity_PokemonLeague_1F_Text_GoForth:
+
 # 140 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	.string "TRAINER! Believe in yourself and your\n"
+EverGrandeCity_PokemonLeague_1F_Text_GoForth:
 # 141 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	.string "POKéMON, and go forth!$"
+	.string "TRAINER! Believe in yourself and your\n"
 # 142 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-
+	.string "POKéMON, and go forth!$"
 # 143 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-EverGrandeCity_PokemonLeague_1F_SetIVs::
+
 # 144 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        checkmoney 5000
+EverGrandeCity_PokemonLeague_1F_SetIVs::
 # 145 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        goto_if_eq VAR_RESULT, FALSE, EverGrandeCity_PokemonLeague_1F_EventScript_NotEnoughMoneyHyperTrain
+        checkmoney 5000
 # 146 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-
+        goto_if_eq VAR_RESULT, FALSE, EverGrandeCity_PokemonLeague_1F_EventScript_NotEnoughMoneyHyperTrain
 # 147 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        special ChoosePartyMon
+
 # 148 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        waitstate
+        special ChoosePartyMon
 # 149 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        compare VAR_0x8004, PARTY_SIZE
+        waitstate
 # 150 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        goto_if_ge EverGrandeCity_PokemonLeague_1F_ButIRefuse
+        compare VAR_0x8004, PARTY_SIZE
 # 151 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+        goto_if_ge EverGrandeCity_PokemonLeague_1F_ButIRefuse
 # 152 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        compare VAR_RESULT, SPECIES_EGG
+        specialvar VAR_RESULT, ScriptGetPartyMonSpecies
 # 153 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        goto_if_eq EverGrandeCity_PokemonLeague_1F_Rejected
+        compare VAR_RESULT, SPECIES_EGG
 # 154 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        goto EverGrandeCity_PokemonLeague_1F_SetIVs_Proceed
+        goto_if_eq EverGrandeCity_PokemonLeague_1F_Rejected
 # 155 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-
+        goto EverGrandeCity_PokemonLeague_1F_SetIVs_Proceed
 # 156 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-EverGrandeCity_PokemonLeague_1F_SetIVs_Proceed:
+
 # 157 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        lockall
+EverGrandeCity_PokemonLeague_1F_SetIVs_Proceed:
 # 158 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        faceplayer
+        lockall
 # 159 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        removemoney 5000
+        faceplayer
 # 160 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        special MaxHpIvs
+        removemoney 5000
 # 161 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        special MaxAtkIvs
+        special MaxHpIvs
 # 162 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        special MaxDefIvs
+        special MaxAtkIvs
 # 163 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        special MaxSpdIvs
+        special MaxDefIvs
 # 164 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        special MaxSpAtkIvs
+        special MaxSpdIvs
 # 165 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        special MaxSpDefIvs
+        special MaxSpAtkIvs
 # 166 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        msgbox EverGrandeCity_PokemonLeague_1F_IVsSetSuccessfully 4
+        special MaxSpDefIvs
 # 167 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        closemessage
+        msgbox EverGrandeCity_PokemonLeague_1F_IVsSetSuccessfully 4
 # 168 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        releaseall
+        closemessage
 # 169 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        end
+        releaseall
 # 170 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-
+        end
 # 171 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-EverGrandeCity_PokemonLeague_1F_ButIRefuse:
+
 # 172 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        lockall
+EverGrandeCity_PokemonLeague_1F_ButIRefuse:
 # 173 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        faceplayer
-# 174 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        msgbox EverGrandeCity_PokemonLeague_1F_ComeBackAnytime 6
-# 175 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        releaseall
-# 176 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        end
-# 177 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-
-# 178 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-EverGrandeCity_PokemonLeague_1F_Rejected:
-# 179 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
         lockall
-# 180 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+# 174 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
         faceplayer
-# 181 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        msgbox EverGrandeCity_PokemonLeague_1F_Reject 6
-# 182 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+# 175 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+        msgbox EverGrandeCity_PokemonLeague_1F_ComeBackAnytime 6
+# 176 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
         releaseall
-# 183 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+# 177 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
         end
+# 178 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+
+# 179 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+EverGrandeCity_PokemonLeague_1F_Rejected:
+# 180 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+        lockall
+# 181 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+        faceplayer
+# 182 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+        msgbox EverGrandeCity_PokemonLeague_1F_Reject 6
+# 183 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+        releaseall
 # 184 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-
+        end
 # 185 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-EverGrandeCity_PokemonLeague_1F_IVsSetSuccessfully:
+
 # 186 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        .string "The IVs of your Pokémon's stats\n"
+EverGrandeCity_PokemonLeague_1F_IVsSetSuccessfully:
 # 187 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        .string "have been successfully set to 31.\p"
+        .string "The IVs of your Pokémon's stats\n"
 # 188 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        .string "Come back anytime.$"
+        .string "have been successfully set to 31.\p"
 # 189 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-
+        .string "Come back anytime.$"
 # 190 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-EverGrandeCity_PokemonLeague_1F_Reject:
-# 191 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        .string "Sorry, I can't modify the stats\n"
-# 192 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-        .string "of an EGG.$"
-# 193 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 
+# 191 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+EverGrandeCity_PokemonLeague_1F_Reject:
+# 192 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+        .string "Sorry, I can't modify the stats\n"
+# 193 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+        .string "of an EGG.$"
 # 194 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-EverGrandeCity_PokemonLeague_1F_ComeBackAnytime:
+
 # 195 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+EverGrandeCity_PokemonLeague_1F_ComeBackAnytime:
+# 196 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
         .string "Come back anytime.$"
 
 EverGrandeCity_PokemonLeague_1F_HyperTrain::
-# 200 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	faceplayer
 # 201 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	showmoneybox 0, 0
+	faceplayer
 # 202 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	msgbox EverGrandeCity_PokemonLeague_1F_HyperTrain_Text_0, MSGBOX_YESNO
+	showmoneybox 0, 0
 # 203 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
-	hidemoneybox
+	msgbox EverGrandeCity_PokemonLeague_1F_HyperTrain_Text_0, MSGBOX_YESNO
 # 204 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+	hidemoneybox
+# 205 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq EverGrandeCity_PokemonLeague_1F_HyperTrain_1
-# 207 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+# 208 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	msgbox EverGrandeCity_PokemonLeague_1F_HyperTrain_Text_1, MSGBOX_NPC
 	return
 
 EverGrandeCity_PokemonLeague_1F_HyperTrain_1:
-# 205 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+# 206 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	goto EverGrandeCity_PokemonLeague_1F_SetIVs
 	return
 
 
 EverGrandeCity_PokemonLeague_1F_EventScript_NotEnoughMoneyHyperTrain::
-# 212 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+# 213 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	msgbox EverGrandeCity_PokemonLeague_1F_EventScript_NotEnoughMoneyHyperTrain_Text_0, MSGBOX_NPC
 	return
 
 
 EverGrandeCity_PokemonLeague_1F_HyperTrain_Text_0:
-# 202 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+# 203 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	.string "Hyper train a pokemon for 5k?$"
 
 EverGrandeCity_PokemonLeague_1F_HyperTrain_Text_1:
-# 207 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+# 208 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	.string "Come back anytime.$"
 
 EverGrandeCity_PokemonLeague_1F_EventScript_NotEnoughMoneyHyperTrain_Text_0:
-# 212 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+# 213 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	.string "Not enough money.$"

@@ -1606,33 +1606,3 @@ DewfordTown_Text_YeahDefinitionOfInRightNow:
 	.string "“{STR_VAR_1}” is the\n"
 # 804 "data/maps/DewfordTown/scripts.pory"
 	.string "definition of “in” right now.$"
-
-DewfordTown_ClearTrainerFlags::
-# 807 "data/maps/DewfordTown/scripts.pory"
-	clearflag TRAINER_NETTUX_UNUSED_1
-# 808 "data/maps/DewfordTown/scripts.pory"
-	clearflag TRAINER_NETTUX_UNUSED_2
-# 809 "data/maps/DewfordTown/scripts.pory"
-	clearflag TRAINER_NETTUX_UNUSED_3
-# 810 "data/maps/DewfordTown/scripts.pory"
-	clearflag TRAINER_NETTUX_UNUSED_4
-# 811 "data/maps/DewfordTown/scripts.pory"
-	clearflag TRAINER_NETTUX_UNUSED_5
-# 812 "data/maps/DewfordTown/scripts.pory"
-	clearflag TRAINER_NETTUX_UNUSED_6
-# 813 "data/maps/DewfordTown/scripts.pory"
-	clearflag TRAINER_NETTUX_UNUSED_7
-# 814 "data/maps/DewfordTown/scripts.pory"
-	clearflag TRAINER_NETTUX_UNUSED_8
-# 815 "data/maps/DewfordTown/scripts.pory"
-	clearflag TRAINER_NETTUX_UNUSED_9
-# 816 "data/maps/DewfordTown/scripts.pory"
-	clearflag TRAINER_NETTUX_UNUSED_10
-# 817 "data/maps/DewfordTown/scripts.pory"
-	clearflag TRAINER_NETTUX_UNUSED_11
-# 818 "data/maps/DewfordTown/scripts.pory"
-	clearflag TRAINER_NETTUX_UNUSED_12
-# 819 "data/maps/DewfordTown/scripts.pory"
-	clearflag TRAINER_ROCKET_GRUNT_ROUTE106
-	return
-

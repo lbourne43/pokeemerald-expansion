@@ -482,6 +482,8 @@ PlayersHouse_1F_EventScript_GetSSTicketAndSeeLatiTV::
 	closemessage
 	setvar VAR_LITTLEROOT_HOUSES_STATE_MAY, 4
 	setvar VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 4
+	givemon SPECIES_MEW, 100, ITEM_LUCKY_EGG
+	giveitem ITEM_SHINY_CHARM
 	releaseall
 	end
 

@@ -1,0 +1,7938 @@
+=== FRONTIER_MON_SUNKERN ===
+Sunflora @ Lax Incense
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Mega Drain
+- Helping Hand
+- Sunny Day
+- Light Screen
+
+=== FRONTIER_MON_AZURILL ===
+Azumarill @ Cheri Berry
+Nature: Rash
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Water Pulse
+- Attract
+- Sing
+- Charm
+
+=== FRONTIER_MON_CATERPIE ===
+Butterfree @ Focus Band
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Tackle
+- String Shot
+- None
+- None
+
+=== FRONTIER_MON_WEEDLE ===
+Beedrill @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- String Shot
+- Twineedle
+- Protect
+
+=== FRONTIER_MON_WURMPLE ===
+Dustox @ Silver Powder
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Silver Wind
+- Toxic
+- Psybeam
+- Whirlwind
+
+=== FRONTIER_MON_RALTS ===
+Gardevoir @ Twisted Spoon
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Dazzling Gleam
+- Double Team
+- Light Screen
+
+=== FRONTIER_MON_MAGIKARP ===
+Gyarados @ Focus Sash
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Waterfall
+- Ice Fang
+- Dragon Dance
+- Protect
+
+=== FRONTIER_MON_FEEBAS ===
+Milotic @ Focus Sash
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Water Pulse
+- Mirror Coat
+- Ice Beam
+- Protect
+
+=== FRONTIER_MON_METAPOD ===
+Butterfree @ Pecha Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Silver Wind
+- Psybeam
+- Toxic
+- Whirlwind
+
+=== FRONTIER_MON_KAKUNA ===
+Beedrill @ Scope Lens
+Nature: Naughty
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Twineedle
+- Pursuit
+- Endeavor
+- Agility
+
+=== FRONTIER_MON_PICHU ===
+Raichu @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 170 Def / 170 SpA / 170 SpD / 0 Spe
+- Thunderbolt
+- Quick Attack
+- Light Screen
+- Double Team
+
+=== FRONTIER_MON_SILCOON ===
+Beautifly @ Mental Herb
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Silver Wind
+- Mega Drain
+- Attract
+- Whirlwind
+
+=== FRONTIER_MON_CASCOON ===
+Dustox @ Silver Powder
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Silver Wind
+- Toxic
+- Psybeam
+- Whirlwind
+
+=== FRONTIER_MON_IGGLYBUFF ===
+Wigglytuff @ Silk Scarf
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Sing
+- Disable
+- Wish
+- Secret Power
+
+=== FRONTIER_MON_WOOPER ===
+Quagsire @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Earthquake
+- Brick Break
+- Counter
+- Mud Slap
+
+=== FRONTIER_MON_TYROGUE ===
+Hitmontop @ Liechi Berry
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Triple Kick
+- Dig
+- Mach Punch
+- Quick Attack
+
+=== FRONTIER_MON_SENTRET ===
+Furret @ Liechi Berry
+Nature: Serious
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Slam
+- Protect
+- Helping Hand
+- Follow Me
+
+=== FRONTIER_MON_CLEFFA ===
+Clefable @ Leftovers
+Nature: Brave
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Metronome
+- Double Team
+- Sing
+- Follow Me
+
+=== FRONTIER_MON_SEEDOT ===
+Shiftry @ Miracle Seed
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 170 SpD / 170 Spe
+- Giga Drain
+- Feint Attack
+- Quick Attack
+- Fake Out
+
+=== FRONTIER_MON_LOTAD ===
+Ludicolo @ Shell Bell
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 170 SpD / 0 Spe
+- Surf
+- Rain Dance
+- Thunder Punch
+- Fire Punch
+
+=== FRONTIER_MON_POOCHYENA ===
+Mightyena @ Mental Herb
+Nature: Timid
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Bite
+- Poison Fang
+- Taunt
+- Roar
+
+=== FRONTIER_MON_SHEDINJA ===
+Shedinja @ Petaya Berry
+Nature: Mild
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Baton Pass
+- Swords Dance
+- Endure
+- Dig
+
+=== FRONTIER_MON_MAKUHITA ===
+Hariyama @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Cross Chop
+- Rock Slide
+- Counter
+- Fake Out
+
+=== FRONTIER_MON_WHISMUR ===
+Exploud @ Chesto Berry
+Nature: Impish
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hyper Voice
+- Shadow Ball
+- Sleep Talk
+- Rest
+
+=== FRONTIER_MON_ZIGZAGOON ===
+Linoone @ White Herb
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Secret Power
+- Sand Attack
+- Covet
+- Tickle
+
+=== FRONTIER_MON_ZUBAT ===
+Crobat @ Kings Rock
+Nature: Quirky
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Sludge Bomb
+- Bite
+- Astonish
+- Screech
+
+=== FRONTIER_MON_TOGEPI ===
+Togekiss @ Lax Incense
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Aerial Ace
+- Magical Leaf
+- Wish
+- Follow Me
+
+=== FRONTIER_MON_SPINARAK ===
+Ariados @ Lax Incense
+Nature: Serious
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Signal Beam
+- Spider Web
+- Night Shade
+- Toxic
+
+=== FRONTIER_MON_MARILL ===
+Azumarill @ Sitrus Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Bubble Beam
+- Facade
+- Dig
+- Protect
+
+=== FRONTIER_MON_HOPPIP ===
+Jumpluff @ Leftovers
+Nature: Bold
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Leech Seed
+- Sleep Powder
+- Giga Drain
+- Double Team
+
+=== FRONTIER_MON_SLUGMA ===
+Magcargo @ Lax Incense
+Nature: Gentle
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Rock Slide
+- Ember
+- Acid Armor
+- Sandstorm
+
+=== FRONTIER_MON_SWINUB ===
+Mamoswine @ Soft Sand
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dig
+- Ancient Power
+- Hail
+- Light Screen
+
+=== FRONTIER_MON_SMEARGLE ===
+Smeargle @ Kings Rock
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Extreme Speed
+- Fake Out
+- Quick Attack
+- Mach Punch
+
+=== FRONTIER_MON_PIDGEY ===
+Pidgeot @ Sharp Beak
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aerial Ace
+- Feather Dance
+- Mud Slap
+- Feint Attack
+
+=== FRONTIER_MON_RATTATA ===
+Raticate @ Silk Scarf
+Nature: Naive
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 0 SpD / 0 Spe
+- Endeavor
+- Pursuit
+- Scary Face
+- Quick Attack
+
+=== FRONTIER_MON_WYNAUT ===
+Wobbuffet @ Focus Band
+Nature: Careful
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Counter
+- Mirror Coat
+- Charm
+- Safeguard
+
+=== FRONTIER_MON_SKITTY ===
+Delcatty @ Sitrus Berry
+Nature: Lonely
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Secret Power
+- Feint Attack
+- Double Team
+- Heal Bell
+
+=== FRONTIER_MON_SPEAROW ===
+Fearow @ Sharp Beak
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Drill Peck
+- Tri Attack
+- Facade
+- Mud Slap
+
+=== FRONTIER_MON_HOOTHOOT ===
+Noctowl @ Persim Berry
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Confusion
+- Aerial Ace
+- Feint Attack
+- Reflect
+
+=== FRONTIER_MON_DIGLETT ===
+Dugtrio @ Soft Sand
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Tri Attack
+- Slash
+- Sand Tomb
+
+=== FRONTIER_MON_LEDYBA ===
+Ledian @ Focus Band
+Nature: Bashful
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Comet Punch
+- Baton Pass
+- Swords Dance
+- Agility
+
+=== FRONTIER_MON_NINCADA ===
+Ninjask @ Focus Band
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Slash
+- Shadow Ball
+- Swords Dance
+- Baton Pass
+
+=== FRONTIER_MON_SURSKIT ===
+Masquerain @ Cheri Berry
+Nature: Relaxed
+EVs: 0 HP / 252 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Silver Wind
+- Aerial Ace
+- Icy Wind
+- Stun Spore
+
+=== FRONTIER_MON_JIGGLYPUFF ===
+Wigglytuff @ Silk Scarf
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Sing
+- Disable
+- Wish
+- Secret Power
+
+=== FRONTIER_MON_TAILLOW ===
+Swellow @ Kings Rock
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Fly
+- Endeavor
+- Facade
+- Quick Attack
+
+=== FRONTIER_MON_WINGULL ===
+Pelipper @ Sitrus Berry
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Water Pulse
+- Aerial Ace
+- Stockpile
+- Swallow
+
+=== FRONTIER_MON_NIDORAN_M ===
+Nidoking @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Horn Drill
+- Double Kick
+- Body Slam
+- Counter
+
+=== FRONTIER_MON_NIDORAN_F ===
+Nidoqueen @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sludge Bomb
+- Double Kick
+- Body Slam
+- Counter
+
+=== FRONTIER_MON_KIRLIA ===
+Gardevoir @ Chesto Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Calm Mind
+- Double Team
+- Rest
+
+=== FRONTIER_MON_MAREEP ===
+Ampharos @ Cheri Berry
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Shock Wave
+- Flash
+- Reflect
+- Cotton Spore
+
+=== FRONTIER_MON_MEDITITE ===
+Medicham @ Mental Herb
+Nature: Naughty
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- High Jump Kick
+- Meditate
+- Swagger
+- Psych Up
+
+=== FRONTIER_MON_SLAKOTH ===
+Slaking @ Leftovers
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Yawn
+- Scratch
+- Encore
+- Counter
+
+=== FRONTIER_MON_PARAS ===
+Parasect @ Sitrus Berry
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Spore
+- Leech Life
+- Slash
+- Light Screen
+
+=== FRONTIER_MON_EKANS ===
+Arbok @ Poison Barb
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Acid
+- Dig
+- Screech
+- Torment
+
+=== FRONTIER_MON_DITTO ===
+Ditto @ Metal Powder
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Transform
+- None
+- None
+- None
+
+=== FRONTIER_MON_BARBOACH ===
+Whiscash @ Focus Band
+Nature: Bashful
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Magnitude
+- Water Pulse
+- Spark
+- Future Sight
+
+=== FRONTIER_MON_MEOWTH ===
+Persian @ Persim Berry
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slash
+- Bite
+- Screech
+- Fake Out
+
+=== FRONTIER_MON_PINECO ===
+Forretress @ Focus Band
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Self Destruct
+- Take Down
+- Reflect
+- Light Screen
+
+=== FRONTIER_MON_TRAPINCH ===
+Flygon @ Lax Incense
+Nature: Serious
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Toxic
+- Dig
+- Sandstorm
+- Sand Attack
+
+=== FRONTIER_MON_SPHEAL ===
+Walrein @ Never Melt Ice
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Ice Ball
+- Water Pulse
+- Hail
+- Mud Slap
+
+=== FRONTIER_MON_HORSEA ===
+Kingdra @ Petaya Berry
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Water Gun
+- Agility
+- Icy Wind
+- Twister
+
+=== FRONTIER_MON_SHROOMISH ===
+Breloom @ Miracle Seed
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Spore
+- Bullet Seed
+- Leech Seed
+- Headbutt
+
+=== FRONTIER_MON_SHUPPET ===
+Banette @ Rawst Berry
+Nature: Rash
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Will O Wisp
+- Night Shade
+- Grudge
+- Knock Off
+
+=== FRONTIER_MON_DUSKULL ===
+Dusknoir @ Persim Berry
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Skill Swap
+- Night Shade
+- Disable
+- Confuse Ray
+
+=== FRONTIER_MON_ELECTRIKE ===
+Manectric @ Cheri Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Spark
+- Thunder Wave
+- Roar
+- Quick Attack
+
+=== FRONTIER_MON_VULPIX ===
+Ninetales @ Rawst Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Will O Wisp
+- Confuse Ray
+- Fire Spin
+- Quick Attack
+
+=== FRONTIER_MON_PIKACHU ===
+Pikachu @ Light Ball
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Thunder Punch
+- Thunder Wave
+- Double Team
+- Quick Attack
+
+=== FRONTIER_MON_SANDSHREW ===
+Sandslash @ Soft Sand
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dig
+- Rock Tomb
+- Sandstorm
+- Sand Attack
+
+=== FRONTIER_MON_POLIWAG ===
+Poliwrath @ Mystic Water
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Icy Wind
+- Water Gun
+- Rain Dance
+
+=== FRONTIER_MON_BELLSPROUT ===
+Victreebel @ Sitrus Berry
+Nature: Lax
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Razor Leaf
+- Acid
+- Stun Spore
+- Wrap
+
+=== FRONTIER_MON_GEODUDE ===
+Golem @ Weakness Policy
+Nature: Brave
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Slide
+- Stomping Tantrum
+- Protect
+- Fire Punch
+
+=== FRONTIER_MON_DRATINI ===
+Dragonite @ Lum Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dragon Claw
+- Extreme Speed
+- Roost
+- Protect
+
+=== FRONTIER_MON_SNUBBULL ===
+Granbull @ Scope Lens
+Nature: Relaxed
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Charm
+- Swagger
+- Scary Face
+
+=== FRONTIER_MON_REMORAID ===
+Octillery @ Petaya Berry
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Bubble Beam
+- Aurora Beam
+- Psybeam
+- Protect
+
+=== FRONTIER_MON_LARVITAR ===
+Tyranitar @ Persim Berry
+Nature: Naughty
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thrash
+- Rock Slide
+- Dig
+- Dragon Dance
+
+=== FRONTIER_MON_BALTOY ===
+Claydol @ Persim Berry
+Nature: Naughty
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psybeam
+- Ancient Power
+- Light Screen
+- Mud Slap
+
+=== FRONTIER_MON_SNORUNT ===
+Glalie @ Persim Berry
+Nature: Brave
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Icy Wind
+- Headbutt
+- Leer
+- Bite
+
+=== FRONTIER_MON_BAGON ===
+Salamence @ Liechi Berry
+Nature: Naughty
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dragon Breath
+- Headbutt
+- Brick Break
+- Scary Face
+
+=== FRONTIER_MON_BELDUM ===
+Metagross @ Choice Band
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bullet Punch
+- Zen Headbutt
+- Meteor Mash
+- Take Down
+
+=== FRONTIER_MON_GULPIN ===
+Swalot @ Lax Incense
+Nature: Serious
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Toxic
+- Yawn
+- Pain Split
+- Attract
+
+=== FRONTIER_MON_VENONAT ===
+Venomoth @ Sitrus Berry
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psybeam
+- Supersonic
+- Stun Spore
+- Skill Swap
+
+=== FRONTIER_MON_MANKEY ===
+Annihilape @ Black Belt
+Nature: Naughty
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Karate Chop
+- Low Kick
+- Screech
+- Swagger
+
+=== FRONTIER_MON_MACHOP ===
+Machamp @ Scope Lens
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Seismic Toss
+- Revenge
+- Rock Tomb
+- Scary Face
+
+=== FRONTIER_MON_SHELLDER ===
+Cloyster @ Cheri Berry
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Icicle Spear
+- Supersonic
+- Clamp
+- Withdraw
+
+=== FRONTIER_MON_SMOOCHUM ===
+Jynx @ Bright Powder
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sweet Kiss
+- Sing
+- Mud Slap
+- Fake Out
+
+=== FRONTIER_MON_NUMEL ===
+Camerupt @ Lax Incense
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ember
+- Magnitude
+- Rock Tomb
+- Sandstorm
+
+=== FRONTIER_MON_CARVANHA ===
+Sharpedo @ Shell Bell
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Bite
+- Screech
+- Scary Face
+- Swagger
+
+=== FRONTIER_MON_CORPHISH ===
+Crawdaunt @ Mystic Water
+Nature: Brave
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Crabhammer
+- Water Pulse
+- Mud Slap
+- Protect
+
+=== FRONTIER_MON_CHARMANDER ===
+Charizard @ Sitrus Berry
+Nature: Timid
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Heat Wave
+- Air Slash
+- Will O Wisp
+- Protect
+
+=== FRONTIER_MON_CYNDAQUIL ===
+Typhlosion @ Sitrus Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Ember
+- Swift
+- Quick Attack
+- Smokescreen
+
+=== FRONTIER_MON_ABRA ===
+Alakazam @ Twisted Spoon
+Nature: Lonely
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Mimic
+- Metronome
+- Flash
+- Seismic Toss
+
+=== FRONTIER_MON_DODUO ===
+Dodrio @ Liechi Berry
+Nature: Lonely
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Fury Attack
+- Uproar
+- Mud Slap
+- Feint Attack
+
+=== FRONTIER_MON_GASTLY ===
+Gengar @ Lax Incense
+Nature: Lonely
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Dream Eater
+- Hypnosis
+- Night Shade
+- Confuse Ray
+
+=== FRONTIER_MON_SWABLU ===
+Altaria @ Mental Herb
+Nature: Lonely
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Take Down
+- Dream Eater
+- Sing
+- Attract
+
+=== FRONTIER_MON_TREECKO ===
+Sceptile @ Scope Lens
+Nature: Lonely
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Bullet Seed
+- Aerial Ace
+- Quick Attack
+- Double Team
+
+=== FRONTIER_MON_TORCHIC ===
+Blaziken @ Bright Powder
+Nature: Lonely
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Fire Spin
+- Quick Attack
+- Sand Attack
+- Double Team
+
+=== FRONTIER_MON_MUDKIP ===
+Swampert @ Focus Band
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Whirlpool
+- Endeavor
+- Mud Sport
+- Mud Slap
+
+=== FRONTIER_MON_SQUIRTLE ===
+Blastoise @ Sitrus Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Water Pulse
+- Bite
+- Withdraw
+- Protect
+
+=== FRONTIER_MON_TOTODILE ===
+Feraligatr @ Scope Lens
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Slash
+- Water Pulse
+- Screech
+- Icy Wind
+
+=== FRONTIER_MON_SLOWPOKE ===
+Slowbro @ Sitrus Berry
+Nature: Brave
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Confusion
+- Disable
+- Water Pulse
+- Yawn
+
+=== FRONTIER_MON_BULBASAUR ===
+Venusaur @ Bright Powder
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Razor Leaf
+- Sweet Scent
+- Sleep Powder
+- Light Screen
+
+=== FRONTIER_MON_CHIKORITA ===
+Meganium @ Bright Powder
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Secret Power
+- Bullet Seed
+- Mud Slap
+- Light Screen
+
+=== FRONTIER_MON_ODDISH ===
+Vileplume @ Pecha Berry
+Nature: Relaxed
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Acid
+- Stun Spore
+- Sweet Scent
+- Moonlight
+
+=== FRONTIER_MON_PSYDUCK ===
+Golduck @ Persim Berry
+Nature: Hasty
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Confusion
+- Fury Swipes
+- Aerial Ace
+- Disable
+
+=== FRONTIER_MON_CUBONE ===
+Marowak @ Soft Sand
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bone Club
+- Headbutt
+- Brick Break
+- Aerial Ace
+
+=== FRONTIER_MON_GOLDEEN ===
+Seaking @ Petaya Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Waterfall
+- Fury Attack
+- Agility
+- Psybeam
+
+=== FRONTIER_MON_NATU ===
+Xatu @ Twisted Spoon
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Night Shade
+- Future Sight
+- Confuse Ray
+- Flash
+
+=== FRONTIER_MON_CLEFAIRY ===
+Clefable @ Lax Incense
+Nature: Lonely
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Follow Me
+- Return
+- Encore
+- Sing
+
+=== FRONTIER_MON_MAGNEMITE ===
+Magnezone @ Rawst Berry
+Nature: Gentle
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Shock Wave
+- Supersonic
+- Metal Sound
+- Reflect
+
+=== FRONTIER_MON_SEEL ===
+Dewgong @ Aspear Berry
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Aurora Beam
+- Dive
+- Body Slam
+- Fake Out
+
+=== FRONTIER_MON_GRIMER ===
+Muk @ Pecha Berry
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Sludge
+- Rock Tomb
+- Acid Armor
+- Minimize
+
+=== FRONTIER_MON_KRABBY ===
+Kingler @ Focus Band
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crabhammer
+- Mud Shot
+- Flail
+- Knock Off
+
+=== FRONTIER_MON_EXEGGCUTE ===
+Exeggutor @ Persim Berry
+Nature: Naughty
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Confusion
+- Ancient Power
+- Leech Seed
+- Light Screen
+
+=== FRONTIER_MON_EEVEE ===
+Espeon @ Salac Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Charm
+- Attract
+- Psychic
+- Endure
+
+=== FRONTIER_MON_DROWZEE ===
+Hypno @ Sitrus Berry
+Nature: Quirky
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Confusion
+- Headbutt
+- Disable
+- Barrier
+
+=== FRONTIER_MON_VOLTORB ===
+Electrode @ Lax Incense
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Spark
+- Screech
+- Rollout
+- Light Screen
+
+=== FRONTIER_MON_CHINCHOU ===
+Lanturn @ Lax Incense
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Spark
+- Dive
+- Confuse Ray
+- Take Down
+
+=== FRONTIER_MON_TEDDIURSA ===
+Ursaluna @ Chesto Berry
+Nature: Relaxed
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Secret Power
+- Fake Tears
+- Feint Attack
+- Rest
+
+=== FRONTIER_MON_DELIBIRD ===
+Delibird @ Never Melt Ice
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Present
+- Ice Ball
+- Aerial Ace
+- Hail
+
+=== FRONTIER_MON_HOUNDOUR ===
+Houndoom @ Charcoal
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Crunch
+- Ember
+- Roar
+- Protect
+
+=== FRONTIER_MON_PHANPY ===
+Donphan @ Lax Incense
+Nature: Naughty
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rollout
+- Defense Curl
+- Rock Tomb
+- Sandstorm
+
+=== FRONTIER_MON_SPOINK ===
+Grumpig @ Sitrus Berry
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psywave
+- Bounce
+- Magic Coat
+- Confuse Ray
+
+=== FRONTIER_MON_ARON ===
+Aggron @ Persim Berry
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Metal Claw
+- Aerial Ace
+- Metal Sound
+- Roar
+
+=== FRONTIER_MON_LUVDISC ===
+Luvdisc @ Quick Claw
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Sweet Kiss
+- Attract
+- Dive
+- Rain Dance
+
+=== FRONTIER_MON_TENTACOOL ===
+Tentacruel @ Pecha Berry
+Nature: Hardy
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Bubble Beam
+- Acid
+- Barrier
+- Wrap
+
+=== FRONTIER_MON_CACNEA ===
+Cacturne @ Sitrus Berry
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Needle Arm
+- Feint Attack
+- Cotton Spore
+- Sand Attack
+
+=== FRONTIER_MON_UNOWN ===
+Unown @ Lax Incense
+Nature: Hardy
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Hidden Power
+- None
+- None
+- None
+
+=== FRONTIER_MON_KOFFING ===
+Weezing @ Poison Barb
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sludge
+- Smokescreen
+- Torment
+- Haze
+
+=== FRONTIER_MON_STARYU ===
+Starmie @ Shell Bell
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Bubble Beam
+- Minimize
+- Swift
+- Light Screen
+
+=== FRONTIER_MON_SKIPLOOM ===
+Jumpluff @ Persim Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Mega Drain
+- Confusion
+- Cotton Spore
+- Synthesis
+
+=== FRONTIER_MON_NUZLEAF ===
+Shiftry @ Sitrus Berry
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Extrasensory
+- Fake Out
+- Razor Wind
+- Feint Attack
+
+=== FRONTIER_MON_LOMBRE ===
+Ludicolo @ Lax Incense
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Pulse
+- Fake Out
+- Brick Break
+- Absorb
+
+=== FRONTIER_MON_VIBRAVA ===
+Flygon @ Cheri Berry
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dragon Breath
+- Dig
+- Screech
+- Rock Tomb
+
+=== FRONTIER_MON_RHYHORN ===
+Rhyperior @ Focus Band
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Blast
+- Dig
+- Scary Face
+- Roar
+
+=== FRONTIER_MON_CLAMPERL ===
+Clamperl @ Deep Sea Scale
+Nature: Docile
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Dive
+- Toxic
+- Iron Defense
+- Double Team
+
+=== FRONTIER_MON_PIDGEOTTO ===
+Pidgeot @ White Herb
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aerial Ace
+- Quick Attack
+- Feather Dance
+- Sand Attack
+
+=== FRONTIER_MON_GROWLITHE ===
+Arcanine @ Rawst Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Flame Wheel
+- Bite
+- Roar
+- Agility
+
+=== FRONTIER_MON_FARFETCHD ===
+Farfetchd @ Leek
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Slash
+- Knock Off
+- Swords Dance
+- Agility
+
+=== FRONTIER_MON_OMANYTE ===
+Omastar @ Sitrus Berry
+Nature: Quirky
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Mud Shot
+- Water Gun
+- Ancient Power
+- Tickle
+
+=== FRONTIER_MON_KABUTO ===
+Kabutops @ Sitrus Berry
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Mega Drain
+- Ancient Power
+- Sand Attack
+- Protect
+
+=== FRONTIER_MON_LILEEP ===
+Cradily @ Lax Incense
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ancient Power
+- Acid
+- Ingrain
+- Confuse Ray
+
+=== FRONTIER_MON_ANORITH ===
+Armaldo @ Scope Lens
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Metal Claw
+- Fury Cutter
+- Ancient Power
+- Water Gun
+
+=== FRONTIER_MON_AIPOM ===
+Ambipom @ Silk Scarf
+Nature: Relaxed
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Swipes
+- Sand Attack
+- Baton Pass
+- Agility
+
+=== FRONTIER_MON_ELEKID ===
+Electivire @ Cheri Berry
+Nature: Naive
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Thunder Punch
+- Quick Attack
+- Swift
+- Light Screen
+
+=== FRONTIER_MON_LOUDRED ===
+Exploud @ Focus Band
+Nature: Relaxed
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Stomp
+- Howl
+- Astonish
+- Supersonic
+
+=== FRONTIER_MON_SPINDA ===
+Spinda @ Sitrus Berry
+Nature: Relaxed
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dizzy Punch
+- Teeter Dance
+- Psybeam
+- Feint Attack
+
+=== FRONTIER_MON_NIDORINA ===
+Nidoqueen @ Focus Band
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Double Kick
+- Bite
+- Aerial Ace
+- Flatter
+
+=== FRONTIER_MON_NIDORINO ===
+Nidoking @ Focus Band
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Double Kick
+- Water Pulse
+- Mud Slap
+- Flatter
+
+=== FRONTIER_MON_FLAAFFY ===
+Ampharos @ Magnet
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Thunder
+- Rain Dance
+- Thunder Wave
+- Attract
+
+=== FRONTIER_MON_MAGBY ===
+Magmortar @ Rawst Berry
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 170 SpD / 0 Spe
+- Flamethrower
+- Smokescreen
+- Brick Break
+- Barrier
+
+=== FRONTIER_MON_NOSEPASS ===
+Probopass @ Hard Stone
+Nature: Sassy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Rock Slide
+- Shock Wave
+- Thunder Wave
+- Sandstorm
+
+=== FRONTIER_MON_CORSOLA ===
+Corsola @ Sitrus Berry
+Nature: Impish
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Bubble Beam
+- Mirror Coat
+- Attract
+- Ancient Power
+
+=== FRONTIER_MON_MAWILE ===
+Mawile @ Bright Powder
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Crunch
+- Fake Tears
+- Iron Defense
+- Baton Pass
+
+=== FRONTIER_MON_BUTTERFREE ===
+Butterfree @ Pecha Berry
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Silver Wind
+- Psybeam
+- Toxic
+- Whirlwind
+
+=== FRONTIER_MON_BEEDRILL ===
+Beedrill @ Scope Lens
+Nature: Naughty
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Twineedle
+- Pursuit
+- Endeavor
+- Agility
+
+=== FRONTIER_MON_POLIWHIRL ===
+Poliwrath @ Petaya Berry
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Water Pulse
+- Double Slap
+- Icy Wind
+- Rain Dance
+
+=== FRONTIER_MON_ONIX ===
+Steelix @ Sitrus Berry
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Rock Slide
+- Iron Tail
+- Dragon Breath
+- Sandstorm
+
+=== FRONTIER_MON_BEAUTIFLY ===
+Beautifly @ Mental Herb
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Silver Wind
+- Mega Drain
+- Attract
+- Whirlwind
+
+=== FRONTIER_MON_DUSTOX ===
+Dustox @ Silver Powder
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Silver Wind
+- Toxic
+- Psybeam
+- Whirlwind
+
+=== FRONTIER_MON_LEDIAN ===
+Ledian @ Focus Band
+Nature: Bashful
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Comet Punch
+- Baton Pass
+- Swords Dance
+- Agility
+
+=== FRONTIER_MON_ARIADOS ===
+Ariados @ Lax Incense
+Nature: Serious
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Signal Beam
+- Spider Web
+- Night Shade
+- Toxic
+
+=== FRONTIER_MON_YANMA ===
+Yanmega @ Lax Incense
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Signal Beam
+- Aerial Ace
+- Double Team
+- Detect
+
+=== FRONTIER_MON_DELCATTY_1 ===
+Delcatty @ Sitrus Berry
+Nature: Lonely
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Secret Power
+- Feint Attack
+- Double Team
+- Heal Bell
+
+=== FRONTIER_MON_SABLEYE_1 ===
+Sableye @ Black Glasses
+Nature: Lonely
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Feint Attack
+- Confuse Ray
+- Knock Off
+- Fake Out
+
+=== FRONTIER_MON_LICKITUNG_1 ===
+Lickitung @ Sitrus Berry
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slam
+- Brick Break
+- Lick
+- Mud Slap
+
+=== FRONTIER_MON_WEEPINBELL_1 ===
+Victreebel @ Scope Lens
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Razor Leaf
+- Acid
+- Wrap
+- Sweet Scent
+
+=== FRONTIER_MON_GRAVELER_1 ===
+Golem @ Assault Vest
+Nature: Adamant
+EVs: 0 HP / 100 Atk / 0 Def / 0 SpA / 156 SpD / 0 Spe
+- Rock Slide
+- Heavy Slam
+- Thunder Punch
+- Brick Break
+
+=== FRONTIER_MON_GLOOM_1 ===
+Vileplume @ Persim Berry
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Petal Dance
+- Acid
+- Stun Spore
+- Moonlight
+
+=== FRONTIER_MON_PORYGON_1 ===
+Porygon2 @ Eviolite
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psybeam
+- Icy Wind
+- Recycle
+- Agility
+
+=== FRONTIER_MON_KADABRA_1 ===
+Alakazam @ Twisted Spoon
+Nature: Impish
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Confusion
+- Role Play
+- Future Sight
+- Disable
+
+=== FRONTIER_MON_WAILMER_1 ===
+Wailord @ Lax Incense
+Nature: Docile
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Whirlpool
+- Rest
+- Defense Curl
+- Rollout
+
+=== FRONTIER_MON_ROSELIA_1 ===
+Roserade @ Pecha Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Magical Leaf
+- Toxic
+- Grass Whistle
+- Cotton Spore
+
+=== FRONTIER_MON_VOLBEAT_1 ===
+Volbeat @ Liechi Berry
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Silver Wind
+- Confuse Ray
+- Quick Attack
+- Helping Hand
+
+=== FRONTIER_MON_ILLUMISE_1 ===
+Illumise @ Liechi Berry
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Silver Wind
+- Wish
+- Quick Attack
+- Helping Hand
+
+=== FRONTIER_MON_IVYSAUR_1 ===
+Venusaur @ Persim Berry
+Nature: Gentle
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Petal Dance
+- Growth
+- Sweet Scent
+- Fury Cutter
+
+=== FRONTIER_MON_CHARMELEON_1 ===
+Charizard @ Life Orb
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
+- Flamethrower
+- Solar Beam
+- Hurricane
+- Protect
+
+=== FRONTIER_MON_WARTORTLE_1 ===
+Blastoise @ Focus Band
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Water Pulse
+- Bite
+- Mud Slap
+- Yawn
+
+=== FRONTIER_MON_PARASECT_1 ===
+Parasect @ Sitrus Berry
+Nature: Rash
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Slash
+- Psybeam
+- Stun Spore
+- Flash
+
+=== FRONTIER_MON_MACHOKE_1 ===
+Machamp @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Low Kick
+- Rock Tomb
+- Foresight
+- Scary Face
+
+=== FRONTIER_MON_HAUNTER_1 ===
+Gengar @ Persim Berry
+Nature: Rash
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shadow Punch
+- Confuse Ray
+- Spite
+- Grudge
+
+=== FRONTIER_MON_BAYLEEF_1 ===
+Meganium @ Bright Powder
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Razor Leaf
+- Toxic
+- Safeguard
+- Light Screen
+
+=== FRONTIER_MON_QUILAVA_1 ===
+Typhlosion @ Focus Band
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Flame Wheel
+- Fury Swipes
+- Swift
+- Smokescreen
+
+=== FRONTIER_MON_CROCONAW_1 ===
+Feraligatr @ Scope Lens
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Slash
+- Water Pulse
+- Bite
+- Scary Face
+
+=== FRONTIER_MON_TOGETIC_1 ===
+Togekiss @ Lax Incense
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Aerial Ace
+- Magical Leaf
+- Wish
+- Follow Me
+
+=== FRONTIER_MON_MURKROW_1 ===
+Murkrow @ Covert Cloak
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Tailwind
+- Foul Play
+- Torment
+- Taunt
+
+=== FRONTIER_MON_WOBBUFFET_1 ===
+Wobbuffet @ Focus Band
+Nature: Careful
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Counter
+- Mirror Coat
+- Charm
+- Safeguard
+
+=== FRONTIER_MON_PLUSLE_1 ===
+Plusle @ Petaya Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Spark
+- Fake Tears
+- Quick Attack
+- Helping Hand
+
+=== FRONTIER_MON_MINUN_1 ===
+Minun @ Salac Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Spark
+- Charm
+- Encore
+- Helping Hand
+
+=== FRONTIER_MON_GROVYLE_1 ===
+Sceptile @ Bright Powder
+Nature: Relaxed
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Cutter
+- Endeavor
+- Brick Break
+- Double Team
+
+=== FRONTIER_MON_COMBUSKEN_1 ===
+Blaziken @ Scope Lens
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Ember
+- Double Kick
+- Quick Attack
+- Sand Attack
+
+=== FRONTIER_MON_MARSHTOMP_1 ===
+Swampert @ Focus Band
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Mud Shot
+- Water Gun
+- Rock Tomb
+- Mud Slap
+
+=== FRONTIER_MON_PONYTA_1 ===
+Rapidash @ Rawst Berry
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fire Spin
+- Bounce
+- Quick Attack
+- Tail Whip
+
+=== FRONTIER_MON_AZUMARILL_1 ===
+Azumarill @ Sitrus Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Bubble Beam
+- Facade
+- Dig
+- Protect
+
+=== FRONTIER_MON_SUDOWOODO_1 ===
+Sudowoodo @ Hard Stone
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Rock Slide
+- Feint Attack
+- Sandstorm
+- Block
+
+=== FRONTIER_MON_MAGCARGO_1 ===
+Magcargo @ Lax Incense
+Nature: Gentle
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Rock Slide
+- Ember
+- Acid Armor
+- Sandstorm
+
+=== FRONTIER_MON_PUPITAR_1 ===
+Tyranitar @ Soft Sand
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Dig
+- Bite
+- Scary Face
+- Sandstorm
+
+=== FRONTIER_MON_SEALEO_1 ===
+Walrein @ Persim Berry
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Ice Ball
+- Hail
+- Snore
+- Rest
+
+=== FRONTIER_MON_RATICATE_1 ===
+Raticate @ Silk Scarf
+Nature: Naive
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 0 SpD / 0 Spe
+- Endeavor
+- Pursuit
+- Scary Face
+- Quick Attack
+
+=== FRONTIER_MON_MASQUERAIN_1 ===
+Masquerain @ Cheri Berry
+Nature: Relaxed
+EVs: 0 HP / 252 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Silver Wind
+- Aerial Ace
+- Icy Wind
+- Stun Spore
+
+=== FRONTIER_MON_FURRET_1 ===
+Furret @ Liechi Berry
+Nature: Serious
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Slam
+- Protect
+- Helping Hand
+- Follow Me
+
+=== FRONTIER_MON_DUNSPARCE_1 ===
+Dudunsparce @ Lax Incense
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Headbutt
+- Glare
+- Defense Curl
+- Rollout
+
+=== FRONTIER_MON_DRAGONAIR_1 ===
+Dragonite @ Weakness Policy
+Nature: Brave
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dragon Dance
+- Ice Punch
+- Fire Punch
+- Protect
+
+=== FRONTIER_MON_MIGHTYENA_1 ===
+Mightyena @ Mental Herb
+Nature: Timid
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Bite
+- Poison Fang
+- Taunt
+- Roar
+
+=== FRONTIER_MON_LINOONE_1 ===
+Linoone @ White Herb
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Secret Power
+- Sand Attack
+- Covet
+- Tickle
+
+=== FRONTIER_MON_CASTFORM_1 ===
+Castform_Normal @ Petaya Berry
+Nature: Hasty
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Ember
+- Water Pulse
+- Shock Wave
+- Icy Wind
+
+=== FRONTIER_MON_SHELGON_1 ===
+Salamence @ Cheri Berry
+Nature: Hardy
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 0 SpD / 170 Spe
+- Headbutt
+- Dragon Breath
+- Protect
+- Scary Face
+
+=== FRONTIER_MON_METANG_1 ===
+Metagross @ Focus Band
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Metal Claw
+- Confusion
+- Pursuit
+- Scary Face
+
+=== FRONTIER_MON_WIGGLYTUFF_1 ===
+Wigglytuff @ Silk Scarf
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Sing
+- Disable
+- Wish
+- Secret Power
+
+=== FRONTIER_MON_SUNFLORA_1 ===
+Sunflora @ Persim Berry
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Petal Dance
+- Ingrain
+- Leech Seed
+- Light Screen
+
+=== FRONTIER_MON_CHIMECHO_1 ===
+Chimecho @ Twisted Spoon
+Nature: Sassy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psywave
+- Take Down
+- Heal Bell
+- Safeguard
+
+=== FRONTIER_MON_GLIGAR_1 ===
+Gliscor @ Scope Lens
+Nature: Hasty
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Metal Claw
+- Dig
+- Aerial Ace
+- Quick Attack
+
+=== FRONTIER_MON_QWILFISH_1 ===
+Qwilfish @ Cheri Berry
+Nature: Impish
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 252 Spe
+- Bubble Beam
+- Pin Missile
+- Spikes
+- Minimize
+
+=== FRONTIER_MON_SNEASEL_1 ===
+Weavile @ Persim Berry
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Feint Attack
+- Fake Out
+- Icy Wind
+- Quick Attack
+
+=== FRONTIER_MON_PELIPPER_1 ===
+Pelipper @ Sitrus Berry
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Water Pulse
+- Aerial Ace
+- Stockpile
+- Swallow
+
+=== FRONTIER_MON_SWELLOW_1 ===
+Swellow @ Kings Rock
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Fly
+- Endeavor
+- Facade
+- Quick Attack
+
+=== FRONTIER_MON_LAIRON_1 ===
+Aggron @ Metal Coat
+Nature: Sassy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Metal Claw
+- Rock Tomb
+- Iron Defense
+- Protect
+
+=== FRONTIER_MON_TANGELA_1 ===
+Tangrowth @ Lax Incense
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Mega Drain
+- Slam
+- Toxic
+- Bind
+
+=== FRONTIER_MON_ARBOK_1 ===
+Arbok @ Persim Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Fang
+- Dig
+- Bite
+- Glare
+
+=== FRONTIER_MON_PERSIAN_1 ===
+Persian @ Silk Scarf
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Fake Out
+- Slash
+- Torment
+- Swagger
+
+=== FRONTIER_MON_SEADRA_1 ===
+Kingdra @ Mystic Water
+Nature: Sassy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Aurora Beam
+- Smokescreen
+- Water Gun
+- Rain Dance
+
+=== FRONTIER_MON_KECLEON_1 ===
+Kecleon @ Focus Band
+Nature: Naive
+EVs: 0 HP / 170 Atk / 170 Def / 0 SpA / 0 SpD / 0 Spe
+- Secret Power
+- Psybeam
+- Magic Coat
+- Seismic Toss
+
+=== FRONTIER_MON_VIGOROTH_1 ===
+Slaking @ Focus Band
+Nature: Lonely
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slash
+- Counter
+- Encore
+- Hyper Beam
+
+=== FRONTIER_MON_LUNATONE_1 ===
+Lunatone @ Sitrus Berry
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Confusion
+- Cosmic Power
+- Light Screen
+- Sandstorm
+
+=== FRONTIER_MON_SOLROCK_1 ===
+Solrock @ Sitrus Berry
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Confusion
+- Fire Spin
+- Light Screen
+- Sandstorm
+
+=== FRONTIER_MON_NOCTOWL_1 ===
+Noctowl @ Persim Berry
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Confusion
+- Aerial Ace
+- Feint Attack
+- Reflect
+
+=== FRONTIER_MON_SANDSLASH_1 ===
+Sandslash @ Sitrus Berry
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Crush Claw
+- Rock Slide
+- Swift
+- Sandstorm
+
+=== FRONTIER_MON_VENOMOTH_1 ===
+Venomoth @ Persim Berry
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Silver Wind
+- Psybeam
+- Sleep Powder
+- Skill Swap
+
+=== FRONTIER_MON_CHANSEY_1 ===
+Blissey @ Sitrus Berry
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Metronome
+- Refresh
+- Defense Curl
+- Minimize
+
+=== FRONTIER_MON_SEAKING_1 ===
+Seaking @ Sitrus Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Water Pulse
+- Psybeam
+- Swift
+- Agility
+
+=== FRONTIER_MON_JUMPLUFF_1 ===
+Jumpluff @ Lax Incense
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Aerial Ace
+- Swagger
+- Psych Up
+- Synthesis
+
+=== FRONTIER_MON_PILOSWINE_1 ===
+Mamoswine @ Soft Sand
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dig
+- Ancient Power
+- Hail
+- Light Screen
+
+=== FRONTIER_MON_GOLBAT_1 ===
+Crobat @ Scope Lens
+Nature: Relaxed
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Air Cutter
+- Confuse Ray
+- Toxic
+- Steel Wing
+
+=== FRONTIER_MON_PRIMEAPE_1 ===
+Annihilape @ Scope Lens
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Karate Chop
+- Counter
+- Swagger
+- Screech
+
+=== FRONTIER_MON_HITMONLEE_1 ===
+Hitmonlee @ Black Belt
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Rolling Kick
+- Brick Break
+- Focus Energy
+- Facade
+
+=== FRONTIER_MON_HITMONCHAN_1 ===
+Hitmonchan @ Kings Rock
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Mach Punch
+- Sky Uppercut
+- Detect
+- Counter
+
+=== FRONTIER_MON_GIRAFARIG_1 ===
+Farigiraf @ Petaya Berry
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psybeam
+- Stomp
+- Wish
+- Skill Swap
+
+=== FRONTIER_MON_HITMONTOP_1 ===
+Hitmontop @ Liechi Berry
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Triple Kick
+- Dig
+- Mach Punch
+- Quick Attack
+
+=== FRONTIER_MON_BANETTE_1 ===
+Banette @ Rawst Berry
+Nature: Sassy
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Night Shade
+- Will O Wisp
+- Spite
+- Knock Off
+
+=== FRONTIER_MON_NINJASK_1 ===
+Ninjask @ Petaya Berry
+Nature: Mild
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Baton Pass
+- Swords Dance
+- Endure
+- Dig
+
+=== FRONTIER_MON_SEVIPER_1 ===
+Seviper @ Scope Lens
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Tail
+- Bite
+- Glare
+- Screech
+
+=== FRONTIER_MON_ZANGOOSE_1 ===
+Zangoose @ Persim Berry
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slash
+- Double Kick
+- Roar
+- Quick Attack
+
+=== FRONTIER_MON_CAMERUPT_1 ===
+Camerupt @ Focus Band
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Magnitude
+- Protect
+- Sandstorm
+- Rock Slide
+
+=== FRONTIER_MON_SHARPEDO_1 ===
+Sharpedo @ Scope Lens
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Slash
+- Bite
+- Water Pulse
+- Scary Face
+
+=== FRONTIER_MON_TROPIUS_1 ===
+Tropius @ Sitrus Berry
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Magical Leaf
+- Whirlwind
+- Aerial Ace
+- Steel Wing
+
+=== FRONTIER_MON_MAGNETON_1 ===
+Magnezone @ Cheri Berry
+Nature: Lonely
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Shock Wave
+- Sonic Boom
+- Thunder Wave
+- Supersonic
+
+=== FRONTIER_MON_MANTINE_1 ===
+Mantine @ Mystic Water
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Bubble Beam
+- Aerial Ace
+- Rain Dance
+- Icy Wind
+
+=== FRONTIER_MON_STANTLER_1 ===
+Stantler @ Twisted Spoon
+Nature: Gentle
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Extrasensory
+- Confuse Ray
+- Stomp
+- Sand Attack
+
+=== FRONTIER_MON_ABSOL_1 ===
+Absol @ Bright Powder
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Razor Wind
+- Future Sight
+- Quick Attack
+
+=== FRONTIER_MON_SWALOT_1 ===
+Swalot @ Lax Incense
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Stockpile
+- Swallow
+- Spit Up
+- Sludge
+
+=== FRONTIER_MON_CRAWDAUNT_1 ===
+Crawdaunt @ Persim Berry
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Bubble Beam
+- Vise Grip
+- Knock Off
+- Protect
+
+=== FRONTIER_MON_PIDGEOT_1 ===
+Pidgeot @ Sharp Beak
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aerial Ace
+- Feather Dance
+- Mud Slap
+- Feint Attack
+
+=== FRONTIER_MON_GRUMPIG_1 ===
+Grumpig @ Petaya Berry
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psybeam
+- Confuse Ray
+- Future Sight
+- Magic Coat
+
+=== FRONTIER_MON_TORKOAL_1 ===
+Torkoal @ Sitrus Berry
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Ember
+- Fire Spin
+- Smokescreen
+- Amnesia
+
+=== FRONTIER_MON_KINGLER_1 ===
+Kingler @ Scope Lens
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Crabhammer
+- Metal Claw
+- Mud Shot
+- Protect
+
+=== FRONTIER_MON_CACTURNE_1 ===
+Cacturne @ Scope Lens
+Nature: Hasty
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Needle Arm
+- Feint Attack
+- Acid
+- Mega Punch
+
+=== FRONTIER_MON_BELLOSSOM_1 ===
+Bellossom @ Persim Berry
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Petal Dance
+- Safeguard
+- Sunny Day
+- Synthesis
+
+=== FRONTIER_MON_OCTILLERY_1 ===
+Octillery @ Shell Bell
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Octazooka
+- Aurora Beam
+- Psybeam
+- Rock Blast
+
+=== FRONTIER_MON_HUNTAIL_1 ===
+Huntail @ Persim Berry
+Nature: Quiet
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Whirlpool
+- Scary Face
+- Mud Slap
+- Bite
+
+=== FRONTIER_MON_GOREBYSS_1 ===
+Gorebyss @ Persim Berry
+Nature: Brave
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Whirlpool
+- Amnesia
+- Icy Wind
+- Confusion
+
+=== FRONTIER_MON_RELICANTH_1 ===
+Relicanth @ Liechi Berry
+Nature: Sassy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 170 SpD / 170 Spe
+- Ancient Power
+- Water Pulse
+- Harden
+- Amnesia
+
+=== FRONTIER_MON_OMASTAR_1 ===
+Omastar @ Shell Bell
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Bubble Beam
+- Spike Cannon
+- Tickle
+- Ancient Power
+
+=== FRONTIER_MON_KABUTOPS_1 ===
+Kabutops @ Scope Lens
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slash
+- Dig
+- Fury Cutter
+- Knock Off
+
+=== FRONTIER_MON_POLIWRATH_1 ===
+Poliwrath @ Black Belt
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Submission
+- Dig
+- Rock Tomb
+- Bubble Beam
+
+=== FRONTIER_MON_SCYTHER_1 ===
+Scizor @ Liechi Berry
+Nature: Relaxed
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Cutter
+- Aerial Ace
+- Bullet Punch
+- Double Team
+
+=== FRONTIER_MON_PINSIR_1 ===
+Pinsir @ Black Belt
+Nature: Naughty
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Submission
+- Focus Energy
+- Swords Dance
+- Revenge
+
+=== FRONTIER_MON_POLITOED_1 ===
+Politoed @ Shell Bell
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Dive
+- Dig
+- Hypnosis
+- Swagger
+
+=== FRONTIER_MON_CLOYSTER_1 ===
+Cloyster @ Never Melt Ice
+Nature: Sassy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Aurora Beam
+- Spike Cannon
+- Supersonic
+- Protect
+
+=== FRONTIER_MON_DELCATTY_2 ===
+Delcatty @ Quick Claw
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Fake Tears
+- Sing
+- Thunderbolt
+- Ice Beam
+
+=== FRONTIER_MON_SABLEYE_2 ===
+Sableye @ Lum Berry
+Nature: Quirky
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Shadow Ball
+- Feint Attack
+- Confuse Ray
+- Recover
+
+=== FRONTIER_MON_LICKITUNG_2 ===
+Lickitung @ Cheri Berry
+Nature: Adamant
+EVs: 0 HP / 170 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Earthquake
+- Body Slam
+- Shadow Ball
+- Rock Slide
+
+=== FRONTIER_MON_WEEPINBELL_2 ===
+Weepinbell @ Scope Lens
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Sludge Bomb
+- Razor Leaf
+- Sleep Powder
+- Reflect
+
+=== FRONTIER_MON_GRAVELER_2 ===
+Golem @ Focus Sash
+Nature: Jolly
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Rock Slide
+- Stone Edge
+- Protect
+- Fire Punch
+
+=== FRONTIER_MON_GLOOM_2 ===
+Vileplume @ Pecha Berry
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Solar Beam
+- Sunny Day
+- Sludge Bomb
+- Moonlight
+
+=== FRONTIER_MON_PORYGON_2 ===
+Porygon2 @ Cheri Berry
+Nature: Quiet
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Tri Attack
+- Psychic
+- Thunder Wave
+- Recover
+
+=== FRONTIER_MON_KADABRA_2 ===
+Alakazam @ Twisted Spoon
+Nature: Modest
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Thunder Wave
+- Reflect
+- Recover
+
+=== FRONTIER_MON_WAILMER_2 ===
+Wailord @ Chesto Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Water Spout
+- Earthquake
+- Body Slam
+- Rest
+
+=== FRONTIER_MON_ROSELIA_2 ===
+Roserade @ Quick Claw
+Nature: Docile
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Sludge Bomb
+- Grass Whistle
+- Synthesis
+
+=== FRONTIER_MON_VOLBEAT_2 ===
+Volbeat @ Petaya Berry
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Signal Beam
+- Thunderbolt
+- Ice Punch
+- Tail Glow
+
+=== FRONTIER_MON_ILLUMISE_2 ===
+Illumise @ Petaya Berry
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Silver Wind
+- Thunderbolt
+- Ice Punch
+- Giga Drain
+
+=== FRONTIER_MON_IVYSAUR_2 ===
+Venusaur @ Bright Powder
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Giga Drain
+- Sludge Bomb
+- Sleep Powder
+- Leech Seed
+
+=== FRONTIER_MON_CHARMELEON_2 ===
+Charizard @ Heavy Duty Boots
+Nature: Jolly
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Flare Blitz
+- Thunder Punch
+- Dragon Dance
+- Roost
+
+=== FRONTIER_MON_WARTORTLE_2 ===
+Blastoise @ Shell Bell
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Surf
+- Ice Beam
+- Rapid Spin
+- Protect
+
+=== FRONTIER_MON_PARASECT_2 ===
+Parasect @ Leftovers
+Nature: Calm
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Spore
+- Giga Drain
+- Dig
+- Double Team
+
+=== FRONTIER_MON_MACHOKE_2 ===
+Machamp @ Scope Lens
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cross Chop
+- Rock Slide
+- Foresight
+- Scary Face
+
+=== FRONTIER_MON_HAUNTER_2 ===
+Gengar @ Lum Berry
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Psychic
+- Hypnosis
+- Nightmare
+- Confuse Ray
+
+=== FRONTIER_MON_BAYLEEF_2 ===
+Meganium @ Chesto Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Giga Drain
+- Body Slam
+- Grass Whistle
+- Rest
+
+=== FRONTIER_MON_QUILAVA_2 ===
+Typhlosion @ Bright Powder
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Flamethrower
+- Crush Claw
+- Body Slam
+- Smokescreen
+
+=== FRONTIER_MON_CROCONAW_2 ===
+Feraligatr @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mega Kick
+- Aerial Ace
+- Rock Slide
+- Dig
+
+=== FRONTIER_MON_TOGETIC_2 ===
+Togekiss @ Scope Lens
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Return
+- Sweet Kiss
+- Aerial Ace
+- Yawn
+
+=== FRONTIER_MON_MURKROW_2 ===
+Murkrow @ Bright Powder
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Perish Song
+- Mean Look
+- Tailwind
+- Thunder Wave
+
+=== FRONTIER_MON_WOBBUFFET_2 ===
+Wobbuffet @ Focus Band
+Nature: Careful
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Counter
+- Mirror Coat
+- Encore
+- Destiny Bond
+
+=== FRONTIER_MON_PLUSLE_2 ===
+Plusle @ Petaya Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Thunder Wave
+- Seismic Toss
+- Wish
+
+=== FRONTIER_MON_MINUN_2 ===
+Minun @ Salac Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Attract
+- Charm
+- Wish
+
+=== FRONTIER_MON_GROVYLE_2 ===
+Sceptile @ Lum Berry
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Crush Claw
+- Screech
+- Rock Tomb
+
+=== FRONTIER_MON_COMBUSKEN_2 ===
+Blaziken @ Scope Lens
+Nature: Docile
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Flamethrower
+- Sky Uppercut
+- Slash
+- Sand Attack
+
+=== FRONTIER_MON_MARSHTOMP_2 ===
+Swampert @ Focus Band
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Muddy Water
+- Earthquake
+- Mud Slap
+- Protect
+
+=== FRONTIER_MON_PONYTA_2 ===
+Rapidash @ Sitrus Berry
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Flamethrower
+- Body Slam
+- Double Kick
+- Double Team
+
+=== FRONTIER_MON_AZUMARILL_2 ===
+Azumarill @ Shell Bell
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Mega Kick
+- Brick Break
+- Iron Tail
+- Dig
+
+=== FRONTIER_MON_SUDOWOODO_2 ===
+Sudowoodo @ Focus Band
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Mega Kick
+- Earthquake
+- Low Kick
+- Self Destruct
+
+=== FRONTIER_MON_MAGCARGO_2 ===
+Magcargo @ Quick Claw
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Overheat
+- Earthquake
+- Rock Slide
+- Body Slam
+
+=== FRONTIER_MON_PUPITAR_2 ===
+Tyranitar @ Scope Lens
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Rock Slide
+- Crunch
+- Scary Face
+
+=== FRONTIER_MON_SEALEO_2 ===
+Walrein @ Sitrus Berry
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Ice Beam
+- Surf
+- Body Slam
+- Hail
+
+=== FRONTIER_MON_RATICATE_2 ===
+Raticate @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Super Fang
+- Hyper Fang
+- Shadow Ball
+- Scary Face
+
+=== FRONTIER_MON_MASQUERAIN_2 ===
+Masquerain @ Lax Incense
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+- Hydro Pump
+- Ice Beam
+- Giga Drain
+- Stun Spore
+
+=== FRONTIER_MON_FURRET_2 ===
+Furret @ Choice Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Trick
+- Frustration
+- Shadow Ball
+- Follow Me
+
+=== FRONTIER_MON_DUNSPARCE_2 ===
+Dudunsparce @ Lax Incense
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Ice Beam
+- Rock Tomb
+- Bite
+- Shadow Ball
+
+=== FRONTIER_MON_DRAGONAIR_2 ===
+Dragonite @ Assault Vest
+Nature: Careful
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Dragon Claw
+- Extreme Speed
+- Thunder Punch
+- Brick Break
+
+=== FRONTIER_MON_MIGHTYENA_2 ===
+Mightyena @ Kings Rock
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+- Crunch
+- Shadow Ball
+- Psychic Fangs
+- Scary Face
+
+=== FRONTIER_MON_LINOONE_2 ===
+Linoone @ Choice Band
+Nature: Jolly
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Trick
+- Frustration
+- Thunder Wave
+- Sand Attack
+
+=== FRONTIER_MON_CASTFORM_2 ===
+Castform_Normal @ Lax Incense
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Flamethrower
+- Ice Beam
+- Water Pulse
+
+=== FRONTIER_MON_SHELGON_2 ===
+Salamence @ Focus Band
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Frustration
+- Dragon Dance
+- Crunch
+- Scary Face
+
+=== FRONTIER_MON_METANG_2 ===
+Metagross @ Focus Band
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Meteor Mash
+- Psychic
+- Body Slam
+- Scary Face
+
+=== FRONTIER_MON_WIGGLYTUFF_2 ===
+Wigglytuff @ Sitrus Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Fake Tears
+- Sing
+- Dream Eater
+- Brick Break
+
+=== FRONTIER_MON_SUNFLORA_2 ===
+Sunflora @ Leftovers
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Grass Whistle
+- Growth
+- Double Team
+
+=== FRONTIER_MON_CHIMECHO_2 ===
+Chimecho @ Twisted Spoon
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Psychic
+- Hypnosis
+- Dream Eater
+- Heal Bell
+
+=== FRONTIER_MON_GLIGAR_2 ===
+Gliscor @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Earthquake
+- Aerial Ace
+- Guillotine
+- Screech
+
+=== FRONTIER_MON_QWILFISH_2 ===
+Qwilfish @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Revenge
+- Sludge Bomb
+- Shadow Ball
+- Destiny Bond
+
+=== FRONTIER_MON_SNEASEL_2 ===
+Weavile @ Kings Rock
+Nature: Jolly
+EVs: 0 HP / 0 Atk / 170 Def / 170 SpA / 0 SpD / 0 Spe
+- Crush Claw
+- Brick Break
+- Aerial Ace
+- Screech
+
+=== FRONTIER_MON_PELIPPER_2 ===
+Pelipper @ Shell Bell
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Water Pulse
+- Blizzard
+- Aerial Ace
+- Protect
+
+=== FRONTIER_MON_SWELLOW_2 ===
+Swellow @ Kings Rock
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Facade
+- Aerial Ace
+- Pursuit
+- Double Team
+
+=== FRONTIER_MON_LAIRON_2 ===
+Aggron @ Sitrus Berry
+Nature: Sassy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Earthquake
+- Iron Tail
+- Roar
+- Protect
+
+=== FRONTIER_MON_TANGELA_2 ===
+Tangrowth @ Chesto Berry
+Nature: Calm
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Giga Drain
+- Stun Spore
+- Rest
+- Amnesia
+
+=== FRONTIER_MON_ARBOK_2 ===
+Arbok @ Lum Berry
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Sludge Bomb
+- Earthquake
+- Iron Tail
+- Glare
+
+=== FRONTIER_MON_PERSIAN_2 ===
+Persian @ Silk Scarf
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Frustration
+- Shadow Ball
+- Roar
+- Fake Out
+
+=== FRONTIER_MON_SEADRA_2 ===
+Kingdra @ Shell Bell
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Hydro Pump
+- Frustration
+- Dragon Breath
+- Dragon Dance
+
+=== FRONTIER_MON_KECLEON_2 ===
+Kecleon @ Choice Band
+Nature: Docile
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Trick
+- Brick Break
+- Shadow Ball
+- Skill Swap
+
+=== FRONTIER_MON_VIGOROTH_2 ===
+Slaking @ Salac Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Crush Claw
+- Reversal
+- Endure
+- Shadow Ball
+
+=== FRONTIER_MON_LUNATONE_2 ===
+Lunatone @ Lax Incense
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Ice Beam
+- Cosmic Power
+- Calm Mind
+
+=== FRONTIER_MON_SOLROCK_2 ===
+Solrock @ White Herb
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Earthquake
+- Rock Slide
+- Cosmic Power
+- Overheat
+
+=== FRONTIER_MON_NOCTOWL_2 ===
+Noctowl @ Persim Berry
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Feint Attack
+- Aerial Ace
+- Reflect
+
+=== FRONTIER_MON_SANDSLASH_2 ===
+Sandslash @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Earthquake
+- Rock Slide
+- Crush Claw
+- Sandstorm
+
+=== FRONTIER_MON_VENOMOTH_2 ===
+Venomoth @ Lum Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Signal Beam
+- Psychic
+- Sludge Bomb
+- Giga Drain
+
+=== FRONTIER_MON_CHANSEY_2 ===
+Blissey @ Leftovers
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Seismic Toss
+- Shadow Ball
+- Double Team
+- Soft Boiled
+
+=== FRONTIER_MON_SEAKING_2 ===
+Seaking @ Quick Claw
+Nature: Impish
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Horn Drill
+- Megahorn
+- Sleep Talk
+- Rest
+
+=== FRONTIER_MON_JUMPLUFF_2 ===
+Jumpluff @ Leftovers
+Nature: Bold
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Leech Seed
+- Sleep Powder
+- Giga Drain
+- Double Team
+
+=== FRONTIER_MON_PILOSWINE_2 ===
+Mamoswine @ Shell Bell
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Earthquake
+- Rock Slide
+- Body Slam
+- Roar
+
+=== FRONTIER_MON_GOLBAT_2 ===
+Crobat @ Scope Lens
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sludge Bomb
+- Shadow Ball
+- Confuse Ray
+- Air Cutter
+
+=== FRONTIER_MON_PRIMEAPE_2 ===
+Annihilape @ Scope Lens
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Cross Chop
+- Rock Tomb
+- Overheat
+- Bulk Up
+
+=== FRONTIER_MON_HITMONLEE_2 ===
+Hitmonlee @ Lax Incense
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Mega Kick
+- Brick Break
+- Foresight
+- Rock Tomb
+
+=== FRONTIER_MON_HITMONCHAN_2 ===
+Hitmonchan @ Kings Rock
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Dynamic Punch
+- Mach Punch
+- Detect
+- Counter
+
+=== FRONTIER_MON_GIRAFARIG_2 ===
+Farigiraf @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Psychic
+- Crunch
+- Baton Pass
+- Agility
+
+=== FRONTIER_MON_HITMONTOP_2 ===
+Hitmontop @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Double Edge
+- Seismic Toss
+- Rock Slide
+- Counter
+
+=== FRONTIER_MON_BANETTE_2 ===
+Banette @ Lax Incense
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Shadow Ball
+- Frustration
+- Screech
+- Will O Wisp
+
+=== FRONTIER_MON_NINJASK_2 ===
+Ninjask @ Focus Band
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Slash
+- Shadow Ball
+- Swords Dance
+- Baton Pass
+
+=== FRONTIER_MON_SEVIPER_2 ===
+Seviper @ Quick Claw
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Sludge Bomb
+- Earthquake
+- Crunch
+- Giga Drain
+
+=== FRONTIER_MON_ZANGOOSE_2 ===
+Zangoose @ Scope Lens
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Crush Claw
+- Shadow Ball
+- Brick Break
+- Aerial Ace
+
+=== FRONTIER_MON_CAMERUPT_2 ===
+Camerupt @ Lax Incense
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Earthquake
+- Eruption
+- Body Slam
+- Scary Face
+
+=== FRONTIER_MON_SHARPEDO_2 ===
+Sharpedo @ Scope Lens
+Nature: Quirky
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Double Edge
+- Crunch
+- Earthquake
+- Surf
+
+=== FRONTIER_MON_TROPIUS_2 ===
+Tropius @ Focus Band
+Nature: Quiet
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Solar Beam
+- Sunny Day
+- Synthesis
+- Body Slam
+
+=== FRONTIER_MON_MAGNETON_2 ===
+Magnezone @ Lum Berry
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Thunder
+- Rain Dance
+- Thunder Wave
+- Metal Sound
+
+=== FRONTIER_MON_MANTINE_2 ===
+Mantine @ Shell Bell
+Nature: Modest
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Surf
+- Ice Beam
+- Rain Dance
+- Confuse Ray
+
+=== FRONTIER_MON_STANTLER_2 ===
+Stantler @ Lax Incense
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Frustration
+- Shadow Ball
+- Thunder Wave
+- Confuse Ray
+
+=== FRONTIER_MON_ABSOL_2 ===
+Absol @ Choice Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Double Edge
+- Shadow Ball
+- Aerial Ace
+- Iron Tail
+
+=== FRONTIER_MON_SWALOT_2 ===
+Swalot @ Leftovers
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sludge Bomb
+- Shadow Ball
+- Body Slam
+- Counter
+
+=== FRONTIER_MON_CRAWDAUNT_2 ===
+Crawdaunt @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Guillotine
+- Frustration
+- Ancient Power
+- Aerial Ace
+
+=== FRONTIER_MON_PIDGEOT_2 ===
+Pidgeot @ Scope Lens
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Return
+- Aerial Ace
+- Steel Wing
+- Mud Slap
+
+=== FRONTIER_MON_GRUMPIG_2 ===
+Grumpig @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Ice Punch
+- Thunder Punch
+- Fire Punch
+
+=== FRONTIER_MON_TORKOAL_2 ===
+Torkoal @ White Herb
+Nature: Sassy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Overheat
+- Body Slam
+- Smokescreen
+- Protect
+
+=== FRONTIER_MON_KINGLER_2 ===
+Kingler @ Salac Berry
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Guillotine
+- Rock Tomb
+- Flail
+- Endure
+
+=== FRONTIER_MON_CACTURNE_2 ===
+Cacturne @ Persim Berry
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Mega Kick
+- Teeter Dance
+- Feint Attack
+- Sandstorm
+
+=== FRONTIER_MON_BELLOSSOM_2 ===
+Bellossom @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+- Solar Beam
+- Attract
+- Sunny Day
+- Synthesis
+
+=== FRONTIER_MON_OCTILLERY_2 ===
+Octillery @ Lax Incense
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Octazooka
+- Fire Blast
+- Thunder Wave
+- Mud Slap
+
+=== FRONTIER_MON_HUNTAIL_2 ===
+Huntail @ Shell Bell
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Surf
+- Rain Dance
+- Crunch
+- Body Slam
+
+=== FRONTIER_MON_GOREBYSS_2 ===
+Gorebyss @ Shell Bell
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Surf
+- Rain Dance
+- Psychic
+- Body Slam
+
+=== FRONTIER_MON_RELICANTH_2 ===
+Relicanth @ Chesto Berry
+Nature: Sassy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Earthquake
+- Rock Slide
+- Amnesia
+- Rest
+
+=== FRONTIER_MON_OMASTAR_2 ===
+Omastar @ Sitrus Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Hydro Pump
+- Rain Dance
+- Ice Beam
+- Protect
+
+=== FRONTIER_MON_KABUTOPS_2 ===
+Kabutops @ Salac Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Slash
+- Rock Slide
+- Flail
+- Endure
+
+=== FRONTIER_MON_POLIWRATH_2 ===
+Poliwrath @ Chesto Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Brick Break
+- Hypnosis
+- Rest
+- Belly Drum
+
+=== FRONTIER_MON_SCYTHER_2 ===
+Scizor @ Bright Powder
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Silver Wind
+- Aerial Ace
+- Swords Dance
+- Bullet Punch
+
+=== FRONTIER_MON_PINSIR_2 ===
+Pinsir @ Salac Berry
+Nature: Jolly
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Guillotine
+- Swords Dance
+- Flail
+- Endure
+
+=== FRONTIER_MON_POLITOED_2 ===
+Politoed @ Lax Incense
+Nature: Modest
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+- Surf
+- Psychic
+- Mud Slap
+- Swagger
+
+=== FRONTIER_MON_CLOYSTER_2 ===
+Cloyster @ Leftovers
+Nature: Careful
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Dive
+- Toxic
+- Double Team
+- Protect
+
+=== FRONTIER_MON_DUGTRIO_1 ===
+Dugtrio @ Soft Sand
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Tri Attack
+- Slash
+- Sand Tomb
+
+=== FRONTIER_MON_MEDICHAM_1 ===
+Medicham @ Focus Band
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Psychic
+- High Jump Kick
+- Calm Mind
+- Baton Pass
+
+=== FRONTIER_MON_MISDREAVUS_1 ===
+Mismagius @ Focus Band
+Nature: Impish
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Pain Split
+- Shadow Ball
+- Confuse Ray
+- Thunder Wave
+
+=== FRONTIER_MON_FEAROW_1 ===
+Fearow @ Sharp Beak
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Drill Peck
+- Tri Attack
+- Facade
+- Mud Slap
+
+=== FRONTIER_MON_GRANBULL_1 ===
+Granbull @ Cheri Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mega Kick
+- Smelling Salts
+- Thunder Wave
+- Roar
+
+=== FRONTIER_MON_JYNX_1 ===
+Jynx @ Shell Bell
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Ice Beam
+- Fake Out
+- Lovely Kiss
+- Attract
+
+=== FRONTIER_MON_DUSCLOPS_1 ===
+Dusknoir @ Leftovers
+Nature: Impish
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Will O Wisp
+- Seismic Toss
+- Pain Split
+- Confuse Ray
+
+=== FRONTIER_MON_DODRIO_1 ===
+Dodrio @ Chesto Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Drill Peck
+- Tri Attack
+- Sleep Talk
+- Rest
+
+=== FRONTIER_MON_MR_MIME_1 ===
+Mr_Rime @ Leftovers
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Magical Leaf
+- Fake Out
+- Reflect
+
+=== FRONTIER_MON_LANTURN_1 ===
+Lanturn @ Cheri Berry
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+- Surf
+- Confuse Ray
+- Attract
+- Thunder Wave
+
+=== FRONTIER_MON_BRELOOM_1 ===
+Breloom @ Kings Rock
+Nature: Jolly
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Sky Uppercut
+- Mach Punch
+- Headbutt
+- Counter
+
+=== FRONTIER_MON_FORRETRESS_1 ===
+Forretress @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Double Edge
+- Rock Slide
+- Light Screen
+- Spikes
+
+=== FRONTIER_MON_WHISCASH_1 ===
+Whiscash @ Chesto Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Rock Slide
+- Amnesia
+- Rest
+
+=== FRONTIER_MON_XATU_1 ===
+Xatu @ Sharp Beak
+Nature: Hardy
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Drill Peck
+- Night Shade
+- Wish
+- Future Sight
+
+=== FRONTIER_MON_SKARMORY_1 ===
+Skarmory @ Scope Lens
+Nature: Adamant
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 0 SpD / 170 Spe
+- Steel Wing
+- Air Cutter
+- Counter
+- Agility
+
+=== FRONTIER_MON_MAROWAK_1 ===
+Marowak @ Thick Club
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bonemerang
+- Rock Slide
+- Icy Wind
+- Headbutt
+
+=== FRONTIER_MON_QUAGSIRE_1 ===
+Quagsire @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Earthquake
+- Brick Break
+- Counter
+- Mud Slap
+
+=== FRONTIER_MON_CLEFABLE_1 ===
+Clefable @ Leftovers
+Nature: Brave
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Metronome
+- Double Team
+- Reflect
+- Follow Me
+
+=== FRONTIER_MON_HARIYAMA_1 ===
+Hariyama @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Cross Chop
+- Rock Slide
+- Counter
+- Fake Out
+
+=== FRONTIER_MON_RAICHU_1 ===
+Raichu @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 170 Def / 170 SpA / 170 SpD / 0 Spe
+- Thunderbolt
+- Quick Attack
+- Light Screen
+- Double Team
+
+=== FRONTIER_MON_DEWGONG_1 ===
+Dewgong @ Never Melt Ice
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Ice Beam
+- Icy Wind
+- Headbutt
+- Fake Out
+
+=== FRONTIER_MON_MANECTRIC_1 ===
+Manectric @ Magnet
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Flash
+- Quick Attack
+- Roar
+
+=== FRONTIER_MON_VILEPLUME_1 ===
+Vileplume @ Persim Berry
+Nature: Impish
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sludge Bomb
+- Petal Dance
+- Moonlight
+- Aromatherapy
+
+=== FRONTIER_MON_VICTREEBEL_1 ===
+Victreebel @ Sitrus Berry
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Giga Drain
+- Sleep Powder
+- Sweet Scent
+- Synthesis
+
+=== FRONTIER_MON_ELECTRODE_1 ===
+Electrode @ Focus Band
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Swift
+- Light Screen
+- Protect
+
+=== FRONTIER_MON_EXPLOUD_1 ===
+Exploud @ Chesto Berry
+Nature: Impish
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hyper Voice
+- Shadow Ball
+- Sleep Talk
+- Rest
+
+=== FRONTIER_MON_SHIFTRY_1 ===
+Shiftry @ Miracle Seed
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 170 SpD / 170 Spe
+- Giga Drain
+- Feint Attack
+- Quick Attack
+- Fake Out
+
+=== FRONTIER_MON_GLALIE_1 ===
+Glalie @ Petaya Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Ice Beam
+- Crunch
+- Hail
+- Protect
+
+=== FRONTIER_MON_LUDICOLO_1 ===
+Ludicolo @ Shell Bell
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 170 SpD / 0 Spe
+- Surf
+- Rain Dance
+- Thunder Punch
+- Fire Punch
+
+=== FRONTIER_MON_HYPNO_1 ===
+Hypno @ Twisted Spoon
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+- Thunder Punch
+- Fire Punch
+- Ice Punch
+- Hypnosis
+
+=== FRONTIER_MON_GOLEM_1 ===
+Golem @ Sitrus Berry
+Nature: Careful
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Rock Slide
+- Wide Guard
+- Thunder Wave
+- Body Press
+
+=== FRONTIER_MON_RHYDON_1 ===
+Rhydon @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 0 SpD / 170 Spe
+- Earthquake
+- Rock Tomb
+- Scary Face
+- Brick Break
+
+=== FRONTIER_MON_ALAKAZAM_1 ===
+Alakazam @ Focus Band
+Nature: Modest
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+- Thunder Punch
+- Fire Punch
+- Ice Punch
+- Thunder Wave
+
+=== FRONTIER_MON_WEEZING_1 ===
+Weezing @ Bright Powder
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sludge Bomb
+- Will O Wisp
+- Shadow Ball
+- Smokescreen
+
+=== FRONTIER_MON_KANGASKHAN_1 ===
+Kangaskhan @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dizzy Punch
+- Brick Break
+- Counter
+- Fake Out
+
+=== FRONTIER_MON_ELECTABUZZ_1 ===
+Electabuzz @ Eviolite
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 170 SpD / 0 Spe
+- Thunderbolt
+- Thunder Wave
+- Follow Me
+- Volt Switch
+
+=== FRONTIER_MON_TAUROS_1 ===
+Tauros @ Persim Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Thrash
+- Swagger
+- Facade
+
+=== FRONTIER_MON_SLOWBRO_1 ===
+Slowbro @ Shell Bell
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Surf
+- Rain Dance
+- Headbutt
+- Ice Punch
+
+=== FRONTIER_MON_SLOWKING_1 ===
+Slowking @ Leftovers
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Brick Break
+- Amnesia
+- Attract
+
+=== FRONTIER_MON_MILTANK_1 ===
+Miltank @ Focus Band
+Nature: Careful
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Facade
+- Shadow Ball
+- Counter
+- Milk Drink
+
+=== FRONTIER_MON_ALTARIA_1 ===
+Altaria @ Cheri Berry
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dragon Claw
+- Aerial Ace
+- Refresh
+- Body Slam
+
+=== FRONTIER_MON_NIDOQUEEN_1 ===
+Nidoqueen @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sludge Bomb
+- Double Kick
+- Body Slam
+- Counter
+
+=== FRONTIER_MON_NIDOKING_1 ===
+Nidoking @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Horn Drill
+- Double Kick
+- Body Slam
+- Counter
+
+=== FRONTIER_MON_MAGMAR_1 ===
+Magmortar @ Rawst Berry
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 170 SpD / 0 Spe
+- Flamethrower
+- Smokescreen
+- Brick Break
+- Barrier
+
+=== FRONTIER_MON_CRADILY_1 ===
+Cradily @ Leftovers
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Giga Drain
+- Rock Slide
+- Barrier
+- Confuse Ray
+
+=== FRONTIER_MON_ARMALDO_1 ===
+Armaldo @ Scope Lens
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slash
+- Aerial Ace
+- Ancient Power
+- Protect
+
+=== FRONTIER_MON_GOLDUCK_1 ===
+Golduck @ Shell Bell
+Nature: Quiet
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Hydro Pump
+- Dig
+- Brick Break
+- Light Screen
+
+=== FRONTIER_MON_RAPIDASH_1 ===
+Rapidash @ Charcoal
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Flamethrower
+- Double Kick
+- Quick Attack
+- Protect
+
+=== FRONTIER_MON_MUK_1 ===
+Muk @ Poison Barb
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sludge Bomb
+- Body Slam
+- Screech
+- Minimize
+
+=== FRONTIER_MON_GENGAR_1 ===
+Gengar @ Leftovers
+Nature: Timid
+EVs: 0 HP / 0 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Dream Eater
+- Hypnosis
+- Confuse Ray
+- Attract
+
+=== FRONTIER_MON_AMPHAROS_1 ===
+Ampharos @ Magnet
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Thunder
+- Rain Dance
+- Thunder Wave
+- Attract
+
+=== FRONTIER_MON_SCIZOR_1 ===
+Scizor @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Metal Claw
+- Aerial Ace
+- Counter
+- Quick Attack
+
+=== FRONTIER_MON_HERACROSS_1 ===
+Heracross @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Megahorn
+- Brick Break
+- Rock Tomb
+- Counter
+
+=== FRONTIER_MON_URSARING_1 ===
+Ursaring @ Quick Claw
+Nature: Docile
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Mega Kick
+- Crunch
+- Aerial Ace
+- Counter
+
+=== FRONTIER_MON_HOUNDOOM_1 ===
+Houndoom @ Focus Band
+Nature: Quirky
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Flamethrower
+- Shadow Ball
+- Counter
+- Will O Wisp
+
+=== FRONTIER_MON_DONPHAN_1 ===
+Donphan @ Chesto Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Ancient Power
+- Swagger
+- Rest
+
+=== FRONTIER_MON_CLAYDOL_1 ===
+Claydol @ Lum Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Rock Slide
+- Swagger
+- Psych Up
+
+=== FRONTIER_MON_WAILORD_1 ===
+Wailord @ Shell Bell
+Nature: Sassy
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Surf
+- Icy Wind
+- Body Slam
+- Roar
+
+=== FRONTIER_MON_NINETALES_1 ===
+Ninetales @ Rawst Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Flamethrower
+- Roar
+- Confuse Ray
+- Will O Wisp
+
+=== FRONTIER_MON_MACHAMP_1 ===
+Machamp @ Scope Lens
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cross Chop
+- Rock Slide
+- Counter
+- Scary Face
+
+=== FRONTIER_MON_SHUCKLE_1 ===
+Shuckle @ Chesto Berry
+Nature: Brave
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Rollout
+- Defense Curl
+- Sleep Talk
+- Rest
+
+=== FRONTIER_MON_STEELIX_1 ===
+Steelix @ Sitrus Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Earthquake
+- Dragon Breath
+- Rock Tomb
+- Roar
+
+=== FRONTIER_MON_TENTACRUEL_1 ===
+Tentacruel @ Persim Berry
+Nature: Impish
+EVs: 0 HP / 252 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Sludge Bomb
+- Icy Wind
+- Barrier
+- Confuse Ray
+
+=== FRONTIER_MON_AERODACTYL_1 ===
+Aerodactyl @ Kings Rock
+Nature: Adamant
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 0 SpD / 0 Spe
+- Ancient Power
+- Dragon Breath
+- Aerial Ace
+- Roar
+
+=== FRONTIER_MON_PORYGON2_1 ===
+Porygon_Z @ Leftovers
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tri Attack
+- Aerial Ace
+- Shadow Ball
+- Recover
+
+=== FRONTIER_MON_GARDEVOIR_1 ===
+Gardevoir @ Leftovers
+Nature: Timid
+EVs: 0 HP / 0 Atk / 170 Def / 170 SpA / 0 SpD / 0 Spe
+- Dream Eater
+- Hypnosis
+- Magical Leaf
+- Reflect
+
+=== FRONTIER_MON_EXEGGUTOR_1 ===
+Exeggutor @ Quick Claw
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Solar Beam
+- Sunny Day
+- Synthesis
+- Light Screen
+
+=== FRONTIER_MON_STARMIE_1 ===
+Starmie @ Shell Bell
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Confuse Ray
+- Thunder Wave
+- Recover
+
+=== FRONTIER_MON_FLYGON_1 ===
+Flygon @ Bright Powder
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Steel Wing
+- Feint Attack
+- Facade
+
+=== FRONTIER_MON_VENUSAUR_1 ===
+Venusaur @ Chesto Berry
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Giga Drain
+- Sunny Day
+- Synthesis
+- Sleep Powder
+
+=== FRONTIER_MON_VAPOREON_1 ===
+Vaporeon @ Mystic Water
+Nature: Modest
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 170 SpD / 170 Spe
+- Surf
+- Roar
+- Bite
+- Quick Attack
+
+=== FRONTIER_MON_JOLTEON_1 ===
+Jolteon @ Cheri Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Thunder Wave
+- Attract
+- Protect
+
+=== FRONTIER_MON_FLAREON_1 ===
+Flareon @ Sitrus Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+- Flamethrower
+- Roar
+- Bite
+- Sand Attack
+
+=== FRONTIER_MON_MEGANIUM_1 ===
+Meganium @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Solar Beam
+- Sunny Day
+- Light Screen
+- Synthesis
+
+=== FRONTIER_MON_ESPEON_1 ===
+Espeon @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 170 Def / 170 SpA / 0 SpD / 170 Spe
+- Psychic
+- Charm
+- Calm Mind
+- Baton Pass
+
+=== FRONTIER_MON_UMBREON_1 ===
+Umbreon @ Bright Powder
+Nature: Bold
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Confuse Ray
+- Feint Attack
+- Double Team
+- Baton Pass
+
+=== FRONTIER_MON_BLASTOISE_1 ===
+Blastoise @ Shell Bell
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Hydro Pump
+- Rain Dance
+- Bite
+- Seismic Toss
+
+=== FRONTIER_MON_FERALIGATR_1 ===
+Feraligatr @ Lum Berry
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 170 SpD / 170 Spe
+- Surf
+- Rain Dance
+- Aerial Ace
+- Roar
+
+=== FRONTIER_MON_AGGRON_1 ===
+Aggron @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Iron Tail
+- Earthquake
+- Aerial Ace
+- Roar
+
+=== FRONTIER_MON_BLAZIKEN_1 ===
+Blaziken @ Quick Claw
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Flamethrower
+- Sunny Day
+- Double Kick
+- Roar
+
+=== FRONTIER_MON_WALREIN_1 ===
+Walrein @ Leftovers
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Blizzard
+- Hail
+- Yawn
+- Protect
+
+=== FRONTIER_MON_SCEPTILE_1 ===
+Sceptile @ Leftovers
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Leaf Blade
+- Leech Seed
+- Aerial Ace
+- Detect
+
+=== FRONTIER_MON_CHARIZARD_1 ===
+Charizard @ Choice Specs
+Nature: Timid
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
+- Fire Blast
+- Dragon Pulse
+- Focus Blast
+- Hurricane
+
+=== FRONTIER_MON_TYPHLOSION_1 ===
+Typhlosion @ Focus Band
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Fire Blast
+- Sunny Day
+- Smokescreen
+- Roar
+
+=== FRONTIER_MON_LAPRAS_1 ===
+Lapras @ Leftovers
+Nature: Bold
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Surf
+- Attract
+- Confuse Ray
+- Sing
+
+=== FRONTIER_MON_CROBAT_1 ===
+Crobat @ Kings Rock
+Nature: Quirky
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Sludge Bomb
+- Bite
+- Astonish
+- Screech
+
+=== FRONTIER_MON_SWAMPERT_1 ===
+Swampert @ Lum Berry
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Earthquake
+- Counter
+- Rest
+- Curse
+
+=== FRONTIER_MON_GYARADOS_1 ===
+Gyarados @ Lum Berry
+Nature: Careful
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Return
+- Bite
+- Thunder Wave
+- Dragon Dance
+
+=== FRONTIER_MON_SNORLAX_1 ===
+Snorlax @ Leftovers
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Facade
+- Shadow Ball
+- Attract
+- Double Team
+
+=== FRONTIER_MON_KINGDRA_1 ===
+Kingdra @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Hydro Pump
+- Dragon Breath
+- Icy Wind
+- Attract
+
+=== FRONTIER_MON_BLISSEY_1 ===
+Blissey @ Bright Powder
+Nature: Bold
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Toxic
+- Double Team
+- Sing
+- Soft Boiled
+
+=== FRONTIER_MON_MILOTIC_1 ===
+Milotic @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 170 SpD / 0 Spe
+- Hydro Pump
+- Icy Wind
+- Recover
+- Mirror Coat
+
+=== FRONTIER_MON_ARCANINE_1 ===
+Arcanine @ Kings Rock
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- Extreme Speed
+- Crunch
+- Body Slam
+
+=== FRONTIER_MON_SALAMENCE_1 ===
+Salamence @ Kings Rock
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Dragon Claw
+- Aerial Ace
+- Headbutt
+- Rock Slide
+
+=== FRONTIER_MON_METAGROSS_1 ===
+Metagross @ Leftovers
+Nature: Adamant
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 0 SpD / 170 Spe
+- Meteor Mash
+- Aerial Ace
+- Facade
+- Light Screen
+
+=== FRONTIER_MON_SLAKING_1 ===
+Slaking @ Scope Lens
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Yawn
+- Bulk Up
+- Swagger
+- Aerial Ace
+
+=== FRONTIER_MON_DUGTRIO_2 ===
+Dugtrio @ Kings Rock
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Ancient Power
+- Aerial Ace
+- Tri Attack
+
+=== FRONTIER_MON_MEDICHAM_2 ===
+Medicham @ Salac Berry
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Reversal
+- Endure
+- Psychic
+- Fake Out
+
+=== FRONTIER_MON_MAROWAK_2 ===
+Marowak @ Thick Club
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Icy Wind
+
+=== FRONTIER_MON_QUAGSIRE_2 ===
+Quagsire @ Leftovers
+Nature: Sassy
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Curse
+- Attract
+- Yawn
+- Ancient Power
+
+=== FRONTIER_MON_MISDREAVUS_2 ===
+Mismagius @ Leftovers
+Nature: Bold
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Attract
+- Thunder Wave
+- Confuse Ray
+
+=== FRONTIER_MON_FEAROW_2 ===
+Fearow @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Drill Peck
+- Tri Attack
+- Attract
+- Pursuit
+
+=== FRONTIER_MON_GRANBULL_2 ===
+Granbull @ White Herb
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 252 Spe
+- Overheat
+- Thunderbolt
+- Ice Punch
+- Facade
+
+=== FRONTIER_MON_JYNX_2 ===
+Jynx @ Bright Powder
+Nature: Impish
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Perish Song
+- Mean Look
+- Lovely Kiss
+- Protect
+
+=== FRONTIER_MON_DUSCLOPS_2 ===
+Dusknoir @ Leftovers
+Nature: Impish
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Toxic
+- Confuse Ray
+- Double Team
+- Protect
+
+=== FRONTIER_MON_DODRIO_2 ===
+Dodrio @ Kings Rock
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Drill Peck
+- Double Edge
+- Feint Attack
+- Protect
+
+=== FRONTIER_MON_MR_MIME_2 ===
+Mr_Rime @ Liechi Berry
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Baton Pass
+- Swagger
+- Psych Up
+- Psychic
+
+=== FRONTIER_MON_LANTURN_2 ===
+Lanturn @ Salac Berry
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Flail
+- Endure
+- Thunderbolt
+- Surf
+
+=== FRONTIER_MON_BRELOOM_2 ===
+Breloom @ Bright Powder
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Giga Drain
+- Leech Seed
+- Focus Punch
+- Spore
+
+=== FRONTIER_MON_FORRETRESS_2 ===
+Forretress @ Lum Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Earthquake
+- Double Edge
+- Counter
+- Protect
+
+=== FRONTIER_MON_SKARMORY_2 ===
+Skarmory @ Bright Powder
+Nature: Careful
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 0 SpD / 170 Spe
+- Spikes
+- Roar
+- Drill Peck
+- Toxic
+
+=== FRONTIER_MON_WHISCASH_2 ===
+Whiscash @ Shell Bell
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Surf
+- Earthquake
+- Spark
+- Future Sight
+
+=== FRONTIER_MON_XATU_2 ===
+Xatu @ Leftovers
+Nature: Impish
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Fly
+- Toxic
+- Confuse Ray
+- Attract
+
+=== FRONTIER_MON_CLEFABLE_2 ===
+Clefable @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Meteor Mash
+- Cosmic Power
+- Double Team
+- Follow Me
+
+=== FRONTIER_MON_HARIYAMA_2 ===
+Hariyama @ Quick Claw
+Nature: Quiet
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Cross Chop
+- Fire Punch
+- Ice Punch
+- Thunder Punch
+
+=== FRONTIER_MON_RAICHU_2 ===
+Raichu @ Lum Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Thunderbolt
+- Reversal
+- Endure
+- Agility
+
+=== FRONTIER_MON_DEWGONG_2 ===
+Dewgong @ Shell Bell
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Blizzard
+- Double Edge
+- Encore
+- Disable
+
+=== FRONTIER_MON_MANECTRIC_2 ===
+Manectric @ Petaya Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Thunder
+- Rain Dance
+- Crunch
+- Roar
+
+=== FRONTIER_MON_VILEPLUME_2 ===
+Vileplume @ Bright Powder
+Nature: Bold
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Ingrain
+- Double Team
+- Toxic
+- Giga Drain
+
+=== FRONTIER_MON_VICTREEBEL_2 ===
+Victreebel @ Leftovers
+Nature: Serious
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Giga Drain
+- Sludge Bomb
+- Sleep Powder
+- Attract
+
+=== FRONTIER_MON_ELECTRODE_2 ===
+Electrode @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Thunder
+- Rain Dance
+- Double Team
+- Swagger
+
+=== FRONTIER_MON_EXPLOUD_2 ===
+Exploud @ Focus Band
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Solar Beam
+- Sunny Day
+- Earthquake
+- Counter
+
+=== FRONTIER_MON_SHIFTRY_2 ===
+Shiftry @ Chesto Berry
+Nature: Impish
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Leech Seed
+- Dig
+- Double Team
+- Rest
+
+=== FRONTIER_MON_GLALIE_2 ===
+Glalie @ Salac Berry
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Explosion
+- Endure
+- Body Slam
+- Icy Wind
+
+=== FRONTIER_MON_LUDICOLO_2 ===
+Ludicolo @ Shell Bell
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Surf
+- Ice Beam
+- Thunder Punch
+- Fire Punch
+
+=== FRONTIER_MON_HYPNO_2 ===
+Hypno @ Twisted Spoon
+Nature: Modest
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Hypnosis
+- Nightmare
+- Dream Eater
+- Psychic
+
+=== FRONTIER_MON_GOLEM_2 ===
+Golem @ Choice Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 140 Spe
+- Rock Slide
+- Stomping Tantrum
+- Fire Punch
+- Iron Head
+
+=== FRONTIER_MON_RHYDON_2 ===
+Rhyperior @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Earthquake
+- Horn Drill
+- Rock Slide
+- Brick Break
+
+=== FRONTIER_MON_ALAKAZAM_2 ===
+Alakazam @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Calm Mind
+- Thunder Wave
+- Recover
+
+=== FRONTIER_MON_WEEZING_2 ===
+Weezing @ Sitrus Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Memento
+- Sludge Bomb
+- Facade
+- Destiny Bond
+
+=== FRONTIER_MON_KANGASKHAN_2 ===
+Kangaskhan @ Lum Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crush Claw
+- Shadow Ball
+- Attract
+- Rest
+
+=== FRONTIER_MON_ELECTABUZZ_2 ===
+Electabuzz @ Leftovers
+Nature: Quirky
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Thunder
+- Rain Dance
+- Attract
+- Focus Punch
+
+=== FRONTIER_MON_TAUROS_2 ===
+Tauros @ Chesto Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Double Edge
+- Earthquake
+- Double Team
+- Rest
+
+=== FRONTIER_MON_SLOWBRO_2 ===
+Slowbro @ Leftovers
+Nature: Modest
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Surf
+- Ice Beam
+- Calm Mind
+- Yawn
+
+=== FRONTIER_MON_SLOWKING_2 ===
+Slowking @ Shell Bell
+Nature: Modest
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+- Yawn
+- Thunder Wave
+- Surf
+- Psychic
+
+=== FRONTIER_MON_MILTANK_2 ===
+Miltank @ Leftovers
+Nature: Careful
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 0 SpD / 170 Spe
+- Focus Punch
+- Shadow Ball
+- Attract
+- Thunder Wave
+
+=== FRONTIER_MON_ALTARIA_2 ===
+Altaria @ Leftovers
+Nature: Bold
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Perish Song
+- Dragon Breath
+- Pursuit
+- Attract
+
+=== FRONTIER_MON_NIDOQUEEN_2 ===
+Nidoqueen @ Shell Bell
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Double Edge
+- Earthquake
+- Aerial Ace
+- Rock Slide
+
+=== FRONTIER_MON_NIDOKING_2 ===
+Nidoking @ Shell Bell
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mega Kick
+- Earthquake
+- Shadow Ball
+- Brick Break
+
+=== FRONTIER_MON_MAGMAR_2 ===
+Magmar @ Quick Claw
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Fire Blast
+- Smokescreen
+- Thunder Punch
+- Confuse Ray
+
+=== FRONTIER_MON_CRADILY_2 ===
+Cradily @ Sitrus Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Ancient Power
+- Swagger
+- Psych Up
+
+=== FRONTIER_MON_ARMALDO_2 ===
+Armaldo @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Iron Tail
+- Ancient Power
+- Brick Break
+- Knock Off
+
+=== FRONTIER_MON_GOLDUCK_2 ===
+Golduck @ Lum Berry
+Nature: Quirky
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Cross Chop
+- Surf
+- Swagger
+- Psych Up
+
+=== FRONTIER_MON_RAPIDASH_2 ===
+Rapidash @ Leftovers
+Nature: Docile
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Fire Blast
+- Bounce
+- Double Team
+- Attract
+
+=== FRONTIER_MON_MUK_2 ===
+Muk @ Chesto Berry
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Curse
+- Rest
+- Sludge Bomb
+- Dynamic Punch
+
+=== FRONTIER_MON_GENGAR_2 ===
+Gengar @ Leftovers
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Sludge Bomb
+- Shadow Ball
+- Confuse Ray
+- Will O Wisp
+
+=== FRONTIER_MON_AMPHAROS_2 ===
+Ampharos @ Bright Powder
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Thunder Punch
+- Fire Punch
+- Focus Punch
+- Thunder Wave
+
+=== FRONTIER_MON_SCIZOR_2 ===
+Scizor @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Silver Wind
+- Steel Wing
+- Swords Dance
+- Light Screen
+
+=== FRONTIER_MON_HERACROSS_2 ===
+Heracross @ Lum Berry
+Nature: Jolly
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Megahorn
+- Earthquake
+- Attract
+- Bulk Up
+
+=== FRONTIER_MON_URSARING_2 ===
+Ursaring @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Double Edge
+- Earthquake
+- Brick Break
+- Counter
+
+=== FRONTIER_MON_HOUNDOOM_2 ===
+Houndoom @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Fire Blast
+- Crunch
+- Roar
+- Rest
+
+=== FRONTIER_MON_DONPHAN_2 ===
+Donphan @ Quick Claw
+Nature: Jolly
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Flail
+- Endure
+- Earthquake
+- Rock Tomb
+
+=== FRONTIER_MON_CLAYDOL_2 ===
+Claydol @ Leftovers
+Nature: Calm
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Psychic
+- Earthquake
+- Double Team
+- Cosmic Power
+
+=== FRONTIER_MON_WAILORD_2 ===
+Wailord @ Chesto Berry
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Double Edge
+- Rest
+- Curse
+- Amnesia
+
+=== FRONTIER_MON_NINETALES_2 ===
+Ninetales @ Lum Berry
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Heat Wave
+- Body Slam
+- Grudge
+- Sunny Day
+
+=== FRONTIER_MON_MACHAMP_2 ===
+Machamp @ Chesto Berry
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Cross Chop
+- Earthquake
+- Bulk Up
+- Rest
+
+=== FRONTIER_MON_SHUCKLE_2 ===
+Shuckle @ Leftovers
+Nature: Careful
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Sandstorm
+- Dig
+- Flash
+- Double Team
+
+=== FRONTIER_MON_STEELIX_2 ===
+Steelix @ Leftovers
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Earthquake
+- Dragon Breath
+- Sandstorm
+- Block
+
+=== FRONTIER_MON_TENTACRUEL_2 ===
+Tentacruel @ Leftovers
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 170 SpD / 0 Spe
+- Toxic
+- Giga Drain
+- Confuse Ray
+- Surf
+
+=== FRONTIER_MON_AERODACTYL_2 ===
+Aerodactyl @ Choice Band
+Nature: Adamant
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 0 SpD / 0 Spe
+- Hyper Beam
+- Earthquake
+- Aerial Ace
+- Ancient Power
+
+=== FRONTIER_MON_PORYGON2_2 ===
+Porygon_Z @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Solar Beam
+- Sunny Day
+- Thunder Wave
+- Recover
+
+=== FRONTIER_MON_GARDEVOIR_2 ===
+Gardevoir @ Chesto Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Calm Mind
+- Double Team
+- Rest
+
+=== FRONTIER_MON_EXEGGUTOR_2 ===
+Exeggutor @ Chesto Berry
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Return
+- Curse
+- Sleep Powder
+- Rest
+
+=== FRONTIER_MON_STARMIE_2 ===
+Starmie @ Shell Bell
+Nature: Modest
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Hydro Pump
+- Thunder
+- Rain Dance
+- Recover
+
+=== FRONTIER_MON_FLYGON_2 ===
+Flygon @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Solar Beam
+- Fire Blast
+- Crunch
+- Sunny Day
+
+=== FRONTIER_MON_VENUSAUR_2 ===
+Venusaur @ Bright Powder
+Nature: Bold
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Leech Seed
+- Giga Drain
+- Double Team
+- Light Screen
+
+=== FRONTIER_MON_VAPOREON_2 ===
+Vaporeon @ Shell Bell
+Nature: Docile
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Surf
+- Ice Beam
+- Body Slam
+- Shadow Ball
+
+=== FRONTIER_MON_JOLTEON_2 ===
+Jolteon @ Scope Lens
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Dig
+- Double Kick
+- Roar
+
+=== FRONTIER_MON_FLAREON_2 ===
+Flareon @ Quick Claw
+Nature: Relaxed
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Curse
+- Attract
+- Double Edge
+- Shadow Ball
+
+=== FRONTIER_MON_MEGANIUM_2 ===
+Meganium @ Leftovers
+Nature: Calm
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Leech Seed
+- Substitute
+- Double Team
+- Grass Whistle
+
+=== FRONTIER_MON_ESPEON_2 ===
+Espeon @ Chesto Berry
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Psychic
+- Shadow Ball
+- Calm Mind
+- Rest
+
+=== FRONTIER_MON_UMBREON_2 ===
+Umbreon @ Leftovers
+Nature: Adamant
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 0 SpD / 170 Spe
+- Curse
+- Screech
+- Double Team
+- Double Edge
+
+=== FRONTIER_MON_BLASTOISE_2 ===
+Blastoise @ Shell Bell
+Nature: Brave
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Hydro Pump
+- Mega Kick
+- Brick Break
+- Mirror Coat
+
+=== FRONTIER_MON_FERALIGATR_2 ===
+Feraligatr @ Quick Claw
+Nature: Sassy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 170 SpD / 170 Spe
+- Surf
+- Dragon Claw
+- Brick Break
+- Scary Face
+
+=== FRONTIER_MON_AGGRON_2 ===
+Aggron @ Scope Lens
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Focus Punch
+- Earthquake
+- Rock Slide
+- Thunder Wave
+
+=== FRONTIER_MON_BLAZIKEN_2 ===
+Blaziken @ Scope Lens
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Blaze Kick
+- Mega Kick
+- Thunder Punch
+- Brick Break
+
+=== FRONTIER_MON_WALREIN_2 ===
+Walrein @ Focus Band
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Earthquake
+- Ice Beam
+- Curse
+- Double Team
+
+=== FRONTIER_MON_SCEPTILE_2 ===
+Sceptile @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Leaf Blade
+- Thunder Punch
+- Attract
+- Double Team
+
+=== FRONTIER_MON_CHARIZARD_2 ===
+Charizard @ Safety Goggles
+Nature: Bold
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Burning Jealousy
+- Tailwind
+- Roost
+- Heat Wave
+
+=== FRONTIER_MON_TYPHLOSION_2 ===
+Typhlosion @ Scope Lens
+Nature: Hardy
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Flamethrower
+- Thunder Punch
+- Aerial Ace
+- Rock Slide
+
+=== FRONTIER_MON_LAPRAS_2 ===
+Lapras @ Quick Claw
+Nature: Timid
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Surf
+- Ice Beam
+- Body Slam
+- Roar
+
+=== FRONTIER_MON_CROBAT_2 ===
+Crobat @ Leftovers
+Nature: Calm
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Toxic
+- Giga Drain
+- Confuse Ray
+- Double Team
+
+=== FRONTIER_MON_SWAMPERT_2 ===
+Swampert @ Quick Claw
+Nature: Docile
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Surf
+- Earthquake
+- Counter
+- Mirror Coat
+
+=== FRONTIER_MON_GYARADOS_2 ===
+Gyarados @ Shell Bell
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Hydro Pump
+- Thunderbolt
+- Fire Blast
+- Blizzard
+
+=== FRONTIER_MON_SNORLAX_2 ===
+Snorlax @ Chesto Berry
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Earthquake
+- Rock Slide
+- Curse
+- Rest
+
+=== FRONTIER_MON_KINGDRA_2 ===
+Kingdra @ Chesto Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Surf
+- Ice Beam
+- Dragon Breath
+- Rest
+
+=== FRONTIER_MON_BLISSEY_2 ===
+Blissey @ Leftovers
+Nature: Bold
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Seismic Toss
+- Sing
+- Attract
+- Substitute
+
+=== FRONTIER_MON_MILOTIC_2 ===
+Milotic @ Focus Band
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Surf
+- Ice Beam
+- Safeguard
+- Mirror Coat
+
+=== FRONTIER_MON_ARCANINE_2 ===
+Arcanine @ Lum Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Fire Blast
+- Sunny Day
+- Crunch
+- Roar
+
+=== FRONTIER_MON_SALAMENCE_2 ===
+Salamence @ Leftovers
+Nature: Hardy
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Double Edge
+- Crunch
+- Swagger
+- Protect
+
+=== FRONTIER_MON_METAGROSS_2 ===
+Metagross @ Lum Berry
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 0 Def / 170 SpA / 0 SpD / 170 Spe
+- Earthquake
+- Meteor Mash
+- Psych Up
+- Swagger
+
+=== FRONTIER_MON_SLAKING_2 ===
+Slaking @ Leftovers
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Mega Kick
+- Shadow Ball
+- Yawn
+- Amnesia
+
+=== FRONTIER_MON_DUGTRIO_3 ===
+Dugtrio @ Kings Rock
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Double Edge
+- Sludge Bomb
+- Fissure
+
+=== FRONTIER_MON_MEDICHAM_3 ===
+Medicham @ Scope Lens
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Dynamic Punch
+- Thunder Punch
+- Ice Punch
+- Fire Punch
+
+=== FRONTIER_MON_MISDREAVUS_3 ===
+Misdreavus @ Bright Powder
+Nature: Bold
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Perish Song
+- Mean Look
+- Thunder Wave
+- Confuse Ray
+
+=== FRONTIER_MON_FEAROW_3 ===
+Fearow @ Scope Lens
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Drill Peck
+- Return
+- Steel Wing
+- Feint Attack
+
+=== FRONTIER_MON_GRANBULL_3 ===
+Granbull @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Double Edge
+- Earthquake
+- Sludge Bomb
+- Rock Slide
+
+=== FRONTIER_MON_JYNX_3 ===
+Jynx @ Quick Claw
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Dream Eater
+- Lovely Kiss
+- Attract
+- Substitute
+
+=== FRONTIER_MON_DUSCLOPS_3 ===
+Dusknoir @ Leftovers
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Psych Up
+- Swagger
+- Shadow Ball
+- Earthquake
+
+=== FRONTIER_MON_DODRIO_3 ===
+Dodrio @ Lum Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Double Edge
+- Drill Peck
+- Steel Wing
+- Feint Attack
+
+=== FRONTIER_MON_MR_MIME_3 ===
+Mr_Rime @ Choice Band
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Trick
+- Torment
+- Psychic
+- Thunderbolt
+
+=== FRONTIER_MON_LANTURN_3 ===
+Lanturn @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Hydro Pump
+- Thunder
+- Confuse Ray
+- Rain Dance
+
+=== FRONTIER_MON_BRELOOM_3 ===
+Breloom @ Leftovers
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Iron Tail
+- Focus Punch
+- Attract
+- Spore
+
+=== FRONTIER_MON_FORRETRESS_3 ===
+Forretress @ Focus Band
+Nature: Quiet
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 170 Spe
+- Explosion
+- Earthquake
+- Giga Drain
+- Zap Cannon
+
+=== FRONTIER_MON_WHISCASH_3 ===
+Whiscash @ Chesto Berry
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Sleep Talk
+- Rest
+- Surf
+- Fissure
+
+=== FRONTIER_MON_XATU_3 ===
+Xatu @ Kings Rock
+Nature: Jolly
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Drill Peck
+- Psychic
+- Giga Drain
+- Steel Wing
+
+=== FRONTIER_MON_SKARMORY_3 ===
+Skarmory @ Chesto Berry
+Nature: Careful
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Toxic
+- Curse
+- Rest
+- Fly
+
+=== FRONTIER_MON_MAROWAK_3 ===
+Marowak @ Thick Club
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Brick Break
+
+=== FRONTIER_MON_QUAGSIRE_3 ===
+Quagsire @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Earthquake
+- Sludge Bomb
+- Double Edge
+- Curse
+
+=== FRONTIER_MON_CLEFABLE_3 ===
+Clefable @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Ice Beam
+- Flamethrower
+- Magical Leaf
+
+=== FRONTIER_MON_HARIYAMA_3 ===
+Hariyama @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cross Chop
+- Earthquake
+- Rock Slide
+- Facade
+
+=== FRONTIER_MON_RAICHU_3 ===
+Raichu @ Cheri Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Thunder
+- Rain Dance
+- Iron Tail
+- Attract
+
+=== FRONTIER_MON_DEWGONG_3 ===
+Dewgong @ Chesto Berry
+Nature: Bold
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Horn Drill
+- Sheer Cold
+- Sleep Talk
+- Rest
+
+=== FRONTIER_MON_MANECTRIC_3 ===
+Manectric @ Lum Berry
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Iron Tail
+- Thunder Wave
+- Roar
+
+=== FRONTIER_MON_VILEPLUME_3 ===
+Vileplume @ Leftovers
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Attract
+- Stun Spore
+- Sludge Bomb
+- Giga Drain
+
+=== FRONTIER_MON_VICTREEBEL_3 ===
+Victreebel @ Bright Powder
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Stun Spore
+- Ingrain
+- Giga Drain
+- Sludge Bomb
+
+=== FRONTIER_MON_ELECTRODE_3 ===
+Electrode @ Liechi Berry
+Nature: Naughty
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Explosion
+- Thunderbolt
+- Thunder Wave
+- Endure
+
+=== FRONTIER_MON_EXPLOUD_3 ===
+Exploud @ White Herb
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Overheat
+- Ice Beam
+- Thunder Punch
+- Extrasensory
+
+=== FRONTIER_MON_SHIFTRY_3 ===
+Shiftry @ Focus Band
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Solar Beam
+- Sunny Day
+- Explosion
+- Synthesis
+
+=== FRONTIER_MON_GLALIE_3 ===
+Glalie @ Shell Bell
+Nature: Hardy
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Blizzard
+- Earthquake
+- Double Edge
+- Shadow Ball
+
+=== FRONTIER_MON_LUDICOLO_3 ===
+Ludicolo @ Leftovers
+Nature: Bold
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Leech Seed
+- Rain Dance
+- Double Team
+- Giga Drain
+
+=== FRONTIER_MON_HYPNO_3 ===
+Hypno @ Lum Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psych Up
+- Swagger
+- Mega Kick
+- Shadow Ball
+
+=== FRONTIER_MON_GOLEM_3 ===
+Golem_Alola @ Assault Vest
+Nature: Adamant
+EVs: 0 HP / 100 Atk / 0 Def / 0 SpA / 156 SpD / 0 Spe
+- Rock Slide
+- Thunder Punch
+- Heavy Slam
+- Stomping Tantrum
+
+=== FRONTIER_MON_RHYDON_3 ===
+Rhyperior @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Megahorn
+- Crush Claw
+- Earthquake
+- Horn Drill
+
+=== FRONTIER_MON_ALAKAZAM_3 ===
+Alakazam @ Choice Band
+Nature: Modest
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+- Trick
+- Disable
+- Psychic
+- Skill Swap
+
+=== FRONTIER_MON_WEEZING_3 ===
+Weezing @ Focus Band
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Explosion
+- Sludge Bomb
+- Flamethrower
+- Thunderbolt
+
+=== FRONTIER_MON_KANGASKHAN_3 ===
+Kangaskhan @ Salac Berry
+Nature: Jolly
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Reversal
+- Endure
+- Thunderbolt
+- Earthquake
+
+=== FRONTIER_MON_ELECTABUZZ_3 ===
+Electivire @ Lum Berry
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Fire Punch
+- Ice Punch
+- Thunderbolt
+- Cross Chop
+
+=== FRONTIER_MON_TAUROS_3 ===
+Tauros @ Leftovers
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Double Edge
+- Earthquake
+- Flamethrower
+- Ice Beam
+
+=== FRONTIER_MON_SLOWBRO_3 ===
+Slowbro @ Quick Claw
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 252 Spe
+- Surf
+- Psychic
+- Shadow Ball
+- Attract
+
+=== FRONTIER_MON_SLOWKING_3 ===
+Slowking @ Quick Claw
+Nature: Quiet
+EVs: 0 HP / 170 Atk / 170 Def / 0 SpA / 170 SpD / 0 Spe
+- Psychic
+- Surf
+- Ice Beam
+- Earthquake
+
+=== FRONTIER_MON_MILTANK_3 ===
+Miltank @ Salac Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Reversal
+- Endure
+- Earthquake
+- Shadow Ball
+
+=== FRONTIER_MON_ALTARIA_3 ===
+Altaria @ Lum Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sing
+- Dragon Dance
+- Earthquake
+- Aerial Ace
+
+=== FRONTIER_MON_NIDOQUEEN_3 ===
+Nidoqueen @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Flamethrower
+- Ice Beam
+- Crunch
+
+=== FRONTIER_MON_NIDOKING_3 ===
+Nidoking @ Leppa Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Horn Drill
+- Fire Blast
+- Blizzard
+- Surf
+
+=== FRONTIER_MON_MAGMAR_3 ===
+Magmortar @ Scope Lens
+Nature: Impish
+EVs: 0 HP / 252 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Mega Kick
+- Cross Chop
+- Iron Tail
+- Counter
+
+=== FRONTIER_MON_CRADILY_3 ===
+Cradily @ Leftovers
+Nature: Modest
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 170 SpD / 170 Spe
+- Substitute
+- Solar Beam
+- Sunny Day
+- Recover
+
+=== FRONTIER_MON_ARMALDO_3 ===
+Armaldo @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Rock Slide
+- Brick Break
+- Swords Dance
+
+=== FRONTIER_MON_GOLDUCK_3 ===
+Golduck @ Shell Bell
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Hydro Pump
+- Cross Chop
+- Blizzard
+- Protect
+
+=== FRONTIER_MON_RAPIDASH_3 ===
+Rapidash @ White Herb
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Overheat
+- Solar Beam
+- Sunny Day
+- Hypnosis
+
+=== FRONTIER_MON_MUK_3 ===
+Muk @ Lum Berry
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+- Sludge Bomb
+- Thunderbolt
+- Flamethrower
+- Ice Punch
+
+=== FRONTIER_MON_GENGAR_3 ===
+Gengar @ Quick Claw
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Psychic
+- Thunderbolt
+- Giga Drain
+- Skill Swap
+
+=== FRONTIER_MON_AMPHAROS_3 ===
+Ampharos @ Focus Band
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Mega Kick
+- Iron Tail
+- Brick Break
+
+=== FRONTIER_MON_SCIZOR_3 ===
+Scizor @ Focus Band
+Nature: Careful
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Reversal
+- Endure
+- Agility
+- Slash
+
+=== FRONTIER_MON_HERACROSS_3 ===
+Heracross @ Bright Powder
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Megahorn
+- Earthquake
+- Rock Slide
+- Brick Break
+
+=== FRONTIER_MON_URSARING_3 ===
+Ursaluna @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Fire Punch
+- Thunder Punch
+- Ice Punch
+- Crunch
+
+=== FRONTIER_MON_HOUNDOOM_3 ===
+Houndoom @ White Herb
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Overheat
+- Shadow Ball
+- Sludge Bomb
+- Double Edge
+
+=== FRONTIER_MON_DONPHAN_3 ===
+Donphan @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fissure
+- Earthquake
+- Rock Slide
+- Secret Power
+
+=== FRONTIER_MON_CLAYDOL_3 ===
+Claydol @ Shell Bell
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Ice Beam
+- Solar Beam
+- Sunny Day
+
+=== FRONTIER_MON_WAILORD_3 ===
+Wailord @ Chesto Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Hydro Pump
+- Fissure
+- Double Team
+- Rest
+
+=== FRONTIER_MON_NINETALES_3 ===
+Ninetales @ Bright Powder
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Fire Blast
+- Iron Tail
+- Confuse Ray
+- Attract
+
+=== FRONTIER_MON_MACHAMP_3 ===
+Machamp @ Quick Claw
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Cross Chop
+- Fire Blast
+- Thunder Punch
+- Ice Punch
+
+=== FRONTIER_MON_SHUCKLE_3 ===
+Shuckle @ Leftovers
+Nature: Careful
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Substitute
+- Attract
+- Toxic
+- Double Team
+
+=== FRONTIER_MON_STEELIX_3 ===
+Steelix @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Earthquake
+- Body Slam
+- Rock Slide
+- Explosion
+
+=== FRONTIER_MON_TENTACRUEL_3 ===
+Tentacruel @ Shell Bell
+Nature: Modest
+EVs: 0 HP / 0 Atk / 170 Def / 170 SpA / 170 SpD / 0 Spe
+- Surf
+- Giga Drain
+- Ice Beam
+- Mirror Coat
+
+=== FRONTIER_MON_AERODACTYL_3 ===
+Aerodactyl @ Kings Rock
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Double Edge
+- Rock Slide
+- Fire Blast
+- Dragon Claw
+
+=== FRONTIER_MON_PORYGON2_3 ===
+Porygon_Z @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Tri Attack
+- Thunder Wave
+- Recover
+
+=== FRONTIER_MON_GARDEVOIR_3 ===
+Gardevoir @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Psychic
+- Ice Punch
+- Fire Punch
+- Moonblast
+
+=== FRONTIER_MON_EXEGGUTOR_3 ===
+Exeggutor @ Leftovers
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Leech Seed
+- Giga Drain
+- Toxic
+- Explosion
+
+=== FRONTIER_MON_STARMIE_3 ===
+Starmie @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Surf
+- Psychic
+- Thunderbolt
+- Ice Beam
+
+=== FRONTIER_MON_FLYGON_3 ===
+Flygon @ Scope Lens
+Nature: Hardy
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Earthquake
+- Dragon Claw
+- Flamethrower
+- Giga Drain
+
+=== FRONTIER_MON_VENUSAUR_3 ===
+Venusaur @ Scope Lens
+Nature: Adamant
+EVs: 0 HP / 170 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Double Edge
+- Sludge Bomb
+- Earthquake
+- Sleep Powder
+
+=== FRONTIER_MON_VAPOREON_3 ===
+Vaporeon @ Quick Claw
+Nature: Calm
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Surf
+- Ice Beam
+- Acid Armor
+- Baton Pass
+
+=== FRONTIER_MON_JOLTEON_3 ===
+Jolteon @ Bright Powder
+Nature: Bold
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Thunderbolt
+- Thunder Wave
+- Agility
+- Baton Pass
+
+=== FRONTIER_MON_FLAREON_3 ===
+Flareon @ Quick Claw
+Nature: Jolly
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Shadow Ball
+- Flail
+- Endure
+- Overheat
+
+=== FRONTIER_MON_MEGANIUM_3 ===
+Meganium @ Salac Berry
+Nature: Jolly
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Flail
+- Endure
+- Giga Drain
+
+=== FRONTIER_MON_ESPEON_3 ===
+Espeon @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Psychic
+- Bite
+- Wish
+- Reflect
+
+=== FRONTIER_MON_UMBREON_3 ===
+Umbreon @ Bright Powder
+Nature: Bold
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Swagger
+- Psych Up
+- Attract
+- Shadow Ball
+
+=== FRONTIER_MON_BLASTOISE_3 ===
+Blastoise @ Focus Band
+Nature: Docile
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Surf
+- Earthquake
+- Ice Beam
+- Counter
+
+=== FRONTIER_MON_FERALIGATR_3 ===
+Feraligatr @ Scope Lens
+Nature: Hardy
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Hydro Pump
+- Crunch
+- Earthquake
+- Rock Slide
+
+=== FRONTIER_MON_AGGRON_3 ===
+Aggron @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Surf
+- Thunder
+- Fire Blast
+- Blizzard
+
+=== FRONTIER_MON_BLAZIKEN_3 ===
+Blaziken @ Salac Berry
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Overheat
+- Earthquake
+- Endure
+- Reversal
+
+=== FRONTIER_MON_WALREIN_3 ===
+Walrein @ Quick Claw
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Sheer Cold
+- Fissure
+- Surf
+- Attract
+
+=== FRONTIER_MON_SCEPTILE_3 ===
+Sceptile @ Scope Lens
+Nature: Docile
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Leaf Blade
+- Earthquake
+- Crush Claw
+- Aerial Ace
+
+=== FRONTIER_MON_CHARIZARD_3 ===
+Charizard @ Weakness Policy
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 112 Spe
+- Blast Burn
+- Ancient Power
+- Air Slash
+- Protect
+
+=== FRONTIER_MON_TYPHLOSION_3 ===
+Typhlosion @ Salac Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Overheat
+- Endure
+- Reversal
+
+=== FRONTIER_MON_LAPRAS_3 ===
+Lapras @ Bright Powder
+Nature: Docile
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Double Edge
+- Psychic
+- Confuse Ray
+- Dragon Dance
+
+=== FRONTIER_MON_CROBAT_3 ===
+Crobat @ Scope Lens
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Air Cutter
+- Double Edge
+- Shadow Ball
+- Screech
+
+=== FRONTIER_MON_SWAMPERT_3 ===
+Swampert @ Shell Bell
+Nature: Brave
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Surf
+- Earthquake
+- Ice Beam
+- Counter
+
+=== FRONTIER_MON_GYARADOS_3 ===
+Gyarados @ Quick Claw
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Surf
+- Thunder
+- Rain Dance
+- Earthquake
+
+=== FRONTIER_MON_SNORLAX_3 ===
+Snorlax @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Mega Kick
+- Shadow Ball
+- Swagger
+- Psych Up
+
+=== FRONTIER_MON_KINGDRA_3 ===
+Kingdra @ Salac Berry
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Flail
+- Hydro Pump
+- Dragon Dance
+- Endure
+
+=== FRONTIER_MON_BLISSEY_3 ===
+Blissey @ Focus Band
+Nature: Bold
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Fire Blast
+- Blizzard
+- Calm Mind
+- Soft Boiled
+
+=== FRONTIER_MON_MILOTIC_3 ===
+Milotic @ Leftovers
+Nature: Bold
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Surf
+- Blizzard
+- Attract
+- Recover
+
+=== FRONTIER_MON_ARCANINE_3 ===
+Arcanine @ White Herb
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Overheat
+- Extreme Speed
+- Crunch
+- Aerial Ace
+
+=== FRONTIER_MON_SALAMENCE_3 ===
+Salamence @ Salac Berry
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Double Edge
+- Earthquake
+- Crunch
+- Endure
+
+=== FRONTIER_MON_METAGROSS_3 ===
+Metagross @ Chesto Berry
+Nature: Adamant
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Meteor Mash
+- Double Team
+- Rest
+
+=== FRONTIER_MON_SLAKING_3 ===
+Slaking @ Choice Band
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Earthquake
+- Shadow Ball
+- Aerial Ace
+- Brick Break
+
+=== FRONTIER_MON_DUGTRIO_4 ===
+Dugtrio @ Kings Rock
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Double Edge
+- Rock Slide
+- Fissure
+
+=== FRONTIER_MON_MEDICHAM_4 ===
+Medicham @ Lum Berry
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Mega Kick
+- Psychic
+- Shadow Ball
+- Rock Slide
+
+=== FRONTIER_MON_MISDREAVUS_4 ===
+Mismagius @ Lum Berry
+Nature: Timid
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Destiny Bond
+- Psychic
+- Shadow Ball
+- Thunderbolt
+
+=== FRONTIER_MON_FEAROW_4 ===
+Fearow @ Lum Berry
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Drill Peck
+- Double Edge
+- Steel Wing
+- Sky Attack
+
+=== FRONTIER_MON_GRANBULL_4 ===
+Granbull @ Choice Band
+Nature: Brave
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Mega Kick
+- Earthquake
+- Crunch
+- Shadow Ball
+
+=== FRONTIER_MON_JYNX_4 ===
+Jynx @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Ice Beam
+- Lovely Kiss
+- Fake Tears
+
+=== FRONTIER_MON_DUSCLOPS_4 ===
+Dusknoir @ Chesto Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Double Edge
+- Shadow Ball
+- Curse
+- Rest
+
+=== FRONTIER_MON_DODRIO_4 ===
+Dodrio @ Salac Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Flail
+- Endure
+- Drill Peck
+- Facade
+
+=== FRONTIER_MON_MR_MIME_4 ===
+Mr_Rime @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Thunderbolt
+- Ice Punch
+- Fire Punch
+
+=== FRONTIER_MON_LANTURN_4 ===
+Lanturn @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Surf
+- Thunderbolt
+- Ice Beam
+- Confuse Ray
+
+=== FRONTIER_MON_BRELOOM_4 ===
+Breloom @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Focus Punch
+- Sludge Bomb
+- Spore
+- Double Team
+
+=== FRONTIER_MON_FORRETRESS_4 ===
+Forretress @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Explosion
+- Earthquake
+- Rock Slide
+- Double Edge
+
+=== FRONTIER_MON_WHISCASH_4 ===
+Whiscash @ Quick Claw
+Nature: Quiet
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Fissure
+- Surf
+- Earthquake
+- Ice Beam
+
+=== FRONTIER_MON_XATU_4 ===
+Xatu @ Petaya Berry
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Drill Peck
+- Shadow Ball
+- Confuse Ray
+
+=== FRONTIER_MON_SKARMORY_4 ===
+Skarmory @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Drill Peck
+- Steel Wing
+- Counter
+- Rock Slide
+
+=== FRONTIER_MON_MAROWAK_4 ===
+Marowak @ Thick Club
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Mega Kick
+
+=== FRONTIER_MON_QUAGSIRE_4 ===
+Quagsire @ Leftovers
+Nature: Sassy
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 170 Spe
+- Surf
+- Earthquake
+- Ice Beam
+- Amnesia
+
+=== FRONTIER_MON_CLEFABLE_4 ===
+Clefable @ Focus Band
+Nature: Docile
+EVs: 0 HP / 252 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Mega Kick
+- Psychic
+- Shadow Ball
+- Soft Boiled
+
+=== FRONTIER_MON_HARIYAMA_4 ===
+Hariyama @ Scope Lens
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cross Chop
+- Earthquake
+- Rock Slide
+- Fake Out
+
+=== FRONTIER_MON_RAICHU_4 ===
+Raichu @ Bright Powder
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Thunder Wave
+- Protect
+- Mega Kick
+
+=== FRONTIER_MON_DEWGONG_4 ===
+Dewgong @ Lum Berry
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Sheer Cold
+- Ice Beam
+- Surf
+- Signal Beam
+
+=== FRONTIER_MON_MANECTRIC_4 ===
+Manectric @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Crunch
+- Thunder Wave
+- Roar
+
+=== FRONTIER_MON_VILEPLUME_4 ===
+Vileplume @ Quick Claw
+Nature: Quiet
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Solar Beam
+- Sludge Bomb
+- Sunny Day
+- Synthesis
+
+=== FRONTIER_MON_VICTREEBEL_4 ===
+Victreebel @ Bright Powder
+Nature: Quirky
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Giga Drain
+- Double Edge
+- Sludge Bomb
+- Synthesis
+
+=== FRONTIER_MON_ELECTRODE_4 ===
+Electrode @ Lum Berry
+Nature: Naughty
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Explosion
+- Thunderbolt
+- Thunder Wave
+- Mirror Coat
+
+=== FRONTIER_MON_EXPLOUD_4 ===
+Exploud @ White Herb
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Mega Kick
+- Earthquake
+- Shadow Ball
+- Overheat
+
+=== FRONTIER_MON_SHIFTRY_4 ===
+Shiftry @ Focus Band
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Explosion
+- Giga Drain
+- Mega Kick
+- Fake Out
+
+=== FRONTIER_MON_GLALIE_4 ===
+Glalie @ Leftovers
+Nature: Hardy
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Ice Beam
+- Earthquake
+- Crunch
+- Shadow Ball
+
+=== FRONTIER_MON_LUDICOLO_4 ===
+Ludicolo @ Leftovers
+Nature: Bold
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Leech Seed
+- Rain Dance
+- Double Team
+- Toxic
+
+=== FRONTIER_MON_HYPNO_4 ===
+Hypno @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Thunder Punch
+- Fire Punch
+- Ice Punch
+
+=== FRONTIER_MON_GOLEM_4 ===
+Golem_Alola @ Weakness Policy
+Nature: Brave
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Slide
+- Wild Charge
+- Protect
+- Fire Punch
+
+=== FRONTIER_MON_RHYDON_4 ===
+Rhyperior @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Megahorn
+- Earthquake
+- Rock Slide
+- Horn Drill
+
+=== FRONTIER_MON_ALAKAZAM_4 ===
+Alakazam @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Thunder Punch
+- Fire Punch
+- Ice Punch
+
+=== FRONTIER_MON_WEEZING_4 ===
+Weezing @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Explosion
+- Sludge Bomb
+- Frustration
+- Shadow Ball
+
+=== FRONTIER_MON_KANGASKHAN_4 ===
+Kangaskhan @ Bright Powder
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Mega Kick
+- Earthquake
+- Aerial Ace
+- Shadow Ball
+
+=== FRONTIER_MON_ELECTABUZZ_4 ===
+Electivire @ Scope Lens
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Psychic
+- Mega Kick
+- Cross Chop
+
+=== FRONTIER_MON_TAUROS_4 ===
+Tauros @ Bright Powder
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Double Edge
+- Rock Tomb
+- Thunderbolt
+- Surf
+
+=== FRONTIER_MON_SLOWBRO_4 ===
+Slowbro @ Quick Claw
+Nature: Sassy
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 252 Spe
+- Psychic
+- Surf
+- Earthquake
+- Ice Beam
+
+=== FRONTIER_MON_SLOWKING_4 ===
+Slowking @ Quick Claw
+Nature: Modest
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Surf
+- Ice Beam
+- Flamethrower
+
+=== FRONTIER_MON_MILTANK_4 ===
+Miltank @ Lum Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Double Edge
+- Curse
+- Double Team
+- Milk Drink
+
+=== FRONTIER_MON_ALTARIA_4 ===
+Altaria @ Shell Bell
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Dragon Claw
+- Earthquake
+- Flamethrower
+- Ice Beam
+
+=== FRONTIER_MON_NIDOQUEEN_4 ===
+Nidoqueen @ White Herb
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Superpower
+- Sludge Bomb
+- Earthquake
+- Shadow Ball
+
+=== FRONTIER_MON_NIDOKING_4 ===
+Nidoking @ Lum Berry
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Megahorn
+- Sludge Bomb
+- Earthquake
+- Thunder
+
+=== FRONTIER_MON_MAGMAR_4 ===
+Magmortar @ Scope Lens
+Nature: Docile
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- Psychic
+- Cross Chop
+- Confuse Ray
+
+=== FRONTIER_MON_CRADILY_4 ===
+Cradily @ Leftovers
+Nature: Bold
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Toxic
+- Ingrain
+- Mirror Coat
+- Giga Drain
+
+=== FRONTIER_MON_ARMALDO_4 ===
+Armaldo @ Choice Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Double Edge
+- Earthquake
+- Aerial Ace
+- Rock Slide
+
+=== FRONTIER_MON_GOLDUCK_4 ===
+Golduck @ Scope Lens
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Surf
+- Cross Chop
+- Ice Beam
+- Aerial Ace
+
+=== FRONTIER_MON_RAPIDASH_4 ===
+Rapidash @ White Herb
+Nature: Docile
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Overheat
+- Double Edge
+- Iron Tail
+- Double Kick
+
+=== FRONTIER_MON_MUK_4 ===
+Muk @ Quick Claw
+Nature: Brave
+EVs: 0 HP / 252 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Sludge Bomb
+- Brick Break
+- Giga Drain
+- Explosion
+
+=== FRONTIER_MON_GENGAR_4 ===
+Gengar @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Psychic
+- Fire Punch
+- Ice Punch
+- Destiny Bond
+
+=== FRONTIER_MON_AMPHAROS_4 ===
+Ampharos @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Fire Punch
+- Thunder Wave
+- Reflect
+
+=== FRONTIER_MON_SCIZOR_4 ===
+Scizor @ Bright Powder
+Nature: Careful
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Silver Wind
+- Swords Dance
+- Agility
+- Baton Pass
+
+=== FRONTIER_MON_HERACROSS_4 ===
+Heracross @ Salac Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Megahorn
+- Earthquake
+- Reversal
+- Endure
+
+=== FRONTIER_MON_URSARING_4 ===
+Ursaluna @ Bright Powder
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Double Edge
+- Earthquake
+- Rock Slide
+- Aerial Ace
+
+=== FRONTIER_MON_HOUNDOOM_4 ===
+Houndoom @ White Herb
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Overheat
+- Solar Beam
+- Crunch
+- Sunny Day
+
+=== FRONTIER_MON_DONPHAN_4 ===
+Donphan @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fissure
+- Earthquake
+- Rock Slide
+- Iron Tail
+
+=== FRONTIER_MON_CLAYDOL_4 ===
+Claydol @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Earthquake
+- Shadow Ball
+- Explosion
+
+=== FRONTIER_MON_WAILORD_4 ===
+Wailord @ Quick Claw
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Surf
+- Ice Beam
+- Earthquake
+- Fissure
+
+=== FRONTIER_MON_NINETALES_4 ===
+Ninetales @ White Herb
+Nature: Quirky
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Overheat
+- Double Edge
+- Confuse Ray
+- Will O Wisp
+
+=== FRONTIER_MON_MACHAMP_4 ===
+Machamp @ Scope Lens
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Cross Chop
+- Earthquake
+- Flamethrower
+- Rock Slide
+
+=== FRONTIER_MON_SHUCKLE_4 ===
+Shuckle @ Chesto Berry
+Nature: Careful
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Toxic
+- Double Team
+- Wrap
+- Rest
+
+=== FRONTIER_MON_STEELIX_4 ===
+Steelix @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Earthquake
+- Iron Tail
+- Double Edge
+- Explosion
+
+=== FRONTIER_MON_TENTACRUEL_4 ===
+Tentacruel @ Shell Bell
+Nature: Quirky
+EVs: 0 HP / 170 Atk / 170 Def / 0 SpA / 170 SpD / 0 Spe
+- Hydro Pump
+- Sludge Bomb
+- Ice Beam
+- Mirror Coat
+
+=== FRONTIER_MON_AERODACTYL_4 ===
+Aerodactyl @ Kings Rock
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Double Edge
+- Earthquake
+- Fire Blast
+- Bite
+
+=== FRONTIER_MON_PORYGON2_4 ===
+Porygon_Z @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Thunderbolt
+- Ice Beam
+- Recover
+
+=== FRONTIER_MON_GARDEVOIR_4 ===
+Gallade @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psycho Cut
+- Sacred Sword
+- Wide Guard
+- Protect
+
+=== FRONTIER_MON_EXEGGUTOR_4 ===
+Exeggutor @ Bright Powder
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Giga Drain
+- Sludge Bomb
+- Explosion
+
+=== FRONTIER_MON_STARMIE_4 ===
+Starmie @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Psychic
+- Thunderbolt
+- Ice Beam
+- Recover
+
+=== FRONTIER_MON_FLYGON_4 ===
+Flygon @ Scope Lens
+Nature: Hardy
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Earthquake
+- Dragon Claw
+- Double Edge
+- Crunch
+
+=== FRONTIER_MON_VENUSAUR_4 ===
+Venusaur @ Lum Berry
+Nature: Docile
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 170 Spe
+- Solar Beam
+- Sludge Bomb
+- Sunny Day
+- Earthquake
+
+=== FRONTIER_MON_VAPOREON_4 ===
+Vaporeon @ Lum Berry
+Nature: Calm
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 170 SpD / 170 Spe
+- Surf
+- Ice Beam
+- Acid Armor
+- Rest
+
+=== FRONTIER_MON_JOLTEON_4 ===
+Jolteon @ Kings Rock
+Nature: Timid
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Thunder Wave
+- Bite
+- Shadow Ball
+
+=== FRONTIER_MON_FLAREON_4 ===
+Flareon @ Quick Claw
+Nature: Quiet
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Overheat
+- Sunny Day
+- Double Edge
+- Shadow Ball
+
+=== FRONTIER_MON_MEGANIUM_4 ===
+Meganium @ Bright Powder
+Nature: Hardy
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Giga Drain
+- Earthquake
+- Ancient Power
+- Body Slam
+
+=== FRONTIER_MON_ESPEON_4 ===
+Espeon @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Psychic
+- Bite
+- Attract
+- Calm Mind
+
+=== FRONTIER_MON_UMBREON_4 ===
+Umbreon @ Leftovers
+Nature: Bold
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Confuse Ray
+- Toxic
+- Feint Attack
+- Double Team
+
+=== FRONTIER_MON_BLASTOISE_4 ===
+Blastoise @ Focus Band
+Nature: Docile
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Surf
+- Earthquake
+- Ice Beam
+- Mirror Coat
+
+=== FRONTIER_MON_FERALIGATR_4 ===
+Feraligatr @ Scope Lens
+Nature: Hardy
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Hydro Pump
+- Ice Beam
+- Earthquake
+- Aerial Ace
+
+=== FRONTIER_MON_AGGRON_4 ===
+Aggron @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Double Edge
+- Earthquake
+- Rock Slide
+- Aerial Ace
+
+=== FRONTIER_MON_BLAZIKEN_4 ===
+Blaziken @ White Herb
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Overheat
+- Earthquake
+- Thunder Punch
+- Rock Slide
+
+=== FRONTIER_MON_WALREIN_4 ===
+Walrein @ Bright Powder
+Nature: Quiet
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Surf
+- Ice Beam
+- Earthquake
+- Sheer Cold
+
+=== FRONTIER_MON_SCEPTILE_4 ===
+Sceptile @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Leaf Blade
+- Dragon Claw
+- Crunch
+- Thunder Punch
+
+=== FRONTIER_MON_CHARIZARD_4 ===
+Charizard @ Assault Vest
+Nature: Calm
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Overheat
+- Dragon Pulse
+- Focus Blast
+- Thunder Punch
+
+=== FRONTIER_MON_TYPHLOSION_4 ===
+Typhlosion @ White Herb
+Nature: Hardy
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Overheat
+- Thunder Punch
+- Earthquake
+- Crush Claw
+
+=== FRONTIER_MON_LAPRAS_4 ===
+Lapras @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Surf
+- Ice Beam
+- Thunderbolt
+- Psychic
+
+=== FRONTIER_MON_CROBAT_4 ===
+Crobat @ Bright Powder
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Sludge Bomb
+- Aerial Ace
+- Shadow Ball
+- Confuse Ray
+
+=== FRONTIER_MON_SWAMPERT_4 ===
+Swampert @ Shell Bell
+Nature: Quiet
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Surf
+- Earthquake
+- Ice Beam
+- Mirror Coat
+
+=== FRONTIER_MON_GYARADOS_4 ===
+Gyarados @ Chesto Berry
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Return
+- Earthquake
+- Dragon Dance
+- Rest
+
+=== FRONTIER_MON_SNORLAX_4 ===
+Snorlax @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Double Edge
+- Shadow Ball
+- Brick Break
+- Curse
+
+=== FRONTIER_MON_KINGDRA_4 ===
+Kingdra @ Chesto Berry
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Double Edge
+- Ice Beam
+- Dragon Dance
+- Rest
+
+=== FRONTIER_MON_BLISSEY_4 ===
+Blissey @ Focus Band
+Nature: Bold
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Ice Beam
+- Calm Mind
+- Counter
+- Soft Boiled
+
+=== FRONTIER_MON_MILOTIC_4 ===
+Milotic @ Leftovers
+Nature: Modest
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 170 SpD / 170 Spe
+- Surf
+- Ice Beam
+- Recover
+- Mirror Coat
+
+=== FRONTIER_MON_ARCANINE_4 ===
+Arcanine @ White Herb
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Overheat
+- Extreme Speed
+- Crunch
+- Double Edge
+
+=== FRONTIER_MON_SALAMENCE_4 ===
+Salamence @ Bright Powder
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Double Edge
+- Earthquake
+- Aerial Ace
+- Dragon Dance
+
+=== FRONTIER_MON_METAGROSS_4 ===
+Metagross @ Quick Claw
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Meteor Mash
+- Psychic
+- Earthquake
+- Shadow Ball
+
+=== FRONTIER_MON_SLAKING_4 ===
+Slaking @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 252 Spe
+- Thunderbolt
+- Flamethrower
+- Ice Beam
+- Yawn
+
+=== FRONTIER_MON_ARTICUNO_1 ===
+Articuno @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Ice Beam
+- Water Pulse
+- Icy Wind
+- Roar
+
+=== FRONTIER_MON_ZAPDOS_1 ===
+Zapdos @ Lum Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Drill Peck
+- Thunder Wave
+- Roar
+
+=== FRONTIER_MON_MOLTRES_1 ===
+Moltres @ Lum Berry
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Flamethrower
+- Aerial Ace
+- Mud Slap
+- Roar
+
+=== FRONTIER_MON_RAIKOU_1 ===
+Raikou @ Chesto Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Thunder Wave
+- Calm Mind
+- Rest
+
+=== FRONTIER_MON_ENTEI_1 ===
+Entei @ Chesto Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Flamethrower
+- Double Team
+- Calm Mind
+- Rest
+
+=== FRONTIER_MON_SUICUNE_1 ===
+Suicune @ Chesto Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Surf
+- Double Team
+- Calm Mind
+- Rest
+
+=== FRONTIER_MON_REGIROCK_1 ===
+Regirock @ White Herb
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Superpower
+- Earthquake
+- Rock Slide
+- Explosion
+
+=== FRONTIER_MON_REGICE_1 ===
+Regice @ Chesto Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Ice Beam
+- Thunderbolt
+- Amnesia
+- Rest
+
+=== FRONTIER_MON_REGISTEEL_1 ===
+Registeel @ Chesto Berry
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Metal Claw
+- Curse
+- Amnesia
+- Rest
+
+=== FRONTIER_MON_LATIAS_1 ===
+Latias @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Thunderbolt
+- Ice Beam
+- Dragon Claw
+
+=== FRONTIER_MON_LATIOS_1 ===
+Latios @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Thunderbolt
+- Ice Beam
+- Dragon Claw
+
+=== FRONTIER_MON_ARTICUNO_2 ===
+Articuno @ Leftovers
+Nature: Impish
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Substitute
+- Toxic
+- Blizzard
+- Double Team
+
+=== FRONTIER_MON_ZAPDOS_2 ===
+Zapdos @ Bright Powder
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Thunder
+- Rain Dance
+- Drill Peck
+- Double Team
+
+=== FRONTIER_MON_MOLTRES_2 ===
+Moltres @ White Herb
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Overheat
+- Aerial Ace
+- Double Team
+- Protect
+
+=== FRONTIER_MON_RAIKOU_2 ===
+Raikou @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Thunder
+- Rain Dance
+- Double Team
+- Reflect
+
+=== FRONTIER_MON_ENTEI_2 ===
+Entei @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Fire Blast
+- Sunny Day
+- Solar Beam
+- Reflect
+
+=== FRONTIER_MON_SUICUNE_2 ===
+Suicune @ Leftovers
+Nature: Calm
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Toxic
+- Dive
+- Double Team
+- Protect
+
+=== FRONTIER_MON_REGIROCK_2 ===
+Regirock @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Rock Slide
+- Counter
+- Explosion
+
+=== FRONTIER_MON_REGICE_2 ===
+Regice @ Bright Powder
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Thunder
+- Rain Dance
+- Blizzard
+- Brick Break
+
+=== FRONTIER_MON_REGISTEEL_2 ===
+Registeel @ Bright Powder
+Nature: Quiet
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Thunderbolt
+- Ice Punch
+- Earthquake
+- Aerial Ace
+
+=== FRONTIER_MON_LATIAS_2 ===
+Latias @ Quick Claw
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Thunderbolt
+- Ice Beam
+- Earthquake
+
+=== FRONTIER_MON_LATIOS_2 ===
+Latios @ Quick Claw
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Thunderbolt
+- Ice Beam
+- Earthquake
+
+=== FRONTIER_MON_ARTICUNO_3 ===
+Articuno @ Bright Powder
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Ice Beam
+- Facade
+- Aerial Ace
+- Protect
+
+=== FRONTIER_MON_ZAPDOS_3 ===
+Zapdos @ Leftovers
+Nature: Docile
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Thunderbolt
+- Drill Peck
+- Thunder Wave
+- Substitute
+
+=== FRONTIER_MON_MOLTRES_3 ===
+Moltres @ Chesto Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Fire Blast
+- Sunny Day
+- Double Team
+- Rest
+
+=== FRONTIER_MON_RAIKOU_3 ===
+Raikou @ Kings Rock
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Thunder Wave
+- Quick Attack
+- Roar
+
+=== FRONTIER_MON_ENTEI_3 ===
+Entei @ Lum Berry
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- Double Edge
+- Swagger
+- Psych Up
+
+=== FRONTIER_MON_SUICUNE_3 ===
+Suicune @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Surf
+- Ice Beam
+- Rain Dance
+- Roar
+
+=== FRONTIER_MON_REGIROCK_3 ===
+Regirock @ Chesto Berry
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Rock Slide
+- Earthquake
+- Curse
+- Rest
+
+=== FRONTIER_MON_REGICE_3 ===
+Regice @ Lum Berry
+Nature: Quiet
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Ice Beam
+- Thunderbolt
+- Thunder Wave
+- Explosion
+
+=== FRONTIER_MON_REGISTEEL_3 ===
+Registeel @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Ancient Power
+- Amnesia
+- Counter
+- Explosion
+
+=== FRONTIER_MON_LATIAS_3 ===
+Latias @ Focus Band
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Dragon Claw
+- Thunderbolt
+- Ice Beam
+- Earthquake
+
+=== FRONTIER_MON_LATIOS_3 ===
+Latios @ Focus Band
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Dragon Claw
+- Thunderbolt
+- Ice Beam
+- Earthquake
+
+=== FRONTIER_MON_ARTICUNO_4 ===
+Articuno @ Chesto Berry
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Blizzard
+- Double Edge
+- Rest
+- Reflect
+
+=== FRONTIER_MON_ZAPDOS_4 ===
+Zapdos @ Shell Bell
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Drill Peck
+- Thunder Wave
+- Light Screen
+
+=== FRONTIER_MON_MOLTRES_4 ===
+Moltres @ White Herb
+Nature: Quiet
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Overheat
+- Double Edge
+- Steel Wing
+- Safeguard
+
+=== FRONTIER_MON_RAIKOU_4 ===
+Raikou @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Bite
+- Thunder Wave
+- Reflect
+
+=== FRONTIER_MON_ENTEI_4 ===
+Entei @ Kings Rock
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Flamethrower
+- Bite
+- Double Team
+- Reflect
+
+=== FRONTIER_MON_SUICUNE_4 ===
+Suicune @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Surf
+- Ice Beam
+- Bite
+- Reflect
+
+=== FRONTIER_MON_REGIROCK_4 ===
+Regirock @ Leftovers
+Nature: Careful
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 0 SpD / 170 Spe
+- Rock Slide
+- Brick Break
+- Double Team
+- Thunder Wave
+
+=== FRONTIER_MON_REGICE_4 ===
+Regice @ Leftovers
+Nature: Bold
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Beam
+- Hail
+- Double Team
+- Thunder Wave
+
+=== FRONTIER_MON_REGISTEEL_4 ===
+Registeel @ Leftovers
+Nature: Impish
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Ancient Power
+- Earthquake
+- Double Team
+- Thunder Wave
+
+=== FRONTIER_MON_LATIAS_4 ===
+Latias @ Leftovers
+Nature: Docile
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Mist Ball
+- Shadow Ball
+- Charm
+- Reflect
+
+=== FRONTIER_MON_LATIOS_4 ===
+Latios @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Luster Purge
+- Thunderbolt
+- Ice Beam
+- Dragon Claw
+
+=== FRONTIER_MON_GENGAR_5 ===
+Gengar @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Psychic
+- Shadow Ball
+- Thunderbolt
+- Fire Punch
+
+=== FRONTIER_MON_GENGAR_6 ===
+Gengar @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Psychic
+- Shadow Ball
+- Thunderbolt
+- Ice Punch
+
+=== FRONTIER_MON_GENGAR_7 ===
+Gengar @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Psychic
+- Thunderbolt
+- Fire Punch
+- Destiny Bond
+
+=== FRONTIER_MON_GENGAR_8 ===
+Gengar @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Psychic
+- Thunderbolt
+- Ice Punch
+- Destiny Bond
+
+=== FRONTIER_MON_URSARING_5 ===
+Ursaluna @ Choice Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mega Kick
+- Aerial Ace
+- Rock Slide
+- Brick Break
+
+=== FRONTIER_MON_URSARING_6 ===
+Ursaluna @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hyper Beam
+- Yawn
+- Swords Dance
+- Double Team
+
+=== FRONTIER_MON_URSARING_7 ===
+Ursaluna @ Quick Claw
+Nature: Docile
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Facade
+- Earthquake
+- Crunch
+- Bulk Up
+
+=== FRONTIER_MON_URSARING_8 ===
+Ursaluna @ Quick Claw
+Nature: Docile
+EVs: 0 HP / 170 Atk / 0 Def / 0 SpA / 170 SpD / 0 Spe
+- Facade
+- Earthquake
+- Crunch
+- Brick Break
+
+=== FRONTIER_MON_MACHAMP_5 ===
+Machamp @ Scope Lens
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cross Chop
+- Double Edge
+- Earthquake
+- Rock Slide
+
+=== FRONTIER_MON_MACHAMP_6 ===
+Machamp @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cross Chop
+- Earthquake
+- Counter
+- Rock Tomb
+
+=== FRONTIER_MON_MACHAMP_7 ===
+Machamp @ Bright Powder
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Focus Punch
+- Substitute
+- Attract
+- Double Team
+
+=== FRONTIER_MON_MACHAMP_8 ===
+Machamp @ Focus Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Revenge
+- Rock Slide
+- Facade
+- Counter
+
+=== FRONTIER_MON_GARDEVOIR_5 ===
+Gardevoir @ Salac Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 170 Def / 170 SpA / 0 SpD / 0 Spe
+- Psychic
+- Shadow Ball
+- Endure
+- Destiny Bond
+
+=== FRONTIER_MON_GARDEVOIR_6 ===
+Gardevoir @ Lum Berry
+Nature: Timid
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Psychic
+- Thunderbolt
+- Will O Wisp
+- Destiny Bond
+
+=== FRONTIER_MON_GARDEVOIR_7 ===
+Gardevoir @ Quick Claw
+Nature: Bold
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Psychic
+- Calm Mind
+- Will O Wisp
+- Destiny Bond
+
+=== FRONTIER_MON_GARDEVOIR_8 ===
+Gardevoir @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Psychic
+- Dazzling Gleam
+- Calm Mind
+- Protect
+
+=== FRONTIER_MON_STARMIE_5 ===
+Starmie @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Surf
+- Psychic
+- Recover
+- Light Screen
+
+=== FRONTIER_MON_STARMIE_6 ===
+Starmie @ Leftovers
+Nature: Calm
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Surf
+- Confuse Ray
+- Thunder Wave
+- Recover
+
+=== FRONTIER_MON_STARMIE_7 ===
+Starmie @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Psychic
+- Ice Beam
+- Cosmic Power
+- Recover
+
+=== FRONTIER_MON_STARMIE_8 ===
+Starmie @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Surf
+- Thunderbolt
+- Cosmic Power
+- Recover
+
+=== FRONTIER_MON_LAPRAS_5 ===
+Lapras @ Shell Bell
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Psychic
+- Thunderbolt
+- Iron Tail
+- Double Edge
+
+=== FRONTIER_MON_LAPRAS_6 ===
+Lapras @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Hydro Pump
+- Thunder
+- Rain Dance
+- Blizzard
+
+=== FRONTIER_MON_LAPRAS_7 ===
+Lapras @ Leppa Berry
+Nature: Calm
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Sheer Cold
+- Horn Drill
+- Rest
+- Sleep Talk
+
+=== FRONTIER_MON_LAPRAS_8 ===
+Lapras @ Quick Claw
+Nature: Calm
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Sheer Cold
+- Horn Drill
+- Sing
+- Attract
+
+=== FRONTIER_MON_SNORLAX_5 ===
+Snorlax @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Mega Kick
+- Shadow Ball
+- Brick Break
+- Counter
+
+=== FRONTIER_MON_SNORLAX_6 ===
+Snorlax @ Leftovers
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Shadow Ball
+- Brick Break
+- Counter
+
+=== FRONTIER_MON_SNORLAX_7 ===
+Snorlax @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Hyper Beam
+- Shadow Ball
+- Earthquake
+- Curse
+
+=== FRONTIER_MON_SNORLAX_8 ===
+Snorlax @ Chesto Berry
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Return
+- Shadow Ball
+- Belly Drum
+- Rest
+
+=== FRONTIER_MON_SALAMENCE_5 ===
+Salamence @ Bright Powder
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Facade
+- Earthquake
+- Rock Slide
+- Dragon Dance
+
+=== FRONTIER_MON_SALAMENCE_6 ===
+Salamence @ Lum Berry
+Nature: Hardy
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Headbutt
+- Aerial Ace
+- Crunch
+- Dragon Dance
+
+=== FRONTIER_MON_SALAMENCE_7 ===
+Salamence @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Flamethrower
+- Dragon Claw
+- Crunch
+- Brick Break
+
+=== FRONTIER_MON_SALAMENCE_8 ===
+Salamence @ Leftovers
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Flamethrower
+- Dragon Claw
+- Crunch
+- Attract
+
+=== FRONTIER_MON_METAGROSS_5 ===
+Metagross @ Quick Claw
+Nature: Jolly
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 0 SpD / 0 Spe
+- Explosion
+- Earthquake
+- Rock Slide
+- Brick Break
+
+=== FRONTIER_MON_METAGROSS_6 ===
+Metagross @ Bright Powder
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Meteor Mash
+- Psychic
+- Ice Punch
+- Thunder Punch
+
+=== FRONTIER_MON_METAGROSS_7 ===
+Metagross @ Shell Bell
+Nature: Hardy
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Earthquake
+- Shadow Ball
+- Ice Punch
+- Thunder Punch
+
+=== FRONTIER_MON_METAGROSS_8 ===
+Metagross @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 0 SpD / 0 Spe
+- Meteor Mash
+- Earthquake
+- Brick Break
+- Explosion
+
+=== FRONTIER_MON_REGIROCK_5 ===
+Regirock @ Quick Claw
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hyper Beam
+- Focus Punch
+- Rock Slide
+- Double Team
+
+=== FRONTIER_MON_REGIROCK_6 ===
+Regirock @ Bright Powder
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Swagger
+- Psych Up
+- Rock Slide
+- Explosion
+
+=== FRONTIER_MON_REGICE_5 ===
+Regice @ Leftovers
+Nature: Brave
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 170 SpD / 0 Spe
+- Earthquake
+- Ice Beam
+- Curse
+- Counter
+
+=== FRONTIER_MON_REGICE_6 ===
+Regice @ Chesto Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Ice Beam
+- Thunderbolt
+- Sleep Talk
+- Rest
+
+=== FRONTIER_MON_REGISTEEL_5 ===
+Registeel @ Leftovers
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Focus Punch
+- Substitute
+- Toxic
+- Double Team
+
+=== FRONTIER_MON_REGISTEEL_6 ===
+Registeel @ White Herb
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Superpower
+- Aerial Ace
+- Swagger
+- Psych Up
+
+=== FRONTIER_MON_LATIAS_5 ===
+Latias @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Dragon Claw
+- Thunder Wave
+- Calm Mind
+- Recover
+
+=== FRONTIER_MON_LATIAS_6 ===
+Latias @ Shell Bell
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Mist Ball
+- Dragon Claw
+- Attract
+- Thunder Wave
+
+=== FRONTIER_MON_LATIAS_7 ===
+Latias @ Leftovers
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Shadow Ball
+- Swagger
+- Psych Up
+
+=== FRONTIER_MON_LATIAS_8 ===
+Latias @ Kings Rock
+Nature: Docile
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Psychic
+- Shadow Ball
+- Earthquake
+- Aerial Ace
+
+=== FRONTIER_MON_LATIOS_5 ===
+Latios @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 170 Def / 0 SpA / 0 SpD / 170 Spe
+- Dragon Claw
+- Thunder Wave
+- Calm Mind
+- Recover
+
+=== FRONTIER_MON_LATIOS_6 ===
+Latios @ Shell Bell
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Luster Purge
+- Shadow Ball
+- Dragon Claw
+- Thunder Wave
+
+=== FRONTIER_MON_LATIOS_7 ===
+Latios @ Bright Powder
+Nature: Adamant
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Shadow Ball
+- Dragon Dance
+- Recover
+
+=== FRONTIER_MON_LATIOS_8 ===
+Latios @ Kings Rock
+Nature: Docile
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Psychic
+- Shadow Ball
+- Earthquake
+- Aerial Ace
+
+=== FRONTIER_MON_DRAGONITE_1 ===
+Dragonite @ Choice Band
+Nature: Jolly
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Outrage
+- Extreme Speed
+- Stomping Tantrum
+- Ice Punch
+
+=== FRONTIER_MON_DRAGONITE_2 ===
+Dragonite @ Heavy Duty Boots
+Nature: Impish
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Tailwind
+- Roost
+- Body Slam
+- Dragon Tail
+
+=== FRONTIER_MON_DRAGONITE_3 ===
+Dragonite @ Life Orb
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
+- Draco Meteor
+- Hurricane
+- Thunderbolt
+- Protect
+
+=== FRONTIER_MON_DRAGONITE_4 ===
+Dragonite @ Sitrus Berry
+Nature: Adamant
+EVs: 0 HP / 144 Atk / 0 Def / 0 SpA / 0 SpD / 112 Spe
+- Dragon Dance
+- Ice Spinner
+- Extreme Speed
+- Roost
+
+=== FRONTIER_MON_DRAGONITE_5 ===
+Dragonite @ Safety Goggles
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aerial Ace
+- Superpower
+- Dragon Claw
+- Protect
+
+=== FRONTIER_MON_DRAGONITE_6 ===
+Dragonite @ Leftovers
+Nature: Careful
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Substitute
+- Toxic
+- Dragon Tail
+- Roost
+
+=== FRONTIER_MON_DRAGONITE_7 ===
+Dragonite @ Yache Berry
+Nature: Jolly
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Dragon Dance
+- Ice Punch
+- Stomping Tantrum
+- Roost
+
+=== FRONTIER_MON_DRAGONITE_8 ===
+Dragonite @ Choice Scarf
+Nature: Naive
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Dual Wingbeat
+- Dragon Claw
+- Rock Slide
+- Thunder Punch
+
+=== FRONTIER_MON_DRAGONITE_9 ===
+Dragonite @ Rocky Helmet
+Nature: Impish
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Wave
+- Dragon Tail
+- Roost
+- Extreme Speed
+
+=== FRONTIER_MON_DRAGONITE_10 ===
+Dragonite @ Clear Amulet
+Nature: Jolly
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Dragon Dance
+- Fire Punch
+- Thunder Punch
+- Protect
+
+=== FRONTIER_MON_TYRANITAR_1 ===
+Tyranitar @ Weakness Policy
+Nature: Brave
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Slide
+- Crunch
+- Protect
+- Ice Punch
+
+=== FRONTIER_MON_TYRANITAR_2 ===
+Tyranitar @ Assault Vest
+Nature: Adamant
+EVs: 0 HP / 100 Atk / 0 Def / 0 SpA / 156 SpD / 0 Spe
+- Stone Edge
+- High Horsepower
+- Thunder Punch
+- Heavy Slam
+
+=== FRONTIER_MON_TYRANITAR_3 ===
+Tyranitar @ Focus Sash
+Nature: Jolly
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Rock Slide
+- Dragon Dance
+- Crunch
+- Protect
+
+=== FRONTIER_MON_TYRANITAR_4 ===
+Tyranitar @ Sitrus Berry
+Nature: Careful
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Rock Slide
+- Snarl
+- Protect
+- Thunder Wave
+
+=== FRONTIER_MON_TYRANITAR_5 ===
+Tyranitar @ Life Orb
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 156 Spe
+- Ancient Power
+- Dark Pulse
+- Ice Beam
+- Protect
+
+=== FRONTIER_MON_TYRANITAR_6 ===
+Tyranitar @ Choice Band
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 140 Spe
+- Rock Slide
+- Crunch
+- Superpower
+- Iron Head
+
+=== FRONTIER_MON_TYRANITAR_7 ===
+Iron_Thorns @ Booster Energy
+Nature: Adamant
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Rock Slide
+- Wild Charge
+- Dragon Dance
+- Protect
+
+=== FRONTIER_MON_TYRANITAR_8 ===
+Iron_Thorns @ Assault Vest
+Nature: Careful
+EVs: 0 HP / 80 Atk / 0 Def / 0 SpA / 176 SpD / 0 Spe
+- Stone Edge
+- Wild Charge
+- Stomping Tantrum
+- Snarl
+
+=== FRONTIER_MON_TYRANITAR_9 ===
+Iron_Thorns @ Life Orb
+Nature: Jolly
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Rock Slide
+- Ice Punch
+- Protect
+- Wild Charge
+
+=== FRONTIER_MON_TYRANITAR_10 ===
+Iron_Thorns @ Leftovers
+Nature: Impish
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Wave
+- Rock Slide
+- Leech Seed
+- Protect
+
+=== FRONTIER_MON_ARTICUNO_5 ===
+Articuno @ Focus Band
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Blizzard
+- Double Edge
+- Agility
+- Swagger
+
+=== FRONTIER_MON_ARTICUNO_6 ===
+Articuno @ Chesto Berry
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Ice Beam
+- Aerial Ace
+- Reflect
+- Rest
+
+=== FRONTIER_MON_ZAPDOS_5 ===
+Zapdos @ Scope Lens
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Drill Peck
+- Double Edge
+- Thunder Wave
+
+=== FRONTIER_MON_ZAPDOS_6 ===
+Zapdos @ Lum Berry
+Nature: Docile
+EVs: 0 HP / 170 Atk / 0 Def / 170 SpA / 170 SpD / 0 Spe
+- Thunder
+- Drill Peck
+- Rain Dance
+- Double Edge
+
+=== FRONTIER_MON_MOLTRES_5 ===
+Moltres @ White Herb
+Nature: Docile
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Overheat
+- Sunny Day
+- Swagger
+- Facade
+
+=== FRONTIER_MON_MOLTRES_6 ===
+Moltres @ White Herb
+Nature: Docile
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Overheat
+- Double Edge
+- Aerial Ace
+- Steel Wing
+
+=== FRONTIER_MON_RAIKOU_5 ===
+Raikou @ Bright Powder
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe
+- Thunderbolt
+- Double Edge
+- Roar
+- Reflect
+
+=== FRONTIER_MON_RAIKOU_6 ===
+Raging_Bolt @ Sitrus Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
+- Protect
+- Thunderbolt
+- Draco Meteor
+- Sunny Day
+
+=== FRONTIER_MON_ENTEI_5 ===
+Entei @ Salac Berry
+Nature: Docile
+EVs: 0 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 252 Spe
+- Fire Blast
+- Double Edge
+- Endure
+- Reflect
+
+=== FRONTIER_MON_ENTEI_6 ===
+Gouging_Fire @ Assault Vest
+Nature: Modest
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Flare Blitz
+- Dragon Claw
+- Heavy Slam
+- Snarl
+
+=== FRONTIER_MON_SUICUNE_5 ===
+Suicune @ Lum Berry
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+- Surf
+- Ice Beam
+- Calm Mind
+- Icy Wind
+
+=== FRONTIER_MON_SUICUNE_6 ===
+Walking_Wake @ Mystic Water
+Nature: Modest
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
+- Hydro Steam
+- Flamethrower
+- Dragon Pulse
+- Protect
+
