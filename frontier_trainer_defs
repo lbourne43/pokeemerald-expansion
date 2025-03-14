@@ -1099,7 +1099,25 @@ trick Sinistcha
 trick Marowak
 trick Gigalith
 #define FRONTIER_MONS_EXPERT_2A(lastmon) \
-sand
+sand Aerodactyl
+sand Corviknight
+sand Tinkaton
+sand Incineroar
+sand Excadrill
+sand Metagross
+sand Kingambit
+sand Tyranitar
+sand Garchomp
+sand Gholdengo
+sand Great Tusk
+sand Iron Treads
+sand Iron Thorns
+sand Regirock
+sand Registeel
+sand Landorus Therian
+sand Ursaluna Bloodmoon
+sand Dialga
+elec Sandy Shocks
 #define FRONTIER_MONS_EXPERT_2B(lati) \
 sun Chandelure
 sun Arcanine Hisui
@@ -1112,29 +1130,179 @@ sun Brute Bonnet
 sun Flutter Mane
 sun Roaring Moon
 #define FRONTIER_MONS_EXPERT_2C(lastmon) \
-rain
+rain Pelipper
+rain Ludicolo
+rain RotomWash
+rain Bellibolt
+rain Kingdra
+rain Milotic
+rain Gyarados
+rain Basculegion M
+rain Dragonite
+rain Dracovish
+rain Archaludon
+rain Tornadus
+rain Thundurus
+rain Zapdos
+rain Raikou
+rain Suicune
+rain Urshifu Rapid Strike
+rain Lugia
+rain Palkia
+rain Kyogre
 #define FRONTIER_MONS_PSYCHIC_2(lati, legend1, legend2, legend3) \
-trick
+trick Cresselia
+trick Farigiraf
+trick Gothitelle
+trick Cofagrigus
+trick Sinistcha
+trick Grumpig
+trick Slowbro
+trick Slowking
+trick IndeedeeF
+trick Gardevoir
+trick Mimikyu
+trick UrsalunaBloodmoon
+trick Dialga
 #define FRONTIER_MONS_PSYCHIC_2A(lati) \
 bal
 #define FRONTIER_MONS_PSYCHIC_2B(lati) \
-trick
+trick Cresselia
+trick Farigiraf
+trick Gothitelle
+trick Cofagrigus
+trick Sinistcha
+trick Grumpig
+trick Slowbro
+trick Slowking
+trick IndeedeeF
+trick Gardevoir
+trick Mimikyu
+trick UrsalunaBloodmoon
+trick Palkia
 #define FRONTIER_MONS_PSYCHIC_2C(lati) \
 bal
 #define FRONTIER_MONS_HEX_MANIAC_2A \
-trick
+trick Cresselia
+trick Farigiraf
+trick Gothitelle
+trick Cofagrigus
+trick Sinistcha
+trick Grumpig
+trick Slowbro
+trick Slowking
+trick IndeedeeF
+trick Gardevoir
+trick Mimikyu
+trick UrsalunaBloodmoon
+trick Lunala
 #define FRONTIER_MONS_HEX_MANIAC_2B \
-trick
+trick Cresselia
+trick Farigiraf
+trick Gothitelle
+trick Cofagrigus
+trick Sinistcha
+trick Grumpig
+trick Slowbro
+trick Slowking
+trick IndeedeeF
+trick Gardevoir
+trick Mimikyu
+trick UrsalunaBloodmoon
+trick Dialga
+trick Lunala
 #define FRONTIER_MONS_HEX_MANIAC_2C \
-trick
+trick Palkia
+trick Cresselia
+trick Farigiraf
+trick Gothitelle
+trick Cofagrigus
+trick Sinistcha
+trick Grumpig
+trick Slowbro
+trick Slowking
+trick IndeedeeF
+trick Gardevoir
+trick Mimikyu
+trick UrsalunaBloodmoon
+trick Dialga
 #define FRONTIER_MONS_POKEMANIAC_2A \
-bal
+bal Amoonguss
+bal Gallade
+bal Annihilape
+bal Gardevoir
+bal Chi-Yu
+bal Sableye
+bal Meowscarada
+bal Sylveon
+bal Volcarona
+bal Hydreigon
+bal Chandelure
+bal Aerodactyl
+bal Salamence
+bal Moltres-Galar
+bal Landorus-Therian
+bal Thundurus
+bal Tornadus
+bal Mewtwo
 #define FRONTIER_MONS_POKEMANIAC_2B \
-bal
+bal Giratina
+bal Calyrex Shadow
+bal Rayquaza
+bal Roaring Moon
+bal Skeledirge
+bal Gholdengo
+bal Articuno
+bal Incineroar
+bal Baxcalibur
+bal Iron Bundle
+bal Dragapult
+bal Drifblim
+bal Excadrill
+bal Amoonguss
+bal Togekiss
+bal Incineroar
+bal Arcanine-Hisui
+bal Iron Hands
 #define FRONTIER_MONS_POKEMANIAC_2C \
-trick
+trick Palkia
+trick Cresselia
+trick Farigiraf
+trick Gothitelle
+trick Cofagrigus
+trick Sinistcha
+trick Grumpig
+trick Slowbro
+trick Slowking
+trick IndeedeeF
+trick Gardevoir
+trick Mimikyu
+trick UrsalunaBloodmoon
+trick Lunala
+bal Rillaboom
+bal Grimmsnarl
+trick Rhyperior
 #define FRONTIER_MONS_GENTLEMAN_3A \
-bal
+bal Amoonguss
+bal Garchomp
+bal Charizard
+bal Roaring Moon
+bal Skeledirge
+bal Gholdengo
+bal Articuno
+bal Incineroar
+bal Baxcalibur
+bal Iron Bundle
+bal Dragapult
+bal Salamence
+bal Moltres-Galar
+bal Landorus-Therian
+bal Thundurus
+bal Tornadus
+bal Mewtwo
+bal Giratina
+bal Calyrex Shadow
+bal Rayquaza
 #define FRONTIER_MONS_GENTLEMAN_3B  \
 sun Ninetales
 sun Arcanine
@@ -1148,27 +1316,198 @@ sun Torkoal
 sun Moltres
 sun Roaring Moon
 #define FRONTIER_MONS_SWIMMING_TRIATHLETE_M_3 \
-rain
+rain Kyogre
+rain Tornadus
+rain Pelipper
+rain Ludicolo
+rain RotomWash
+rain Bellibolt
+rain Kingdra
+rain Milotic
+rain Scizor
+rain Gyarados
+rain Basculegion M
+rain Dragonite
+rain Dracovish
+rain Archaludon
 #define FRONTIER_MONS_SWIMMING_TRIATHLETE_F_3 \
-rain
+rain Palkia
+rain Thundurus
+rain Pelipper
+rain Ludicolo
+rain RotomWash
+rain Bellibolt
+rain Kingdra
+rain Milotic
+rain Scizor
+rain Gyarados
+rain Basculegion M
+rain Dragonite
+rain Dracovish
+rain Archaludon
 #define FRONTIER_MONS_BUG_MANIAC_4 \
-bal
+bal Giratina
+bal Volcarona
+sand Flygon
+bal Butterfree
+bal Pinsir
+bal Vivillon
+bal Heracross
+bal Lokix
+bal Ariados
+bal Drapion
+bal Amoonguss
 #define FRONTIER_MONS_FISHERMAN_3 \
-rain
+rain Lugia
+rain Kyogre
+rain Jolteon
+rain Kilowattrel
+rain Kabutops
+rain Omastar
+rain Starmie
+rain Pelipper
+rain Ludicolo
+rain RotomWash
+rain Bellibolt
+rain Kingdra
+rain Milotic
+rain Scizor
+rain Gyarados
+rain Basculegion M
+rain Dragonite
 #define FRONTIER_MONS_RUIN_MANIAC_4 \
-sand
+sand Tyranitar
+sand Garchomp
+sand Gholdengo
+sand Great Tusk
+sand Iron Treads
+sand Iron Thorns
+sand Regirock
+sand Registeel
+sand Landorus Therian
+sand Ursaluna Bloodmoon
+sand Dialga
+sand Swampert
+sand Gastrodon
+sand Lucario
+sand Golem Alola
+sand Flygon
+sand Rhyperior
+sand Mamoswine
+sand Aerodactyl
+sand Corviknight
+sand Tinkaton
+sand Incineroar
 #define FRONTIER_MONS_COLLECTOR_3 \
-bal
+bal Aerodactyl
+bal Garchomp
+bal Charizard
+bal Rillaboom
+bal Amoonguss
+bal Gallade
+bal Annihilape
+bal Gardevoir
+bal Alakazam
+bal Grimmsnarl
+bal Talonflame
+bal Togekiss
+bal Incineroar
+bal Arcanine-Hisui
+bal Landorus-Therian
+bal Thundurus
+bal Tornadus
+bal Mewtwo
 #define FRONTIER_MONS_GUITARIST_3A \
-elec
+elec Miraidon
+elec Regieleki
+elec Zekrom
+elec Excadrill
+elec Tapu Koko
+elec Iron Bundle
+elec Iron Jugulis
+elec Iron Hands
+elec Iron Thorns
+elec Iron Valiant
+elec Iron Crown
+elec Iron Boulder
+elec Iron Treads
+elec Iron Moth
+elec Iron Leaves
+elec Sandy Shocks
 #define FRONTIER_MONS_GUITARIST_3B \
-elec
+elec Tapu Koko
+elec Iron Bundle
+elec Iron Jugulis
+elec Iron Hands
+elec Iron Thorns
+elec Iron Valiant
+elec Iron Crown
+elec Iron Boulder
+elec Iron Treads
+elec Iron Moth
+elec Iron Leaves
+elec Sandy Shocks
+elec Thundurus
+elec Raikou
+elec Raging Bolt
+elec Miraidon
 #define FRONTIER_MONS_BIRD_KEEPER_3 \
-bal
+bal Pidgeot
+bal Skarmory
+bal Altaria
+bal Staraptor
+bal Aerodactyl
+bal Charizard
+bal Thundurus
+bal Tornadus
+bal Articuno
+bal Iron Bundle
+bal Togekiss
+bal Salamence
+bal Moltres-Galar
+bal Roaring Moon
+rain Zapdos
+sun Moltres
 #define FRONTIER_MONS_SAILOR_3  \
-rain
+rain Urshifu Rapid Strike
+rain Lugia
+rain Kilowattrel
+rain Kabutops
+rain Omastar
+rain Starmie
+rain Pelipper
+rain Bellibolt
+rain Kingdra
+rain Milotic
+rain Scizor
+rain Gyarados
+rain Basculegion M
+rain Dragonite
+bal Breloom
+bal Iron Hands
+bal Rillaboom
 #define FRONTIER_MONS_HIKER_3   \
-sand
+sand Tinkaton
+sand Incineroar
+sand Excadrill
+sand Metagross
+sand Kingambit
+sand Tyranitar
+sand Garchomp
+sand Gholdengo
+sand Great Tusk
+sand Iron Treads
+sand Iron Thorns
+sand Regirock
+sand Registeel
+sand Landorus Therian
+sand Ursaluna Bloodmoon
+sand Dialga
+sand Steelix
+sand Rhyperior
+sand Golem Alola
+sand Swampert
+sand Gastrodon
 #define FRONTIER_MONS_KINDLER_3 \
 sun Torkoal
 sun Charizard
@@ -1194,9 +1533,42 @@ sun Moltres
 sun Great Tusk
 sun Brute Bonnet
 #define FRONTIER_MONS_EEVEELUTIONS \
-bal
+bal Mewtwo
+bal Giratina
+bal Calyrex Shadow
+bal Roaring Moon
+bal Skeledirge
+bal Gholdengo
+bal Articuno
+bal Iron Bundle
+bal Dragapult
+bal Salamence
+bal Moltres-Galar
+bal Togekiss
+bal Incineroar
+bal Arcanine-Hisui
+bal Iron Hands
+bal Great Tusk
+bal Dragonite
+bal Whimsicott
 #define FRONTIER_MONS_BEAUTY_2  \
-rain
+rain Lugia
+rain Palkia
+rain Kyogre
+rain Tornadus
+rain Thundurus
+rain Zapdos
+rain Raikou
+rain Suicune
+rain Gyarados
+rain Basculegion M
+rain Dragonite
+rain Dracovish
+rain Kingdra
+rain Milotic
+rain Starmie
+rain Pelipper
+rain Raichu
 #define FRONTIER_MONS_AROMA_LADY_3  \
 sun Flutter Mane
 sun Roaring Moon

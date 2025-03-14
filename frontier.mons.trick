@@ -1448,4 +1448,319 @@ EVs: 252 HP / 4 Def / 252 Atk
 - Trick Room  
 - Knock Off  
 
+=== FRONTIER_MON_TR_MIMIKYU_1 ===  
+Mimikyu @ Mental Herb  
+Ability: Disguise  
+Nature: Relaxed  
+EVs: 252 HP / 156 Def / 100 SpD  
+- Trick Room  
+- Play Rough  
+- Shadow Claw  
+- Will-O-Wisp  
+
+=== FRONTIER_MON_TR_MIMIKYU_2 ===  
+Mimikyu @ Sitrus Berry  
+Ability: Disguise  
+Nature: Sassy  
+EVs: 252 HP / 4 Def / 252 SpD  
+- Trick Room  
+- Taunt  
+- Play Rough  
+- Pain Split  
+
+=== FRONTIER_MON_TR_MIMIKYU_3 ===  
+Mimikyu @ Safety Goggles  
+Ability: Disguise  
+Nature: Relaxed  
+EVs: 252 HP / 132 Def / 124 SpD  
+- Trick Room  
+- Curse  
+- Protect  
+- Shadow Sneak  
+
+=== FRONTIER_MON_TR_MIMIKYU_4 ===  
+Mimikyu @ Red Card  
+Ability: Disguise  
+Nature: Bold  
+EVs: 252 HP / 200 Def / 56 SpD  
+- Trick Room  
+- Destiny Bond  
+- Will-O-Wisp  
+- Shadow Claw  
+
+=== FRONTIER_MON_TR_MIMIKYU_5 ===  
+Mimikyu @ Lum Berry  
+Ability: Disguise  
+Nature: Sassy  
+EVs: 252 HP / 120 Def / 136 SpD  
+- Trick Room  
+- Play Rough  
+- Shadow Sneak  
+- Protect  
+
+=== FRONTIER_MON_TR_IRON_HANDS_1 ===  
+Iron Hands @ Assault Vest  
+Ability: Quark Drive  
+Nature: Brave  
+EVs: 252 HP / 252 Atk / 4 SpD  
+- Drain Punch  
+- Wild Charge  
+- Heavy Slam  
+- Fake Out  
+
+=== FRONTIER_MON_TR_IRON_HANDS_2 ===  
+Iron Hands @ Sitrus Berry  
+Ability: Quark Drive  
+Nature: Brave  
+EVs: 252 HP / 128 Atk / 128 SpD  
+- Belly Drum  
+- Drain Punch  
+- Thunder Punch  
+- Protect  
+
+=== FRONTIER_MON_TR_IRON_HANDS_3 ===  
+Iron Hands @ Safety Goggles  
+Ability: Quark Drive  
+Nature: Brave  
+EVs: 252 HP / 160 Atk / 96 SpD  
+- Close Combat  
+- Ice Punch  
+- Fake Out  
+- Wide Guard  
+
+=== FRONTIER_MON_TR_IRON_HANDS_4 ===  
+Iron Hands @ Leftovers  
+Ability: Quark Drive  
+Nature: Brave  
+EVs: 252 HP / 128 Atk / 128 SpD  
+- Drain Punch  
+- Thunder Punch  
+- Swords Dance  
+- Protect  
+
+=== FRONTIER_MON_TR_IRON_HANDS_5 ===  
+Iron Hands @ Lum Berry  
+Ability: Quark Drive  
+Nature: Brave  
+EVs: 252 HP / 252 Atk / 4 SpD  
+- Drain Punch  
+- Wild Charge  
+- Ice Punch  
+- Detect  
+
+=== FRONTIER_MON_TR_CLODSIRE_1 ===  
+Clodsire @ Leftovers  
+Ability: Unaware  
+Nature: Relaxed  
+EVs: 252 HP / 160 Def / 96 SpD  
+- Trick Room  
+- Earth Power  
+- Recover  
+- Acid Spray  
+
+=== FRONTIER_MON_TR_CLODSIRE_2 ===  
+Clodsire @ Black Sludge  
+Ability: Water Absorb  
+Nature: Sassy  
+EVs: 252 HP / 200 SpD / 56 Def  
+- Toxic  
+- Protect  
+- Earth Power  
+- Recover  
+
+=== FRONTIER_MON_TR_CLODSIRE_3 ===  
+Clodsire @ Safety Goggles  
+Ability: Unaware  
+Nature: Relaxed  
+EVs: 252 HP / 128 Def / 128 SpD  
+- Curse  
+- Earthquake  
+- Poison Jab  
+- Recover  
+
+=== FRONTIER_MON_TR_CLODSIRE_4 ===  
+Clodsire @ Sitrus Berry  
+Ability: Water Absorb  
+Nature: Sassy  
+EVs: 252 HP / 252 SpD / 4 Def  
+- Yawn  
+- Stealth Rock  
+- Earth Power  
+- Sludge Bomb  
+
+=== FRONTIER_MON_TR_CLODSIRE_5 ===  
+Clodsire @ Rocky Helmet  
+Ability: Unaware  
+Nature: Relaxed  
+EVs: 252 HP / 160 Def / 96 SpD  
+- Trick Room  
+- Acid Spray  
+- Earth Power  
+- Recover  
+
+=== FRONTIER_MON_TRICK_DIALGA_1 ===  
+Dialga @ Safety Goggles  
+Ability: Telepathy  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 SpD  
+IVs: 0 Spe  
+- Trick Room  
+- Flash Cannon  
+- Earth Power  
+- Protect  
+
+=== FRONTIER_MON_TRICK_DIALGA_2 ===  
+Dialga @ Life Orb  
+Ability: Pressure  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 SpD  
+IVs: 0 Spe  
+- Trick Room  
+- Draco Meteor  
+- Thunder  
+- Earth Power  
+
+=== FRONTIER_MON_TRICK_DIALGA_3 ===  
+Dialga @ Weakness Policy  
+Ability: Pressure  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 Def  
+IVs: 0 Spe  
+- Trick Room  
+- Flash Cannon  
+- Body Press  
+- Stealth Rock  
+
+=== FRONTIER_MON_TRICK_DIALGA_4 ===  
+Dialga @ Assault Vest  
+Ability: Pressure  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 Def  
+IVs: 0 Spe  
+- Dragon Pulse  
+- Flash Cannon  
+- Thunder  
+- Earth Power  
+
+=== FRONTIER_MON_TRICK_DIALGA_5 ===  
+Dialga @ Leftovers  
+Ability: Pressure  
+Nature: Quiet  
+EVs: 252 HP / 252 Def / 4 SpA  
+IVs: 0 Spe  
+- Trick Room  
+- Body Press  
+- Flash Cannon  
+- Iron Defense  
+
+=== FRONTIER_MON_TRICK_PALKIA_1 ===  
+Palkia @ Lustrous Orb  
+Ability: Telepathy  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 SpD  
+IVs: 0 Spe  
+- Trick Room  
+- Spacial Rend  
+- Hydro Pump  
+- Protect  
+
+=== FRONTIER_MON_TRICK_PALKIA_2 ===  
+Palkia @ Assault Vest  
+Ability: Pressure  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 SpD  
+IVs: 0 Spe  
+- Draco Meteor  
+- Hydro Pump  
+- Thunder  
+- Earth Power  
+
+=== FRONTIER_MON_TRICK_PALKIA_3 ===  
+Palkia @ Leftovers  
+Ability: Pressure  
+Nature: Quiet  
+EVs: 252 HP / 252 Def / 4 SpA  
+IVs: 0 Spe  
+- Trick Room  
+- Muddy Water  
+- Thunder  
+- Calm Mind  
+
+=== FRONTIER_MON_TRICK_PALKIA_4 ===  
+Palkia @ Life Orb  
+Ability: Telepathy  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 SpD  
+IVs: 0 Spe  
+- Trick Room  
+- Surf  
+- Draco Meteor  
+- Protect  
+
+=== FRONTIER_MON_TRICK_PALKIA_5 ===  
+Palkia @ Sitrus Berry  
+Ability: Pressure  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 Def  
+IVs: 0 Spe  
+- Trick Room  
+- Earth Power  
+- Ice Beam  
+- Protect  
+
+=== FRONTIER_MON_TRICK_LUNALA_1 ===  
+Lunala @ Power Herb  
+Ability: Shadow Shield  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 Def  
+IVs: 0 Spe  
+- Trick Room  
+- Meteor Beam  
+- Moongeist Beam  
+- Protect  
+
+=== FRONTIER_MON_TRICK_LUNALA_2 ===  
+Lunala @ Leftovers  
+Ability: Shadow Shield  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 SpD  
+IVs: 0 Spe  
+- Trick Room  
+- Moongeist Beam  
+- Psychic  
+- Roost  
+
+=== FRONTIER_MON_TRICK_LUNALA_3 ===  
+Lunala @ Weakness Policy  
+Ability: Shadow Shield  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 Def  
+IVs: 0 Spe  
+- Trick Room  
+- Moongeist Beam  
+- Focus Blast  
+- Shadow Ball  
+
+=== FRONTIER_MON_TRICK_LUNALA_4 ===  
+Lunala @ Mental Herb  
+Ability: Shadow Shield  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 SpD  
+IVs: 0 Spe  
+- Trick Room  
+- Moongeist Beam  
+- Calm Mind  
+- Roost  
+
+=== FRONTIER_MON_TRICK_LUNALA_5 ===  
+Lunala @ Colbur Berry  
+Ability: Shadow Shield  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 Def  
+IVs: 0 Spe  
+- Trick Room  
+- Moongeist Beam  
+- Ice Beam  
+- Protect  
+
 

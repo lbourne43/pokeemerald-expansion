@@ -4,7 +4,7 @@ def clean(text):
     return text.strip().upper().replace(" ", "_").replace("-", "_")
 
 
-with open("frontier.mons") as f:
+with open("frontier.mons.new") as f:
     lines = f.readlines()
 
 poke_struct = {
@@ -46,14 +46,12 @@ for l in lines:
         if (len(poke['moves']) == 4):
             data.append(poke)
     elif l.startswith("EVs:"):
-        evs = l.split()
-        poke['evs'] = {"Hp": 0, "Atk": 0, "Def": 0, "SpA": 0, "SpD": 0, "Spe": 0}
-        poke['evs']['HP'] = int(evs[1])
-        poke['evs']['Atk'] = int(evs[4])
-        poke['evs']['Def'] = int(evs[7])
-        poke['evs']['SpA'] = int(evs[10])
-        poke['evs']['SpD'] = int(evs[13])
-        poke['evs']['Spe'] = int(evs[16])
+        evs = l[4:].split("/")
+        poke['evs'] = {"HP": 0, "Atk": 0, "Def": 0, "SpA": 0, "SpD": 0, "Spe": 0}
+        for ev in evs:
+            parts = ev.split()
+            key = parts[1].strip()
+            poke['evs'][key] = int(parts[0])
     elif l.startswith("Nature"):
         poke['nature'] = l.split(":")[-1].strip()
     elif l.startswith("Ability"):
@@ -78,7 +76,7 @@ for mon in data:
     evs = mon['evs']
     print('        .ev = TRAINER_PARTY_EVS(%d, %d, %d, %d, %d, %d),' % (evs['HP'], evs['Atk'], evs['Def'], evs['SpA'], evs['SpD'], evs['Spe']))
     print('        .nature = NATURE_%s' % clean(mon['nature']))
-    print('        .ability = ABILITY_%s' % clean(mon['nature']))
+    print('        .ability = ABILITY_%s' % clean(mon['ability']))
     print('    },')
     print()
 

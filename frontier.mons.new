@@ -48,6 +48,557 @@ EVs: 252 HP / 4 Def / 0 SpD / 252 Spe
 - U-turn  
 - Roost  
 
+=== FRONTIER_MON_BAL_BUTTERFREE_1 ===  
+Butterfree @ Focus Sash  
+Ability: Compound Eyes  
+Nature: Timid  
+EVs: 252 HP / 0 Atk / 4 Def / 252 Spe  
+- Sleep Powder  
+- Hurricane  
+- Rage Powder  
+- Tailwind  
+
+=== FRONTIER_MON_BAL_BUTTERFREE_2 ===  
+Butterfree @ Sitrus Berry  
+Ability: Tinted Lens  
+Nature: Modest  
+EVs: 252 HP / 0 Atk / 4 Def / 252 SpA / 252 Spe  
+- Bug Buzz  
+- Air Slash  
+- Tailwind  
+- Protect  
+
+=== FRONTIER_MON_BAL_BUTTERFREE_3 ===  
+Butterfree @ Mental Herb  
+Ability: Compound Eyes  
+Nature: Bold  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Sleep Powder  
+- Pollen Puff  
+- Quiver Dance  
+- Substitute  
+
+=== FRONTIER_MON_BAL_BUTTERFREE_4 ===  
+Butterfree @ Covert Cloak  
+Ability: Compound Eyes  
+Nature: Timid  
+EVs: 252 HP / 0 Atk / 4 Def / 252 Spe  
+- Sleep Powder  
+- Struggle Bug  
+- Tailwind  
+- Protect  
+
+=== FRONTIER_MON_BAL_BUTTERFREE_5 ===  
+Butterfree @ Focus Sash  
+Ability: Tinted Lens  
+Nature: Timid  
+EVs: 252 HP / 0 Atk / 4 Def / 252 Spe  
+- Sleep Powder  
+- Hurricane  
+- Pollen Puff  
+- Protect  
+
+=== FRONTIER_MON_BAL_PINSIR_1 ===  
+Pinsir @ Assault Vest  
+Ability: Mold Breaker  
+Nature: Adamant  
+EVs: 252 HP / 252 Atk / 4 Spe  
+- Close Combat  
+- X-Scissor  
+- Stone Edge  
+- Quick Attack  
+
+=== FRONTIER_MON_BAL_PINSIR_2 ===  
+Pinsir @ Life Orb  
+Ability: Hyper Cutter  
+Nature: Jolly  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- X-Scissor  
+- Close Combat  
+- Quick Attack  
+- Protect  
+
+=== FRONTIER_MON_BAL_PINSIR_3 ===  
+Pinsir @ Choice Band  
+Ability: Mold Breaker  
+Nature: Adamant  
+EVs: 252 HP / 252 Atk / 4 SpD  
+- Megahorn  
+- Close Combat  
+- Knock Off  
+- Stone Edge  
+
+=== FRONTIER_MON_BAL_PINSIR_4 ===  
+Pinsir @ Sitrus Berry  
+Ability: Hyper Cutter  
+Nature: Adamant  
+EVs: 252 HP / 4 Atk / 252 SpD  
+- Swords Dance  
+- X-Scissor  
+- Close Combat  
+- Protect  
+
+=== FRONTIER_MON_BAL_PINSIR_5 ===  
+Pinsir @ Safety Goggles  
+Ability: Mold Breaker  
+Nature: Jolly  
+EVs: 252 HP / 4 Atk / 252 Spe  
+- Feint  
+- X-Scissor  
+- Close Combat  
+- Protect  
+
+=== FRONTIER_MON_BAL_VIVILLON_1 ===  
+Vivillon @ Focus Sash  
+Ability: Compound Eyes  
+Nature: Timid  
+EVs: 252 HP / 0 Atk / 4 Def / 252 Spe  
+- Sleep Powder  
+- Hurricane  
+- Rage Powder  
+- Tailwind  
+
+=== FRONTIER_MON_BAL_VIVILLON_2 ===  
+Vivillon @ Lum Berry  
+Ability: Friend Guard  
+Nature: Bold  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Pollen Puff  
+- Struggle Bug  
+- Tailwind  
+- Protect  
+
+=== FRONTIER_MON_BAL_VIVILLON_3 ===  
+Vivillon @ Heavy-Duty Boots  
+Ability: Compound Eyes  
+Nature: Timid  
+EVs: 252 HP / 0 Atk / 4 Def / 252 Spe  
+- Sleep Powder  
+- Quiver Dance  
+- Hurricane  
+- Substitute  
+
+=== FRONTIER_MON_BAL_VIVILLON_4 ===  
+Vivillon @ Mental Herb  
+Ability: Compound Eyes  
+Nature: Timid  
+EVs: 252 HP / 0 Atk / 4 Def / 252 Spe  
+- Sleep Powder  
+- Pollen Puff  
+- Struggle Bug  
+- Tailwind  
+
+=== FRONTIER_MON_BAL_VIVILLON_5 ===  
+Vivillon @ Focus Sash  
+Ability: Friend Guard  
+Nature: Timid  
+EVs: 252 HP / 0 Atk / 4 Def / 252 Spe  
+- Rage Powder  
+- Air Slash  
+- Tailwind  
+- Protect  
+
+=== FRONTIER_MON_BAL_HERACROSS_1 ===  
+Heracross @ Choice Scarf  
+Ability: Guts  
+Nature: Jolly  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- Close Combat  
+- Megahorn  
+- Knock Off  
+- Stone Edge  
+
+=== FRONTIER_MON_BAL_HERACROSS_2 ===  
+Heracross @ Assault Vest  
+Ability: Swarm  
+Nature: Adamant  
+EVs: 252 HP / 252 Atk / 4 SpD  
+- Close Combat  
+- Throat Chop  
+- Megahorn  
+- Rock Slide  
+
+=== FRONTIER_MON_BAL_HERACROSS_3 ===  
+Heracross @ Sitrus Berry  
+Ability: Guts  
+Nature: Adamant  
+EVs: 252 HP / 252 Atk / 4 SpD  
+- Bulk Up  
+- Close Combat  
+- Megahorn  
+- Protect  
+
+=== FRONTIER_MON_BAL_HERACROSS_4 ===  
+Heracross @ Life Orb  
+Ability: Swarm  
+Nature: Jolly  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- Close Combat  
+- Megahorn  
+- Quick Attack  
+- Protect  
+
+=== FRONTIER_MON_BAL_HERACROSS_5 ===  
+Heracross @ Flame Orb  
+Ability: Guts  
+Nature: Adamant  
+EVs: 252 HP / 252 Atk / 4 SpD  
+- Close Combat  
+- Megahorn  
+- Facade  
+- Protect  
+
+=== FRONTIER_MON_BAL_PIDGEOT_1 ===  
+Pidgeot @ Heavy-Duty Boots  
+Ability: Big Pecks  
+Nature: Timid  
+EVs: 252 HP / 0 Atk / 4 Def / 252 Spe  
+- Hurricane  
+- Tailwind  
+- U-turn  
+- Protect  
+
+=== FRONTIER_MON_BAL_PIDGEOT_2 ===  
+Pidgeot @ Covert Cloak  
+Ability: Big Pecks  
+Nature: Timid  
+EVs: 252 HP / 0 Atk / 4 Def / 252 Spe  
+- Hurricane  
+- Air Slash  
+- Tailwind  
+- Roost  
+
+=== FRONTIER_MON_BAL_PIDGEOT_3 ===  
+Pidgeot @ Focus Sash  
+Ability: Tangled Feet  
+Nature: Timid  
+EVs: 252 HP / 0 Atk / 4 Def / 252 Spe  
+- Hurricane  
+- Heat Wave  
+- U-turn  
+- Protect  
+
+=== FRONTIER_MON_BAL_PIDGEOT_4 ===  
+Pidgeot @ Leftovers  
+Ability: Big Pecks  
+Nature: Timid  
+EVs: 252 HP / 0 Atk / 4 Def / 252 Spe  
+- Hurricane  
+- Defog  
+- Tailwind  
+- Roost  
+
+=== FRONTIER_MON_BAL_PIDGEOT_5 ===  
+Pidgeot @ Life Orb  
+Ability: Tangled Feet  
+Nature: Timid  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+- Hurricane  
+- Heat Wave  
+- U-turn  
+- Protect  
+
+=== FRONTIER_MON_BAL_SKARMORY_1 ===  
+Skarmory @ Leftovers  
+Ability: Sturdy  
+Nature: Impish  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Iron Defense  
+- Body Press  
+- Roost  
+- Tailwind  
+
+=== FRONTIER_MON_BAL_SKARMORY_2 ===  
+Skarmory @ Rocky Helmet  
+Ability: Sturdy  
+Nature: Impish  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Brave Bird  
+- Iron Head  
+- Tailwind  
+- Protect  
+
+=== FRONTIER_MON_BAL_SKARMORY_3 ===  
+Skarmory @ Safety Goggles  
+Ability: Sturdy  
+Nature: Careful  
+EVs: 252 HP / 4 Def / 252 SpD  
+- Iron Head  
+- Snarl  
+- Tailwind  
+- Roost  
+
+=== FRONTIER_MON_BAL_SKARMORY_4 ===  
+Skarmory @ Sitrus Berry  
+Ability: Sturdy  
+Nature: Impish  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Iron Defense  
+- Body Press  
+- Tailwind  
+- Roost  
+
+=== FRONTIER_MON_BAL_SKARMORY_5 ===  
+Skarmory @ Covert Cloak  
+Ability: Sturdy  
+Nature: Careful  
+EVs: 252 HP / 4 Def / 252 SpD  
+- Brave Bird  
+- Snarl  
+- Tailwind  
+- Protect  
+
+=== FRONTIER_MON_BAL_ALTARIA_1 ===  
+Altaria @ Sitrus Berry  
+Ability: Natural Cure  
+Nature: Bold  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Roost  
+- Helping Hand  
+- Tailwind  
+- Moonblast  
+
+=== FRONTIER_MON_BAL_ALTARIA_2 ===  
+Altaria @ Leftovers  
+Ability: Cloud Nine  
+Nature: Calm  
+EVs: 252 HP / 4 Def / 252 SpD  
+- Snarl  
+- Will-O-Wisp  
+- Tailwind  
+- Roost  
+
+=== FRONTIER_MON_BAL_ALTARIA_3 ===  
+Altaria @ Heavy-Duty Boots  
+Ability: Natural Cure  
+Nature: Timid  
+EVs: 252 HP / 4 Def / 252 Spe  
+- Draco Meteor  
+- Hurricane  
+- Tailwind  
+- Protect  
+
+=== FRONTIER_MON_BAL_ALTARIA_4 ===  
+Altaria @ Covert Cloak  
+Ability: Cloud Nine  
+Nature: Calm  
+EVs: 252 HP / 4 Def / 252 SpD  
+- Moonblast  
+- Will-O-Wisp  
+- Tailwind  
+- Roost  
+
+=== FRONTIER_MON_BAL_ALTARIA_5 ===  
+Altaria @ Assault Vest  
+Ability: Cloud Nine  
+Nature: Modest  
+EVs: 252 HP / 4 SpA / 252 SpD  
+- Draco Meteor  
+- Hyper Voice  
+- Hurricane  
+- Ice Beam  
+
+=== FRONTIER_MON_BAL_STARAPTOR_1 ===  
+Staraptor @ Choice Scarf  
+Ability: Intimidate  
+Nature: Jolly  
+EVs: 252 Atk / 4 Def / 252 Spe  
+- Brave Bird  
+- Close Combat  
+- U-turn  
+- Final Gambit  
+
+=== FRONTIER_MON_BAL_STARAPTOR_2 ===  
+Staraptor @ Safety Goggles  
+Ability: Intimidate  
+Nature: Adamant  
+EVs: 252 HP / 252 Atk / 4 SpD  
+- Brave Bird  
+- Close Combat  
+- Tailwind  
+- Protect  
+
+=== FRONTIER_MON_BAL_STARAPTOR_3 ===  
+Staraptor @ Sitrus Berry  
+Ability: Intimidate  
+Nature: Impish  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Brave Bird  
+- U-turn  
+- Tailwind  
+- Roost  
+
+=== FRONTIER_MON_BAL_STARAPTOR_4 ===  
+Staraptor @ Focus Sash  
+Ability: Intimidate  
+Nature: Jolly  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- Brave Bird  
+- Close Combat  
+- Quick Attack  
+- Tailwind  
+
+=== FRONTIER_MON_BAL_STARAPTOR_5 ===  
+Staraptor @ Assault Vest  
+Ability: Intimidate  
+Nature: Adamant  
+EVs: 252 HP / 4 Def / 252 Atk  
+- Brave Bird  
+- Close Combat  
+- U-turn  
+- Rock Slide  
+
+=== FRONTIER_MON_BAL_LOKIX_1 ===  
+Lokix @ Choice Band  
+Ability: Tinted Lens  
+Nature: Jolly  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- First Impression  
+- Throat Chop  
+- U-turn  
+- Protect  
+
+=== FRONTIER_MON_BAL_LOKIX_2 ===  
+Lokix @ Focus Sash  
+Ability: Tinted Lens  
+Nature: Jolly  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- First Impression  
+- U-turn  
+- Sucker Punch  
+- Protect  
+
+=== FRONTIER_MON_BAL_LOKIX_3 ===  
+Lokix @ Life Orb  
+Ability: Swarm  
+Nature: Jolly  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- First Impression  
+- Sucker Punch  
+- Leech Life  
+- Protect  
+
+=== FRONTIER_MON_BAL_LOKIX_4 ===  
+Lokix @ Heavy-Duty Boots  
+Ability: Tinted Lens  
+Nature: Jolly  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- First Impression  
+- Knock Off  
+- U-turn  
+- Protect  
+
+=== FRONTIER_MON_BAL_LOKIX_5 ===  
+Lokix @ Focus Sash  
+Ability: Swarm  
+Nature: Jolly  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- First Impression  
+- Leech Life  
+- Throat Chop  
+- Protect  
+
+=== FRONTIER_MON_BAL_ARIADOS_1 ===  
+Ariados @ Focus Sash  
+Ability: Insomnia  
+Nature: Jolly  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- Sticky Web  
+- Megahorn  
+- Sucker Punch  
+- Protect  
+
+=== FRONTIER_MON_BAL_ARIADOS_2 ===  
+Ariados @ Black Sludge  
+Ability: Swarm  
+Nature: Careful  
+EVs: 252 HP / 4 Def / 252 SpD  
+- Toxic Thread  
+- Protect  
+- Sucker Punch  
+- Megahorn  
+
+=== FRONTIER_MON_BAL_ARIADOS_3 ===  
+Ariados @ Heavy-Duty Boots  
+Ability: Swarm  
+Nature: Jolly  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- Sticky Web  
+- U-turn  
+- Leech Life  
+- Protect  
+
+=== FRONTIER_MON_BAL_ARIADOS_4 ===  
+Ariados @ Focus Sash  
+Ability: Insomnia  
+Nature: Jolly  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- Sticky Web  
+- Megahorn  
+- Sucker Punch  
+- Protect  
+
+=== FRONTIER_MON_BAL_ARIADOS_5 ===  
+Ariados @ Life Orb  
+Ability: Sniper  
+Nature: Jolly  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- Fell Stinger  
+- Leech Life  
+- Sucker Punch  
+- Protect  
+
+=== FRONTIER_MON_BAL_DRAPION_1 ===  
+Drapion @ Assault Vest  
+Ability: Battle Armor  
+Nature: Adamant  
+EVs: 252 HP / 252 Atk / 4 SpD  
+- Knock Off  
+- Poison Jab  
+- Snarl  
+- Ice Fang  
+
+=== FRONTIER_MON_BAL_DRAPION_2 ===  
+Drapion @ Black Sludge  
+Ability: Battle Armor  
+Nature: Careful  
+EVs: 252 HP / 4 Def / 252 SpD  
+- Snarl  
+- Taunt  
+- Toxic  
+- Protect  
+
+=== FRONTIER_MON_BAL_DRAPION_3 ===  
+Drapion @ Sitrus Berry  
+Ability: Battle Armor  
+Nature: Impish  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Knock Off  
+- Poison Jab  
+- Tailwind  
+- Protect  
+
+=== FRONTIER_MON_BAL_DRAPION_4 ===  
+Drapion @ Safety Goggles  
+Ability: Battle Armor  
+Nature: Careful  
+EVs: 252 HP / 4 Def / 252 SpD  
+- Snarl  
+- Knock Off  
+- Taunt  
+- Protect  
+
+=== FRONTIER_MON_BAL_DRAPION_5 ===  
+Drapion @ Choice Band  
+Ability: Sniper  
+Nature: Jolly  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- Knock Off  
+- Poison Jab  
+- Aqua Tail  
+- Ice Fang  
+
+
 === FRONTIER_MON_BAL_HOUNDOOM_1 ===  
 Houndoom @ Black Glasses  
 Ability: Flash Fire  
@@ -297,6 +848,106 @@ EVs: 252 HP / 4 Atk / 252 Spe
 - Waterfall  
 - Ice Fang  
 - Protect  
+
+=== FRONTIER_MON_BAL_BRELOOM_1 ===  
+Breloom @ Focus Sash  
+Ability: Technician  
+Nature: Adamant  
+EVs: 4 HP / 252 Atk / 252 Spe  
+- Mach Punch  
+- Bullet Seed  
+- Spore  
+- Protect  
+
+=== FRONTIER_MON_BAL_BRELOOM_2 ===  
+Breloom @ Life Orb  
+Ability: Technician  
+Nature: Jolly  
+EVs: 4 HP / 252 Atk / 252 Spe  
+- Mach Punch  
+- Bullet Seed  
+- Rock Tomb  
+- Protect  
+
+=== FRONTIER_MON_BAL_BRELOOM_3 ===  
+Breloom @ Safety Goggles  
+Ability: Poison Heal  
+Nature: Careful  
+EVs: 252 HP / 4 Def / 252 SpD  
+- Leech Seed  
+- Substitute  
+- Drain Punch  
+- Protect  
+
+=== FRONTIER_MON_BAL_BRELOOM_4 ===  
+Breloom @ Choice Band  
+Ability: Technician  
+Nature: Adamant  
+EVs: 4 HP / 252 Atk / 252 Spe  
+- Mach Punch  
+- Bullet Seed  
+- Rock Tomb  
+- Close Combat  
+
+=== FRONTIER_MON_BAL_BRELOOM_5 ===  
+Breloom @ Wide Lens  
+Ability: Technician  
+Nature: Jolly  
+EVs: 4 HP / 252 Atk / 252 Spe  
+- Spore  
+- Bullet Seed  
+- Low Sweep  
+- Protect  
+
+=== FRONTIER_MON_BAL_DRIFBLIM_1 ===  
+Drifblim @ Sitrus Berry  
+Ability: Unburden  
+Nature: Calm  
+EVs: 252 HP / 4 Def / 252 SpD  
+- Tailwind  
+- Will-O-Wisp  
+- Strength Sap  
+- Shadow Ball  
+
+=== FRONTIER_MON_BAL_DRIFBLIM_2 ===  
+Drifblim @ Psychic Seed  
+Ability: Unburden  
+Nature: Modest  
+EVs: 252 HP / 4 SpA / 252 Spe  
+- Shadow Ball  
+- Thunderbolt  
+- Tailwind  
+- Protect  
+
+=== FRONTIER_MON_BAL_DRIFBLIM_3 ===  
+Drifblim @ Mental Herb  
+Ability: Unburden  
+Nature: Bold  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Strength Sap  
+- Will-O-Wisp  
+- Hex  
+- Tailwind  
+
+=== FRONTIER_MON_BAL_DRIFBLIM_4 ===  
+Drifblim @ Weakness Policy  
+Ability: Unburden  
+Nature: Timid  
+EVs: 4 HP / 252 SpA / 252 Spe  
+- Shadow Ball  
+- Air Slash  
+- Thunderbolt  
+- Protect  
+
+=== FRONTIER_MON_BAL_DRIFBLIM_5 ===  
+Drifblim @ Colbur Berry  
+Ability: Aftermath  
+Nature: Calm  
+EVs: 252 HP / 4 Def / 252 SpD  
+- Icy Wind  
+- Strength Sap  
+- Shadow Ball  
+- Tailwind  
 
 === FRONTIER_MON_BAL_EXCADRILL_1 ===  
 Excadrill @ Focus Sash  
@@ -798,6 +1449,906 @@ EVs: 252 HP / 4 Def / 252 Spe
 - Roost  
 - Taunt  
 
+=== FRONTIER_MON_BAL_LANDORUS_T_1 ===  
+Landorus-Therian @ Assault Vest  
+Ability: Intimidate  
+Nature: Adamant  
+EVs: 252 HP / 252 Atk / 4 SpD  
+- Rock Slide  
+- U-turn  
+- Superpower  
+- Stomping Tantrum  
+
+=== FRONTIER_MON_BAL_LANDORUS_T_2 ===  
+Landorus-Therian @ Choice Scarf  
+Ability: Intimidate  
+Nature: Jolly  
+EVs: 252 Atk / 4 Def / 252 Spe  
+- Rock Slide  
+- U-turn  
+- Stomping Tantrum  
+- Knock Off  
+
+=== FRONTIER_MON_BAL_LANDORUS_T_3 ===  
+Landorus-Therian @ Safety Goggles  
+Ability: Intimidate  
+Nature: Adamant  
+EVs: 252 HP / 4 Def / 252 Atk  
+- Stomping Tantrum  
+- U-turn  
+- Taunt  
+- Rock Slide  
+
+=== FRONTIER_MON_BAL_LANDORUS_T_4 ===  
+Landorus-Therian @ Sitrus Berry  
+Ability: Intimidate  
+Nature: Adamant  
+EVs: 252 HP / 4 Atk / 252 SpD  
+- Stomping Tantrum  
+- U-turn  
+- Knock Off  
+- Protect  
+
+=== FRONTIER_MON_BAL_LANDORUS_T_5 ===  
+Landorus-Therian @ Lum Berry  
+Ability: Intimidate  
+Nature: Jolly  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- Rock Slide  
+- Stomping Tantrum  
+- U-turn  
+- Substitute  
+
+=== FRONTIER_MON_BAL_THUNDURUS_1 ===  
+Thundurus @ Sitrus Berry  
+Ability: Prankster  
+Nature: Timid  
+EVs: 252 HP / 4 SpD / 252 Spe  
+- Thunder Wave  
+- Taunt  
+- Wildbolt Storm  
+- Protect  
+
+=== FRONTIER_MON_BAL_THUNDURUS_2 ===  
+Thundurus @ Assault Vest  
+Ability: Defiant  
+Nature: Jolly  
+EVs: 252 Atk / 4 Def / 252 Spe  
+- Wild Charge  
+- Brick Break  
+- U-turn  
+- Knock Off  
+
+=== FRONTIER_MON_BAL_THUNDURUS_3 ===  
+Thundurus @ Magnet  
+Ability: Prankster  
+Nature: Timid  
+EVs: 252 HP / 4 SpA / 252 Spe  
+- Thunderbolt  
+- Eerie Impulse  
+- Thunder Wave  
+- Protect  
+
+=== FRONTIER_MON_BAL_THUNDURUS_4 ===  
+Thundurus @ Mental Herb  
+Ability: Prankster  
+Nature: Timid  
+EVs: 252 HP / 4 Def / 252 Spe  
+- Thunder Wave  
+- Taunt  
+- Foul Play  
+- Protect  
+
+=== FRONTIER_MON_BAL_THUNDURUS_5 ===  
+Thundurus @ Covert Cloak  
+Ability: Prankster  
+Nature: Timid  
+EVs: 252 HP / 4 SpD / 252 Spe  
+- Thunder Wave  
+- Electroweb  
+- Helping Hand  
+- Protect  
+
+=== FRONTIER_MON_BAL_TOGEKISS_1 ===  
+Togekiss @ Safety Goggles  
+Ability: Serene Grace  
+Nature: Bold  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Follow Me  
+- Air Slash  
+- Helping Hand  
+- Protect  
+
+=== FRONTIER_MON_BAL_TOGEKISS_2 ===  
+Togekiss @ Sitrus Berry  
+Ability: Super Luck  
+Nature: Calm  
+EVs: 252 HP / 4 Def / 252 SpD  
+- Follow Me  
+- Dazzling Gleam  
+- Tailwind  
+- Protect  
+
+=== FRONTIER_MON_BAL_TOGEKISS_3 ===  
+Togekiss @ Babiri Berry  
+Ability: Serene Grace  
+Nature: Bold  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Follow Me  
+- Air Slash  
+- Yawn  
+- Protect  
+
+=== FRONTIER_MON_BAL_TOGEKISS_4 ===  
+Togekiss @ Leftovers  
+Ability: Serene Grace  
+Nature: Modest  
+EVs: 252 HP / 4 Def / 252 SpA  
+- Air Slash  
+- Thunder Wave  
+- Helping Hand  
+- Protect  
+
+=== FRONTIER_MON_BAL_TOGEKISS_5 ===  
+Togekiss @ Lum Berry  
+Ability: Serene Grace  
+Nature: Bold  
+EVs: 252 HP / 4 Def / 252 SpD  
+- Follow Me  
+- Air Slash  
+- Encore  
+- Protect  
+
+=== FRONTIER_MON_BAL_INCINEROAR_1 ===  
+Incineroar @ Safety Goggles  
+Ability: Intimidate  
+Nature: Careful  
+EVs: 252 HP / 4 Def / 252 SpD  
+- Fake Out  
+- Flare Blitz  
+- Parting Shot  
+- Protect  
+
+=== FRONTIER_MON_BAL_INCINEROAR_2 ===  
+Incineroar @ Sitrus Berry  
+Ability: Intimidate  
+Nature: Impish  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Fake Out  
+- Snarl  
+- Will-O-Wisp  
+- Flare Blitz  
+
+=== FRONTIER_MON_BAL_INCINEROAR_3 ===  
+Incineroar @ Shuca Berry  
+Ability: Intimidate  
+Nature: Careful  
+EVs: 252 HP / 4 SpD / 252 Def  
+- Fake Out  
+- Flare Blitz  
+- Taunt  
+- Parting Shot  
+
+=== FRONTIER_MON_BAL_INCINEROAR_4 ===  
+Incineroar @ Assault Vest  
+Ability: Intimidate  
+Nature: Adamant  
+EVs: 252 HP / 4 Atk / 252 SpD  
+- Fake Out  
+- Flare Blitz  
+- Snarl  
+- U-turn  
+
+=== FRONTIER_MON_BAL_INCINEROAR_5 ===  
+Incineroar @ Heavy-Duty Boots  
+Ability: Intimidate  
+Nature: Impish  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Fake Out  
+- Flare Blitz  
+- Helping Hand  
+- Parting Shot  
+
+=== FRONTIER_MON_BAL_ARCANINE_H_1 ===  
+Arcanine-Hisui @ Safety Goggles  
+Ability: Intimidate  
+Nature: Adamant  
+EVs: 252 HP / 4 Def / 252 Atk  
+- Rock Slide  
+- Flare Blitz  
+- Snarl  
+- Protect  
+
+=== FRONTIER_MON_BAL_ARCANINE_H_2 ===  
+Arcanine-Hisui @ Assault Vest  
+Ability: Intimidate  
+Nature: Adamant  
+EVs: 252 HP / 4 Atk / 252 SpD  
+- Rock Slide  
+- Flare Blitz  
+- Bulldoze  
+- Extreme Speed  
+
+=== FRONTIER_MON_BAL_ARCANINE_H_3 ===  
+Arcanine-Hisui @ Sitrus Berry  
+Ability: Intimidate  
+Nature: Adamant  
+EVs: 252 HP / 252 Atk / 4 Def  
+- Rock Slide  
+- Will-O-Wisp  
+- Flare Blitz  
+- Protect  
+
+=== FRONTIER_MON_BAL_ARCANINE_H_4 ===  
+Arcanine-Hisui @ Covert Cloak  
+Ability: Intimidate  
+Nature: Adamant  
+EVs: 252 HP / 4 Def / 252 Atk  
+- Flare Blitz  
+- Rock Slide  
+- Snarl  
+- Protect  
+
+=== FRONTIER_MON_BAL_ARCANINE_H_5 ===  
+Arcanine-Hisui @ Heavy-Duty Boots  
+Ability: Intimidate  
+Nature: Jolly  
+EVs: 252 HP / 4 Atk / 252 Spe  
+- Rock Slide  
+- Flare Blitz  
+- Snarl  
+- Roar  
+
+=== FRONTIER_MON_BAL_GREAT_TUSK_1 ===  
+Great Tusk @ Focus Sash  
+Ability: Protosynthesis  
+Nature: Adamant  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- Headlong Rush  
+- Close Combat  
+- Ice Spinner  
+- Protect  
+
+=== FRONTIER_MON_BAL_GREAT_TUSK_2 ===  
+Great Tusk @ Assault Vest  
+Ability: Protosynthesis  
+Nature: Adamant  
+EVs: 252 HP / 252 Atk / 4 SpD  
+- Headlong Rush  
+- Close Combat  
+- Ice Spinner  
+- Knock Off  
+
+=== FRONTIER_MON_BAL_GREAT_TUSK_3 ===  
+Great Tusk @ Booster Energy  
+Ability: Protosynthesis  
+Nature: Jolly  
+EVs: 252 Atk / 4 Def / 252 Spe  
+- Headlong Rush  
+- Close Combat  
+- Rock Slide  
+- Protect  
+
+=== FRONTIER_MON_BAL_GREAT_TUSK_4 ===  
+Great Tusk @ Leftovers  
+Ability: Protosynthesis  
+Nature: Impish  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Bulk Up  
+- Body Press  
+- Ice Spinner  
+- Protect  
+
+=== FRONTIER_MON_BAL_GREAT_TUSK_5 ===  
+Great Tusk @ Clear Amulet  
+Ability: Protosynthesis  
+Nature: Adamant  
+EVs: 252 Atk / 4 Def / 252 Spe  
+- Headlong Rush  
+- Close Combat  
+- Thunder Punch  
+- Protect  
+
+=== FRONTIER_MON_BAL_DRAGONITE_1 ===  
+Dragonite @ Lum Berry  
+Ability: Multiscale  
+Nature: Adamant  
+EVs: 252 HP / 252 Atk / 4 Def  
+- Extreme Speed  
+- Dragon Claw  
+- Tailwind  
+- Protect  
+
+=== FRONTIER_MON_BAL_DRAGONITE_2 ===  
+Dragonite @ Assault Vest  
+Ability: Multiscale  
+Nature: Adamant  
+EVs: 252 HP / 252 Atk / 4 SpD  
+- Extreme Speed  
+- Ice Spinner  
+- Stomping Tantrum  
+- Aerial Ace  
+
+=== FRONTIER_MON_BAL_DRAGONITE_3 ===  
+Dragonite @ Weakness Policy  
+Ability: Multiscale  
+Nature: Adamant  
+EVs: 252 HP / 252 Atk / 4 Def  
+- Dragon Dance  
+- Outrage  
+- Earthquake  
+- Protect  
+
+=== FRONTIER_MON_BAL_DRAGONITE_4 ===  
+Dragonite @ Safety Goggles  
+Ability: Inner Focus  
+Nature: Adamant  
+EVs: 252 HP / 4 Def / 252 Atk  
+- Extreme Speed  
+- Dragon Claw  
+- Superpower  
+- Protect  
+
+=== FRONTIER_MON_BAL_DRAGONITE_5 ===  
+Dragonite @ Heavy-Duty Boots  
+Ability: Multiscale  
+Nature: Jolly  
+EVs: 252 HP / 4 Atk / 252 Spe  
+- Tailwind  
+- Extreme Speed  
+- Rock Slide  
+- Protect  
+
+=== FRONTIER_MON_BAL_CHI_YU_1 ===  
+Chi-Yu @ Focus Sash  
+Ability: Beads of Ruin  
+Nature: Timid  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+- Heat Wave  
+- Dark Pulse  
+- Protect  
+- Nasty Plot  
+
+=== FRONTIER_MON_BAL_CHI_YU_2 ===  
+Chi-Yu @ Choice Specs  
+Ability: Beads of Ruin  
+Nature: Modest  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+- Heat Wave  
+- Dark Pulse  
+- Psychic  
+- Overheat  
+
+=== FRONTIER_MON_BAL_CHI_YU_3 ===  
+Chi-Yu @ Life Orb  
+Ability: Beads of Ruin  
+Nature: Timid  
+EVs: 252 SpA / 4 Def / 252 Spe  
+- Heat Wave  
+- Snarl  
+- Dark Pulse  
+- Protect  
+
+=== FRONTIER_MON_BAL_CHI_YU_4 ===  
+Chi-Yu @ Safety Goggles  
+Ability: Beads of Ruin  
+Nature: Modest  
+EVs: 252 SpA / 4 HP / 252 Spe  
+- Overheat  
+- Dark Pulse  
+- Will-O-Wisp  
+- Protect  
+
+=== FRONTIER_MON_BAL_CHI_YU_5 ===  
+Chi-Yu @ Covert Cloak  
+Ability: Beads of Ruin  
+Nature: Timid  
+EVs: 252 SpA / 4 HP / 252 Spe  
+- Heat Wave  
+- Dark Pulse  
+- Icy Wind  
+- Protect  
+
+=== FRONTIER_MON_BAL_SABLEYE_1 ===  
+Sableye @ Mental Herb  
+Ability: Prankster  
+Nature: Bold  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Taunt  
+- Will-O-Wisp  
+- Foul Play  
+- Recover  
+
+=== FRONTIER_MON_BAL_SABLEYE_2 ===  
+Sableye @ Leftovers  
+Ability: Prankster  
+Nature: Calm  
+EVs: 252 HP / 4 Def / 252 SpD  
+- Will-O-Wisp  
+- Encore  
+- Foul Play  
+- Protect  
+
+=== FRONTIER_MON_BAL_SABLEYE_3 ===  
+Sableye @ Sitrus Berry  
+Ability: Prankster  
+Nature: Bold  
+EVs: 252 HP / 4 SpD / 252 Def  
+- Quash  
+- Will-O-Wisp  
+- Foul Play  
+- Recover  
+
+=== FRONTIER_MON_BAL_SABLEYE_4 ===  
+Sableye @ Covert Cloak  
+Ability: Prankster  
+Nature: Impish  
+EVs: 252 HP / 4 Atk / 252 Def  
+- Fake Out  
+- Foul Play  
+- Thunder Wave  
+- Protect  
+
+=== FRONTIER_MON_BAL_SABLEYE_5 ===  
+Sableye @ Rocky Helmet  
+Ability: Prankster  
+Nature: Bold  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Knock Off  
+- Will-O-Wisp  
+- Trick  
+- Recover  
+
+=== FRONTIER_MON_BAL_MEOWSCARADA_1 ===  
+Meowscarada @ Focus Sash  
+Ability: Protean  
+Nature: Jolly  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- Flower Trick  
+- Knock Off  
+- Sucker Punch  
+- Protect  
+
+=== FRONTIER_MON_BAL_MEOWSCARADA_2 ===  
+Meowscarada @ Life Orb  
+Ability: Protean  
+Nature: Jolly  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- Flower Trick  
+- U-turn  
+- Play Rough  
+- Protect  
+
+=== FRONTIER_MON_BAL_MEOWSCARADA_3 ===  
+Meowscarada @ Choice Band  
+Ability: Protean  
+Nature: Jolly  
+EVs: 252 Atk / 4 HP / 252 Spe  
+- Flower Trick  
+- Knock Off  
+- U-turn  
+- Play Rough  
+
+=== FRONTIER_MON_BAL_MEOWSCARADA_4 ===  
+Meowscarada @ Safety Goggles  
+Ability: Overgrow  
+Nature: Jolly  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- Flower Trick  
+- Knock Off  
+- Taunt  
+- Protect  
+
+=== FRONTIER_MON_BAL_MEOWSCARADA_5 ===  
+Meowscarada @ Choice Scarf  
+Ability: Protean  
+Nature: Jolly  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- Flower Trick  
+- Knock Off  
+- U-turn  
+- Play Rough  
+
+=== FRONTIER_MON_BAL_SYLVEON_1 ===  
+Sylveon @ Throat Spray  
+Ability: Pixilate  
+Nature: Modest  
+EVs: 252 HP / 4 Def / 252 SpA  
+- Hyper Voice  
+- Mystical Fire  
+- Protect  
+- Yawn  
+
+=== FRONTIER_MON_BAL_SYLVEON_2 ===  
+Sylveon @ Leftovers  
+Ability: Pixilate  
+Nature: Calm  
+EVs: 252 HP / 252 SpD / 4 Def  
+- Hyper Voice  
+- Snarl  
+- Wish  
+- Protect  
+
+=== FRONTIER_MON_BAL_SYLVEON_3 ===  
+Sylveon @ Pixie Plate  
+Ability: Pixilate  
+Nature: Modest  
+EVs: 252 HP / 4 Def / 252 SpA  
+- Hyper Voice  
+- Calm Mind  
+- Shadow Ball  
+- Protect  
+
+=== FRONTIER_MON_BAL_SYLVEON_4 ===  
+Sylveon @ Babiri Berry  
+Ability: Pixilate  
+Nature: Modest  
+EVs: 252 HP / 4 Def / 252 SpA  
+- Hyper Voice  
+- Quick Attack  
+- Helping Hand  
+- Protect  
+
+=== FRONTIER_MON_BAL_SYLVEON_5 ===  
+Sylveon @ Sitrus Berry  
+Ability: Pixilate  
+Nature: Modest  
+EVs: 252 HP / 4 Def / 252 SpA  
+- Hyper Voice  
+- Icy Wind  
+- Yawn  
+- Protect  
+
+=== FRONTIER_MON_BAL_VOLCARONA_1 ===  
+Volcarona @ Leftovers  
+Ability: Flame Body  
+Nature: Timid  
+EVs: 252 HP / 252 Def / 4 SpD  
+- Rage Powder  
+- Quiver Dance  
+- Heat Wave  
+- Protect  
+
+=== FRONTIER_MON_BAL_VOLCARONA_2 ===  
+Volcarona @ Sitrus Berry  
+Ability: Flame Body  
+Nature: Timid  
+EVs: 252 HP / 4 SpA / 252 Spe  
+- Heat Wave  
+- Struggle Bug  
+- Will-O-Wisp  
+- Protect  
+
+=== FRONTIER_MON_BAL_VOLCARONA_3 ===  
+Volcarona @ Covert Cloak  
+Ability: Flame Body  
+Nature: Timid  
+EVs: 252 HP / 4 SpA / 252 Spe  
+- Fiery Dance  
+- Giga Drain  
+- Tailwind  
+- Protect  
+
+=== FRONTIER_MON_BAL_VOLCARONA_4 ===  
+Volcarona @ Charti Berry  
+Ability: Flame Body  
+Nature: Timid  
+EVs: 252 HP / 4 SpA / 252 Spe  
+- Heat Wave  
+- Quiver Dance  
+- Bug Buzz  
+- Protect  
+
+=== FRONTIER_MON_BAL_VOLCARONA_5 ===  
+Volcarona @ Heavy-Duty Boots  
+Ability: Flame Body  
+Nature: Timid  
+EVs: 252 HP / 4 SpA / 252 Spe  
+- Heat Wave  
+- Whirlwind  
+- Struggle Bug  
+- Protect  
+
+=== FRONTIER_MON_BAL_HYDREIGON_1 ===  
+Hydreigon @ Assault Vest  
+Ability: Levitate  
+Nature: Modest  
+EVs: 252 HP / 252 SpA / 4 SpD  
+- Draco Meteor  
+- Dark Pulse  
+- Snarl  
+- Earth Power  
+
+=== FRONTIER_MON_BAL_HYDREIGON_2 ===  
+Hydreigon @ Life Orb  
+Ability: Levitate  
+Nature: Timid  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+- Draco Meteor  
+- Dark Pulse  
+- Heat Wave  
+- Protect  
+
+=== FRONTIER_MON_BAL_HYDREIGON_3 ===  
+Hydreigon @ Choice Scarf  
+Ability: Levitate  
+Nature: Timid  
+EVs: 252 SpA / 4 HP / 252 Spe  
+- Draco Meteor  
+- Dark Pulse  
+- Earth Power  
+- U-turn  
+
+=== FRONTIER_MON_BAL_HYDREIGON_4 ===  
+Hydreigon @ Leftovers  
+Ability: Levitate  
+Nature: Modest  
+EVs: 252 HP / 4 SpD / 252 SpA  
+- Snarl  
+- Dark Pulse  
+- Tailwind  
+- Protect  
+
+=== FRONTIER_MON_BAL_HYDREIGON_5 ===  
+Hydreigon @ Covert Cloak  
+Ability: Levitate  
+Nature: Timid  
+EVs: 252 SpA / 4 HP / 252 Spe  
+- Draco Meteor  
+- Dark Pulse  
+- Icy Wind  
+- Protect  
+
+=== FRONTIER_MON_BAL_CHANDELURE_1 ===  
+Chandelure @ Focus Sash  
+Ability: Flash Fire  
+Nature: Modest  
+EVs: 252 SpA / 4 HP / 252 Spe  
+- Heat Wave  
+- Shadow Ball  
+- Trick Room  
+- Protect  
+
+=== FRONTIER_MON_BAL_CHANDELURE_2 ===  
+Chandelure @ Life Orb  
+Ability: Flash Fire  
+Nature: Timid  
+EVs: 252 SpA / 4 HP / 252 Spe  
+- Heat Wave  
+- Shadow Ball  
+- Imprison  
+- Protect  
+
+=== FRONTIER_MON_BAL_CHANDELURE_3 ===  
+Chandelure @ Covert Cloak  
+Ability: Flash Fire  
+Nature: Modest  
+EVs: 252 SpA / 4 HP / 252 Spe  
+- Heat Wave  
+- Shadow Ball  
+- Energy Ball  
+- Protect  
+
+=== FRONTIER_MON_BAL_CHANDELURE_4 ===  
+Chandelure @ Choice Scarf  
+Ability: Flash Fire  
+Nature: Timid  
+EVs: 252 SpA / 4 HP / 252 Spe  
+- Heat Wave  
+- Shadow Ball  
+- Trick  
+- Energy Ball  
+
+=== FRONTIER_MON_BAL_CHANDELURE_5 ===  
+Chandelure @ Leftovers  
+Ability: Flash Fire  
+Nature: Modest  
+EVs: 252 HP / 252 SpA / 4 SpD  
+- Heat Wave  
+- Shadow Ball  
+- Calm Mind  
+- Protect  
+
+=== FRONTIER_MON_BAL_MOLTRES_G_1 ===  
+Moltres-Galar @ Weakness Policy  
+Ability: Berserk  
+Nature: Modest  
+EVs: 252 HP / 4 Def / 252 SpA  
+- Fiery Wrath  
+- Air Slash  
+- Nasty Plot  
+- Protect  
+
+=== FRONTIER_MON_BAL_MOLTRES_G_2 ===  
+Moltres-Galar @ Safety Goggles  
+Ability: Berserk  
+Nature: Timid  
+EVs: 252 HP / 4 SpA / 252 Spe  
+- Fiery Wrath  
+- Air Slash  
+- Snarl  
+- Protect  
+
+=== FRONTIER_MON_BAL_MOLTRES_G_3 ===  
+Moltres-Galar @ Sitrus Berry  
+Ability: Berserk  
+Nature: Modest  
+EVs: 252 HP / 4 Def / 252 SpA  
+- Fiery Wrath  
+- Air Slash  
+- Tailwind  
+- Protect  
+
+=== FRONTIER_MON_BAL_MOLTRES_G_4 ===  
+Moltres-Galar @ Leftovers  
+Ability: Berserk  
+Nature: Modest  
+EVs: 252 HP / 252 SpA / 4 SpD  
+- Fiery Wrath  
+- Substitute  
+- Nasty Plot  
+- Protect  
+
+=== FRONTIER_MON_BAL_MOLTRES_G_5 ===  
+Moltres-Galar @ Heavy-Duty Boots  
+Ability: Berserk  
+Nature: Timid  
+EVs: 252 HP / 4 SpA / 252 Spe  
+- Fiery Wrath  
+- Taunt  
+- Tailwind  
+- Protect  
+
+=== FRONTIER_MON_BAL_CHARIZARD_1 ===  
+Charizard @ Safety Goggles  
+Ability: Solar Power  
+Nature: Timid  
+EVs: 4 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe  
+- Heat Wave  
+- Air Slash  
+- Protect  
+- Tailwind  
+
+=== FRONTIER_MON_BAL_CHARIZARD_2 ===  
+Charizard @ Sitrus Berry  
+Ability: Blaze  
+Nature: Modest  
+EVs: 244 HP / 0 Atk / 36 Def / 204 SpA / 4 SpD / 20 Spe  
+- Overheat  
+- Hurricane  
+- Will-O-Wisp  
+- Roost  
+
+=== FRONTIER_MON_BAL_CHARIZARD_3 ===  
+Charizard @ Heavy-Duty Boots  
+Ability: Blaze  
+Nature: Timid  
+EVs: 4 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe  
+- Flamethrower  
+- Dragon Pulse  
+- Fake Tears  
+- Protect  
+
+=== FRONTIER_MON_BAL_CHARIZARD_4 ===  
+Charizard @ Choice Specs  
+Ability: Solar Power  
+Nature: Modest  
+EVs: 4 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe  
+- Heat Wave  
+- Hurricane  
+- Focus Blast  
+- Dragon Pulse  
+
+=== FRONTIER_MON_BAL_CHARIZARD_5 ===  
+Charizard @ Charti Berry  
+Ability: Blaze  
+Nature: Timid  
+EVs: 252 HP / 0 Atk / 0 Def / 4 SpA / 0 SpD / 252 Spe  
+- Mystical Fire  
+- Air Slash  
+- Helping Hand  
+- Tailwind  
+
+=== FRONTIER_MON_BAL_AERODACTYL_1 ===  
+Aerodactyl @ Focus Sash  
+Ability: Unnerve  
+Nature: Jolly  
+EVs: 0 HP / 252 Atk / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Rock Slide  
+- Tailwind  
+- Taunt  
+- Protect  
+
+=== FRONTIER_MON_BAL_AERODACTYL_2 ===  
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+Nature: Adamant  
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 4 SpD / 252 Spe  
+- Dual Wingbeat  
+- Stone Edge  
+- Fire Fang  
+- Ice Fang  
+
+=== FRONTIER_MON_BAL_AERODACTYL_3 ===  
+Aerodactyl @ Safety Goggles  
+Ability: Pressure  
+Nature: Jolly  
+EVs: 252 HP / 0 Atk / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Breaking Swipe  
+- Wide Guard  
+- Tailwind  
+- Roost  
+
+=== FRONTIER_MON_BAL_AERODACTYL_4 ===  
+Aerodactyl @ Lum Berry  
+Ability: Rock Head  
+Nature: Jolly  
+EVs: 0 HP / 252 Atk / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Brave Bird  
+- Rock Slide  
+- Thunder Fang  
+- Protect  
+
+=== FRONTIER_MON_BAL_AERODACTYL_5 ===  
+Aerodactyl @ Weakness Policy  
+Ability: Pressure  
+Nature: Jolly  
+EVs: 252 HP / 0 Atk / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Dual Wingbeat  
+- Rock Tomb  
+- Tailwind  
+- Protect  
+
+=== FRONTIER_MON_BAL_GARCHOMP_1 ===  
+Garchomp @ Clear Amulet  
+Ability: Rough Skin  
+Nature: Jolly  
+EVs: 4 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe  
+- Dragon Claw  
+- Rock Slide  
+- Swords Dance  
+- Protect  
+
+=== FRONTIER_MON_BAL_GARCHOMP_2 ===  
+Garchomp @ Assault Vest  
+Ability: Rough Skin  
+Nature: Adamant  
+EVs: 252 HP / 0 Atk / 100 Def / 0 SpA / 156 SpD / 0 Spe  
+- Dragon Tail  
+- Rock Slide  
+- Iron Head  
+- Fire Fang  
+
+=== FRONTIER_MON_BAL_GARCHOMP_3 ===  
+Garchomp @ Yache Berry  
+Ability: Rough Skin  
+Nature: Jolly  
+EVs: 4 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe  
+- Dragon Claw  
+- Rock Slide  
+- Substitute  
+- Protect  
+
+=== FRONTIER_MON_BAL_GARCHOMP_4 ===  
+Garchomp @ Life Orb  
+Ability: Rough Skin  
+Nature: Jolly  
+EVs: 4 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe  
+- Breaking Swipe  
+- Rock Slide  
+- Swords Dance  
+- Protect  
+
+=== FRONTIER_MON_BAL_GARCHOMP_5 ===  
+Garchomp @ Rocky Helmet  
+Ability: Rough Skin  
+Nature: Jolly  
+EVs: 252 HP / 0 Atk / 4 Def / 0 SpA / 0 SpD / 252 Spe  
+- Dragon Tail  
+- Rock Tomb  
+- Iron Head  
+- Protect  
+
 === FRONTIER_MON_BAL_ROARING_MOON_1 ===  
 Roaring Moon @ Life Orb  
 Ability: Protosynthesis  
@@ -996,56 +2547,6 @@ EVs: 252 HP / 4 Def / 252 SpD
 - Icy Wind  
 - Freeze-Dry  
 - Roost  
-- Taunt  
-
-=== FRONTIER_MON_BAL_INCINEROAR_1 ===  
-Incineroar @ Safety Goggles  
-Ability: Intimidate  
-Nature: Impish  
-EVs: 252 HP / 252 Def / 4 Spe  
-- Fake Out  
-- Snarl  
-- Parting Shot  
-- Taunt  
-
-=== FRONTIER_MON_BAL_INCINEROAR_2 ===  
-Incineroar @ Leftovers  
-Ability: Intimidate  
-Nature: Impish  
-EVs: 252 HP / 252 Def / 4 Spe  
-- Fake Out  
-- Snarl  
-- Parting Shot  
-- Taunt  
-
-=== FRONTIER_MON_BAL_INCINEROAR_3 ===  
-Incineroar @ Safety Goggles  
-Ability: Intimidate  
-Nature: Impish  
-EVs: 252 HP / 252 Def / 4 Spe  
-- Fake Out  
-- Snarl  
-- Parting Shot  
-- Taunt  
-
-=== FRONTIER_MON_BAL_INCINEROAR_4 ===  
-Incineroar @ Leftovers  
-Ability: Intimidate  
-Nature: Impish  
-EVs: 252 HP / 252 Def / 4 Spe  
-- Fake Out  
-- Snarl  
-- Parting Shot  
-- Taunt  
-
-=== FRONTIER_MON_BAL_INCINEROAR_5 ===  
-Incineroar @ Safety Goggles  
-Ability: Intimidate  
-Nature: Impish  
-EVs: 252 HP / 252 Def / 4 Spe  
-- Fake Out  
-- Snarl  
-- Parting Shot  
 - Taunt  
 
 === FRONTIER_MON_BAL_BAXCALIBUR_1 ===  
@@ -1498,6 +2999,941 @@ EVs: 252 Atk / 4 Def / 252 Spe
 - Protect  
 - Tailwind  
 
+=== FRONTIER_MON_BAL_CROBAT_1 ===  
+=== FRONTIER_MON_BAL_CROBAT_2 ===  
+=== FRONTIER_MON_BAL_CROBAT_3 ===  
+=== FRONTIER_MON_BAL_CROBAT_4 ===  
+=== FRONTIER_MON_BAL_CROBAT_5 ===  
+=== FRONTIER_MON_BAL_HOUNDOOM_1 ===  
+=== FRONTIER_MON_BAL_HOUNDOOM_2 ===  
+=== FRONTIER_MON_BAL_HOUNDOOM_3 ===  
+=== FRONTIER_MON_BAL_HOUNDOOM_4 ===  
+=== FRONTIER_MON_BAL_HOUNDOOM_5 ===  
+=== FRONTIER_MON_BAL_GENGAR_1 ===  
+=== FRONTIER_MON_BAL_GENGAR_2 ===  
+=== FRONTIER_MON_BAL_GENGAR_3 ===  
+=== FRONTIER_MON_BAL_GENGAR_4 ===  
+=== FRONTIER_MON_BAL_GENGAR_5 ===  
+=== FRONTIER_MON_BAL_SNEASLER_1 ===  
+=== FRONTIER_MON_BAL_SNEASLER_2 ===  
+=== FRONTIER_MON_BAL_SNEASLER_3 ===  
+=== FRONTIER_MON_BAL_SNEASLER_4 ===  
+=== FRONTIER_MON_BAL_SNEASLER_5 ===  
+=== FRONTIER_MON_BAL_WHIMSICOTT_1 ===  
+=== FRONTIER_MON_BAL_WHIMSICOTT_2 ===  
+=== FRONTIER_MON_BAL_WHIMSICOTT_3 ===  
+=== FRONTIER_MON_BAL_WHIMSICOTT_4 ===  
+=== FRONTIER_MON_BAL_WHIMSICOTT_5 ===  
+=== FRONTIER_MON_BAL_GYARADOS_1 ===  
+=== FRONTIER_MON_BAL_GYARADOS_2 ===  
+=== FRONTIER_MON_BAL_GYARADOS_3 ===  
+=== FRONTIER_MON_BAL_GYARADOS_4 ===  
+=== FRONTIER_MON_BAL_GYARADOS_5 ===  
+=== FRONTIER_MON_BAL_EXCADRILL_1 ===  
+=== FRONTIER_MON_BAL_EXCADRILL_2 ===  
+=== FRONTIER_MON_BAL_EXCADRILL_3 ===  
+=== FRONTIER_MON_BAL_EXCADRILL_4 ===  
+=== FRONTIER_MON_BAL_EXCADRILL_5 ===  
+=== FRONTIER_MON_BAL_AMOONGUS_1 ===  
+=== FRONTIER_MON_BAL_AMOONGUS_2 ===  
+=== FRONTIER_MON_BAL_AMOONGUS_3 ===  
+=== FRONTIER_MON_BAL_AMOONGUS_4 ===  
+=== FRONTIER_MON_BAL_AMOONGUS_5 ===  
+=== FRONTIER_MON_BAL_GALLADE_1 ===  
+=== FRONTIER_MON_BAL_GALLADE_2 ===  
+=== FRONTIER_MON_BAL_GALLADE_3 ===  
+=== FRONTIER_MON_BAL_GALLADE_4 ===  
+=== FRONTIER_MON_BAL_GALLADE_5 ===  
+=== FRONTIER_MON_BAL_ANNIHILAPE_1 ===  
+=== FRONTIER_MON_BAL_ANNIHILAPE_2 ===  
+=== FRONTIER_MON_BAL_ANNIHILAPE_3 ===  
+=== FRONTIER_MON_BAL_ANNIHILAPE_4 ===  
+=== FRONTIER_MON_BAL_ANNIHILAPE_5 ===  
+=== FRONTIER_MON_BAL_GARDEVOIR_1 ===  
+=== FRONTIER_MON_BAL_GARDEVOIR_2 ===  
+=== FRONTIER_MON_BAL_GARDEVOIR_3 ===  
+=== FRONTIER_MON_BAL_GARDEVOIR_4 ===  
+=== FRONTIER_MON_BAL_GARDEVOIR_5 ===  
+=== FRONTIER_MON_BAL_ALAKAZAM_1 ===  
+=== FRONTIER_MON_BAL_ALAKAZAM_2 ===  
+=== FRONTIER_MON_BAL_ALAKAZAM_3 ===  
+=== FRONTIER_MON_BAL_ALAKAZAM_4 ===  
+=== FRONTIER_MON_BAL_ALAKAZAM_5 ===  
+=== FRONTIER_MON_BAL_GRIMMSNARL_1 ===  
+=== FRONTIER_MON_BAL_GRIMMSNARL_2 ===  
+=== FRONTIER_MON_BAL_GRIMMSNARL_3 ===  
+=== FRONTIER_MON_BAL_GRIMMSNARL_4 ===  
+=== FRONTIER_MON_BAL_GRIMMSNARL_5 ===  
+=== FRONTIER_MON_BAL_IRON_HANDS_1 ===  
+=== FRONTIER_MON_BAL_IRON_HANDS_2 ===  
+=== FRONTIER_MON_BAL_IRON_HANDS_3 ===  
+=== FRONTIER_MON_BAL_IRON_HANDS_4 ===  
+=== FRONTIER_MON_BAL_IRON_HANDS_5 ===  
+=== FRONTIER_MON_BAL_RILLABOOM_1 ===  
+=== FRONTIER_MON_BAL_RILLABOOM_2 ===  
+=== FRONTIER_MON_BAL_RILLABOOM_3 ===  
+=== FRONTIER_MON_BAL_RILLABOOM_4 ===  
+=== FRONTIER_MON_BAL_RILLABOOM_5 ===  
+=== FRONTIER_MON_BAL_TALONFLAME_1 ===  
+=== FRONTIER_MON_BAL_TALONFLAME_2 ===  
+=== FRONTIER_MON_BAL_TALONFLAME_3 ===  
+=== FRONTIER_MON_BAL_TALONFLAME_4 ===  
+=== FRONTIER_MON_BAL_TALONFLAME_5 ===  
+=== FRONTIER_MON_BAL_ROARING_MOON_1 ===  
+=== FRONTIER_MON_BAL_ROARING_MOON_2 ===  
+=== FRONTIER_MON_BAL_ROARING_MOON_3 ===  
+=== FRONTIER_MON_BAL_ROARING_MOON_4 ===  
+=== FRONTIER_MON_BAL_ROARING_MOON_5 ===  
+=== FRONTIER_MON_BAL_SKELEDIRGE_1 ===  
+=== FRONTIER_MON_BAL_SKELEDIRGE_2 ===  
+=== FRONTIER_MON_BAL_SKELEDIRGE_3 ===  
+=== FRONTIER_MON_BAL_SKELEDIRGE_4 ===  
+=== FRONTIER_MON_BAL_SKELEDIRGE_5 ===  
+=== FRONTIER_MON_BAL_GHOLDEGO_1 ===  
+=== FRONTIER_MON_BAL_GHOLDEGO_2 ===  
+=== FRONTIER_MON_BAL_GHOLDEGO_3 ===  
+=== FRONTIER_MON_BAL_GHOLDEGO_4 ===  
+=== FRONTIER_MON_BAL_GHOLDEGO_5 ===  
+=== FRONTIER_MON_BAL_ARTICUNO_1 ===  
+=== FRONTIER_MON_BAL_ARTICUNO_2 ===  
+=== FRONTIER_MON_BAL_ARTICUNO_3 ===  
+=== FRONTIER_MON_BAL_ARTICUNO_4 ===  
+=== FRONTIER_MON_BAL_ARTICUNO_5 ===  
+=== FRONTIER_MON_BAL_INCINEROAR_1 ===  
+=== FRONTIER_MON_BAL_INCINEROAR_2 ===  
+=== FRONTIER_MON_BAL_INCINEROAR_3 ===  
+=== FRONTIER_MON_BAL_INCINEROAR_4 ===  
+=== FRONTIER_MON_BAL_INCINEROAR_5 ===  
+=== FRONTIER_MON_BAL_BAXCALIBUR_1 ===  
+=== FRONTIER_MON_BAL_BAXCALIBUR_2 ===  
+=== FRONTIER_MON_BAL_BAXCALIBUR_3 ===  
+=== FRONTIER_MON_BAL_BAXCALIBUR_4 ===  
+=== FRONTIER_MON_BAL_BAXCALIBUR_5 ===  
+=== FRONTIER_MON_BAL_IRON_BUNDLE_1 ===  
+=== FRONTIER_MON_BAL_IRON_BUNDLE_2 ===  
+=== FRONTIER_MON_BAL_IRON_BUNDLE_3 ===  
+=== FRONTIER_MON_BAL_IRON_BUNDLE_4 ===  
+=== FRONTIER_MON_BAL_IRON_BUNDLE_5 ===  
+=== FRONTIER_MON_BAL_DRAGAPULT_1 ===  
+=== FRONTIER_MON_BAL_DRAGAPULT_2 ===  
+=== FRONTIER_MON_BAL_DRAGAPULT_3 ===  
+=== FRONTIER_MON_BAL_DRAGAPULT_4 ===  
+=== FRONTIER_MON_BAL_DRAGAPULT_5 ===  
+=== FRONTIER_MON_BAL_SALAMENCE_1 ===  
+=== FRONTIER_MON_BAL_SALAMENCE_2 ===  
+=== FRONTIER_MON_BAL_SALAMENCE_3 ===  
+=== FRONTIER_MON_BAL_SALAMENCE_4 ===  
+=== FRONTIER_MON_BAL_SALAMENCE_5 ===  
+=== FRONTIER_MON_BAL_TORNADUS_1 ===  
+=== FRONTIER_MON_BAL_TORNADUS_2 ===  
+=== FRONTIER_MON_BAL_TORNADUS_3 ===  
+=== FRONTIER_MON_BAL_TORNADUS_4 ===  
+=== FRONTIER_MON_BAL_TORNADUS_5 ===  
+=== FRONTIER_MON_BAL_MEWTWO_1 ===  
+=== FRONTIER_MON_BAL_MEWTWO_2 ===  
+=== FRONTIER_MON_BAL_MEWTWO_3 ===  
+=== FRONTIER_MON_BAL_MEWTWO_4 ===  
+=== FRONTIER_MON_BAL_MEWTWO_5 ===  
+=== FRONTIER_MON_BAL_GIRATINA_1 ===  
+=== FRONTIER_MON_BAL_GIRATINA_2 ===  
+=== FRONTIER_MON_BAL_GIRATINA_3 ===  
+=== FRONTIER_MON_BAL_GIRATINA_4 ===  
+=== FRONTIER_MON_BAL_GIRATINA_5 ===  
+=== FRONTIER_MON_BAL_CALYREX_SHADOW_1 ===  
+=== FRONTIER_MON_BAL_CALYREX_SHADOW_2 ===  
+=== FRONTIER_MON_BAL_CALYREX_SHADOW_3 ===  
+=== FRONTIER_MON_BAL_CALYREX_SHADOW_4 ===  
+=== FRONTIER_MON_BAL_CALYREX_SHADOW_5 ===  
+=== FRONTIER_MON_BAL_RAYQUAZA_1 ===  
+=== FRONTIER_MON_BAL_RAYQUAZA_2 ===  
+=== FRONTIER_MON_BAL_RAYQUAZA_3 ===  
+=== FRONTIER_MON_BAL_RAYQUAZA_4 ===  
+=== FRONTIER_MON_BAL_RAYQUAZA_5 ===  
+=== FRONTIER_MON_ELEC_PINCURCHIN_1 ===  
+=== FRONTIER_MON_ELEC_PINCURCHIN_2 ===  
+=== FRONTIER_MON_ELEC_PINCURCHIN_3 ===  
+=== FRONTIER_MON_ELEC_PINCURCHIN_4 ===  
+=== FRONTIER_MON_ELEC_PINCURCHIN_5 ===  
+=== FRONTIER_MON_ELEC_RAICHU_ALOLA_1 ===  
+=== FRONTIER_MON_ELEC_RAICHU_ALOLA_2 ===  
+=== FRONTIER_MON_ELEC_RAICHU_ALOLA_3 ===  
+=== FRONTIER_MON_ELEC_RAICHU_ALOLA_4 ===  
+=== FRONTIER_MON_ELEC_RAICHU_ALOLA_5 ===  
+=== FRONTIER_MON_ELEC_MAGNEZONE_1 ===  
+=== FRONTIER_MON_ELEC_MAGNEZONE_2 ===  
+=== FRONTIER_MON_ELEC_MAGNEZONE_3 ===  
+=== FRONTIER_MON_ELEC_MAGNEZONE_4 ===  
+=== FRONTIER_MON_ELEC_MAGNEZONE_5 ===  
+=== FRONTIER_MON_ELEC_TOXTRICITY_LOW_KEY_1 ===  
+=== FRONTIER_MON_ELEC_TOXTRICITY_LOW_KEY_2 ===  
+=== FRONTIER_MON_ELEC_TOXTRICITY_LOW_KEY_3 ===  
+=== FRONTIER_MON_ELEC_TOXTRICITY_LOW_KEY_4 ===  
+=== FRONTIER_MON_ELEC_TOXTRICITY_LOW_KEY_5 ===  
+=== FRONTIER_MON_ELEC_TOXTRICITY_AMPED_1 ===  
+=== FRONTIER_MON_ELEC_TOXTRICITY_AMPED_2 ===  
+=== FRONTIER_MON_ELEC_TOXTRICITY_AMPED_3 ===  
+=== FRONTIER_MON_ELEC_TOXTRICITY_AMPED_4 ===  
+=== FRONTIER_MON_ELEC_TOXTRICITY_AMPED_5 ===  
+=== FRONTIER_MON_ELEC_PAWMOT_1 ===  
+=== FRONTIER_MON_ELEC_PAWMOT_2 ===  
+=== FRONTIER_MON_ELEC_PAWMOT_3 ===  
+=== FRONTIER_MON_ELEC_PAWMOT_4 ===  
+=== FRONTIER_MON_ELEC_PAWMOT_5 ===  
+=== FRONTIER_MON_ELEC_LUXRAY_1 ===  
+=== FRONTIER_MON_ELEC_LUXRAY_2 ===  
+=== FRONTIER_MON_ELEC_LUXRAY_3 ===  
+=== FRONTIER_MON_ELEC_LUXRAY_4 ===  
+=== FRONTIER_MON_ELEC_LUXRAY_5 ===  
+=== FRONTIER_MON_ELEC_ZEBSTRIKA_1 ===  
+=== FRONTIER_MON_ELEC_ZEBSTRIKA_2 ===  
+=== FRONTIER_MON_ELEC_ZEBSTRIKA_3 ===  
+=== FRONTIER_MON_ELEC_ZEBSTRIKA_4 ===  
+=== FRONTIER_MON_ELEC_ZEBSTRIKA_5 ===  
+=== FRONTIER_MON_ELEC_SWAMPERT_1 ===  
+=== FRONTIER_MON_ELEC_SWAMPERT_2 ===  
+=== FRONTIER_MON_ELEC_SWAMPERT_3 ===  
+=== FRONTIER_MON_ELEC_SWAMPERT_4 ===  
+=== FRONTIER_MON_ELEC_SWAMPERT_5 ===  
+=== FRONTIER_MON_ELEC_GARCHOMP_1 ===  
+=== FRONTIER_MON_ELEC_GARCHOMP_2 ===  
+=== FRONTIER_MON_ELEC_GARCHOMP_3 ===  
+=== FRONTIER_MON_ELEC_GARCHOMP_4 ===  
+=== FRONTIER_MON_ELEC_GARCHOMP_5 ===  
+=== FRONTIER_MON_ELEC_EXCADRILL_1 ===  
+=== FRONTIER_MON_ELEC_EXCADRILL_2 ===  
+=== FRONTIER_MON_ELEC_EXCADRILL_3 ===  
+=== FRONTIER_MON_ELEC_EXCADRILL_4 ===  
+=== FRONTIER_MON_ELEC_EXCADRILL_5 ===  
+=== FRONTIER_MON_ELEC_TAPU_KOKO_1 ===  
+=== FRONTIER_MON_ELEC_TAPU_KOKO_2 ===  
+=== FRONTIER_MON_ELEC_TAPU_KOKO_3 ===  
+=== FRONTIER_MON_ELEC_TAPU_KOKO_4 ===  
+=== FRONTIER_MON_ELEC_TAPU_KOKO_5 ===  
+=== FRONTIER_MON_ELEC_IRON_BUNDLE_1 ===  
+=== FRONTIER_MON_ELEC_IRON_BUNDLE_2 ===  
+=== FRONTIER_MON_ELEC_IRON_BUNDLE_3 ===  
+=== FRONTIER_MON_ELEC_IRON_BUNDLE_4 ===  
+=== FRONTIER_MON_ELEC_IRON_BUNDLE_5 ===  
+=== FRONTIER_MON_ELEC_IRON_JUGULIS_1 ===  
+=== FRONTIER_MON_ELEC_IRON_JUGULIS_2 ===  
+=== FRONTIER_MON_ELEC_IRON_JUGULIS_3 ===  
+=== FRONTIER_MON_ELEC_IRON_JUGULIS_4 ===  
+=== FRONTIER_MON_ELEC_IRON_JUGULIS_5 ===  
+=== FRONTIER_MON_ELEC_IRON_HANDS_1 ===  
+=== FRONTIER_MON_ELEC_IRON_HANDS_2 ===  
+=== FRONTIER_MON_ELEC_IRON_HANDS_3 ===  
+=== FRONTIER_MON_ELEC_IRON_HANDS_4 ===  
+=== FRONTIER_MON_ELEC_IRON_HANDS_5 ===  
+=== FRONTIER_MON_ELEC_PAWMOT_1 ===  
+=== FRONTIER_MON_ELEC_PAWMOT_2 ===  
+=== FRONTIER_MON_ELEC_PAWMOT_3 ===  
+=== FRONTIER_MON_ELEC_PAWMOT_4 ===  
+=== FRONTIER_MON_ELEC_PAWMOT_5 ===  
+=== FRONTIER_MON_ELEC_LUXRAY_1 ===  
+=== FRONTIER_MON_ELEC_LUXRAY_2 ===  
+=== FRONTIER_MON_ELEC_LUXRAY_3 ===  
+=== FRONTIER_MON_ELEC_LUXRAY_4 ===  
+=== FRONTIER_MON_ELEC_LUXRAY_5 ===  
+=== FRONTIER_MON_ELEC_BELIBOLT_1 ===  
+=== FRONTIER_MON_ELEC_BELIBOLT_2 ===  
+=== FRONTIER_MON_ELEC_BELIBOLT_3 ===  
+=== FRONTIER_MON_ELEC_BELIBOLT_4 ===  
+=== FRONTIER_MON_ELEC_BELIBOLT_5 ===  
+=== FRONTIER_MON_ELEC_SWAMPERT_1 ===  
+=== FRONTIER_MON_ELEC_SWAMPERT_2 ===  
+=== FRONTIER_MON_ELEC_SWAMPERT_3 ===  
+=== FRONTIER_MON_ELEC_SWAMPERT_4 ===  
+=== FRONTIER_MON_ELEC_SWAMPERT_5 ===  
+=== FRONTIER_MON_ELEC_GARCHOMP_1 ===  
+=== FRONTIER_MON_ELEC_GARCHOMP_2 ===  
+=== FRONTIER_MON_ELEC_GARCHOMP_3 ===  
+=== FRONTIER_MON_ELEC_GARCHOMP_4 ===  
+=== FRONTIER_MON_ELEC_GARCHOMP_5 ===  
+=== FRONTIER_MON_ELEC_EXCADRILL_1 ===  
+=== FRONTIER_MON_ELEC_EXCADRILL_2 ===  
+=== FRONTIER_MON_ELEC_EXCADRILL_3 ===  
+=== FRONTIER_MON_ELEC_EXCADRILL_4 ===  
+=== FRONTIER_MON_ELEC_EXCADRILL_5 ===  
+=== FRONTIER_MON_ELEC_TAPU_KOKO_1 ===  
+=== FRONTIER_MON_ELEC_TAPU_KOKO_2 ===  
+=== FRONTIER_MON_ELEC_TAPU_KOKO_3 ===  
+=== FRONTIER_MON_ELEC_TAPU_KOKO_4 ===  
+=== FRONTIER_MON_ELEC_TAPU_KOKO_5 ===  
+=== FRONTIER_MON_ELEC_IRON_BUNDLE_1 ===  
+=== FRONTIER_MON_ELEC_IRON_BUNDLE_2 ===  
+=== FRONTIER_MON_ELEC_IRON_BUNDLE_3 ===  
+=== FRONTIER_MON_ELEC_IRON_BUNDLE_4 ===  
+=== FRONTIER_MON_ELEC_IRON_BUNDLE_5 ===  
+=== FRONTIER_MON_ELEC_IRON_JUGULIS_1 ===  
+=== FRONTIER_MON_ELEC_IRON_JUGULIS_2 ===  
+=== FRONTIER_MON_ELEC_IRON_JUGULIS_3 ===  
+=== FRONTIER_MON_ELEC_IRON_JUGULIS_4 ===  
+=== FRONTIER_MON_ELEC_IRON_JUGULIS_5 ===  
+=== FRONTIER_MON_ELEC_IRON_HANDS_1 ===  
+=== FRONTIER_MON_ELEC_IRON_HANDS_2 ===  
+=== FRONTIER_MON_ELEC_IRON_HANDS_3 ===  
+=== FRONTIER_MON_ELEC_IRON_HANDS_4 ===  
+=== FRONTIER_MON_ELEC_IRON_HANDS_5 ===  
+=== FRONTIER_MON_ELEC_IRON_THORNS_1 ===  
+=== FRONTIER_MON_ELEC_IRON_THORNS_2 ===  
+=== FRONTIER_MON_ELEC_IRON_THORNS_3 ===  
+=== FRONTIER_MON_ELEC_IRON_THORNS_4 ===  
+=== FRONTIER_MON_ELEC_IRON_THORNS_5 ===  
+=== FRONTIER_MON_ELEC_IRON_VALIANT_1 ===  
+=== FRONTIER_MON_ELEC_IRON_VALIANT_2 ===  
+=== FRONTIER_MON_ELEC_IRON_VALIANT_3 ===  
+=== FRONTIER_MON_ELEC_IRON_VALIANT_4 ===  
+=== FRONTIER_MON_ELEC_IRON_VALIANT_5 ===  
+=== FRONTIER_MON_ELEC_IRON_CROWN_1 ===  
+=== FRONTIER_MON_ELEC_IRON_CROWN_2 ===  
+=== FRONTIER_MON_ELEC_IRON_CROWN_3 ===  
+=== FRONTIER_MON_ELEC_IRON_CROWN_4 ===  
+=== FRONTIER_MON_ELEC_IRON_CROWN_5 ===  
+=== FRONTIER_MON_ELEC_IRON_BOULDER_1 ===  
+=== FRONTIER_MON_ELEC_IRON_BOULDER_2 ===  
+=== FRONTIER_MON_ELEC_IRON_BOULDER_3 ===  
+=== FRONTIER_MON_ELEC_IRON_BOULDER_4 ===  
+=== FRONTIER_MON_ELEC_IRON_BOULDER_5 ===  
+=== FRONTIER_MON_ELEC_IRON_TREADS_1 ===  
+=== FRONTIER_MON_ELEC_IRON_TREADS_2 ===  
+=== FRONTIER_MON_ELEC_IRON_TREADS_3 ===  
+=== FRONTIER_MON_ELEC_IRON_TREADS_4 ===  
+=== FRONTIER_MON_ELEC_IRON_TREADS_5 ===  
+=== FRONTIER_MON_ELEC_IRON_MOTH_1 ===  
+=== FRONTIER_MON_ELEC_IRON_MOTH_2 ===  
+=== FRONTIER_MON_ELEC_IRON_MOTH_3 ===  
+=== FRONTIER_MON_ELEC_IRON_MOTH_4 ===  
+=== FRONTIER_MON_ELEC_IRON_MOTH_5 ===  
+=== FRONTIER_MON_ELEC_IRON_LEAVES_1 ===  
+=== FRONTIER_MON_ELEC_IRON_LEAVES_2 ===  
+=== FRONTIER_MON_ELEC_IRON_LEAVES_3 ===  
+=== FRONTIER_MON_ELEC_IRON_LEAVES_4 ===  
+=== FRONTIER_MON_ELEC_IRON_LEAVES_5 ===  
+=== FRONTIER_MON_ELEC_SANDY_SHOCKS_1 ===  
+=== FRONTIER_MON_ELEC_SANDY_SHOCKS_2 ===  
+=== FRONTIER_MON_ELEC_SANDY_SHOCKS_3 ===  
+=== FRONTIER_MON_ELEC_SANDY_SHOCKS_4 ===  
+=== FRONTIER_MON_ELEC_SANDY_SHOCKS_5 ===  
+=== FRONTIER_MON_ELEC_THUNDURUS_1 ===  
+=== FRONTIER_MON_ELEC_THUNDURUS_2 ===  
+=== FRONTIER_MON_ELEC_THUNDURUS_3 ===  
+=== FRONTIER_MON_ELEC_THUNDURUS_4 ===  
+=== FRONTIER_MON_ELEC_THUNDURUS_5 ===  
+=== FRONTIER_MON_ELEC_RAIKOU_1 ===  
+=== FRONTIER_MON_ELEC_RAIKOU_2 ===  
+=== FRONTIER_MON_ELEC_RAIKOU_3 ===  
+=== FRONTIER_MON_ELEC_RAIKOU_4 ===  
+=== FRONTIER_MON_ELEC_RAIKOU_5 ===  
+=== FRONTIER_MON_ELEC_RAGING_BOLT_1 ===  
+=== FRONTIER_MON_ELEC_RAGING_BOLT_2 ===  
+=== FRONTIER_MON_ELEC_RAGING_BOLT_3 ===  
+=== FRONTIER_MON_ELEC_RAGING_BOLT_4 ===  
+=== FRONTIER_MON_ELEC_RAGING_BOLT_5 ===  
+=== FRONTIER_MON_ELEC_MIRAIDON_1 ===  
+=== FRONTIER_MON_ELEC_MIRAIDON_2 ===  
+=== FRONTIER_MON_ELEC_MIRAIDON_3 ===  
+=== FRONTIER_MON_ELEC_MIRAIDON_4 ===  
+=== FRONTIER_MON_ELEC_MIRAIDON_5 ===  
+=== FRONTIER_MON_ELEC_REGIELEKI_1 ===  
+=== FRONTIER_MON_ELEC_REGIELEKI_2 ===  
+=== FRONTIER_MON_ELEC_REGIELEKI_3 ===  
+=== FRONTIER_MON_ELEC_REGIELEKI_4 ===  
+=== FRONTIER_MON_ELEC_REGIELEKI_5 ===  
+=== FRONTIER_MON_ELEC_ZEKROM_1 ===  
+=== FRONTIER_MON_ELEC_ZEKROM_2 ===  
+=== FRONTIER_MON_ELEC_ZEKROM_3 ===  
+=== FRONTIER_MON_ELEC_ZEKROM_4 ===  
+=== FRONTIER_MON_ELEC_ZEKROM_5 ===  
+=== FRONTIER_MON_RAIN_FLOATZEL_1 ===  
+=== FRONTIER_MON_RAIN_FLOATZEL_2 ===  
+=== FRONTIER_MON_RAIN_FLOATZEL_3 ===  
+=== FRONTIER_MON_RAIN_FLOATZEL_4 ===  
+=== FRONTIER_MON_RAIN_FLOATZEL_5 ===  
+=== FRONTIER_MON_RAIN_POLITOED_1 ===  
+=== FRONTIER_MON_RAIN_POLITOED_2 ===  
+=== FRONTIER_MON_RAIN_POLITOED_3 ===  
+=== FRONTIER_MON_RAIN_POLITOED_4 ===  
+=== FRONTIER_MON_RAIN_POLITOED_5 ===  
+=== FRONTIER_MON_RAIN_RAICHU_1 ===  
+=== FRONTIER_MON_RAIN_RAICHU_2 ===  
+=== FRONTIER_MON_RAIN_RAICHU_3 ===  
+=== FRONTIER_MON_RAIN_RAICHU_4 ===  
+=== FRONTIER_MON_RAIN_RAICHU_5 ===  
+=== FRONTIER_MON_RAIN_AMPHAROS_1 ===  
+=== FRONTIER_MON_RAIN_AMPHAROS_2 ===  
+=== FRONTIER_MON_RAIN_AMPHAROS_3 ===  
+=== FRONTIER_MON_RAIN_AMPHAROS_4 ===  
+=== FRONTIER_MON_RAIN_AMPHAROS_5 ===  
+=== FRONTIER_MON_RAIN_JOLTEON_1 ===  
+=== FRONTIER_MON_RAIN_JOLTEON_2 ===  
+=== FRONTIER_MON_RAIN_JOLTEON_3 ===  
+=== FRONTIER_MON_RAIN_JOLTEON_4 ===  
+=== FRONTIER_MON_RAIN_JOLTEON_5 ===  
+=== FRONTIER_MON_RAIN_KILOWATTREL_1 ===  
+=== FRONTIER_MON_RAIN_KILOWATTREL_2 ===  
+=== FRONTIER_MON_RAIN_KILOWATTREL_3 ===  
+=== FRONTIER_MON_RAIN_KILOWATTREL_4 ===  
+=== FRONTIER_MON_RAIN_KILOWATTREL_5 ===  
+=== FRONTIER_MON_RAIN_KABUTOPS_1 ===  
+=== FRONTIER_MON_RAIN_KABUTOPS_2 ===  
+=== FRONTIER_MON_RAIN_KABUTOPS_3 ===  
+=== FRONTIER_MON_RAIN_KABUTOPS_4 ===  
+=== FRONTIER_MON_RAIN_KABUTOPS_5 ===  
+=== FRONTIER_MON_RAIN_OMASTAR_1 ===  
+=== FRONTIER_MON_RAIN_OMASTAR_2 ===  
+=== FRONTIER_MON_RAIN_OMASTAR_3 ===  
+=== FRONTIER_MON_RAIN_OMASTAR_4 ===  
+=== FRONTIER_MON_RAIN_OMASTAR_5 ===  
+=== FRONTIER_MON_RAIN_STARMIE_1 ===  
+=== FRONTIER_MON_RAIN_STARMIE_2 ===  
+=== FRONTIER_MON_RAIN_STARMIE_3 ===  
+=== FRONTIER_MON_RAIN_STARMIE_4 ===  
+=== FRONTIER_MON_RAIN_STARMIE_5 ===  
+=== FRONTIER_MON_RAIN_PELIPPER_1 ===  
+=== FRONTIER_MON_RAIN_PELIPPER_2 ===  
+=== FRONTIER_MON_RAIN_PELIPPER_3 ===  
+=== FRONTIER_MON_RAIN_PELIPPER_4 ===  
+=== FRONTIER_MON_RAIN_PELIPPER_5 ===  
+=== FRONTIER_MON_RAIN_LUDICOLO_1 ===  
+=== FRONTIER_MON_RAIN_LUDICOLO_2 ===  
+=== FRONTIER_MON_RAIN_LUDICOLO_3 ===  
+=== FRONTIER_MON_RAIN_LUDICOLO_4 ===  
+=== FRONTIER_MON_RAIN_LUDICOLO_5 ===  
+=== FRONTIER_MON_RAIN_ROTOMWASH_1 ===  
+=== FRONTIER_MON_RAIN_ROTOMWASH_2 ===  
+=== FRONTIER_MON_RAIN_ROTOMWASH_3 ===  
+=== FRONTIER_MON_RAIN_ROTOMWASH_4 ===  
+=== FRONTIER_MON_RAIN_ROTOMWASH_5 ===  
+=== FRONTIER_MON_RAIN_KINGDRA_1 ===  
+=== FRONTIER_MON_RAIN_KINGDRA_2 ===  
+=== FRONTIER_MON_RAIN_KINGDRA_3 ===  
+=== FRONTIER_MON_RAIN_KINGDRA_4 ===  
+=== FRONTIER_MON_RAIN_KINGDRA_5 ===  
+=== FRONTIER_MON_RAIN_MILOTIC_1 ===  
+=== FRONTIER_MON_RAIN_MILOTIC_2 ===  
+=== FRONTIER_MON_RAIN_MILOTIC_3 ===  
+=== FRONTIER_MON_RAIN_MILOTIC_4 ===  
+=== FRONTIER_MON_RAIN_MILOTIC_5 ===  
+=== FRONTIER_MON_RAIN_SCIZOR_1 ===  
+=== FRONTIER_MON_RAIN_SCIZOR_2 ===  
+=== FRONTIER_MON_RAIN_SCIZOR_3 ===  
+=== FRONTIER_MON_RAIN_SCIZOR_4 ===  
+=== FRONTIER_MON_RAIN_SCIZOR_5 ===  
+=== FRONTIER_MON_RAIN_GYARADOS_1 ===  
+=== FRONTIER_MON_RAIN_GYARADOS_2 ===  
+=== FRONTIER_MON_RAIN_GYARADOS_3 ===  
+=== FRONTIER_MON_RAIN_GYARADOS_4 ===  
+=== FRONTIER_MON_RAIN_GYARADOS_5 ===  
+=== FRONTIER_MON_RAIN_BASCULEGION_M_1 ===  
+=== FRONTIER_MON_RAIN_BASCULEGION_M_2 ===  
+=== FRONTIER_MON_RAIN_BASCULEGION_M_3 ===  
+=== FRONTIER_MON_RAIN_BASCULEGION_M_4 ===  
+=== FRONTIER_MON_RAIN_BASCULEGION_M_5 ===  
+=== FRONTIER_MON_RAIN_DRAGONITE_1 ===  
+=== FRONTIER_MON_RAIN_DRAGONITE_2 ===  
+=== FRONTIER_MON_RAIN_DRAGONITE_3 ===  
+=== FRONTIER_MON_RAIN_DRAGONITE_4 ===  
+=== FRONTIER_MON_RAIN_DRAGONITE_5 ===  
+=== FRONTIER_MON_RAIN_DRACOVISH_1 ===  
+=== FRONTIER_MON_RAIN_DRACOVISH_2 ===  
+=== FRONTIER_MON_RAIN_DRACOVISH_3 ===  
+=== FRONTIER_MON_RAIN_DRACOVISH_4 ===  
+=== FRONTIER_MON_RAIN_DRACOVISH_5 ===  
+=== FRONTIER_MON_RAIN_ARCHALUDON_1 ===  
+=== FRONTIER_MON_RAIN_ARCHALUDON_2 ===  
+=== FRONTIER_MON_RAIN_ARCHALUDON_3 ===  
+=== FRONTIER_MON_RAIN_ARCHALUDON_4 ===  
+=== FRONTIER_MON_RAIN_ARCHALUDON_5 ===  
+=== FRONTIER_MON_RAIN_TORNADUS_1 ===  
+=== FRONTIER_MON_RAIN_TORNADUS_2 ===  
+=== FRONTIER_MON_RAIN_TORNADUS_3 ===  
+=== FRONTIER_MON_RAIN_TORNADUS_4 ===  
+=== FRONTIER_MON_RAIN_TORNADUS_5 ===  
+=== FRONTIER_MON_RAIN_THUNDURUS_1 ===  
+=== FRONTIER_MON_RAIN_THUNDURUS_2 ===  
+=== FRONTIER_MON_RAIN_THUNDURUS_3 ===  
+=== FRONTIER_MON_RAIN_THUNDURUS_4 ===  
+=== FRONTIER_MON_RAIN_THUNDURUS_5 ===  
+=== FRONTIER_MON_RAIN_ZAPDOS_1 ===  
+=== FRONTIER_MON_RAIN_ZAPDOS_2 ===  
+=== FRONTIER_MON_RAIN_ZAPDOS_3 ===  
+=== FRONTIER_MON_RAIN_ZAPDOS_4 ===  
+=== FRONTIER_MON_RAIN_ZAPDOS_5 ===  
+=== FRONTIER_MON_RAIN_RAIKOU_1 ===  
+=== FRONTIER_MON_RAIN_RAIKOU_2 ===  
+=== FRONTIER_MON_RAIN_RAIKOU_3 ===  
+=== FRONTIER_MON_RAIN_RAIKOU_4 ===  
+=== FRONTIER_MON_RAIN_RAIKOU_5 ===  
+=== FRONTIER_MON_RAIN_SUICUNE_1 ===  
+=== FRONTIER_MON_RAIN_SUICUNE_2 ===  
+=== FRONTIER_MON_RAIN_SUICUNE_3 ===  
+=== FRONTIER_MON_RAIN_SUICUNE_4 ===  
+=== FRONTIER_MON_RAIN_SUICUNE_5 ===  
+=== FRONTIER_MON_RAIN_LUGIA_1 ===  
+=== FRONTIER_MON_RAIN_LUGIA_2 ===  
+=== FRONTIER_MON_RAIN_LUGIA_3 ===  
+=== FRONTIER_MON_RAIN_LUGIA_4 ===  
+=== FRONTIER_MON_RAIN_LUGIA_5 ===  
+=== FRONTIER_MON_RAIN_PALKIA_1 ===  
+=== FRONTIER_MON_RAIN_PALKIA_2 ===  
+=== FRONTIER_MON_RAIN_PALKIA_3 ===  
+=== FRONTIER_MON_RAIN_PALKIA_4 ===  
+=== FRONTIER_MON_RAIN_PALKIA_5 ===  
+=== FRONTIER_MON_RAIN_KYOGRE_1 ===  
+=== FRONTIER_MON_RAIN_KYOGRE_2 ===  
+=== FRONTIER_MON_RAIN_KYOGRE_3 ===  
+=== FRONTIER_MON_RAIN_KYOGRE_4 ===  
+=== FRONTIER_MON_RAIN_KYOGRE_5 ===  
+=== FRONTIER_MON_SAND_DUGTRIO_1 ===  
+=== FRONTIER_MON_SAND_DUGTRIO_2 ===  
+=== FRONTIER_MON_SAND_DUGTRIO_3 ===  
+=== FRONTIER_MON_SAND_DUGTRIO_4 ===  
+=== FRONTIER_MON_SAND_DUGTRIO_5 ===  
+=== FRONTIER_MON_SAND_STEELIX_1 ===  
+=== FRONTIER_MON_SAND_STEELIX_2 ===  
+=== FRONTIER_MON_SAND_STEELIX_3 ===  
+=== FRONTIER_MON_SAND_STEELIX_4 ===  
+=== FRONTIER_MON_SAND_STEELIX_5 ===  
+=== FRONTIER_MON_SAND_SCIZOR_1 ===  
+=== FRONTIER_MON_SAND_SCIZOR_2 ===  
+=== FRONTIER_MON_SAND_SCIZOR_3 ===  
+=== FRONTIER_MON_SAND_SCIZOR_4 ===  
+=== FRONTIER_MON_SAND_SCIZOR_5 ===  
+=== FRONTIER_MON_SAND_HIPPOWDON_1 ===  
+=== FRONTIER_MON_SAND_HIPPOWDON_2 ===  
+=== FRONTIER_MON_SAND_HIPPOWDON_3 ===  
+=== FRONTIER_MON_SAND_HIPPOWDON_4 ===  
+=== FRONTIER_MON_SAND_HIPPOWDON_5 ===  
+=== FRONTIER_MON_SAND_DREDNAW_1 ===  
+=== FRONTIER_MON_SAND_DREDNAW_2 ===  
+=== FRONTIER_MON_SAND_DREDNAW_3 ===  
+=== FRONTIER_MON_SAND_DREDNAW_4 ===  
+=== FRONTIER_MON_SAND_DREDNAW_5 ===  
+=== FRONTIER_MON_SAND_COALOSSAL_1 ===  
+=== FRONTIER_MON_SAND_COALOSSAL_2 ===  
+=== FRONTIER_MON_SAND_COALOSSAL_3 ===  
+=== FRONTIER_MON_SAND_COALOSSAL_4 ===  
+=== FRONTIER_MON_SAND_COALOSSAL_5 ===  
+=== FRONTIER_MON_SAND_SWAMPERT_1 ===  
+=== FRONTIER_MON_SAND_SWAMPERT_2 ===  
+=== FRONTIER_MON_SAND_SWAMPERT_3 ===  
+=== FRONTIER_MON_SAND_SWAMPERT_4 ===  
+=== FRONTIER_MON_SAND_SWAMPERT_5 ===  
+=== FRONTIER_MON_SAND_GASTRODON_1 ===  
+=== FRONTIER_MON_SAND_GASTRODON_2 ===  
+=== FRONTIER_MON_SAND_GASTRODON_3 ===  
+=== FRONTIER_MON_SAND_GASTRODON_4 ===  
+=== FRONTIER_MON_SAND_GASTRODON_5 ===  
+=== FRONTIER_MON_SAND_LUCARIO_1 ===  
+=== FRONTIER_MON_SAND_LUCARIO_2 ===  
+=== FRONTIER_MON_SAND_LUCARIO_3 ===  
+=== FRONTIER_MON_SAND_LUCARIO_4 ===  
+=== FRONTIER_MON_SAND_LUCARIO_5 ===  
+=== FRONTIER_MON_SAND_GOLEM_ALOLA_1 ===  
+=== FRONTIER_MON_SAND_GOLEM_ALOLA_2 ===  
+=== FRONTIER_MON_SAND_GOLEM_ALOLA_3 ===  
+=== FRONTIER_MON_SAND_GOLEM_ALOLA_4 ===  
+=== FRONTIER_MON_SAND_GOLEM_ALOLA_5 ===  
+=== FRONTIER_MON_SAND_FLYGON_1 ===  
+=== FRONTIER_MON_SAND_FLYGON_2 ===  
+=== FRONTIER_MON_SAND_FLYGON_3 ===  
+=== FRONTIER_MON_SAND_FLYGON_4 ===  
+=== FRONTIER_MON_SAND_FLYGON_5 ===  
+=== FRONTIER_MON_SAND_RHYPERIOR_1 ===  
+=== FRONTIER_MON_SAND_RHYPERIOR_2 ===  
+=== FRONTIER_MON_SAND_RHYPERIOR_3 ===  
+=== FRONTIER_MON_SAND_RHYPERIOR_4 ===  
+=== FRONTIER_MON_SAND_RHYPERIOR_5 ===  
+=== FRONTIER_MON_SAND_MAMOSWINE_1 ===  
+=== FRONTIER_MON_SAND_MAMOSWINE_2 ===  
+=== FRONTIER_MON_SAND_MAMOSWINE_3 ===  
+=== FRONTIER_MON_SAND_MAMOSWINE_4 ===  
+=== FRONTIER_MON_SAND_MAMOSWINE_5 ===  
+=== FRONTIER_MON_SAND_AERODACTYL_1 ===  
+=== FRONTIER_MON_SAND_AERODACTYL_2 ===  
+=== FRONTIER_MON_SAND_AERODACTYL_3 ===  
+=== FRONTIER_MON_SAND_AERODACTYL_4 ===  
+=== FRONTIER_MON_SAND_AERODACTYL_5 ===  
+=== FRONTIER_MON_SAND_CORVISQUIRE_1 ===  
+=== FRONTIER_MON_SAND_CORVISQUIRE_2 ===  
+=== FRONTIER_MON_SAND_CORVISQUIRE_3 ===  
+=== FRONTIER_MON_SAND_CORVISQUIRE_4 ===  
+=== FRONTIER_MON_SAND_CORVISQUIRE_5 ===  
+=== FRONTIER_MON_SAND_TINKATON_1 ===  
+=== FRONTIER_MON_SAND_TINKATON_2 ===  
+=== FRONTIER_MON_SAND_TINKATON_3 ===  
+=== FRONTIER_MON_SAND_TINKATON_4 ===  
+=== FRONTIER_MON_SAND_TINKATON_5 ===  
+=== FRONTIER_MON_SAND_EXCADRILL_1 ===  
+=== FRONTIER_MON_SAND_EXCADRILL_2 ===  
+=== FRONTIER_MON_SAND_EXCADRILL_3 ===  
+=== FRONTIER_MON_SAND_EXCADRILL_4 ===  
+=== FRONTIER_MON_SAND_EXCADRILL_5 ===  
+=== FRONTIER_MON_SAND_INCINEROAR_1 ===  
+=== FRONTIER_MON_SAND_INCINEROAR_2 ===  
+=== FRONTIER_MON_SAND_INCINEROAR_3 ===  
+=== FRONTIER_MON_SAND_INCINEROAR_4 ===  
+=== FRONTIER_MON_SAND_INCINEROAR_5 ===  
+=== FRONTIER_MON_SAND_METAGROSS_1 ===  
+=== FRONTIER_MON_SAND_METAGROSS_2 ===  
+=== FRONTIER_MON_SAND_METAGROSS_3 ===  
+=== FRONTIER_MON_SAND_METAGROSS_4 ===  
+=== FRONTIER_MON_SAND_METAGROSS_5 ===  
+=== FRONTIER_MON_SAND_KINGAMBIT_1 ===  
+=== FRONTIER_MON_SAND_KINGAMBIT_2 ===  
+=== FRONTIER_MON_SAND_KINGAMBIT_3 ===  
+=== FRONTIER_MON_SAND_KINGAMBIT_4 ===  
+=== FRONTIER_MON_SAND_KINGAMBIT_5 ===  
+=== FRONTIER_MON_SAND_TYRANITAR_1 ===  
+=== FRONTIER_MON_SAND_TYRANITAR_2 ===  
+=== FRONTIER_MON_SAND_TYRANITAR_3 ===  
+=== FRONTIER_MON_SAND_TYRANITAR_4 ===  
+=== FRONTIER_MON_SAND_TYRANITAR_5 ===  
+=== FRONTIER_MON_SAND_GARCHOMP_1 ===  
+=== FRONTIER_MON_SAND_GARCHOMP_2 ===  
+=== FRONTIER_MON_SAND_GARCHOMP_3 ===  
+=== FRONTIER_MON_SAND_GARCHOMP_4 ===  
+=== FRONTIER_MON_SAND_GARCHOMP_5 ===  
+=== FRONTIER_MON_SAND_GHOLDENGO_1 ===  
+=== FRONTIER_MON_SAND_GHOLDENGO_2 ===  
+=== FRONTIER_MON_SAND_GHOLDENGO_3 ===  
+=== FRONTIER_MON_SAND_GHOLDENGO_4 ===  
+=== FRONTIER_MON_SAND_GHOLDENGO_5 ===  
+=== FRONTIER_MON_SAND_GREATTUSK_1 ===  
+=== FRONTIER_MON_SAND_GREATTUSK_2 ===  
+=== FRONTIER_MON_SAND_GREATTUSK_3 ===  
+=== FRONTIER_MON_SAND_GREATTUSK_4 ===  
+=== FRONTIER_MON_SAND_GREATTUSK_5 ===  
+=== FRONTIER_MON_SAND_IRONTREADS_1 ===  
+=== FRONTIER_MON_SAND_IRONTREADS_2 ===  
+=== FRONTIER_MON_SAND_IRONTREADS_3 ===  
+=== FRONTIER_MON_SAND_IRONTREADS_4 ===  
+=== FRONTIER_MON_SAND_IRONTREADS_5 ===  
+=== FRONTIER_MON_SAND_REGIROCK_1 ===  
+=== FRONTIER_MON_SAND_REGIROCK_2 ===  
+=== FRONTIER_MON_SAND_REGIROCK_3 ===  
+=== FRONTIER_MON_SAND_REGIROCK_4 ===  
+=== FRONTIER_MON_SAND_REGIROCK_5 ===  
+=== FRONTIER_MON_SAND_REGISTEEL_1 ===  
+=== FRONTIER_MON_SAND_REGISTEEL_2 ===  
+=== FRONTIER_MON_SAND_REGISTEEL_3 ===  
+=== FRONTIER_MON_SAND_REGISTEEL_4 ===  
+=== FRONTIER_MON_SAND_REGISTEEL_5 ===  
+=== FRONTIER_MON_SAND_LANDORUS_1 ===  
+=== FRONTIER_MON_SAND_LANDORUS_2 ===  
+=== FRONTIER_MON_SAND_LANDORUS_3 ===  
+=== FRONTIER_MON_SAND_LANDORUS_4 ===  
+=== FRONTIER_MON_SAND_LANDORUS_5 ===  
+=== FRONTIER_MON_SAND_URSALUNA_1 ===  
+=== FRONTIER_MON_SAND_URSALUNA_2 ===  
+=== FRONTIER_MON_SAND_URSALUNA_3 ===  
+=== FRONTIER_MON_SAND_URSALUNA_4 ===  
+=== FRONTIER_MON_SAND_URSALUNA_5 ===  
+=== FRONTIER_MON_SAND_DIALGA_1 ===  
+=== FRONTIER_MON_SAND_DIALGA_2 ===  
+=== FRONTIER_MON_SAND_DIALGA_3 ===  
+=== FRONTIER_MON_SAND_DIALGA_4 ===  
+=== FRONTIER_MON_SAND_DIALGA_5 ===  
+=== FRONTIER_MON_SAND_GHOLDENGO_1 ===  
+=== FRONTIER_MON_SAND_GHOLDENGO_2 ===  
+=== FRONTIER_MON_SAND_GHOLDENGO_3 ===  
+=== FRONTIER_MON_SAND_GHOLDENGO_4 ===  
+=== FRONTIER_MON_SAND_GHOLDENGO_5 ===  
+=== FRONTIER_MON_SUN_JUMPLUFF_1 ===  
+=== FRONTIER_MON_SUN_JUMPLUFF_2 ===  
+=== FRONTIER_MON_SUN_JUMPLUFF_3 ===  
+=== FRONTIER_MON_SUN_JUMPLUFF_4 ===  
+=== FRONTIER_MON_SUN_JUMPLUFF_5 ===  
+=== FRONTIER_MON_SUN_VOLCARONA_1 ===  
+=== FRONTIER_MON_SUN_VOLCARONA_2 ===  
+=== FRONTIER_MON_SUN_VOLCARONA_3 ===  
+=== FRONTIER_MON_SUN_VOLCARONA_4 ===  
+=== FRONTIER_MON_SUN_VOLCARONA_5 ===  
+=== FRONTIER_MON_SUN_TREVENANT_1 ===  
+=== FRONTIER_MON_SUN_TREVENANT_2 ===  
+=== FRONTIER_MON_SUN_TREVENANT_3 ===  
+=== FRONTIER_MON_SUN_TREVENANT_4 ===  
+=== FRONTIER_MON_SUN_TREVENANT_5 ===  
+=== FRONTIER_MON_SUN_VICTREEBEL_1 ===  
+=== FRONTIER_MON_SUN_VICTREEBEL_2 ===  
+=== FRONTIER_MON_SUN_VICTREEBEL_3 ===  
+=== FRONTIER_MON_SUN_VICTREEBEL_4 ===  
+=== FRONTIER_MON_SUN_VICTREEBEL_5 ===  
+=== FRONTIER_MON_SUN_ARCANINE_1 ===  
+=== FRONTIER_MON_SUN_ARCANINE_2 ===  
+=== FRONTIER_MON_SUN_ARCANINE_3 ===  
+=== FRONTIER_MON_SUN_ARCANINE_4 ===  
+=== FRONTIER_MON_SUN_ARCANINE_5 ===  
+=== FRONTIER_MON_SUN_NINETALES_1 ===  
+=== FRONTIER_MON_SUN_NINETALES_2 ===  
+=== FRONTIER_MON_SUN_NINETALES_3 ===  
+=== FRONTIER_MON_SUN_NINETALES_4 ===  
+=== FRONTIER_MON_SUN_NINETALES_5 ===  
+=== FRONTIER_MON_SUN_TALONFLAME_1 ===  
+=== FRONTIER_MON_SUN_TALONFLAME_2 ===  
+=== FRONTIER_MON_SUN_TALONFLAME_3 ===  
+=== FRONTIER_MON_SUN_TALONFLAME_4 ===  
+=== FRONTIER_MON_SUN_TALONFLAME_5 ===  
+=== FRONTIER_MON_SUN_WHIMSICOTT_1 ===  
+=== FRONTIER_MON_SUN_WHIMSICOTT_2 ===  
+=== FRONTIER_MON_SUN_WHIMSICOTT_3 ===  
+=== FRONTIER_MON_SUN_WHIMSICOTT_4 ===  
+=== FRONTIER_MON_SUN_WHIMSICOTT_5 ===  
+=== FRONTIER_MON_SUN_VENUSAUR_1 ===  
+=== FRONTIER_MON_SUN_VENUSAUR_2 ===  
+=== FRONTIER_MON_SUN_VENUSAUR_3 ===  
+=== FRONTIER_MON_SUN_VENUSAUR_4 ===  
+=== FRONTIER_MON_SUN_VENUSAUR_5 ===  
+=== FRONTIER_MON_SUN_TORKOAL_1 ===  
+=== FRONTIER_MON_SUN_TORKOAL_2 ===  
+=== FRONTIER_MON_SUN_TORKOAL_3 ===  
+=== FRONTIER_MON_SUN_TORKOAL_4 ===  
+=== FRONTIER_MON_SUN_TORKOAL_5 ===  
+=== FRONTIER_MON_SUN_CHARIZARD_1 ===  
+=== FRONTIER_MON_SUN_CHARIZARD_2 ===  
+=== FRONTIER_MON_SUN_CHARIZARD_3 ===  
+=== FRONTIER_MON_SUN_CHARIZARD_4 ===  
+=== FRONTIER_MON_SUN_CHARIZARD_5 ===  
+=== FRONTIER_MON_SUN_BLAZIKEN_1 ===  
+=== FRONTIER_MON_SUN_BLAZIKEN_2 ===  
+=== FRONTIER_MON_SUN_BLAZIKEN_3 ===  
+=== FRONTIER_MON_SUN_BLAZIKEN_4 ===  
+=== FRONTIER_MON_SUN_BLAZIKEN_5 ===  
+=== FRONTIER_MON_SUN_TYPHLOSION_1 ===  
+=== FRONTIER_MON_SUN_TYPHLOSION_2 ===  
+=== FRONTIER_MON_SUN_TYPHLOSION_3 ===  
+=== FRONTIER_MON_SUN_TYPHLOSION_4 ===  
+=== FRONTIER_MON_SUN_TYPHLOSION_5 ===  
+=== FRONTIER_MON_SUN_CHANDELURE_1 ===  
+=== FRONTIER_MON_SUN_CHANDELURE_2 ===  
+=== FRONTIER_MON_SUN_CHANDELURE_3 ===  
+=== FRONTIER_MON_SUN_CHANDELURE_4 ===  
+=== FRONTIER_MON_SUN_CHANDELURE_5 ===  
+=== FRONTIER_MON_SUN_ARCANINE_HISUI_1 ===  
+=== FRONTIER_MON_SUN_ARCANINE_HISUI_2 ===  
+=== FRONTIER_MON_SUN_ARCANINE_HISUI_3 ===  
+=== FRONTIER_MON_SUN_ARCANINE_HISUI_4 ===  
+=== FRONTIER_MON_SUN_ARCANINE_HISUI_5 ===  
+=== FRONTIER_MON_SUN_HYDREIGON_1 ===  
+=== FRONTIER_MON_SUN_HYDREIGON_2 ===  
+=== FRONTIER_MON_SUN_HYDREIGON_3 ===  
+=== FRONTIER_MON_SUN_HYDREIGON_4 ===  
+=== FRONTIER_MON_SUN_HYDREIGON_5 ===  
+=== FRONTIER_MON_SUN_ENTEI_1 ===  
+=== FRONTIER_MON_SUN_ENTEI_2 ===  
+=== FRONTIER_MON_SUN_ENTEI_3 ===  
+=== FRONTIER_MON_SUN_ENTEI_4 ===  
+=== FRONTIER_MON_SUN_ENTEI_5 ===  
+=== FRONTIER_MON_SUN_MOLTRES_1 ===  
+=== FRONTIER_MON_SUN_MOLTRES_2 ===  
+=== FRONTIER_MON_SUN_MOLTRES_3 ===  
+=== FRONTIER_MON_SUN_MOLTRES_4 ===  
+=== FRONTIER_MON_SUN_MOLTRES_5 ===  
+=== FRONTIER_MON_SUN_GREAT_TUSK_1 ===  
+=== FRONTIER_MON_SUN_GREAT_TUSK_2 ===  
+=== FRONTIER_MON_SUN_GREAT_TUSK_3 ===  
+=== FRONTIER_MON_SUN_GREAT_TUSK_4 ===  
+=== FRONTIER_MON_SUN_GREAT_TUSK_5 ===  
+=== FRONTIER_MON_SUN_BRUTE_BONNET_1 ===  
+=== FRONTIER_MON_SUN_BRUTE_BONNET_2 ===  
+=== FRONTIER_MON_SUN_BRUTE_BONNET_3 ===  
+=== FRONTIER_MON_SUN_BRUTE_BONNET_4 ===  
+=== FRONTIER_MON_SUN_BRUTE_BONNET_5 ===  
+=== FRONTIER_MON_SUN_FLUTTER_MANE_1 ===  
+=== FRONTIER_MON_SUN_FLUTTER_MANE_2 ===  
+=== FRONTIER_MON_SUN_FLUTTER_MANE_3 ===  
+=== FRONTIER_MON_SUN_FLUTTER_MANE_4 ===  
+=== FRONTIER_MON_SUN_FLUTTER_MANE_5 ===  
+=== FRONTIER_MON_SUN_ROARING_MOON_1 ===  
+=== FRONTIER_MON_SUN_ROARING_MOON_2 ===  
+=== FRONTIER_MON_SUN_ROARING_MOON_3 ===  
+=== FRONTIER_MON_SUN_ROARING_MOON_4 ===  
+=== FRONTIER_MON_SUN_ROARING_MOON_5 ===  
+=== FRONTIER_MON_SUN_WALKING_WAKE_1 ===  
+=== FRONTIER_MON_SUN_WALKING_WAKE_2 ===  
+=== FRONTIER_MON_SUN_WALKING_WAKE_3 ===  
+=== FRONTIER_MON_SUN_WALKING_WAKE_4 ===  
+=== FRONTIER_MON_SUN_WALKING_WAKE_5 ===  
+=== FRONTIER_MON_SUN_GROUDON_1 ===  
+=== FRONTIER_MON_SUN_GROUDON_2 ===  
+=== FRONTIER_MON_SUN_GROUDON_3 ===  
+=== FRONTIER_MON_SUN_GROUDON_4 ===  
+=== FRONTIER_MON_SUN_GROUDON_5 ===  
+=== FRONTIER_MON_SUN_RAGING_BOLT_1 ===  
+=== FRONTIER_MON_SUN_RAGING_BOLT_2 ===  
+=== FRONTIER_MON_SUN_RAGING_BOLT_3 ===  
+=== FRONTIER_MON_SUN_RAGING_BOLT_4 ===  
+=== FRONTIER_MON_SUN_RAGING_BOLT_5 ===  
+=== FRONTIER_MON_SUN_GOUGING_FIRE_1 ===  
+=== FRONTIER_MON_SUN_GOUGING_FIRE_2 ===  
+=== FRONTIER_MON_SUN_GOUGING_FIRE_3 ===  
+=== FRONTIER_MON_SUN_GOUGING_FIRE_4 ===  
+=== FRONTIER_MON_SUN_GOUGING_FIRE_5 ===  
+=== FRONTIER_MON_SUN_CHI_YU_1 ===  
+=== FRONTIER_MON_SUN_CHI_YU_2 ===  
+=== FRONTIER_MON_SUN_CHI_YU_3 ===  
+=== FRONTIER_MON_SUN_CHI_YU_4 ===  
+=== FRONTIER_MON_SUN_CHI_YU_5 ===  
+=== FRONTIER_MON_SUN_HEATRAN_1 ===  
+=== FRONTIER_MON_SUN_HEATRAN_2 ===  
+=== FRONTIER_MON_SUN_HEATRAN_3 ===  
+=== FRONTIER_MON_SUN_HEATRAN_4 ===  
+=== FRONTIER_MON_SUN_HEATRAN_5 ===  
+=== FRONTIER_MON_SUN_HO_OH_1 ===  
+=== FRONTIER_MON_SUN_HO_OH_2 ===  
+=== FRONTIER_MON_SUN_HO_OH_3 ===  
+=== FRONTIER_MON_SUN_HO_OH_4 ===  
+=== FRONTIER_MON_SUN_HO_OH_5 ===  
+=== FRONTIER_MON_SUN_KORAIDON_1 ===  
+=== FRONTIER_MON_SUN_KORAIDON_2 ===  
+=== FRONTIER_MON_SUN_KORAIDON_3 ===  
+=== FRONTIER_MON_SUN_KORAIDON_4 ===  
+=== FRONTIER_MON_SUN_KORAIDON_5 ===  
+=== FRONTIER_MON_TRICK_MAROWAK_1 ===  
+=== FRONTIER_MON_TRICK_MAROWAK_2 ===  
+=== FRONTIER_MON_TRICK_MAROWAK_3 ===  
+=== FRONTIER_MON_TRICK_MAROWAK_4 ===  
+=== FRONTIER_MON_TRICK_MAROWAK_5 ===  
+=== FRONTIER_MON_TRICK_GIGALITH_1 ===  
+=== FRONTIER_MON_TRICK_GIGALITH_2 ===  
+=== FRONTIER_MON_TRICK_GIGALITH_3 ===  
+=== FRONTIER_MON_TRICK_GIGALITH_4 ===  
+=== FRONTIER_MON_TRICK_GIGALITH_5 ===  
+=== FRONTIER_MON_TRICK_CRAWDAUNT_1 ===  
+=== FRONTIER_MON_TRICK_CRAWDAUNT_2 ===  
+=== FRONTIER_MON_TRICK_CRAWDAUNT_3 ===  
+=== FRONTIER_MON_TRICK_CRAWDAUNT_4 ===  
+=== FRONTIER_MON_TRICK_CRAWDAUNT_5 ===  
+=== FRONTIER_MON_TRICK_PORYGON2_1 ===  
+=== FRONTIER_MON_TRICK_PORYGON2_2 ===  
+=== FRONTIER_MON_TRICK_PORYGON2_3 ===  
+=== FRONTIER_MON_TRICK_PORYGON2_4 ===  
+=== FRONTIER_MON_TRICK_PORYGON2_5 ===  
+=== FRONTIER_MON_TRICK_HARIYAMA_1 ===  
+=== FRONTIER_MON_TRICK_HARIYAMA_2 ===  
+=== FRONTIER_MON_TRICK_HARIYAMA_3 ===  
+=== FRONTIER_MON_TRICK_HARIYAMA_4 ===  
+=== FRONTIER_MON_TRICK_HARIYAMA_5 ===  
+=== FRONTIER_MON_TRICK_DUSKNOIR_1 ===  
+=== FRONTIER_MON_TRICK_DUSKNOIR_2 ===  
+=== FRONTIER_MON_TRICK_DUSKNOIR_3 ===  
+=== FRONTIER_MON_TRICK_DUSKNOIR_4 ===  
+=== FRONTIER_MON_TRICK_DUSKNOIR_5 ===  
+=== FRONTIER_MON_TRICK_RHYPERIOR_1 ===  
+=== FRONTIER_MON_TRICK_RHYPERIOR_2 ===  
+=== FRONTIER_MON_TRICK_RHYPERIOR_3 ===  
+=== FRONTIER_MON_TRICK_RHYPERIOR_4 ===  
+=== FRONTIER_MON_TRICK_RHYPERIOR_5 ===  
+=== FRONTIER_MON_TRICK_COFAGRIGUS_1 ===  
+=== FRONTIER_MON_TRICK_COFAGRIGUS_2 ===  
+=== FRONTIER_MON_TRICK_COFAGRIGUS_3 ===  
+=== FRONTIER_MON_TRICK_COFAGRIGUS_4 ===  
+=== FRONTIER_MON_TRICK_COFAGRIGUS_5 ===  
+=== FRONTIER_MON_TRICK_SINISTCHA_1 ===  
+=== FRONTIER_MON_TRICK_SINISTCHA_2 ===  
+=== FRONTIER_MON_TRICK_SINISTCHA_3 ===  
+=== FRONTIER_MON_TRICK_SINISTCHA_4 ===  
+=== FRONTIER_MON_TRICK_SINISTCHA_5 ===  
+=== FRONTIER_MON_TRICK_GRUMPIG_1 ===  
+=== FRONTIER_MON_TRICK_GRUMPIG_2 ===  
+=== FRONTIER_MON_TRICK_GRUMPIG_3 ===  
+=== FRONTIER_MON_TRICK_GRUMPIG_4 ===  
+=== FRONTIER_MON_TRICK_GRUMPIG_5 ===  
+=== FRONTIER_MON_TRICK_SLOWBRO_1 ===  
+=== FRONTIER_MON_TRICK_SLOWBRO_2 ===  
+=== FRONTIER_MON_TRICK_SLOWBRO_3 ===  
+=== FRONTIER_MON_TRICK_SLOWBRO_4 ===  
+=== FRONTIER_MON_TRICK_SLOWBRO_5 ===  
+=== FRONTIER_MON_TRICK_SLOWKING_1 ===  
+=== FRONTIER_MON_TRICK_SLOWKING_2 ===  
+=== FRONTIER_MON_TRICK_SLOWKING_3 ===  
+=== FRONTIER_MON_TRICK_SLOWKING_4 ===  
+=== FRONTIER_MON_TRICK_SLOWKING_5 ===  
+=== FRONTIER_MON_TRICK_INDEEDEEF_1 ===  
+=== FRONTIER_MON_TRICK_INDEEDEEF_2 ===  
+=== FRONTIER_MON_TRICK_INDEEDEEF_3 ===  
+=== FRONTIER_MON_TRICK_INDEEDEEF_4 ===  
+=== FRONTIER_MON_TRICK_INDEEDEEF_5 ===  
+=== FRONTIER_MON_TRICK_GARDEVOIR_1 ===  
+=== FRONTIER_MON_TRICK_GARDEVOIR_2 ===  
+=== FRONTIER_MON_TRICK_GARDEVOIR_3 ===  
+=== FRONTIER_MON_TRICK_GARDEVOIR_4 ===  
+=== FRONTIER_MON_TRICK_GARDEVOIR_5 ===  
+=== FRONTIER_MON_TRICK_AMOONGUS_1 ===  
+=== FRONTIER_MON_TRICK_AMOONGUS_2 ===  
+=== FRONTIER_MON_TRICK_AMOONGUS_3 ===  
+=== FRONTIER_MON_TRICK_AMOONGUS_4 ===  
+=== FRONTIER_MON_TRICK_AMOONGUS_5 ===  
+=== FRONTIER_MON_TRICK_ARMAROUVE_1 ===  
+=== FRONTIER_MON_TRICK_ARMAROUVE_2 ===  
+=== FRONTIER_MON_TRICK_ARMAROUVE_3 ===  
+=== FRONTIER_MON_TRICK_ARMAROUVE_4 ===  
+=== FRONTIER_MON_TRICK_ARMAROUVE_5 ===  
+=== FRONTIER_MON_TRICK_GASTRODON_1 ===  
+=== FRONTIER_MON_TRICK_GASTRODON_2 ===  
+=== FRONTIER_MON_TRICK_GASTRODON_3 ===  
+=== FRONTIER_MON_TRICK_GASTRODON_4 ===  
+=== FRONTIER_MON_TRICK_GASTRODON_5 ===  
+=== FRONTIER_MON_TRICK_HATTERENE_1 ===  
+=== FRONTIER_MON_TRICK_HATTERENE_2 ===  
+=== FRONTIER_MON_TRICK_HATTERENE_3 ===  
+=== FRONTIER_MON_TRICK_HATTERENE_4 ===  
+=== FRONTIER_MON_TRICK_HATTERENE_5 ===  
+=== FRONTIER_MON_TRICK_ESCAVALIER_1 ===  
+=== FRONTIER_MON_TRICK_ESCAVALIER_2 ===  
+=== FRONTIER_MON_TRICK_ESCAVALIER_3 ===  
+=== FRONTIER_MON_TRICK_ESCAVALIER_4 ===  
+=== FRONTIER_MON_TRICK_ESCAVALIER_5 ===  
+=== FRONTIER_MON_TRICK_FARIGIRAF_1 ===  
+=== FRONTIER_MON_TRICK_FARIGIRAF_2 ===  
+=== FRONTIER_MON_TRICK_FARIGIRAF_3 ===  
+=== FRONTIER_MON_TRICK_FARIGIRAF_4 ===  
+=== FRONTIER_MON_TRICK_FARIGIRAF_5 ===  
+=== FRONTIER_MON_TRICK_GOTHITELLE_1 ===  
+=== FRONTIER_MON_TRICK_GOTHITELLE_2 ===  
+=== FRONTIER_MON_TRICK_GOTHITELLE_3 ===  
+=== FRONTIER_MON_TRICK_GOTHITELLE_4 ===  
+=== FRONTIER_MON_TRICK_GOTHITELLE_5 ===  
+=== FRONTIER_MON_TRICK_CHANDELURE_1 ===  
+=== FRONTIER_MON_TRICK_CHANDELURE_2 ===  
+=== FRONTIER_MON_TRICK_CHANDELURE_3 ===  
+=== FRONTIER_MON_TRICK_CHANDELURE_4 ===  
+=== FRONTIER_MON_TRICK_CHANDELURE_5 ===  
+=== FRONTIER_MON_TRICK_EMBOAR_1 ===  
+=== FRONTIER_MON_TRICK_EMBOAR_2 ===  
+=== FRONTIER_MON_TRICK_EMBOAR_3 ===  
+=== FRONTIER_MON_TRICK_EMBOAR_4 ===  
+=== FRONTIER_MON_TRICK_EMBOAR_5 ===  
+=== FRONTIER_MON_TRICK_SNORLAX_1 ===  
+=== FRONTIER_MON_TRICK_SNORLAX_2 ===  
+=== FRONTIER_MON_TRICK_SNORLAX_3 ===  
+=== FRONTIER_MON_TRICK_SNORLAX_4 ===  
+=== FRONTIER_MON_TRICK_SNORLAX_5 ===  
+=== FRONTIER_MON_TRICK_REGICE_1 ===  
+=== FRONTIER_MON_TRICK_REGICE_2 ===  
+=== FRONTIER_MON_TRICK_REGICE_3 ===  
+=== FRONTIER_MON_TRICK_REGICE_4 ===  
+=== FRONTIER_MON_TRICK_REGICE_5 ===  
+=== FRONTIER_MON_TRICK_REGIGIGAS_1 ===  
+=== FRONTIER_MON_TRICK_REGIGIGAS_2 ===  
+=== FRONTIER_MON_TRICK_REGIGIGAS_3 ===  
+=== FRONTIER_MON_TRICK_REGIGIGAS_4 ===  
+=== FRONTIER_MON_TRICK_REGIGIGAS_5 ===  
+=== FRONTIER_MON_TRICK_CRESSELIA_1 ===  
+=== FRONTIER_MON_TRICK_CRESSELIA_2 ===  
+=== FRONTIER_MON_TRICK_CRESSELIA_3 ===  
+=== FRONTIER_MON_TRICK_CRESSELIA_4 ===  
+=== FRONTIER_MON_TRICK_CRESSELIA_5 ===  
+=== FRONTIER_MON_TRICK_URSALUNA_1 ===  
+=== FRONTIER_MON_TRICK_URSALUNA_2 ===  
+=== FRONTIER_MON_TRICK_URSALUNA_3 ===  
+=== FRONTIER_MON_TRICK_URSALUNA_4 ===  
+=== FRONTIER_MON_TRICK_URSALUNA_5 ===  
+=== FRONTIER_MON_TRICK_CALYREXICE_1 ===  
+=== FRONTIER_MON_TRICK_CALYREXICE_2 ===  
+=== FRONTIER_MON_TRICK_CALYREXICE_3 ===  
+=== FRONTIER_MON_TRICK_CALYREXICE_4 ===  
+=== FRONTIER_MON_TRICK_CALYREXICE_5 ===  
 === FRONTIER_MON_ELEC_PINCURCHIN_1 ===  
 Pincurchin @ Focus Sash  
 Ability: Electric Surge  
@@ -5549,55 +7985,55 @@ EVs: 252 HP / 0 Atk / 4 Def / 0 SpA / 0 SpD / 252 Spe
 - Stealth Rock  
 - Roost  
 
-=== FRONTIER_MON_SAND_CORVISQUIRE_1 ===  
-Corvisquire @ Leftovers  
-Ability: Keen Eye  
-Nature: Impish  
-EVs: 252 HP / 4 Atk / 252 Def  
-- Brave Bird  
+=== FRONTIER_MON_SAND_CORVIKNIGHT_1 ===  
+Corviknight @ Leftovers  
+Ability: Mirror Armor  
+Nature: Careful  
+EVs: 252 HP / 4 Def / 252 SpD  
+- Iron Head  
 - Roost  
-- Taunt  
-- Defog  
-
-=== FRONTIER_MON_SAND_CORVISQUIRE_2 ===  
-Corvisquire @ Heavy-Duty Boots  
-Ability: Keen Eye  
-Nature: Impish  
-EVs: 252 HP / 4 Atk / 252 Def  
-- Brave Bird  
-- Roost  
-- Taunt  
-- Defog  
-
-=== FRONTIER_MON_SAND_CORVISQUIRE_3 ===  
-Corvisquire @ Leftovers  
-Ability: Keen Eye  
-Nature: Impish  
-EVs: 252 HP / 4 Atk / 252 Def  
-- Brave Bird  
-- Roost  
-- U-turn  
+- Bulk Up  
 - Taunt  
 
-=== FRONTIER_MON_SAND_CORVISQUIRE_4 ===  
-Corvisquire @ Leftovers  
-Ability: Keen Eye  
+=== FRONTIER_MON_SAND_CORVIKNIGHT_2 ===  
+Corviknight @ Sitrus Berry  
+Ability: Mirror Armor  
 Nature: Impish  
-EVs: 252 HP / 4 Atk / 252 Def  
+EVs: 252 HP / 252 Def / 4 SpD  
 - Brave Bird  
-- Roost  
-- Toxic  
-- Defog  
+- Body Press  
+- Tailwind  
+- Protect  
 
-=== FRONTIER_MON_SAND_CORVISQUIRE_5 ===  
-Corvisquire @ Leftovers  
-Ability: Keen Eye  
-Nature: Impish  
-EVs: 252 HP / 4 Atk / 252 Def  
-- Brave Bird  
+=== FRONTIER_MON_SAND_CORVIKNIGHT_3 ===  
+Corviknight @ Rocky Helmet  
+Ability: Mirror Armor  
+Nature: Careful  
+EVs: 252 HP / 4 Def / 252 SpD  
+- Iron Head  
+- Snarl  
+- Tailwind  
 - Roost  
-- U-turn  
-- Toxic  
+
+=== FRONTIER_MON_SAND_CORVIKNIGHT_4 ===  
+Corviknight @ Safety Goggles  
+Ability: Mirror Armor  
+Nature: Impish  
+EVs: 252 HP / 4 Def / 4 SpD  
+- Iron Head  
+- Body Press  
+- Taunt  
+- Protect  
+
+=== FRONTIER_MON_SAND_CORVIKNIGHT_5 ===  
+Corviknight @ Leftovers  
+Ability: Pressure  
+Nature: Careful  
+EVs: 252 HP / 4 Def / 252 SpD  
+- Brave Bird  
+- Substitute  
+- Roost  
+- Bulk Up  
 
 === FRONTIER_MON_SAND_TINKATON_1 ===  
 Tinkaton @ Focus Sash  
@@ -9348,5 +11784,320 @@ EVs: 252 HP / 4 Def / 252 Atk
 - High Horsepower  
 - Trick Room  
 - Knock Off  
+
+=== FRONTIER_MON_TR_MIMIKYU_1 ===  
+Mimikyu @ Mental Herb  
+Ability: Disguise  
+Nature: Relaxed  
+EVs: 252 HP / 156 Def / 100 SpD  
+- Trick Room  
+- Play Rough  
+- Shadow Claw  
+- Will-O-Wisp  
+
+=== FRONTIER_MON_TR_MIMIKYU_2 ===  
+Mimikyu @ Sitrus Berry  
+Ability: Disguise  
+Nature: Sassy  
+EVs: 252 HP / 4 Def / 252 SpD  
+- Trick Room  
+- Taunt  
+- Play Rough  
+- Pain Split  
+
+=== FRONTIER_MON_TR_MIMIKYU_3 ===  
+Mimikyu @ Safety Goggles  
+Ability: Disguise  
+Nature: Relaxed  
+EVs: 252 HP / 132 Def / 124 SpD  
+- Trick Room  
+- Curse  
+- Protect  
+- Shadow Sneak  
+
+=== FRONTIER_MON_TR_MIMIKYU_4 ===  
+Mimikyu @ Red Card  
+Ability: Disguise  
+Nature: Bold  
+EVs: 252 HP / 200 Def / 56 SpD  
+- Trick Room  
+- Destiny Bond  
+- Will-O-Wisp  
+- Shadow Claw  
+
+=== FRONTIER_MON_TR_MIMIKYU_5 ===  
+Mimikyu @ Lum Berry  
+Ability: Disguise  
+Nature: Sassy  
+EVs: 252 HP / 120 Def / 136 SpD  
+- Trick Room  
+- Play Rough  
+- Shadow Sneak  
+- Protect  
+
+=== FRONTIER_MON_TR_IRON_HANDS_1 ===  
+Iron Hands @ Assault Vest  
+Ability: Quark Drive  
+Nature: Brave  
+EVs: 252 HP / 252 Atk / 4 SpD  
+- Drain Punch  
+- Wild Charge  
+- Heavy Slam  
+- Fake Out  
+
+=== FRONTIER_MON_TR_IRON_HANDS_2 ===  
+Iron Hands @ Sitrus Berry  
+Ability: Quark Drive  
+Nature: Brave  
+EVs: 252 HP / 128 Atk / 128 SpD  
+- Belly Drum  
+- Drain Punch  
+- Thunder Punch  
+- Protect  
+
+=== FRONTIER_MON_TR_IRON_HANDS_3 ===  
+Iron Hands @ Safety Goggles  
+Ability: Quark Drive  
+Nature: Brave  
+EVs: 252 HP / 160 Atk / 96 SpD  
+- Close Combat  
+- Ice Punch  
+- Fake Out  
+- Wide Guard  
+
+=== FRONTIER_MON_TR_IRON_HANDS_4 ===  
+Iron Hands @ Leftovers  
+Ability: Quark Drive  
+Nature: Brave  
+EVs: 252 HP / 128 Atk / 128 SpD  
+- Drain Punch  
+- Thunder Punch  
+- Swords Dance  
+- Protect  
+
+=== FRONTIER_MON_TR_IRON_HANDS_5 ===  
+Iron Hands @ Lum Berry  
+Ability: Quark Drive  
+Nature: Brave  
+EVs: 252 HP / 252 Atk / 4 SpD  
+- Drain Punch  
+- Wild Charge  
+- Ice Punch  
+- Detect  
+
+=== FRONTIER_MON_TR_CLODSIRE_1 ===  
+Clodsire @ Leftovers  
+Ability: Unaware  
+Nature: Relaxed  
+EVs: 252 HP / 160 Def / 96 SpD  
+- Trick Room  
+- Earth Power  
+- Recover  
+- Acid Spray  
+
+=== FRONTIER_MON_TR_CLODSIRE_2 ===  
+Clodsire @ Black Sludge  
+Ability: Water Absorb  
+Nature: Sassy  
+EVs: 252 HP / 200 SpD / 56 Def  
+- Toxic  
+- Protect  
+- Earth Power  
+- Recover  
+
+=== FRONTIER_MON_TR_CLODSIRE_3 ===  
+Clodsire @ Safety Goggles  
+Ability: Unaware  
+Nature: Relaxed  
+EVs: 252 HP / 128 Def / 128 SpD  
+- Curse  
+- Earthquake  
+- Poison Jab  
+- Recover  
+
+=== FRONTIER_MON_TR_CLODSIRE_4 ===  
+Clodsire @ Sitrus Berry  
+Ability: Water Absorb  
+Nature: Sassy  
+EVs: 252 HP / 252 SpD / 4 Def  
+- Yawn  
+- Stealth Rock  
+- Earth Power  
+- Sludge Bomb  
+
+=== FRONTIER_MON_TR_CLODSIRE_5 ===  
+Clodsire @ Rocky Helmet  
+Ability: Unaware  
+Nature: Relaxed  
+EVs: 252 HP / 160 Def / 96 SpD  
+- Trick Room  
+- Acid Spray  
+- Earth Power  
+- Recover  
+
+=== FRONTIER_MON_TRICK_DIALGA_1 ===  
+Dialga @ Safety Goggles  
+Ability: Telepathy  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 SpD  
+IVs: 0 Spe  
+- Trick Room  
+- Flash Cannon  
+- Earth Power  
+- Protect  
+
+=== FRONTIER_MON_TRICK_DIALGA_2 ===  
+Dialga @ Life Orb  
+Ability: Pressure  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 SpD  
+IVs: 0 Spe  
+- Trick Room  
+- Draco Meteor  
+- Thunder  
+- Earth Power  
+
+=== FRONTIER_MON_TRICK_DIALGA_3 ===  
+Dialga @ Weakness Policy  
+Ability: Pressure  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 Def  
+IVs: 0 Spe  
+- Trick Room  
+- Flash Cannon  
+- Body Press  
+- Stealth Rock  
+
+=== FRONTIER_MON_TRICK_DIALGA_4 ===  
+Dialga @ Assault Vest  
+Ability: Pressure  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 Def  
+IVs: 0 Spe  
+- Dragon Pulse  
+- Flash Cannon  
+- Thunder  
+- Earth Power  
+
+=== FRONTIER_MON_TRICK_DIALGA_5 ===  
+Dialga @ Leftovers  
+Ability: Pressure  
+Nature: Quiet  
+EVs: 252 HP / 252 Def / 4 SpA  
+IVs: 0 Spe  
+- Trick Room  
+- Body Press  
+- Flash Cannon  
+- Iron Defense  
+
+=== FRONTIER_MON_TRICK_PALKIA_1 ===  
+Palkia @ Lustrous Orb  
+Ability: Telepathy  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 SpD  
+IVs: 0 Spe  
+- Trick Room  
+- Spacial Rend  
+- Hydro Pump  
+- Protect  
+
+=== FRONTIER_MON_TRICK_PALKIA_2 ===  
+Palkia @ Assault Vest  
+Ability: Pressure  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 SpD  
+IVs: 0 Spe  
+- Draco Meteor  
+- Hydro Pump  
+- Thunder  
+- Earth Power  
+
+=== FRONTIER_MON_TRICK_PALKIA_3 ===  
+Palkia @ Leftovers  
+Ability: Pressure  
+Nature: Quiet  
+EVs: 252 HP / 252 Def / 4 SpA  
+IVs: 0 Spe  
+- Trick Room  
+- Muddy Water  
+- Thunder  
+- Calm Mind  
+
+=== FRONTIER_MON_TRICK_PALKIA_4 ===  
+Palkia @ Life Orb  
+Ability: Telepathy  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 SpD  
+IVs: 0 Spe  
+- Trick Room  
+- Surf  
+- Draco Meteor  
+- Protect  
+
+=== FRONTIER_MON_TRICK_PALKIA_5 ===  
+Palkia @ Sitrus Berry  
+Ability: Pressure  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 Def  
+IVs: 0 Spe  
+- Trick Room  
+- Earth Power  
+- Ice Beam  
+- Protect  
+
+=== FRONTIER_MON_TRICK_LUNALA_1 ===  
+Lunala @ Power Herb  
+Ability: Shadow Shield  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 Def  
+IVs: 0 Spe  
+- Trick Room  
+- Meteor Beam  
+- Moongeist Beam  
+- Protect  
+
+=== FRONTIER_MON_TRICK_LUNALA_2 ===  
+Lunala @ Leftovers  
+Ability: Shadow Shield  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 SpD  
+IVs: 0 Spe  
+- Trick Room  
+- Moongeist Beam  
+- Psychic  
+- Roost  
+
+=== FRONTIER_MON_TRICK_LUNALA_3 ===  
+Lunala @ Weakness Policy  
+Ability: Shadow Shield  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 Def  
+IVs: 0 Spe  
+- Trick Room  
+- Moongeist Beam  
+- Focus Blast  
+- Shadow Ball  
+
+=== FRONTIER_MON_TRICK_LUNALA_4 ===  
+Lunala @ Mental Herb  
+Ability: Shadow Shield  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 SpD  
+IVs: 0 Spe  
+- Trick Room  
+- Moongeist Beam  
+- Calm Mind  
+- Roost  
+
+=== FRONTIER_MON_TRICK_LUNALA_5 ===  
+Lunala @ Colbur Berry  
+Ability: Shadow Shield  
+Nature: Quiet  
+EVs: 252 HP / 252 SpA / 4 Def  
+IVs: 0 Spe  
+- Trick Room  
+- Moongeist Beam  
+- Ice Beam  
+- Protect  
 
 
