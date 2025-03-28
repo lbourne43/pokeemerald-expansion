@@ -131,3 +131,124 @@ Movement_PkmnCenterNurse_Bow:
 Movement_PkmnCenterNurse_Turn:
 	walk_in_place_faster_left
 	step_end
+
+
+
+
+
+NettuxHelper_EventScript_MartHelper::
+        lockall
+        faceplayer
+        message NettuxHelper_EventScript_MartHelper_Text_1
+        multichoice 25, 3, MULTICHOICE_NETTUX_MART_HELPER, 0
+        closemessage
+        compare VAR_RESULT, 0
+        goto_if_eq NettuxHelper_EventScript_MartHelper_5
+        compare VAR_RESULT, 1
+        goto_if_eq NettuxHelper_EventScript_MartHelper_6
+        compare VAR_RESULT, 2
+        goto_if_eq NettuxHelper_EventScript_MartHelper_7
+        compare VAR_RESULT, 3
+        goto_if_eq NettuxHelper_EventScript_MartHelper_8
+NettuxHelper_EventScript_MartHelper_4:
+        msgbox NettuxHelper_EventScript_MartHelper_Text_2
+        waitmessage
+        release
+        return
+
+NettuxHelper_EventScript_MartHelper_5:
+        call NettuxHelper_EventScript_BattleMart
+        goto NettuxHelper_EventScript_MartHelper_4
+
+NettuxHelper_EventScript_MartHelper_6:
+        call NettuxHelper_EventScript_TrainingMart
+        goto NettuxHelper_EventScript_MartHelper_4
+
+NettuxHelper_EventScript_MartHelper_7:
+        call NettuxHelper_EventScript_TMMart
+        goto NettuxHelper_EventScript_MartHelper_4
+
+NettuxHelper_EventScript_MartHelper_8:
+        call NettuxHelper_EventScript_EvolveMart
+        goto NettuxHelper_EventScript_MartHelper_4
+
+
+NettuxHelper_EventScript_BattleMart::
+        lock
+        message NettuxHelper_EventScript_BattleMart_Text_0
+        waitmessage
+        pokemart NettuxBattleMartItems
+        msgbox NettuxHelper_EventScript_BattleMart_Text_1
+        release
+        return
+
+
+NettuxHelper_EventScript_TrainingMart::
+        lock
+        message NettuxHelper_EventScript_TrainingMart_Text_0
+        waitmessage
+        pokemart NettuxTrainingMartItems
+        msgbox NettuxHelper_EventScript_BattleMart_Text_1
+        release
+        return
+
+
+NettuxHelper_EventScript_TMMart::
+        lock
+        message NettuxHelper_EventScript_TMMart_Text_0
+        waitmessage
+        pokemart NettuxTMMartItems
+        msgbox NettuxHelper_EventScript_BattleMart_Text_1
+        release
+        return
+
+
+NettuxHelper_EventScript_EvolveMart::
+        lock
+        message NettuxHelper_EventScript_EvolveMart_Text_0
+        waitmessage
+        pokemart NettuxEvolveMartItems
+        msgbox NettuxHelper_EventScript_BattleMart_Text_1
+        release
+        return
+
+        .align 2
+NettuxBattleMartItems:
+        .2byte ITEM_EXP_SHARE
+        .2byte ITEM_NONE
+
+        .align 2
+NettuxTrainingMartItems:
+        .2byte ITEM_EXP_CANDY_XS
+        .2byte ITEM_NONE
+
+        .align 2
+NettuxTMMartItems:
+        .2byte ITEM_TM_PROTECT
+        .2byte ITEM_NONE
+
+        .align 2
+NettuxEvolveMartItems:
+        .2byte ITEM_LINKING_CORD
+        .2byte ITEM_NONE
+
+NettuxHelper_EventScript_MartHelper_Text_1:
+        .string "Do you want a pokemon?$"
+
+NettuxHelper_EventScript_MartHelper_Text_2:
+        .string "Come back anytime!$"
+
+NettuxHelper_EventScript_BattleMart_Text_0:
+        .string "Ready to Battle?$"
+
+NettuxHelper_EventScript_BattleMart_Text_1:
+        .string "Level up!$"
+
+NettuxHelper_EventScript_TrainingMart_Text_0:
+        .string "Ready to Train?$"
+
+NettuxHelper_EventScript_TMMart_Text_0:
+        .string "Ready to Learn?$"
+
+NettuxHelper_EventScript_EvolveMart_Text_0:
+        .string "Ready to Evolve?$"

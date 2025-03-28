@@ -51,10 +51,7 @@
     F(STEEL_WING) \
     F(SKILL_SWAP) \
     F(SNATCH) \
-    F(OVERHEAT) \
-    F(TAILWIND) \
-    F(TRICK_ROOM) \
-    F(FAKE_OUT)
+    F(OVERHEAT)
 
 #define FOREACH_HM(F) \
     F(CUT) \

@@ -9,6 +9,7 @@ mons = dict()
 
 mon_struct = dict({
     "name": "",
+    "gen": 0,
     "type": False,
     "type2": False,
     "baseHP": 0,
@@ -17,10 +18,12 @@ mon_struct = dict({
     "baseSpA": 0,
     "baseSpD": 0,
     "baseSpe": 0,
-    "evolves": False
+    "evolves": False,
+    "evolve_level": 0
 })
 species = False
 for gen in gens:
+    gen_num = int(gen.split("_")[-2])
     with open(gen) as f:
         lines = f.readlines()
 
@@ -32,6 +35,7 @@ for gen in gens:
             species_clean = species.replace("_", " ").title()
             mons[species_key] = mon_struct.copy()
             mons[species_key]['name'] = species_clean
+            mons[species_key]['gen'] = gen_num
         if l.startswith(".types"):
             types = l[19:-2]
             if "," in types:
@@ -54,9 +58,10 @@ for gen in gens:
         if l.startswith(".baseSpeed"):
             mons[species_key]['baseSpe'] = l.split("=")[-1].strip("\\ ,")
 
-
         if l.startswith(".evolutions"):
             mons[species_key]['evolves'] = True
+        if "EVO_LEVEL" in l:
+            mons[species_key]['evolve_level'] = l.split(',')[1].strip()
 
 
 with open("poke.json", "w") as f:

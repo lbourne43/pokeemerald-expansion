@@ -1,7 +1,7 @@
+// 1-7 Battles (3 IVs)
 #define FRONTIER_MONS_YOUNGSTER_LASS_1 \
 trick Gastrodon
 trick Hatterene
-trick Primarina
 trick Marowak
 trick Porygon2
 trick IndeedeeF
@@ -39,7 +39,7 @@ sand Scizor
 sand Steelix
 sand Corviknight
 sand Flygon
-sand Skarmory
+bal Skarmory
 sand Rhyperior
 sand Lucario
 sand Gastrodon
@@ -51,14 +51,26 @@ rain Raichu
 rain Gyarados
 rain Starmie
 rain Scizor
+rain Floatzel
+rain Omastar
+rain Starmie
+bal Crobat
+bal Butterfree
+bal Staraptor
 #define FRONTIER_MONS_SWIMMER_M_1 \
 rain Politoed
 rain Pelipper
 rain Kilowattrel
 rain Jolteon
 rain Gyarados
-rain Rotom Wash
+rain RotomWash
 rain Scizor
+rain Floatzel
+rain Omastar
+rain Starmie
+bal Crobat
+bal Butterfree
+bal Staraptor
 #define FRONTIER_MONS_SWIMMER_F_1 \
 rain Politoed
 rain Pelipper
@@ -67,6 +79,11 @@ rain Ampharos
 rain Gyarados
 rain Kingdra
 rain Scizor
+bal Butterfree
+bal Pinsir
+bal Vivillon
+bal Crobat
+bal Breloom
 #define FRONTIER_MONS_POKEFAN_M_1 \
 bal Drapion
 bal Houndoom
@@ -81,6 +98,8 @@ bal Amoonguss
 bal Gallade
 bal Annihilape
 bal Gardevoir
+bal Blastoise
+bal Infernape
 #define FRONTIER_MONS_POKEFAN_F_1 \
 elec Pincurchin
 elec Raichu Alola
@@ -89,33 +108,37 @@ elec Toxtricity Low Key
 elec Toxtricity Amped
 elec Pawmot
 elec Luxray
-elec Belibolt
+elec Bellibolt
 elec Zebstrika
 elec Swampert
 elec Garchomp
 elec Excadrill
+bal Feraligatr
+bal Meganium
 #define FRONTIER_MONS_BUG_CATCHER_1 \
 bal Crobat
 bal Butterfree
 bal Heracross
 bal Pinsir
-bal Volcarona
 bal Vivillon
 bal Lokix
 bal Ariados
 bal Drapion
-trick Escavalier
+bal Torterra
+bal Serperior
+bal Amoonguss
 #define FRONTIER_MONS_BUG_CATCHER_1_EXTRA(species1, species2) \
 bal Crobat
 bal Butterfree
 bal Heracross
 bal Pinsir
 bal Vivillon
-bal Volcarona
 bal Lokix
 bal Ariados
 bal Drapion
-trick Escavalier
+bal Torterra
+bal Serperior
+bal Amoonguss
 #define FRONTIER_MONS_NINJA_BOY_1 \
 trick Sinistcha
 trick Emboar
@@ -126,6 +149,9 @@ trick Chandelure
 bal Lokix
 bal Crobat
 bal Ariados
+bal Gengar
+bal Sneasler
+bal Skarmory
 #define FRONTIER_MONS_BUG_MANIAC_1 \
 bal Lokix
 bal Crobat
@@ -136,7 +162,6 @@ bal Volcarona
 bal Heracross
 bal Drapion
 bal Vivillon
-trick Escavalier
 #define FRONTIER_MONS_FISHERMAN_1 \
 rain Floatzel
 rain Gyarados
@@ -150,6 +175,12 @@ rain Starmie
 rain Pelipper
 rain Politoed
 rain Ludicolo
+bal Blastoise
+bal Feraligatr
+bal Empoleon
+bal Samurott
+bal Inteleon
+bal Quaquaval
 #define FRONTIER_MONS_RUIN_MANIAC_1 \
 sand Garchomp
 sand Hippowdon
@@ -160,6 +191,9 @@ sand Incineroar
 sand Excadrill
 sand Dugtrio
 sand Steelix
+bal Torterra
+bal Empoleon
+bal Swampert
 #define FRONTIER_MONS_PARASOL_LADY_1 \
 sun Jumpluff
 sun Volcarona
@@ -171,6 +205,14 @@ sun Talonflame
 sun Whimsicott
 sun Venusaur
 sun Torkoal
+bal Charizard
+bal Serperior
+bal Drifblim
+bal Gengar
+bal Sneasler
+bal Whimsicott
+bal Lokix
+bal Ariados
 #define FRONTIER_MONS_AROMA_LADY_1 \
 sun Jumpluff
 sun Volcarona
@@ -182,6 +224,14 @@ sun Talonflame
 sun Whimsicott
 sun Venusaur
 sun Torkoal
+bal Lokix
+bal Ariados
+bal Houndoom
+bal Gengar
+bal Sneasler
+bal Infernape
+bal Meganium
+bal Chesnaught
 #define FRONTIER_MONS_GUITARIST_1 \
 elec Pincurchin
 elec Raichu Alola
@@ -190,7 +240,7 @@ elec Toxtricity Low Key
 elec Toxtricity Amped
 elec Pawmot
 elec Luxray
-elec Belibolt
+elec Bellibolt
 elec Zebstrika
 elec Swampert
 elec Garchomp
@@ -198,7 +248,7 @@ elec Excadrill
 #define FRONTIER_MONS_BIRD_KEEPER_1 \
 bal Crobat
 bal Talonflame
-sun Charizard
+bal Charizard
 rain Kilowattrel
 bal Pidgeot
 bal Skarmory
@@ -207,6 +257,7 @@ bal Staraptor
 bal Drifblim
 sand Corviknight
 sand Aerodactyl
+// 8-14 Battles (3 IVs)
 #define FRONTIER_MONS_SAILOR_1  \
 rain Ludicolo
 rain Pelipper
@@ -215,12 +266,14 @@ rain Omastar
 rain Starmie
 rain Ludicolo
 rain RotomWash
-rain Bellibolt
+elec Bellibolt
 rain Kingdra
 rain Milotic
 rain Scizor
 rain Gyarados
 rain Basculegion M
+bal Empoleon
+bal Serperior
 #define FRONTIER_MONS_HIKER_1   \
 sand Golem Alola
 sand Steelix
@@ -232,6 +285,10 @@ sand Lucario
 sand Rhyperior
 sand Mamoswine
 sand Hippowdon
+bal Swampert
+bal Torterra
+bal Aerodactyl
+bal Empoleon
 #define FRONTIER_MONS_KINDLER_1 \
 sun Jumpluff
 sun Volcarona
@@ -243,6 +300,11 @@ sun Talonflame
 sun Whimsicott
 sun Venusaur
 sun Torkoal
+bal Torterra
+bal Blaziken
+bal Typhlosion
+bal Meganium
+bal Skeledirge
 #define FRONTIER_MONS_RUNNING_TRIATHLETE_1 \
 bal Gyarados
 bal Amoonguss
@@ -256,6 +318,10 @@ bal Excadrill
 bal Heracross
 bal Talonflame
 bal Rillaboom
+bal Quaquaval
+bal Torterra
+bal Feraligatr
+bal Meowscarada
 #define FRONTIER_MONS_SWIMMING_TRIATHLETE_1 \
 rain Politoed
 rain Raichu
@@ -268,9 +334,14 @@ rain Starmie
 rain Pelipper
 rain Ludicolo
 rain RotomWash
-rain Bellibolt
+elec Bellibolt
 rain Kingdra
 rain Milotic 
+bal Feraligatr
+bal Inteleon
+bal Quaquaval
+bal Primarina
+bal Amoonguss
 #define FRONTIER_MONS_CYCLING_TRIATHLETE_1 \
 elec Toxtricity Amped
 elec Toxtricity Low Key
@@ -278,13 +349,17 @@ elec Pawmot
 elec Luxray
 elec Pincurchin
 elec Raichu Alola
-elec Magnezon
+elec Magnezone
 elec Zebstrika
-elec Talonflame
-elec Houndoom
-elec Gengar
-elec Sneasler
-elec Amoonguss
+bal Talonflame
+bal Houndoom
+bal Gengar
+bal Sneasler
+bal Amoonguss
+bal Sableye
+bal Meowscarada
+bal Sylveon
+// 15-21 Battles (6 IVs)
 #define FRONTIER_MONS_RUNNING_TRIATHLETE_2 \
 bal Amoonguss
 bal Skeledirge
@@ -300,9 +375,13 @@ bal Whimsicott
 bal Gyarados
 bal Breloom
 bal Drifblim
+bal Cinderace
+bal Infernape
+bal Feraligatr
+bal Decidueye
+bal Garchomp
 #define FRONTIER_MONS_SWIMMING_TRIATHLETE_2 \
 rain Politoed
-trick Primarina
 rain Pelipper
 rain Kingdra
 rain Milotic
@@ -314,6 +393,10 @@ rain Dracovish
 rain Archaludon
 rain Kilowattrel
 rain Kabutops
+bal Samurott
+bal Chesnaught
+bal Blastoise
+bal Meganium
 #define FRONTIER_MONS_CYCLING_TRIATHLETE_2 \
 bal Annihilape
 bal Gardevoir
@@ -322,9 +405,14 @@ bal Grimmsnarl
 bal Iron Hands
 bal Rillaboom
 bal Talonflame
+bal Serperior
+bal Samurott
+bal Chesnaught
+rain Kilowattrel
+rain Kabutops
 elec Pincurchin
 elec Raichu Alola
-elec agnezone
+elec Magnezone
 elec Toxtricity Low Key
 elec Toxtricity Amped
 elec Swampert
@@ -342,6 +430,11 @@ trick Sinistcha
 trick Cofagrigus
 trick Snorlax
 trick Emboar
+bal Primarina
+bal Quaquaval
+bal Infernape
+bal Blaziken
+bal Meganium
 #define FRONTIER_MONS_EXPERT_1A \
 sun Torkoal
 sun Charizard
@@ -350,12 +443,16 @@ sun Typhlosion
 sun Chandelure
 sun Arcanine Hisui
 sun Hydreigon
-sun Entei
-sun Moltres
 sun Great Tusk
+bal Baxcalibur
+bal Chesnaught
+bal Delphox
+bal Decidueye
+bal Cinderace
+bal Volcarona
+bal Skeledirge
+bal Gholdengo
 #define FRONTIER_MONS_EXPERT_1B \
-rain Suicune
-rain Raikou
 rain Gyarados
 rain Basculegion M
 rain Dragonite
@@ -364,6 +461,12 @@ rain Pelipper
 rain Ludicolo
 rain Politoed
 rain Raichu
+bal Greninja
+bal Decidueye
+bal Primarina
+bal Baxcalibur
+bal Iron Bundle
+bal Dragapult
 #define FRONTIER_MONS_EXPERT_1C \
 sand Incineroar
 sand Excadrill
@@ -378,7 +481,10 @@ sand Garchomp
 sand Aerodactyl
 sand Corviknight
 sand Tinkaton
-sand Landorus Therian
+bal Empoleon
+bal Swampert
+bal Torterra
+// 22-28 Battles (9 IVs)
 #define FRONTIER_MONS_PSYCHIC_1 \
 trick Porygon2
 trick Dusknoir
@@ -393,6 +499,12 @@ trick Hatterene
 trick Armarouge
 trick Farigiraf
 trick Chandelure
+bal Sableye
+bal Inteleon
+bal Delphox
+bal Dragapult
+bal Gardevoir
+bal Alakazam
 #define FRONTIER_MONS_HEX_MANIAC_1 \
 trick Porygon2
 trick Dusknoir
@@ -407,12 +519,19 @@ trick Hatterene
 trick Farigiraf
 trick Chandelure
 bal Gengar
+bal Sableye
+bal Dragapult
+bal Gardevoir
+bal Alakazam
+bal Grimmsnarl
+bal Meowscarada
+bal Greninja
 #define FRONTIER_MONS_POKEMANIAC_1 \
 elec Raichu Alola
 elec Magnezone
 elec Pawmot
 elec Luxray
-elec Belibolt
+elec Bellibolt
 elec Zebstrika
 bal Amoonguss
 bal Gallade
@@ -424,6 +543,12 @@ bal Ariados
 bal Drapion
 bal Houndoom
 bal Staraptor
+bal Delphox
+bal Greninja
+bal Decidueye
+bal Primarina
+bal Cinderace
+bal Inteleon
 #define FRONTIER_MONS_GENTLEMAN_1A \
 bal Grimmsnarl
 bal Annihilape
@@ -442,6 +567,9 @@ bal Sneasler
 bal Whimsicott
 bal Gyarados
 bal Breloom
+bal Meganium
+bal Typhlosion
+bal Feraligatr
 #define FRONTIER_MONS_GENTLEMAN_1B \
 sand Hippowdon
 sand Coalossal
@@ -464,6 +592,9 @@ sand Tyranitar
 sand Garchomp
 sand Gholdengo
 bal Arcanine-Hisui
+bal Swampert
+bal Torterra
+bal Empoleon
 #define FRONTIER_MONS_BUG_MANIAC_2 \
 bal Crobat
 bal Butterfree
@@ -479,6 +610,10 @@ elec Iron Moth
 bal Breloom
 bal Incineroar
 rain Scizor
+bal Serperior
+bal Aerodactyl
+bal Sceptile
+bal Greninja
 #define FRONTIER_MONS_RUIN_MANIAC_2 \
 sand Excadrill
 sand Metagross
@@ -487,8 +622,8 @@ sand Tyranitar
 sand Garchomp
 sand Gholdengo
 sand Great Tusk
-sand Iron Treads
-sand Iron Thorns
+elec Iron Treads
+elec Iron Thorns
 sand Regirock
 sand Registeel
 sand Hippowdon
@@ -496,6 +631,10 @@ sand Coalossal
 sand Drednaw
 sand Swampert
 sand Gastrodon
+bal Arcanine-Hisui
+bal Swampert
+bal Torterra
+bal Empoleon
 #define FRONTIER_MONS_COLLECTOR_1 \
 bal Crobat
 bal Butterfree
@@ -514,6 +653,12 @@ bal Sableye
 bal Meowscarada
 bal Sylveon
 bal Volcarona
+bal Charizard
+bal Venusaur
+bal Blastoise
+bal Torterra
+bal Infernape
+bal Empoleon
 #define FRONTIER_MONS_PARASOL_LADY_2 \
 sun Ninetales
 sun Talonflame
@@ -525,6 +670,8 @@ sun Blaziken
 sun Typhlosion
 sun Chandelure
 sun Arcanine Hisui
+bal Infernape
+bal Torterra
 #define FRONTIER_MONS_BEAUTY_1  \
 sun Ninetales
 sun Talonflame
@@ -536,6 +683,7 @@ sun Blaziken
 sun Typhlosion
 sun Chandelure
 sun Arcanine Hisui
+bal Chandelure
 #define FRONTIER_MONS_AROMA_LADY_2 \
 sun Ninetales
 sun Talonflame
@@ -547,6 +695,7 @@ sun Blaziken
 sun Typhlosion
 sun Chandelure
 sun Arcanine Hisui
+// 29-35 Battles (12 IVs)
 #define FRONTIER_MONS_COOLTRAINER_1A \
 rain Archaludon
 rain Floatzel
@@ -557,7 +706,7 @@ rain Starmie
 rain Pelipper
 rain Ludicolo
 rain RotomWash
-rain Bellibolt
+elec Bellibolt
 rain Kingdra
 rain Scizor
 rain Gyarados
@@ -613,7 +762,7 @@ sun Moltres
 sun Great Tusk
 #define FRONTIER_MONS_DRAGON_TAMER_1 \
 bal Gyarados
-bal Milotic
+rain Milotic
 rain Ampharos
 rain Kingdra
 rain Dracovish
@@ -684,27 +833,193 @@ bal Volcarona
 bal Hydreigon
 bal Chandelure
 #define FRONTIER_MONS_YOUNGSTER_LASS_2_NO_DUGTRIO \
-sand Sandy Shocks
+elec Sandy Shocks
+sand Golem-Alola
+sand Rhyperior
+sand Mamoswine
+sand Aerodactyl
+sand Corviknight
+sand Tinkaton
+sand Incineroar
+sand Hippowdon
+sand Coalossal
+sand Drednaw
+sand Excadrill
+sand Metagross
+sand Kingambit
+sand Tyranitar
+sand Lucario
+// 36-42 Battles (15 IVs)
 #define FRONTIER_MONS_YOUNGSTER_LASS_2 \
-sand
+sand Golem-Alola
+sand Rhyperior
+sand Mamoswine
+sand Aerodactyl
+sand Corviknight
+sand Tinkaton
+sand Incineroar
+sand Hippowdon
+sand Coalossal
+sand Drednaw
+sand Excadrill
+sand Metagross
+sand Kingambit
+sand Tyranitar
+sand Lucario
 #define FRONTIER_MONS_SCHOOL_KID_2 \
-bal
+bal Gengar
+bal Sneasler
+bal Whimsicott
+bal Gyarados
+bal Breloom
+bal Rillaboom
+bal Talonflame
+bal Butterfree
+bal Vivillon
+bal Grimmsnarl
+bal Sableye
+bal Meowscarada
+bal Sylveon
+bal Volcarona
+bal Hydreigon
+bal Chandelure
 #define FRONTIER_MONS_RICH_BOY_LADY_2 \
-bal
+bal Gengar
+bal Sneasler
+bal Whimsicott
+bal Gyarados
+bal Breloom
+bal Rillaboom
+bal Talonflame
+bal Butterfree
+bal Vivillon
+bal Grimmsnarl
+bal Sableye
+bal Meowscarada
+bal Sylveon
+bal Volcarona
+bal Hydreigon
+bal Chandelure
+bal Mewtwo
+elec Luxray
 #define FRONTIER_MONS_BUG_CATCHER_2 \
-bal
+bal Gengar
+bal Sneasler
+bal Whimsicott
+bal Gyarados
+bal Breloom
+bal Rillaboom
+bal Talonflame
+bal Butterfree
+bal Vivillon
+bal Grimmsnarl
+bal Sableye
+bal Meowscarada
+bal Sylveon
+bal Volcarona
+bal Hydreigon
+bal Chandelure
 #define FRONTIER_MONS_NINJA_BOY_2 \
-sand
+sand Golem-Alola
+sand Rhyperior
+sand Mamoswine
+sand Aerodactyl
+sand Corviknight
+sand Tinkaton
+sand Incineroar
+sand Hippowdon
+sand Coalossal
+sand Drednaw
+sand Excadrill
+sand Metagross
+sand Kingambit
+sand Tyranitar
+sand Lucario
 #define FRONTIER_MONS_TUBER_2   \
-rain
+rain Ampharos
+rain Politoed
+rain Pelipper
+rain Gyarados
+rain Milotic
+rain Scizor
+rain Kabutops
+rain Kilowattrel
+rain Kingdra
+elec Bellibolt
+// 43-49 Battles (18 IVs)
 #define FRONTIER_MONS_BUG_MANIAC_3 \
-sun
+sun Torkoal
+sun Charizard
+sun Blaziken
+sun Typhlosion
+sun Chandelure
+sun Arcanine Hisui
+sun Hydreigon
+sun Entei
+sun Moltres
+bal Moltres G
+sun Great Tusk
+bal Tornadus
+bal Mewtwo
+bal Giratina
 #define FRONTIER_MONS_FISHERMAN_2 \
-rain
+rain Ampharos
+rain Politoed
+rain Pelipper
+rain Gyarados
+rain Milotic
+rain Scizor
+rain Kabutops
+rain Kilowattrel
+rain Kingdra
+elec Bellibolt
+bal Roaring Moon
+bal Samurott
+bal Tornadus
+bal Iron Bundle
+bal Greninja
 #define FRONTIER_MONS_RUIN_MANIAC_3 \
-sand
+sand Golem-Alola
+sand Rhyperior
+sand Mamoswine
+sand Aerodactyl
+sand Corviknight
+sand Tinkaton
+sand Incineroar
+sand Hippowdon
+sand Coalossal
+sand Drednaw
+sand Excadrill
+sand Metagross
+sand Kingambit
+sand Tyranitar
+sand Lucario
+bal Empoleon
+bal Aerodactyl
+bal Garchomp
+bal Swampert
+bal Torterra
 #define FRONTIER_MONS_COLLECTOR_2 \
-bal
+bal Gengar
+bal Sneasler
+bal Whimsicott
+bal Gyarados
+bal Breloom
+bal Rillaboom
+bal Talonflame
+bal Butterfree
+bal Vivillon
+bal Grimmsnarl
+bal Sableye
+bal Meowscarada
+bal Sylveon
+bal Volcarona
+bal Hydreigon
+bal Chandelure
+bal Mewtwo
+bal Giratina
+bal Calyrex Shadow
+bal Rayquaza
 #define FRONTIER_MONS_GUITARIST_2 \
 elec Raichu Alola
 elec Magnezone
@@ -719,6 +1034,10 @@ elec Iron Thorns
 elec Iron Treads
 elec Iron Moth
 elec Iron Leaves
+bal Mewtwo
+bal Giratina
+bal Calyrex Shadow
+bal Rayquaza
 #define FRONTIER_MONS_BIRD_KEEPER_2 \
 bal Crobat
 bal Talonflame
@@ -731,8 +1050,11 @@ bal Staraptor
 bal Drifblim
 sand Corviknight
 sand Aerodactyl
-bal Iron Jugulis
+elec Iron Jugulis
 bal Tornadus
+bal Giratina
+bal Rayquaza
+bal Decidueye
 #define FRONTIER_MONS_SAILOR_2  \
 rain Ampharos
 rain Politoed
@@ -743,7 +1065,10 @@ rain Scizor
 rain Kabutops
 rain Kilowattrel
 rain Kingdra
-rain Bellibolt
+elec Bellibolt
+bal Inteleon
+bal Quaquaval
+bal Greninja
 #define FRONTIER_MONS_HIKER_2   \
 sand Golem-Alola
 sand Rhyperior
@@ -760,6 +1085,10 @@ sand Metagross
 sand Kingambit
 sand Tyranitar
 sand Lucario
+bal Gholdengo
+bal Empoleon
+bal Swampert
+bal Torterra
 #define FRONTIER_MONS_KINDLER_2 \
 sun Whimsicott
 sun Venusaur
@@ -774,6 +1103,12 @@ sun Arcanine Hisui
 sun Hydreigon
 bal Grimmsnarl
 bal Skeledirge
+bal Giratina
+bal Roaring Moon
+bal Aerodactyl
+bal Cinderace
+bal Delphox
+bal Incineroar
 #define FRONTIER_MONS_GENTLEMAN_2 \
 bal Vivillon
 bal Rillaboom
@@ -788,6 +1123,9 @@ bal Amoonguss
 bal Salamence
 bal Gengar
 bal Gyarados
+bal Calyrex Shadow
+bal Rayquaza
+// 50+ Battles (21 IVs)
 #define FRONTIER_MONS_YOUNGSTER_LASS_3 \
 sun Whimsicott
 sun Venusaur
@@ -800,6 +1138,21 @@ sun Typhlosion
 sun Chandelure
 sun Arcanine Hisui
 sun Hydreigon
+bal Roaring Moon
+sun Entei
+sun Moltres
+sun Great Tusk
+sun Brute Bonnet
+sun Flutter Mane
+sun Roaring Moon
+sun Walking Wake
+sun Groudon
+sun Raging Bolt
+sun Gouging Fire
+sun Chi Yu
+sun Heatran
+sun Ho Oh
+sun Koraidon
 #define FRONTIER_MONS_CAMPER_PICNICKER_2 \
 sun Whimsicott
 sun Venusaur
@@ -812,16 +1165,30 @@ sun Typhlosion
 sun Chandelure
 sun Arcanine Hisui
 sun Hydreigon
+sun Entei
+sun Moltres
+sun Great Tusk
+sun Brute Bonnet
+sun Flutter Mane
+sun Roaring Moon
+sun Walking Wake
+sun Groudon
+sun Raging Bolt
+sun Gouging Fire
+sun Chi Yu
+sun Heatran
+sun Ho Oh
+sun Koraidon
 #define FRONTIER_MONS_SWIMMER_M_2 \
 rain Thundurus
 rain Zapdos
 rain Raikou
 rain Suicune
-rain Urshifu Rapid Strike
+rain Urshifu Rapid
 rain Pelipper
 rain Ludicolo
 rain RotomWash
-rain Bellibolt
+elec Bellibolt
 rain Kingdra
 rain Milotic
 rain Scizor
@@ -829,17 +1196,23 @@ rain Gyarados
 rain Basculegion M
 rain Kabutops
 rain Omastar
+rain Lugia
+rain Palkia
 rain Kyogre
+rain Dragonite
+rain Dracovish
+rain Archaludon
+rain Tornadus
 #define FRONTIER_MONS_SWIMMER_F_2 \
 rain Thundurus
 rain Zapdos
 rain Raikou
 rain Suicune
-rain Urshifu Rapid Strike
+rain Urshifu Rapid
 rain Pelipper
 rain Ludicolo
 rain RotomWash
-rain Bellibolt
+elec Bellibolt
 rain Kingdra
 rain Milotic
 rain Scizor
@@ -847,8 +1220,13 @@ rain Gyarados
 rain Basculegion M
 rain Kabutops
 rain Omastar
+rain Lugia
+rain Palkia
+rain Kyogre
+rain Dragonite
 rain Dracovish
 rain Archaludon
+rain Tornadus
 #define FRONTIER_MONS_POKEFAN_3 \
 bal Crobat
 bal Heracross
@@ -866,20 +1244,31 @@ bal Arcanine-Hisui
 bal Iron Hands
 bal Great Tusk
 bal Dragonite
-bal Chi-Yu
+bal Chi Yu
 bal Sableye
 bal Meowscarada
 bal Roaring Moon
 bal Skeledirge
 bal Gholdengo
 bal Articuno
+bal Charizard
+bal Venusaur
+bal Blastoise
+bal Baxcalibur
+bal Iron Bundle
+bal Salamence
+bal Tornadus
+bal Mewtwo
+bal Giratina
+bal Calyrex Shadow
+bal Rayquaza
 #define FRONTIER_MONS_PKMN_BREEDER_2 \
 bal Alakazam
 bal Grimmsnarl
 bal Iron Hands
 bal Rillaboom
 bal Talonflame
-bal Moltres-Galar
+bal Moltres G
 bal Aerodactyl
 bal Garchomp
 bal Charizard
@@ -891,6 +1280,10 @@ bal Breloom
 bal Drifblim
 bal Excadrill
 bal Amoonguss
+bal Charizard
+bal Venusaur
+bal Blastoise
+// 50+ Battles (31 IVs)
 #define FRONTIER_MONS_COOLTRAINER_M_2A \
 bal Gholdengo
 bal Articuno
@@ -901,11 +1294,14 @@ bal Dragapult
 bal Salamence
 bal Hydreigon
 bal Chandelure
-bal Moltres-Galar
+bal Moltres G
 bal Excadrill
 bal Amoonguss
 bal Gallade
 bal Annihilape
+bal Charizard
+bal Venusaur
+bal Blastoise
 #define FRONTIER_MONS_COOLTRAINER_M_2B \
 bal Gholdengo
 bal Articuno
@@ -915,12 +1311,14 @@ bal Arcanine-Hisui
 bal Iron Hands
 bal Dragapult
 bal Salamence
-bal Charizard
-bal Moltres-Galar
+bal Moltres G
 bal Excadrill
 bal Amoonguss
 bal Gallade
 bal Annihilape
+bal Charizard
+bal Venusaur
+bal Blastoise
 #define FRONTIER_MONS_COOLTRAINER_2C(lati)  \
 bal Gholdengo
 bal Articuno
@@ -931,7 +1329,7 @@ bal Iron Hands
 bal Dragapult
 bal Salamence
 bal Charizard
-bal Moltres-Galar
+bal Moltres G
 bal Excadrill
 bal Amoonguss
 bal Gallade
@@ -945,7 +1343,7 @@ elec Magnezone
 elec Toxtricity Low Key
 elec Pawmot
 elec Luxray
-elec Belibolt
+elec Bellibolt
 elec Zebstrika
 elec Swampert
 elec Tapu Koko
@@ -953,7 +1351,7 @@ elec Iron Bundle
 elec Iron Moth
 #define FRONTIER_MONS_COOLTRAINER_F_2A \
 elec Luxray
-elec Belibolt
+elec Bellibolt
 elec Zebstrika
 elec Swampert
 elec Garchomp
@@ -970,7 +1368,7 @@ elec Iron Moth
 elec Iron Leaves
 #define FRONTIER_MONS_COOLTRAINER_F_2B \
 elec Luxray
-elec Belibolt
+elec Bellibolt
 elec Zebstrika
 elec Swampert
 elec Garchomp
@@ -1049,7 +1447,7 @@ sun Koraidon
 sun Raging Bolt
 sun Gouging Fire
 #define FRONTIER_MONS_BLACK_BELT_2A \
-bal Moltres-Galar
+bal Moltres G
 bal Iron Hands
 bal Breloom
 bal Gallade
@@ -1070,7 +1468,7 @@ sun Brute Bonnet
 sun Flutter Mane
 sun Roaring Moon
 #define FRONTIER_MONS_BLACK_BELT_BATTLE_GIRL_2B \
-bal Moltres-Galar
+bal Moltres G
 bal Iron Hands
 bal Breloom
 bal Gallade
@@ -1110,12 +1508,12 @@ sand Tyranitar
 sand Garchomp
 sand Gholdengo
 sand Great Tusk
-sand Iron Treads
-sand Iron Thorns
+elec Iron Treads
+elec Iron Thorns
 sand Regirock
 sand Registeel
-sand Landorus Therian
-sand Ursaluna Bloodmoon
+sand Landorus T
+sand Ursaluna
 sand Dialga
 elec Sandy Shocks
 #define FRONTIER_MONS_EXPERT_2B(lati) \
@@ -1133,7 +1531,7 @@ sun Roaring Moon
 rain Pelipper
 rain Ludicolo
 rain RotomWash
-rain Bellibolt
+elec Bellibolt
 rain Kingdra
 rain Milotic
 rain Gyarados
@@ -1146,7 +1544,7 @@ rain Thundurus
 rain Zapdos
 rain Raikou
 rain Suicune
-rain Urshifu Rapid Strike
+rain Urshifu Rapid
 rain Lugia
 rain Palkia
 rain Kyogre
@@ -1162,10 +1560,27 @@ trick Slowking
 trick IndeedeeF
 trick Gardevoir
 trick Mimikyu
-trick UrsalunaBloodmoon
+trick Ursaluna
 trick Dialga
 #define FRONTIER_MONS_PSYCHIC_2A(lati) \
-bal
+bal Amoonguss
+bal Gallade
+bal Annihilape
+bal Gardevoir
+bal Chi Yu
+bal Sableye
+bal Meowscarada
+bal Sylveon
+bal Volcarona
+bal Hydreigon
+bal Chandelure
+bal Aerodactyl
+bal Salamence
+bal Moltres G
+bal Landorus T
+bal Thundurus
+bal Tornadus
+bal Mewtwo
 #define FRONTIER_MONS_PSYCHIC_2B(lati) \
 trick Cresselia
 trick Farigiraf
@@ -1178,10 +1593,27 @@ trick Slowking
 trick IndeedeeF
 trick Gardevoir
 trick Mimikyu
-trick UrsalunaBloodmoon
+trick Ursaluna
 trick Palkia
 #define FRONTIER_MONS_PSYCHIC_2C(lati) \
-bal
+bal Amoonguss
+bal Gallade
+bal Annihilape
+bal Gardevoir
+bal Chi Yu
+bal Sableye
+bal Meowscarada
+bal Sylveon
+bal Volcarona
+bal Hydreigon
+bal Chandelure
+bal Aerodactyl
+bal Salamence
+bal Moltres G
+bal Landorus T
+bal Thundurus
+bal Tornadus
+bal Mewtwo
 #define FRONTIER_MONS_HEX_MANIAC_2A \
 trick Cresselia
 trick Farigiraf
@@ -1194,7 +1626,7 @@ trick Slowking
 trick IndeedeeF
 trick Gardevoir
 trick Mimikyu
-trick UrsalunaBloodmoon
+trick Ursaluna
 trick Lunala
 #define FRONTIER_MONS_HEX_MANIAC_2B \
 trick Cresselia
@@ -1208,7 +1640,7 @@ trick Slowking
 trick IndeedeeF
 trick Gardevoir
 trick Mimikyu
-trick UrsalunaBloodmoon
+trick Ursaluna
 trick Dialga
 trick Lunala
 #define FRONTIER_MONS_HEX_MANIAC_2C \
@@ -1224,14 +1656,14 @@ trick Slowking
 trick IndeedeeF
 trick Gardevoir
 trick Mimikyu
-trick UrsalunaBloodmoon
+trick Ursaluna
 trick Dialga
 #define FRONTIER_MONS_POKEMANIAC_2A \
 bal Amoonguss
 bal Gallade
 bal Annihilape
 bal Gardevoir
-bal Chi-Yu
+bal Chi Yu
 bal Sableye
 bal Meowscarada
 bal Sylveon
@@ -1240,8 +1672,8 @@ bal Hydreigon
 bal Chandelure
 bal Aerodactyl
 bal Salamence
-bal Moltres-Galar
-bal Landorus-Therian
+bal Moltres G
+bal Landorus T
 bal Thundurus
 bal Tornadus
 bal Mewtwo
@@ -1277,7 +1709,7 @@ trick Slowking
 trick IndeedeeF
 trick Gardevoir
 trick Mimikyu
-trick UrsalunaBloodmoon
+trick Ursaluna
 trick Lunala
 bal Rillaboom
 bal Grimmsnarl
@@ -1295,8 +1727,8 @@ bal Baxcalibur
 bal Iron Bundle
 bal Dragapult
 bal Salamence
-bal Moltres-Galar
-bal Landorus-Therian
+bal Moltres G
+bal Landorus T
 bal Thundurus
 bal Tornadus
 bal Mewtwo
@@ -1321,7 +1753,7 @@ rain Tornadus
 rain Pelipper
 rain Ludicolo
 rain RotomWash
-rain Bellibolt
+elec Bellibolt
 rain Kingdra
 rain Milotic
 rain Scizor
@@ -1336,7 +1768,7 @@ rain Thundurus
 rain Pelipper
 rain Ludicolo
 rain RotomWash
-rain Bellibolt
+elec Bellibolt
 rain Kingdra
 rain Milotic
 rain Scizor
@@ -1368,7 +1800,7 @@ rain Starmie
 rain Pelipper
 rain Ludicolo
 rain RotomWash
-rain Bellibolt
+elec Bellibolt
 rain Kingdra
 rain Milotic
 rain Scizor
@@ -1380,12 +1812,12 @@ sand Tyranitar
 sand Garchomp
 sand Gholdengo
 sand Great Tusk
-sand Iron Treads
-sand Iron Thorns
+elec Iron Treads
+elec Iron Thorns
 sand Regirock
 sand Registeel
-sand Landorus Therian
-sand Ursaluna Bloodmoon
+sand Landorus T
+sand Ursaluna
 sand Dialga
 sand Swampert
 sand Gastrodon
@@ -1401,8 +1833,6 @@ sand Incineroar
 #define FRONTIER_MONS_COLLECTOR_3 \
 bal Aerodactyl
 bal Garchomp
-bal Charizard
-bal Rillaboom
 bal Amoonguss
 bal Gallade
 bal Annihilape
@@ -1413,10 +1843,33 @@ bal Talonflame
 bal Togekiss
 bal Incineroar
 bal Arcanine-Hisui
-bal Landorus-Therian
+bal Landorus-T
 bal Thundurus
 bal Tornadus
 bal Mewtwo
+bal Charizard
+bal Venusaur
+bal Blastoise
+bal Meganium
+bal Typhlosion
+bal Feraligatr
+bal Sceptile
+bal Blaziken
+bal Swampert
+bal Torterra
+bal Infernape
+bal Empoleon
+bal Serperior
+bal Emboar
+bal Samurott
+bal Chesnaught
+bal Delphox
+bal Greninja
+bal Decidueye
+bal Primarina
+bal Cinderace
+bal Inteleon
+bal Quaquaval
 #define FRONTIER_MONS_GUITARIST_3A \
 elec Miraidon
 elec Regieleki
@@ -1452,6 +1905,7 @@ elec Raikou
 elec Raging Bolt
 elec Miraidon
 #define FRONTIER_MONS_BIRD_KEEPER_3 \
+bal Decidueye
 bal Pidgeot
 bal Skarmory
 bal Altaria
@@ -1464,19 +1918,19 @@ bal Articuno
 bal Iron Bundle
 bal Togekiss
 bal Salamence
-bal Moltres-Galar
+bal Moltres G
 bal Roaring Moon
 rain Zapdos
 sun Moltres
 #define FRONTIER_MONS_SAILOR_3  \
-rain Urshifu Rapid Strike
+rain Urshifu Rapid
 rain Lugia
 rain Kilowattrel
 rain Kabutops
 rain Omastar
 rain Starmie
 rain Pelipper
-rain Bellibolt
+elec Bellibolt
 rain Kingdra
 rain Milotic
 rain Scizor
@@ -1496,12 +1950,12 @@ sand Tyranitar
 sand Garchomp
 sand Gholdengo
 sand Great Tusk
-sand Iron Treads
-sand Iron Thorns
+elec Iron Treads
+elec Iron Thorns
 sand Regirock
 sand Registeel
-sand Landorus Therian
-sand Ursaluna Bloodmoon
+sand Landorus T
+sand Ursaluna
 sand Dialga
 sand Steelix
 sand Rhyperior
@@ -1543,7 +1997,7 @@ bal Articuno
 bal Iron Bundle
 bal Dragapult
 bal Salamence
-bal Moltres-Galar
+bal Moltres G
 bal Togekiss
 bal Incineroar
 bal Arcanine-Hisui
@@ -1551,6 +2005,29 @@ bal Iron Hands
 bal Great Tusk
 bal Dragonite
 bal Whimsicott
+bal Charizard
+bal Venusaur
+bal Blastoise
+bal Meganium
+bal Typhlosion
+bal Feraligatr
+bal Sceptile
+bal Blaziken
+bal Swampert
+bal Torterra
+bal Infernape
+bal Empoleon
+bal Serperior
+bal Emboar
+bal Samurott
+bal Chesnaught
+bal Delphox
+bal Greninja
+bal Decidueye
+bal Primarina
+bal Cinderace
+bal Inteleon
+bal Quaquaval
 #define FRONTIER_MONS_BEAUTY_2  \
 rain Lugia
 rain Palkia
@@ -1576,7 +2053,8 @@ sun Walking Wake
 sun Groudon
 sun Raging Bolt
 sun Gouging Fire
-sun Chi-yu
+sun Chi yu
 sun Heatran
 sun Ho Oh
 sun Koraidon
+

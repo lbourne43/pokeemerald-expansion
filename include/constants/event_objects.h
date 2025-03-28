@@ -242,13 +242,11 @@
 #define OBJ_EVENT_GFX_HOOH                       238
 #define OBJ_EVENT_GFX_POKE_BALL                  239
 #define OBJ_EVENT_GFX_OW_MON                     240
-#define OBJ_EVENT_GFX_ROCKET_GRUNT_M             241
-#define OBJ_EVENT_GFX_ROCKET_GRUNT_F             242
 
 // NOTE: The maximum amount of object events has been expanded from 255 to 65535.
 // Since dynamic graphics ids still require at least 16 free values, the actual limit
 // is 65519, but even considering follower Pokémon, this should be more than enough :)
-#define NUM_OBJ_EVENT_GFX                        243
+#define NUM_OBJ_EVENT_GFX                        241
 
 
 // These are dynamic object gfx ids.
@@ -272,10 +270,10 @@
 #define OBJ_EVENT_GFX_VAR_E  (OBJ_EVENT_GFX_VARS + 0xE)
 #define OBJ_EVENT_GFX_VAR_F  (OBJ_EVENT_GFX_VARS + 0xF)
 
-#define OBJ_EVENT_MON               (1u << 15)
-#define OBJ_EVENT_MON_SHINY         (1u << 14)
-#define OBJ_EVENT_MON_FEMALE        (1u << 13)
-#define OBJ_EVENT_MON_SPECIES_MASK  (~(7u << 13))
+#define OBJ_EVENT_MON               (1u << 14)
+#define OBJ_EVENT_MON_SHINY         (1u << 13)
+#define OBJ_EVENT_MON_FEMALE        (1u << 12)
+#define OBJ_EVENT_MON_SPECIES_MASK  (~(7u << 12))
 
 // Used to call a specific species' follower graphics. Useful for static encounters.
 #define OBJ_EVENT_GFX_SPECIES(name)                 (SPECIES_##name + OBJ_EVENT_MON)

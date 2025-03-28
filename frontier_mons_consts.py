@@ -12,5 +12,6 @@ for l in lines:
     print("#define %s\t\t%d" % (mon,i))
     i += 1
 
+print("#define FRONTIER_MONS_HIGH_TIER     " + str(len(lines)))
 print("#define NUM_FRONTIER_MONS           " + str(len(lines)))
 print("#endif //GUARD_CONSTANTS_BATTLE_FRONTIER_MONS_H")

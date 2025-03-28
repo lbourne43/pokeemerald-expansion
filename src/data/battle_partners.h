@@ -9,7 +9,7 @@
 #line 1 "src/data/battle_partners.party"
 
 #line 1
-    [PARTNER_NONE] =
+    [DIFFICULTY_NORMAL][PARTNER_NONE] =
     {
 #line 3
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_1,
@@ -24,7 +24,7 @@
         },
     },
 #line 8
-    [PARTNER_STEVEN] =
+    [DIFFICULTY_NORMAL][PARTNER_STEVEN] =
     {
 #line 9
         .trainerName = _("STEVEN"),
@@ -40,14 +40,14 @@
         {
             {
 #line 15
-            .species = SPECIES_METAGROSS,
+            .species = SPECIES_METANG,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 19
             .ev = TRAINER_PARTY_EVS(0, 252, 252, 0, 6, 0),
 #line 18
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 17
-            .lvl = 82,
+            .lvl = 42,
 #line 16
             .nature = NATURE_BRAVE,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -68,7 +68,7 @@
 #line 28
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 27
-            .lvl = 83,
+            .lvl = 43,
 #line 26
             .nature = NATURE_IMPISH,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -89,7 +89,7 @@
 #line 38
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 37
-            .lvl = 84,
+            .lvl = 44,
 #line 36
             .nature = NATURE_ADAMANT,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,

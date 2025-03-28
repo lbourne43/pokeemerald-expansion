@@ -69,14 +69,17 @@ for l in lines:
 print("""const struct TrainerMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
 {""")
 for mon in data:
-    print("    [%s] = {" % clean(mon['name'])) 
+    print("    [%s] = {" % clean(mon['name']).upper()) 
     print("        .species = SPECIES_%s," % clean(mon['species']))
     print("        .moves = {MOVE_%s, MOVE_%s, MOVE_%s, MOVE_%s}," % (clean(mon['moves'][0]), clean(mon['moves'][1]), clean(mon['moves'][2]), clean(mon['moves'][3])))
     print("        .heldItem = ITEM_%s," % clean(mon['item']))
     evs = mon['evs']
     print('        .ev = TRAINER_PARTY_EVS(%d, %d, %d, %d, %d, %d),' % (evs['HP'], evs['Atk'], evs['Def'], evs['SpA'], evs['SpD'], evs['Spe']))
-    print('        .nature = NATURE_%s' % clean(mon['nature']))
-    print('        .ability = ABILITY_%s' % clean(mon['ability']))
+    if 'ability' in mon:
+        print('        .nature = NATURE_%s,' % clean(mon['nature']))
+        print('        .ability = ABILITY_%s' % clean(mon['ability']))
+    else:
+        print('        .nature = NATURE_%s' % clean(mon['nature']))
     print('    },')
     print()
 

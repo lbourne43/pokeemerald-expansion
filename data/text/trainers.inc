@@ -576,19 +576,6 @@ Route106_Text_NedPostBattle:
 	.string "Oh, no! I've got this feeling I'll hook\n"
 	.string "a big one!$"
 
-Route106_Text_GruntIntro:
-        .string "Ah..... Ah....\n"
-        .string "Ahhhh.......$"
-
-Route106_Text_GruntDefeated:
-        .string "CHOOOOOOOO!!!\n"
-        .string "I lost because I was trying not\n"
-        .string "to sneeze…$"
-
-Route106_Text_GruntPostBattle:
-        .string "Oh, rats!\n"
-        .string "I'm blasting off again!$"
-
 Route106_Text_DouglasIntro:
 	.string "Hahahah! I'm a lousy runner, but in\n"
 	.string "the water you can't catch me!$"
@@ -2325,7 +2312,7 @@ Route116_Text_DawsonDefeat:
 
 Route116_Text_DawsonPostBattle:
 	.string "Oh, no, no, no!\n"
-	.string "You've messed up my POKéMON's fur!\l"
+	.string "You've mussed up my POKéMON's fur!\l"
 	.string "You've ruined my hairdo, too!\l"
 	.string "I'll have to call my stylist now!$"
 
@@ -4509,6 +4496,17 @@ Route132_Text_GilbertDefeat:
 Route132_Text_GilbertPostBattle:
 	.string "TRAINERS travel the fields and\n"
 	.string "mountains, so they must be fit, too.$"
+
+Route132_Text_DanaIntro:
+	.string "I try not to swim where the currents\n"
+	.string "are too strong.$"
+
+Route132_Text_DanaDefeat:
+	.string "Oh, please, no!$"
+
+Route132_Text_DanaPostBattle:
+	.string "If I get swept away, I'll lose all my\n"
+	.string "sense of place…$"
 
 Route132_Text_RonaldIntro:
 	.string "Win or lose, you'll never know until\n"

@@ -23,6 +23,7 @@
 #include "constants/items.h"
 #include "constants/layouts.h"
 #include "constants/weather.h"
+#include "item.h"
 
 extern const u8 EventScript_SprayWoreOff[];
 
@@ -63,6 +64,8 @@ static bool8 TryGetAbilityInfluencedWildMonIndex(const struct WildPokemon *wildM
 #endif
 static bool8 IsAbilityAllowingEncounter(u8 level);
 
+static u8 NettuxGetPlayerHighestLevel(void);
+
 EWRAM_DATA static u8 sWildEncountersDisabled = 0;
 EWRAM_DATA static u32 sFeebasRngValue = 0;
 EWRAM_DATA bool8 gIsFishingEncounter = 0;
@@ -80,6 +83,27 @@ static const u16 sRoute119WaterTileData[] =
     46,  91,  NUM_FISHING_SPOTS_1,
     92, 139,  NUM_FISHING_SPOTS_1 + NUM_FISHING_SPOTS_2,
 };
+
+u8 NettuxGetPlayerHighestLevel(void) {
+    u8 lvl;
+    lvl = GetMonData(&gPlayerParty[0], MON_DATA_LEVEL);
+    if (GetMonData(&gPlayerParty[5], MON_DATA_SPECIES) != SPECIES_NONE && GetMonData(&gPlayerParty[5], MON_DATA_LEVEL) > lvl) {
+        lvl = GetMonData(&gPlayerParty[5], MON_DATA_LEVEL);
+    }
+    if (GetMonData(&gPlayerParty[4], MON_DATA_SPECIES) != SPECIES_NONE && GetMonData(&gPlayerParty[4], MON_DATA_LEVEL) > lvl) {
+        lvl = GetMonData(&gPlayerParty[4], MON_DATA_LEVEL);
+    }
+    if (GetMonData(&gPlayerParty[3], MON_DATA_SPECIES) != SPECIES_NONE && GetMonData(&gPlayerParty[3], MON_DATA_LEVEL) > lvl) {
+        lvl = GetMonData(&gPlayerParty[3], MON_DATA_LEVEL);
+    }
+    if (GetMonData(&gPlayerParty[3], MON_DATA_SPECIES) != SPECIES_NONE && GetMonData(&gPlayerParty[2], MON_DATA_LEVEL) > lvl) {
+        lvl = GetMonData(&gPlayerParty[2], MON_DATA_LEVEL);
+    }
+    if (GetMonData(&gPlayerParty[3], MON_DATA_SPECIES) != SPECIES_NONE && GetMonData(&gPlayerParty[1], MON_DATA_LEVEL) > lvl) {
+        lvl = GetMonData(&gPlayerParty[1], MON_DATA_LEVEL);
+    }
+    return lvl;
+}
 
 void DisableWildEncounters(bool8 disabled)
 {
@@ -186,7 +210,7 @@ static void FeebasSeedRng(u16 seed)
 }
 
 // LAND_WILD_COUNT
-static u8 ChooseWildMonIndex_Land(void)
+u8 ChooseWildMonIndex_Land(void)
 {
     u8 wildMonIndex = 0;
     bool8 swap = FALSE;
@@ -227,7 +251,7 @@ static u8 ChooseWildMonIndex_Land(void)
 }
 
 // ROCK_WILD_COUNT / WATER_WILD_COUNT
-static u8 ChooseWildMonIndex_WaterRock(void)
+u8 ChooseWildMonIndex_WaterRock(void)
 {
     u8 wildMonIndex = 0;
     bool8 swap = FALSE;
@@ -312,6 +336,38 @@ static u8 ChooseWildMonLevel(const struct WildPokemon *wildPokemon, u8 wildMonIn
     u8 range;
     u8 rand;
 
+#if NETTUX_WILD_LEVEL_SCALE
+    u8 playerScaledMin;
+    u8 playerScaledMax;                                                                                   u8 playerHighest;
+
+    playerHighest = NettuxGetPlayerHighestLevel();
+    playerScaledMin = playerHighest * 0.8;                                                                playerScaledMax = playerHighest * 0.85;
+
+    min = wildPokemon[wildMonIndex].minLevel;
+    max = wildPokemon[wildMonIndex].maxLevel;                                                             if (min > max)
+        max = min;
+
+    if (playerScaledMin > min)
+        min = playerScaledMin;
+    if (playerScaledMax > max)
+        max = playerScaledMax;
+    range = max - min + 1;
+    rand = Random() % range;
+
+    if (!GetMonData(&gPlayerParty[0], MON_DATA_SANITY_IS_EGG)) {
+        u16 ability = GetMonAbility(&gPlayerParty[0]);
+        if (ability == ABILITY_HUSTLE || ability == ABILITY_VITAL_SPIRIT || ability == ABILITY_PRESSURE) {
+            if (Random() % 2 == 0)
+                return max;
+
+            if (rand != 0)
+                rand--;
+        }
+    }
+
+    return min + rand;
+#endif
+
     if (LURE_STEP_COUNT == 0)
     {
         // Make sure minimum level is less than maximum level
@@ -354,7 +410,7 @@ static u8 ChooseWildMonLevel(const struct WildPokemon *wildPokemon, u8 wildMonIn
     }
 }
 
-static u16 GetCurrentMapWildMonHeaderId(void)
+u16 GetCurrentMapWildMonHeaderId(void)
 {
     u16 i;
 
@@ -417,7 +473,7 @@ u8 PickWildMonNature(void)
     return Random() % NUM_NATURES;
 }
 
-static void CreateWildMon(u16 species, u8 level)
+void CreateWildMon(u16 species, u8 level)
 {
     bool32 checkCuteCharm = TRUE;
 
@@ -1109,8 +1165,20 @@ static void ApplyFluteEncounterRateMod(u32 *encRate)
 
 static void ApplyCleanseTagEncounterRateMod(u32 *encRate)
 {
-    if (GetMonData(&gPlayerParty[0], MON_DATA_HELD_ITEM) == ITEM_CLEANSE_TAG)
-        *encRate = *encRate * 2 / 3;
+    int i;
+    if (FlagGet(FLAG_CLEANSE_TAG)){
+        if (CheckBagHasItem(ITEM_CLEANSE_TAG, 1)){
+            *encRate = 0;
+            return;
+        }
+        FlagClear(FLAG_CLEANSE_TAG);
+    }
+    for (i = 0; i < PARTY_SIZE; i++){
+        if (GetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM) == ITEM_CLEANSE_TAG){
+            *encRate = 0;
+            break;
+        }
+    }
 }
 
 bool8 TryDoDoubleWildBattle(void)
@@ -1133,4 +1201,25 @@ bool8 StandardWildEncounter_Debug(void)
 
     DoStandardWildBattle_Debug();
     return TRUE;
+}
+
+u8 ChooseHiddenMonIndex(void)
+{
+    #ifdef ENCOUNTER_CHANCE_HIDDEN_MONS_TOTAL
+        u8 rand = Random() % ENCOUNTER_CHANCE_HIDDEN_MONS_TOTAL;
+
+        if (rand < ENCOUNTER_CHANCE_HIDDEN_MONS_SLOT_0)
+            return 0;
+        else if (rand >= ENCOUNTER_CHANCE_HIDDEN_MONS_SLOT_0 && rand < ENCOUNTER_CHANCE_HIDDEN_MONS_SLOT_1)
+            return 1;
+        else
+            return 2;
+    #else
+        return 0xFF;
+    #endif
+}
+
+bool32 MapHasNoEncounterData(void)
+{
+    return (GetCurrentMapWildMonHeaderId() == HEADER_NONE);
 }
